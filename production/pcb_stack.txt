@@ -1,0 +1,10 @@
+pcb thickness 1.6mm
+copper 35uM (70uM better)
+
+Layers order:
+1)copper_top_l1
+2)copper_inner_l2
+3)copper_inner_l3
+4)copper_bottom_l4
+
+Soldermask as red as possible
