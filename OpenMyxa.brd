@@ -3,14 +3,14 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="6" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2168,9 +2168,9 @@ by Télega</text>
 &lt;li&gt;+/- 0.075mm for NPTH holes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
-<param name="layerSetup" value="(1*2*15*16)"/>
+<param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="0.5mm 0.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.5mm"/>
+<param name="mtIsolate" value="0.12mm 1.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.12mm"/>
 <param name="mdWireWire" value="0.15mm"/>
 <param name="mdWirePad" value="0.15mm"/>
 <param name="mdWireVia" value="0.15mm"/>
@@ -3832,9 +3832,9 @@ by Télega</text>
 <wire x1="27.25" y1="34.975" x2="27.25" y2="35" width="0.2" layer="15"/>
 <via x="42.45" y="30.4" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="28.6886" y1="35" x2="27.25" y2="35" width="0.2" layer="15"/>
-<wire x1="41.038175" y1="35.675" x2="29.3636" y2="35.675" width="0.2" layer="15"/>
-<wire x1="29.3636" y1="35.675" x2="28.6886" y2="35" width="0.2" layer="15"/>
-<wire x1="41.038175" y1="35.675" x2="41.37499375" y2="35.33818125" width="0.2" layer="15"/>
+<wire x1="40.938175" y1="35.775" x2="29.4636" y2="35.775" width="0.2" layer="15"/>
+<wire x1="29.4636" y1="35.775" x2="28.6886" y2="35" width="0.2" layer="15"/>
+<wire x1="40.938175" y1="35.775" x2="41.37499375" y2="35.33818125" width="0.2" layer="15"/>
 <wire x1="41.37499375" y1="35.33818125" x2="41.37499375" y2="31.475" width="0.2" layer="15"/>
 <wire x1="43.1" y1="31.545" x2="42.775" y2="31.545" width="0.2" layer="1"/>
 <wire x1="42.775" y1="31.545" x2="42.775" y2="30.725" width="0.2" layer="1"/>
@@ -3975,10 +3975,10 @@ by Télega</text>
 <via x="40.15" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.7" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="28" y1="34" x2="28.325" y2="34" width="0.2" layer="15"/>
-<wire x1="28.325" y1="34" x2="29.5" y2="35.175" width="0.2" layer="15"/>
+<wire x1="28.325" y1="34" x2="29.6" y2="35.275" width="0.2" layer="15"/>
 <contactref element="MODULE2" pad="13"/>
-<wire x1="37.875" y1="35.175" x2="37.95" y2="35.1" width="0.2" layer="15"/>
-<wire x1="29.5" y1="35.175" x2="37.875" y2="35.175" width="0.2" layer="15"/>
+<wire x1="37.775" y1="35.275" x2="37.95" y2="35.1" width="0.2" layer="15"/>
+<wire x1="29.6" y1="35.275" x2="37.775" y2="35.275" width="0.2" layer="15"/>
 </signal>
 <signal name="PHASE_C_GATE_LOW">
 <contactref element="R23" pad="1"/>
@@ -4398,12 +4398,12 @@ by Télega</text>
 <wire x1="3.65" y1="17.9" x2="4.55" y2="17" width="0.2" layer="16"/>
 <wire x1="6.2" y1="14.7" x2="6.9" y2="14" width="0.2" layer="16"/>
 <wire x1="6.9" y1="14" x2="13.2" y2="14" width="0.2" layer="16"/>
-<wire x1="13.2" y1="14" x2="15.4" y2="11.8" width="0.2" layer="16"/>
-<wire x1="15.4" y1="11.8" x2="17.8" y2="11.8" width="0.2" layer="16"/>
-<wire x1="17.8" y1="11.8" x2="20.3" y2="11.8" width="0.2" layer="16"/>
+<wire x1="13.2" y1="14" x2="15.5" y2="11.7" width="0.2" layer="16"/>
+<wire x1="15.5" y1="11.7" x2="17.8" y2="11.7" width="0.2" layer="16"/>
+<wire x1="17.8" y1="11.7" x2="20.4" y2="11.7" width="0.2" layer="16"/>
 <wire x1="20.975" y1="11.125" x2="20.975" y2="10" width="0.2" layer="16"/>
-<wire x1="20.3" y1="11.8" x2="20.975" y2="11.125" width="0.2" layer="16"/>
-<wire x1="17.8" y1="10" x2="17.8" y2="11.8" width="0.2" layer="16"/>
+<wire x1="20.4" y1="11.7" x2="20.975" y2="11.125" width="0.2" layer="16"/>
+<wire x1="17.8" y1="10" x2="17.8" y2="11.7" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="24"/>
 <wire x1="3.65" y1="17.9" x2="3.65" y2="40.425" width="0.2" layer="16"/>
 </signal>
@@ -5080,7 +5080,6 @@ by Télega</text>
 <polygon width="0.2" layer="1" thermals="no">
 <vertex x="45.645546875" y="49.384015625"/>
 <vertex x="44.79735" y="48.29305"/>
-<vertex x="44.79735" y="48.29305"/>
 </polygon>
 <polygon width="0.2" layer="15" thermals="no">
 <vertex x="30.2" y="54.4"/>
@@ -5127,7 +5126,6 @@ by Télega</text>
 <wire x1="25.5" y1="13.4" x2="28.5" y2="10.4" width="2" layer="15"/>
 <wire x1="28.5" y1="10.4" x2="31.8" y2="10.4" width="2" layer="15"/>
 <contactref element="MODULE2" pad="3"/>
-<wire x1="44.175" y1="49.9576625" x2="44.0923375" y2="49.875" width="0.15" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R10" pad="2"/>
@@ -5401,6 +5399,10 @@ by Télega</text>
 <approved hash="19,1,93c821f0dbf169c9"/>
 <approved hash="6,16,9331f32022e6eb51"/>
 <approved hash="23,15,a67b4b9d53c0be26"/>
+<approved hash="5,1,075f30ec3d4cfb87"/>
+<approved hash="5,1,92e96b7031586591"/>
+<approved hash="21,19,fffdfdfffdfffffd"/>
+<approved hash="21,19,fffffdfdfdfdffff"/>
 </errors>
 </board>
 </drawing>
