@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -99,6 +99,10 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="117" name="bMeasures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -111,6 +115,8 @@
 <layer number="130" name="bLogo" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
@@ -168,8 +174,6 @@
 <wire x1="29.2" y1="56.85" x2="29.2" y2="1.15" width="0.2" layer="22" style="shortdash"/>
 <text x="28.2" y="2.6" size="1.4" layer="1" font="vector" ratio="15" align="center">OpenMyxa0.2</text>
 <wire x1="16.5" y1="3.6" x2="40" y2="3.6" width="0.1" layer="49"/>
-<text x="40.45" y="10.45" size="1.778" layer="21">+</text>
-<text x="40.35" y="45.525" size="1.778" layer="21">+</text>
 <text x="22.05" y="6.975" size="2" layer="21" font="vector" ratio="15" align="center">Propelled
 by Télega</text>
 <text x="54.55" y="29" size="1.4" layer="16" font="vector" ratio="15" rot="MR90" align="center">OpenMyxa0.2</text>
@@ -1799,7 +1803,7 @@ by Télega</text>
 </library>
 <library name="zubax_modules" urn="urn:adsk.eagle:library:5014895">
 <packages>
-<package name="MITOHONDRIQUE-TH" urn="urn:adsk.eagle:footprint:4410641/4" library_version="10" library_locally_modified="yes">
+<package name="MITOHONDRIQUE-TH" urn="urn:adsk.eagle:footprint:4410641/6" library_version="18">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="21"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="21" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="21"/>
@@ -2072,53 +2076,53 @@ by Télega</text>
 <wire x1="8" y1="-13.5" x2="8.5" y2="-13" width="0.15" layer="21"/>
 <wire x1="10" y1="-14.5" x2="10" y2="-13.5" width="0.15" layer="21"/>
 <wire x1="-4" y1="13.5" x2="-4" y2="14.5" width="0.15" layer="21"/>
-<pad name="3" x="-9" y="14" drill="0.8" diameter="1.4"/>
-<pad name="2" x="-7" y="14" drill="0.8" diameter="1.4"/>
-<pad name="1" x="-5" y="14" drill="0.8" diameter="1.4"/>
-<pad name="7" x="-11.5" y="7" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="6" x="-11.5" y="9" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="5" x="-11.5" y="11" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="4" x="-11.5" y="13" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="8" x="-11.5" y="5" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="9" x="-11.5" y="3" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="10" x="-11.5" y="1" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="11" x="-11.5" y="-1" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="12" x="-11.5" y="-3" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="13" x="-11.5" y="-5" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="14" x="-11.5" y="-7" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="15" x="-11.5" y="-9" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="16" x="-11.5" y="-11" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="17" x="-11.5" y="-13" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="18" x="-9" y="-14" drill="0.8" diameter="1.4"/>
-<pad name="19" x="-7" y="-14" drill="0.8" diameter="1.4"/>
-<pad name="20" x="-5" y="-14" drill="0.8" diameter="1.4"/>
-<pad name="21" x="3" y="-14" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="22" x="5" y="-14" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="23" x="7" y="-14" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="24" x="9" y="-14" drill="0.8" diameter="1.4" rot="R270"/>
-<pad name="25" x="11.5" y="-13" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="26" x="11.5" y="-11" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="27" x="11.5" y="-9" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="28" x="11.5" y="-7" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="29" x="11.5" y="-5" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="30" x="11.5" y="-3" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="31" x="11.5" y="-1" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="32" x="11.5" y="1" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="33" x="11.5" y="3" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="34" x="11.5" y="5" drill="0.8" diameter="1.4" rot="R90"/>
-<pad name="35" x="11.5" y="7" drill="0.8" diameter="1.4"/>
-<pad name="36" x="11.5" y="9" drill="0.8" diameter="1.4"/>
-<pad name="37" x="11.5" y="11" drill="0.8" diameter="1.4"/>
-<pad name="38" x="11.5" y="13" drill="0.8" diameter="1.4"/>
-<pad name="39" x="9" y="14" drill="0.8" diameter="1.4"/>
-<pad name="40" x="7" y="14" drill="0.8" diameter="1.4"/>
-<pad name="41" x="5" y="14" drill="0.8" diameter="1.4"/>
-<pad name="42" x="3" y="14" drill="0.8" diameter="1.4"/>
+<pad name="42" x="-9" y="14" drill="0.8" diameter="1.4"/>
+<pad name="41" x="-7" y="14" drill="0.8" diameter="1.4"/>
+<pad name="40" x="-5" y="14" drill="0.8" diameter="1.4"/>
+<pad name="4" x="-11.5" y="7" drill="0.8" diameter="1.4"/>
+<pad name="3" x="-11.5" y="9" drill="0.8" diameter="1.4"/>
+<pad name="2" x="-11.5" y="11" drill="0.8" diameter="1.4"/>
+<pad name="1" x="-11.5" y="13" drill="0.8" diameter="1.4"/>
+<pad name="5" x="-11.5" y="5" drill="0.8" diameter="1.4"/>
+<pad name="6" x="-11.5" y="3" drill="0.8" diameter="1.4"/>
+<pad name="7" x="-11.5" y="1" drill="0.8" diameter="1.4"/>
+<pad name="8" x="-11.5" y="-1" drill="0.8" diameter="1.4"/>
+<pad name="9" x="-11.5" y="-3" drill="0.8" diameter="1.4"/>
+<pad name="10" x="-11.5" y="-5" drill="0.8" diameter="1.4"/>
+<pad name="11" x="-11.5" y="-7" drill="0.8" diameter="1.4"/>
+<pad name="12" x="-11.5" y="-9" drill="0.8" diameter="1.4"/>
+<pad name="13" x="-11.5" y="-11" drill="0.8" diameter="1.4"/>
+<pad name="14" x="-11.5" y="-13" drill="0.8" diameter="1.4"/>
+<pad name="15" x="-9" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="16" x="-7" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="17" x="-5" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="18" x="3" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="19" x="5" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="20" x="7" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="21" x="9" y="-14" drill="0.8" diameter="1.4"/>
+<pad name="22" x="11.5" y="-13" drill="0.8" diameter="1.4"/>
+<pad name="23" x="11.5" y="-11" drill="0.8" diameter="1.4"/>
+<pad name="24" x="11.5" y="-9" drill="0.8" diameter="1.4"/>
+<pad name="25" x="11.5" y="-7" drill="0.8" diameter="1.4"/>
+<pad name="26" x="11.5" y="-5" drill="0.8" diameter="1.4"/>
+<pad name="27" x="11.5" y="-3" drill="0.8" diameter="1.4"/>
+<pad name="28" x="11.5" y="-1" drill="0.8" diameter="1.4"/>
+<pad name="29" x="11.5" y="1" drill="0.8" diameter="1.4"/>
+<pad name="30" x="11.5" y="3" drill="0.8" diameter="1.4"/>
+<pad name="31" x="11.5" y="5" drill="0.8" diameter="1.4"/>
+<pad name="32" x="11.5" y="7" drill="0.8" diameter="1.4"/>
+<pad name="33" x="11.5" y="9" drill="0.8" diameter="1.4"/>
+<pad name="34" x="11.5" y="11" drill="0.8" diameter="1.4"/>
+<pad name="35" x="11.5" y="13" drill="0.8" diameter="1.4"/>
+<pad name="36" x="9" y="14" drill="0.8" diameter="1.4"/>
+<pad name="37" x="7" y="14" drill="0.8" diameter="1.4"/>
+<pad name="38" x="5" y="14" drill="0.8" diameter="1.4"/>
+<pad name="39" x="3" y="14" drill="0.8" diameter="1.4"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/11" type="model" library_version="10" library_locally_modified="yes">
+<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/13" type="model" library_version="18">
 <packageinstances>
 <packageinstance name="MITOHONDRIQUE-TH"/>
 </packageinstances>
@@ -2139,7 +2143,7 @@ by Télega</text>
 <clearance class="1" value="0.25"/>
 </class>
 </classes>
-<designrules name="myxa *">
+<designrules name="design rules">
 <description language="de">&lt;b&gt;Pixhawk DRC corrected&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Characteristics:&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -2170,7 +2174,7 @@ by Télega</text>
 &lt;/p&gt;</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="0.12mm 1.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.12mm"/>
+<param name="mtIsolate" value="0.12mm 1.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.12mm"/>
 <param name="mdWireWire" value="0.15mm"/>
 <param name="mdWirePad" value="0.15mm"/>
 <param name="mdWireVia" value="0.15mm"/>
@@ -2934,12 +2938,12 @@ by Télega</text>
 <attribute name="NAME" x="40.2" y="49" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="PACKAGE" value="radial" x="39.2" y="49.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C2" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" package="SIDE_10X22" package3d_urn="urn:adsk.eagle:package:4410644/2" value="220uF 63V" x="39.2" y="8.6" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY#" value="B41888C8227M-ND" x="10.35" y="27.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANF" value="EPCOS (TDK)" x="10.35" y="27.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANF#" value="B41888C8227M" x="10.35" y="27.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="40.2" y="8.975" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="radial" x="10.35" y="27.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C2" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" package="SIDE_10X22" package3d_urn="urn:adsk.eagle:package:4410644/2" value="220uF 63V" x="40.2" y="8.6" smashed="yes" rot="R270">
+<attribute name="DIGIKEY#" value="B41888C8227M-ND" x="69.05" y="27.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="EPCOS (TDK)" x="69.05" y="27.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="B41888C8227M" x="69.05" y="27.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="39.2" y="8.975" size="1.5" layer="22" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="PACKAGE" value="radial" x="69.05" y="27.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="TPSMC62A" x="34.7" y="6.7" smashed="yes">
 <attribute name="ASSY" value="DNM" x="34.7" y="6.7" size="1.778" layer="27" display="off"/>
@@ -3101,10 +3105,6 @@ by Télega</text>
 <attribute name="VALUE" x="27.375" y="45.825" size="0.5" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="25V" x="26.475" y="45.825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" package="MITOHONDRIQUE-TH" package3d_urn="urn:adsk.eagle:package:4410646/11" value="MITOHONDRIQUE-TH" x="16.5" y="29" smashed="yes" rot="R180">
-<attribute name="MANF" value="Zubax Robotics" x="16.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="Mitochondrik" x="16.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
 <element name="CON3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="JST_GH-4P-STRAIGHT" package3d_urn="urn:adsk.eagle:package:3587964/5" value="CON-4P-TABS-STRAIGHT" x="22.4" y="22.8" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY#" value="455-1580-2-ND" x="22.4" y="22.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF" value="JST Sales America Inc" x="22.4" y="22.8" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3134,6 +3134,11 @@ by Télega</text>
 <attribute name="MANF" value="JST Sales America Inc" x="18.2" y="38.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANF#" value="BM04B-GHS-TBT(LF)(SN)(N)" x="18.2" y="38.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="18.2" y="38.8" size="1.27" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
+</element>
+<element name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" package="MITOHONDRIQUE-TH" package3d_urn="urn:adsk.eagle:package:4410646/13" value="MITOHONDRIQUE_V0.2-TH" x="16.5" y="29" smashed="yes" rot="R180">
+<attribute name="MANF" value="Zubax Robotics" x="16.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="Mitochondrik" x="16.5" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="16.5" y="29" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -3260,7 +3265,6 @@ by Télega</text>
 <via x="27.425" y="47" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="9.5" y1="26.2" x2="9.525" y2="26.175" width="0.5" layer="1"/>
 <via x="15.575" y="37.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<contactref element="MODULE2" pad="2"/>
 <via x="11.475" y="34.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="10.825" y="34.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="17.875" y="45.65" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3287,8 +3291,9 @@ by Télega</text>
 <contactref element="CON7" pad="4"/>
 <contactref element="CON7" pad="M$0"/>
 <contactref element="CON7" pad="M$1"/>
+<contactref element="MODULE2" pad="41"/>
 <wire x1="9.5" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="30.3" x2="9.5" y2="30.3" width="0" layer="19" extent="1-16"/>
+<wire x1="9.35" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PHASE_A_GND">
 <contactref element="Q6" pad="1S"/>
@@ -3305,8 +3310,6 @@ by Télega</text>
 <vertex x="30.4" y="21.45"/>
 <vertex x="36.85" y="21.45"/>
 </polygon>
-<wire x1="28" y1="22" x2="29.875" y2="22" width="0.2" layer="1"/>
-<via x="30.625" y="21.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="20.65" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="20.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="19.55" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3334,9 +3337,10 @@ by Télega</text>
 <via x="30.6" y="14.725" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.6" y="15.275" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.6" y="15.825" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="29.875" y1="22" x2="30.625" y2="21.25" width="0.2" layer="1"/>
-<wire x1="30.625" y1="21.25" x2="30.625" y2="21.2" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="7"/>
+<contactref element="MODULE2" pad="4"/>
+<via x="30.625" y="21.2" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="28" y1="22" x2="29.825" y2="22" width="0.2" layer="1"/>
+<wire x1="29.825" y1="22" x2="30.625" y2="21.2" width="0.2" layer="1"/>
 </signal>
 <signal name="PHASE_A" class="1">
 <contactref element="Q6" pad="D"/>
@@ -3368,7 +3372,6 @@ by Télega</text>
 <via x="35.8" y="14.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="36.35" y="14.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="36.9" y="14.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="34.15" y="14.65" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="34.7" y="14.65" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="35.25" y="14.65" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="35.8" y="14.65" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3454,10 +3457,11 @@ by Télega</text>
 <via x="39.65" y="17.9" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.2" y="17.9" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.75" y="17.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="34.15" y1="14.65" x2="31.55" y2="17.25" width="0.2" layer="15"/>
-<wire x1="28.75" y1="17.25" x2="28" y2="18" width="0.2" layer="15"/>
-<wire x1="31.55" y1="17.25" x2="28.75" y2="17.25" width="0.2" layer="15"/>
-<contactref element="MODULE2" pad="5"/>
+<contactref element="MODULE2" pad="2"/>
+<via x="34.15" y="14.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="34.15" y1="14.65" x2="31.35" y2="17.45" width="0.2" layer="15"/>
+<wire x1="28.55" y1="17.45" x2="28" y2="18" width="0.2" layer="15"/>
+<wire x1="31.35" y1="17.45" x2="28.55" y2="17.45" width="0.2" layer="15"/>
 </signal>
 <signal name="PHASE_A_CURRENT_SHUNT_N">
 <contactref element="R18" pad="S1"/>
@@ -3469,14 +3473,14 @@ by Télega</text>
 <wire x1="29.05" y1="40.65" x2="28.85" y2="40.85" width="0.15" layer="16"/>
 <wire x1="29.05" y1="31.1" x2="29.05" y2="40.65" width="0.15" layer="16"/>
 <wire x1="28.85" y1="40.85" x2="28.4" y2="40.85" width="0.15" layer="16"/>
-<wire x1="28" y1="40.45" x2="28" y2="40" width="0.15" layer="16"/>
-<wire x1="28.4" y1="40.85" x2="28" y2="40.45" width="0.15" layer="16"/>
+<wire x1="28" y1="40.45" x2="28.4" y2="40.85" width="0.15" layer="16"/>
 <wire x1="32.7" y1="19.75" x2="32.7" y2="17.775" width="0.15" layer="1"/>
 <via x="32.7" y="17.775" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="32.225" y1="22.1" x2="32.7" y2="21.625" width="0.15" layer="16"/>
 <wire x1="32.7" y1="21.625" x2="32.7" y2="17.775" width="0.15" layer="16"/>
 <wire x1="30.025" y1="30.125" x2="29.05" y2="31.1" width="0.15" layer="16"/>
-<contactref element="MODULE2" pad="16"/>
+<contactref element="MODULE2" pad="13"/>
+<wire x1="28" y1="40" x2="28" y2="40.45" width="0.15" layer="16"/>
 </signal>
 <signal name="PHASE_A_CURRENT_SHUNT_P">
 <contactref element="R18" pad="S2"/>
@@ -3485,9 +3489,8 @@ by Télega</text>
 <wire x1="30.125" y1="26.7" x2="30.325" y2="26.9" width="0.15" layer="16"/>
 <wire x1="30.325" y1="26.9" x2="30.325" y2="30.24926875" width="0.15" layer="16"/>
 <wire x1="29.349996875" y1="40.774271875" x2="28.97426875" y2="41.149996875" width="0.15" layer="16"/>
-<wire x1="28" y1="41.55" x2="28" y2="42" width="0.15" layer="16"/>
 <wire x1="28.97426875" y1="41.149996875" x2="28.4" y2="41.15" width="0.15" layer="16"/>
-<wire x1="28.4" y1="41.15" x2="28" y2="41.55" width="0.15" layer="16"/>
+<wire x1="28" y1="41.55" x2="28.4" y2="41.15" width="0.15" layer="16"/>
 <wire x1="32.7" y1="24.75" x2="32.7" y2="26.725" width="0.15" layer="1"/>
 <via x="32.7" y="26.725" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="30.85" y1="22.4121375" x2="32.2371375" y2="22.4121375" width="0.15" layer="16"/>
@@ -3495,15 +3498,16 @@ by Télega</text>
 <wire x1="32.7" y1="22.875" x2="32.7" y2="26.725" width="0.15" layer="16"/>
 <wire x1="30.325" y1="30.24926875" x2="29.35" y2="31.22426875" width="0.15" layer="16"/>
 <wire x1="29.35" y1="31.22426875" x2="29.349996875" y2="40.774271875" width="0.15" layer="16"/>
-<contactref element="MODULE2" pad="17"/>
+<contactref element="MODULE2" pad="14"/>
+<wire x1="28" y1="42" x2="28" y2="41.55" width="0.15" layer="16"/>
 </signal>
 <signal name="PHASE_C_GND">
 <contactref element="S1" pad="IN"/>
-<wire x1="28" y1="38" x2="29.55" y2="36.45" width="0.2" layer="1"/>
 <wire x1="29.55" y1="31.375" x2="30.075" y2="30.85" width="0.2" layer="1"/>
-<wire x1="29.55" y1="36.45" x2="29.55" y2="31.375" width="0.2" layer="1"/>
+<wire x1="29.55" y1="31.375" x2="29.55" y2="36.45" width="0.2" layer="1"/>
 <wire x1="30.075" y1="30.85" x2="30.575" y2="30.85" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="15"/>
+<contactref element="MODULE2" pad="12"/>
+<wire x1="29.55" y1="36.45" x2="28" y2="38" width="0.2" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R27" pad="1"/>
@@ -3541,11 +3545,11 @@ by Télega</text>
 <contactref element="R15" pad="1"/>
 <contactref element="R14" pad="1"/>
 <wire x1="25.35" y1="12.5" x2="26.45" y2="12.5" width="0.2" layer="1"/>
-<wire x1="28" y1="14" x2="28" y2="16" width="0.2" layer="1"/>
 <wire x1="26.65" y1="12.65" x2="26.65" y2="12.5" width="0.2" layer="1"/>
 <wire x1="26.65" y1="12.5" x2="26.45" y2="12.5" width="0.2" layer="1"/>
-<wire x1="28" y1="14" x2="26.65" y2="12.65" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="4"/>
+<wire x1="26.65" y1="12.65" x2="28" y2="14" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="1"/>
+<wire x1="28" y1="14" x2="28" y2="16" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q2" pad="4G"/>
@@ -3570,15 +3574,15 @@ by Télega</text>
 <signal name="PHASE_A_GATE_LOW">
 <contactref element="R16" pad="1"/>
 <contactref element="R17" pad="1"/>
-<wire x1="28" y1="20" x2="29.05" y2="18.95" width="0.2" layer="1"/>
 <wire x1="28.7" y1="12.5" x2="28.65" y2="12.5" width="0.2" layer="1"/>
 <wire x1="28.65" y1="12.5" x2="28.625" y2="12.525" width="0.2" layer="1"/>
 <wire x1="27.575" y1="12.525" x2="27.55" y2="12.5" width="0.2" layer="1"/>
 <wire x1="28.625" y1="12.525" x2="27.575" y2="12.525" width="0.2" layer="1"/>
 <wire x1="28.7" y1="12.525" x2="28.7" y2="12.5" width="0.2" layer="1"/>
-<wire x1="29.05" y1="18.95" x2="29.05" y2="12.875" width="0.2" layer="1"/>
+<wire x1="29.05" y1="12.875" x2="29.05" y2="18.95" width="0.2" layer="1"/>
 <wire x1="29.05" y1="12.875" x2="28.7" y2="12.525" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="6"/>
+<contactref element="MODULE2" pad="3"/>
+<wire x1="29.05" y1="18.95" x2="28" y2="20" width="0.2" layer="1"/>
 </signal>
 <signal name="N$4" class="1">
 <contactref element="Q3" pad="4G"/>
@@ -3674,15 +3678,15 @@ by Télega</text>
 <contactref element="R1" pad="1"/>
 <wire x1="25.35" y1="24.1" x2="26.45" y2="24.1" width="0.2" layer="16"/>
 <wire x1="26.45" y1="24.1" x2="27.9" y2="24.1" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="5"/>
 <wire x1="27.9" y1="24.1" x2="28" y2="24" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="8"/>
 </signal>
 <signal name="PHASE_B_GATE_LOW">
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="28" y1="28" x2="25.35" y2="28" width="0.2" layer="16"/>
 <wire x1="26.45" y1="28" x2="25.35" y2="28" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="10"/>
+<contactref element="MODULE2" pad="7"/>
+<wire x1="26.45" y1="28" x2="28" y2="28" width="0.2" layer="16"/>
 </signal>
 <signal name="PHASE_B_GND">
 <contactref element="Q2" pad="1S"/>
@@ -3708,7 +3712,6 @@ by Télega</text>
 <vertex x="30.55" y="36.775"/>
 </polygon>
 <via x="30.625" y="39.725" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="30.625" y="39.175" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="38.625" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="38.075" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="37.525" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3718,11 +3721,6 @@ by Télega</text>
 <via x="34.775" y="38.625" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="34.775" y="38.075" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="34.775" y="37.525" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="28" y1="30" x2="26.525" y2="31.475" width="0.2" layer="1"/>
-<wire x1="30.45" y1="39" x2="30.625" y2="39.175" width="0.2" layer="1"/>
-<wire x1="26.525" y1="31.475" x2="26.525" y2="38.15" width="0.2" layer="1"/>
-<wire x1="26.525" y1="38.15" x2="27.375" y2="39" width="0.2" layer="1"/>
-<wire x1="27.375" y1="39" x2="30.45" y2="39" width="0.2" layer="1"/>
 <polygon width="0.15" layer="16" thermals="no">
 <vertex x="30.4" y="47.425"/>
 <vertex x="33.325" y="47.425"/>
@@ -3739,7 +3737,13 @@ by Télega</text>
 <via x="30.625" y="44.425" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="43.875" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="30.625" y="43.325" extent="1-16" drill="0.2" diameter="0.55"/>
-<contactref element="MODULE2" pad="11"/>
+<contactref element="MODULE2" pad="8"/>
+<via x="30.625" y="39.175" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="28" y1="30" x2="26.45" y2="31.55" width="0.2" layer="1"/>
+<wire x1="26.45" y1="38.4" x2="27.05" y2="39" width="0.2" layer="1"/>
+<wire x1="27.05" y1="39" x2="30.45" y2="39" width="0.2" layer="1"/>
+<wire x1="30.45" y1="39" x2="30.625" y2="39.175" width="0.2" layer="1"/>
+<wire x1="26.45" y1="31.55" x2="26.45" y2="38.4" width="0.2" layer="1"/>
 </signal>
 <signal name="PHASE_B_CURRENT_SHUNT_N">
 <contactref element="R5" pad="S1"/>
@@ -3748,9 +3752,8 @@ by Télega</text>
 <wire x1="27.6378625" y1="43.55" x2="25.8878625" y2="41.8" width="0.15" layer="16"/>
 <wire x1="25.8878625" y1="41.8" x2="24.9121375" y2="41.8" width="0.15" layer="16"/>
 <wire x1="24.9121375" y1="41.8" x2="24.65606875" y2="42.05606875" width="0.15" layer="16"/>
-<wire x1="24.65606875" y1="42.05606875" x2="24.65606875" y2="42.35606875" width="0.15" layer="16"/>
-<wire x1="24.65606875" y1="42.35606875" x2="25.3" y2="43" width="0.15" layer="16"/>
-<wire x1="25.3" y1="43" x2="25.5" y2="43" width="0.15" layer="16"/>
+<wire x1="24.65606875" y1="42.35606875" x2="24.65606875" y2="42.05606875" width="0.15" layer="16"/>
+<wire x1="25.3" y1="43" x2="24.65606875" y2="42.35606875" width="0.15" layer="16"/>
 <wire x1="30.9621375" y1="35.9" x2="30.1" y2="36.7621375" width="0.15" layer="16"/>
 <wire x1="30.1" y1="42.1621375" x2="30.1" y2="36.7621375" width="0.15" layer="16"/>
 <wire x1="30.1" y1="42.1621375" x2="28.7121375" y2="43.55" width="0.15" layer="16"/>
@@ -3758,7 +3761,8 @@ by Télega</text>
 <wire x1="32.7" y1="40.225" x2="32.7" y2="38.25" width="0.15" layer="1"/>
 <wire x1="32.3" y1="35.9" x2="32.7" y2="36.3" width="0.15" layer="16"/>
 <wire x1="32.7" y1="36.3" x2="32.7" y2="40.225" width="0.15" layer="16"/>
-<contactref element="MODULE2" pad="18"/>
+<contactref element="MODULE2" pad="15"/>
+<wire x1="25.5" y1="43" x2="25.3" y2="43" width="0.15" layer="16"/>
 </signal>
 <signal name="PHASE_B_CURRENT_SHUNT_P">
 <contactref element="R5" pad="S2"/>
@@ -3771,15 +3775,15 @@ by Télega</text>
 <wire x1="24.44393125" y1="41.84393125" x2="24.44393125" y2="41.8439375" width="0.15" layer="16"/>
 <wire x1="24.44393125" y1="41.8439375" x2="24.35606875" y2="41.9318" width="0.15" layer="16"/>
 <wire x1="24.35606875" y1="41.9318" x2="24.35606875" y2="42.35" width="0.15" layer="16"/>
-<wire x1="24.35606875" y1="42.35" x2="23.70606875" y2="43" width="0.15" layer="16"/>
-<wire x1="23.70606875" y1="43" x2="23.5" y2="43" width="0.15" layer="16"/>
+<wire x1="23.70606875" y1="43" x2="24.35606875" y2="42.35" width="0.15" layer="16"/>
 <wire x1="30.8378625" y1="35.6" x2="29.8" y2="36.6378625" width="0.15" layer="16"/>
 <wire x1="29.8" y1="42.03786875" x2="29.8" y2="36.6378625" width="0.15" layer="16"/>
 <wire x1="29.8" y1="42.03786875" x2="28.58786875" y2="43.25" width="0.15" layer="16"/>
 <wire x1="32.7" y1="35.2" x2="32.7" y2="31.275" width="0.15" layer="16"/>
 <via x="32.7" y="31.275" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="32.7" y1="31.275" x2="32.7" y2="33.25" width="0.15" layer="1"/>
-<contactref element="MODULE2" pad="19"/>
+<contactref element="MODULE2" pad="16"/>
+<wire x1="23.5" y1="43" x2="23.70606875" y2="43" width="0.15" layer="16"/>
 </signal>
 <signal name="N$12" class="1">
 <contactref element="Q9" pad="4G"/>
@@ -3932,7 +3936,6 @@ by Télega</text>
 <via x="39.6" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.15" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.7" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="38.5" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="39.05" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="39.6" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3974,20 +3977,21 @@ by Télega</text>
 <via x="39.6" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.15" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.7" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="28" y1="34" x2="28.325" y2="34" width="0.2" layer="15"/>
-<wire x1="28.325" y1="34" x2="29.6" y2="35.275" width="0.2" layer="15"/>
-<contactref element="MODULE2" pad="13"/>
-<wire x1="37.775" y1="35.275" x2="37.95" y2="35.1" width="0.2" layer="15"/>
-<wire x1="29.6" y1="35.275" x2="37.775" y2="35.275" width="0.2" layer="15"/>
+<contactref element="MODULE2" pad="10"/>
+<via x="37.95" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="37.95" y1="35.1" x2="37.75" y2="35.3" width="0.2" layer="15"/>
+<wire x1="28.6" y1="34" x2="28" y2="34" width="0.2" layer="15"/>
+<wire x1="37.75" y1="35.3" x2="29.9" y2="35.3" width="0.2" layer="15"/>
+<wire x1="29.9" y1="35.3" x2="28.6" y2="34" width="0.2" layer="15"/>
 </signal>
 <signal name="PHASE_C_GATE_LOW">
 <contactref element="R23" pad="1"/>
 <contactref element="R24" pad="1"/>
 <wire x1="26.225" y1="35.45" x2="26.225" y2="35.975" width="0.2" layer="16"/>
 <wire x1="26.225" y1="35.45" x2="26.225" y2="36.55" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="11"/>
+<wire x1="26.225" y1="35.975" x2="26.25" y2="36" width="0.2" layer="16"/>
 <wire x1="26.25" y1="36" x2="28" y2="36" width="0.2" layer="16"/>
-<wire x1="26.25" y1="36" x2="26.225" y2="35.975" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="14"/>
 </signal>
 <signal name="PHASE_C_GATE_HIGH" class="1">
 <contactref element="R22" pad="1"/>
@@ -3996,8 +4000,8 @@ by Télega</text>
 <wire x1="26.525" y1="32" x2="26.525" y2="32.45" width="0.2" layer="16"/>
 <wire x1="26.525" y1="32" x2="26.575" y2="31.95" width="0.2" layer="16"/>
 <wire x1="26.575" y1="31.95" x2="27.95" y2="31.95" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="9"/>
 <wire x1="27.95" y1="31.95" x2="28" y2="32" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="12"/>
 </signal>
 <signal name="PHASE_B" class="1">
 <contactref element="Q2" pad="D"/>
@@ -4077,7 +4081,6 @@ by Télega</text>
 <via x="39.6" y="40.05" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.15" y="40.05" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.7" y="40.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="40.6" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="38.5" y="40.6" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="37.95" y="39.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="38.5" y="39.5" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -4115,57 +4118,57 @@ by Télega</text>
 <via x="39.6" y="37.3" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.15" y="37.3" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="40.7" y="37.3" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="28.65" y1="38.95" x2="27.60649375" y2="38.95" width="0.2" layer="15"/>
-<wire x1="28.65" y1="38.95" x2="30.5" y2="40.8" width="0.2" layer="15"/>
-<wire x1="27.60649375" y1="38.95" x2="26.175" y2="37.51850625" width="0.2" layer="15"/>
-<wire x1="26.175" y1="37.51850625" x2="26.175" y2="31.1" width="0.2" layer="15"/>
-<wire x1="26.175" y1="31.1" x2="27.05" y2="30.225" width="0.2" layer="15"/>
-<wire x1="27.05" y1="30.225" x2="27.05" y2="28.588175" width="0.2" layer="15"/>
-<wire x1="27.05" y1="28.588175" x2="26.75" y2="28.288175" width="0.2" layer="15"/>
-<wire x1="26.75" y1="26.811825" x2="27.561825" y2="26" width="0.2" layer="15"/>
-<wire x1="26.75" y1="28.288175" x2="26.75" y2="26.811825" width="0.2" layer="15"/>
-<wire x1="27.561825" y1="26" x2="28" y2="26" width="0.2" layer="15"/>
-<contactref element="MODULE2" pad="9"/>
-<wire x1="30.5" y1="40.8" x2="37.75" y2="40.8" width="0.2" layer="15"/>
-<wire x1="37.75" y1="40.8" x2="37.95" y2="40.6" width="0.2" layer="15"/>
+<contactref element="MODULE2" pad="6"/>
+<via x="37.95" y="40.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="28" y1="26" x2="27.525" y2="26.475" width="0.2" layer="15"/>
+<wire x1="27.525" y1="26.475" x2="27.086825" y2="26.475" width="0.2" layer="15"/>
+<wire x1="27.086825" y1="26.475" x2="26.75" y2="26.811825" width="0.2" layer="15"/>
+<wire x1="26.75" y1="26.811825" x2="26.75" y2="28.3" width="0.2" layer="15"/>
+<wire x1="26.75" y1="28.3" x2="27.05" y2="28.6" width="0.2" layer="15"/>
+<wire x1="27.05" y1="28.6" x2="27.05" y2="30.25" width="0.2" layer="15"/>
+<wire x1="27.05" y1="30.25" x2="26.175" y2="31.125" width="0.2" layer="15"/>
+<wire x1="26.175" y1="31.125" x2="26.175" y2="37.51850625" width="0.2" layer="15"/>
+<wire x1="26.175" y1="37.51850625" x2="27.65649375" y2="39" width="0.2" layer="15"/>
+<wire x1="37.7" y1="40.85" x2="37.95" y2="40.6" width="0.2" layer="15"/>
+<wire x1="27.65649375" y1="39" x2="28.5" y2="39" width="0.2" layer="15"/>
+<wire x1="28.5" y1="39" x2="30.35" y2="40.85" width="0.2" layer="15"/>
+<wire x1="30.35" y1="40.85" x2="37.7" y2="40.85" width="0.2" layer="15"/>
 </signal>
 <signal name="CAN2_TX">
 <contactref element="IC4" pad="1"/>
 <wire x1="8.875" y1="16.9" x2="8.875" y2="15.625" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="37"/>
 <wire x1="8.875" y1="15.625" x2="9.5" y2="15" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="40"/>
 </signal>
 <signal name="CAN2_RX">
 <contactref element="IC4" pad="4"/>
 <wire x1="6.925" y1="16.9" x2="6.925" y2="15.575" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="36"/>
 <wire x1="6.925" y1="15.575" x2="7.5" y2="15" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="39"/>
 </signal>
 <signal name="CAN1_TX">
 <contactref element="IC3" pad="1"/>
-<wire x1="12.7" y1="15.8" x2="13.5" y2="15" width="0.2" layer="16"/>
-<wire x1="12.7" y1="15.8" x2="12.7" y2="16.35" width="0.2" layer="16"/>
+<wire x1="12.7" y1="16.35" x2="12.7" y2="15.8" width="0.2" layer="16"/>
 <wire x1="12.175" y1="16.875" x2="12.175" y2="16.9" width="0.2" layer="16"/>
 <wire x1="12.7" y1="16.35" x2="12.175" y2="16.875" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="42"/>
+<contactref element="MODULE2" pad="39"/>
+<wire x1="12.7" y1="15.8" x2="13.5" y2="15" width="0.2" layer="16"/>
 </signal>
 <signal name="LED_RED">
 <contactref element="R13" pad="2"/>
-<contactref element="MODULE2" pad="30"/>
-<wire x1="5" y1="32" x2="6.1" y2="33.1" width="0.2" layer="1"/>
-<wire x1="6.1" y1="33.1" x2="6.1" y2="35" width="0.2" layer="1"/>
+<wire x1="6.1" y1="35" x2="6.1" y2="33.1" width="0.2" layer="1"/>
 <wire x1="6.1" y1="35" x2="10.3" y2="39.2" width="0.2" layer="1"/>
 <wire x1="10.3" y1="39.2" x2="17.9" y2="39.2" width="0.2" layer="1"/>
 <wire x1="17.9" y1="39.2" x2="19.05" y2="40.35" width="0.2" layer="1"/>
 <wire x1="19.05" y1="40.35" x2="19.05" y2="45.1" width="0.2" layer="1"/>
 <wire x1="19.05" y1="45.1" x2="18.85" y2="45.3" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="27"/>
+<wire x1="6.1" y1="33.1" x2="5" y2="32" width="0.2" layer="1"/>
 </signal>
 <signal name="LED_GREEN">
 <contactref element="R12" pad="2"/>
-<contactref element="MODULE2" pad="31"/>
-<wire x1="5" y1="30" x2="6.15" y2="31.15" width="0.2" layer="1"/>
 <wire x1="6.15" y1="32.655025" x2="6.45" y2="32.955025" width="0.2" layer="1"/>
-<wire x1="6.15" y1="31.15" x2="6.15" y2="32.655025" width="0.2" layer="1"/>
+<wire x1="6.15" y1="32.655025" x2="6.15" y2="31.15" width="0.2" layer="1"/>
 <wire x1="6.45" y1="32.955025" x2="6.45" y2="34.855025" width="0.2" layer="1"/>
 <wire x1="18.044975" y1="38.85" x2="19.45" y2="40.255025" width="0.2" layer="1"/>
 <wire x1="10.444975" y1="38.85" x2="18.044975" y2="38.85" width="0.2" layer="1"/>
@@ -4174,12 +4177,14 @@ by Télega</text>
 <wire x1="19.45" y1="44.325" x2="19.7" y2="44.575" width="0.2" layer="1"/>
 <wire x1="19.7" y1="45.1" x2="19.9" y2="45.3" width="0.2" layer="1"/>
 <wire x1="19.7" y1="44.575" x2="19.7" y2="45.1" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="28"/>
+<wire x1="6.15" y1="31.15" x2="5" y2="30" width="0.2" layer="1"/>
 </signal>
 <signal name="CAN1_RX">
 <contactref element="IC3" pad="4"/>
 <wire x1="10.225" y1="16.9" x2="10.225" y2="16.275" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="38"/>
 <wire x1="10.225" y1="16.275" x2="11.5" y2="15" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="41"/>
 </signal>
 <signal name="VDD_5V">
 <contactref element="IC4" pad="3"/>
@@ -4207,7 +4212,6 @@ by Télega</text>
 <vertex x="10.975" y="23.65"/>
 </polygon>
 <via x="8.59126875" y="24.44126875" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="9.14126875" y="23.86626875" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="9.14126875" y="24.44126875" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.59126875" y="23.86626875" extent="1-16" drill="0.2" diameter="0.55"/>
 <polygon width="0.2" layer="1" thermals="no">
@@ -4219,8 +4223,6 @@ by Télega</text>
 <wire x1="21.225" y1="7.125" x2="18.9" y2="7.125" width="0.5" layer="16"/>
 <wire x1="18.9" y1="7.125" x2="16.575" y2="7.125" width="0.5" layer="16"/>
 <wire x1="21.225" y1="7.125" x2="21.9" y2="7.8" width="0.5" layer="16"/>
-<wire x1="21.9" y1="7.8" x2="21.9" y2="14.6" width="0.5" layer="16"/>
-<wire x1="21.9" y1="14.6" x2="21.5" y2="15" width="0.5" layer="16"/>
 <contactref element="D7" pad="2"/>
 <contactref element="D7" pad="5"/>
 <wire x1="10.875" y1="16.9" x2="10.875" y2="16.325" width="0.2" layer="16"/>
@@ -4238,8 +4240,7 @@ by Télega</text>
 <wire x1="19" y1="8.15" x2="19" y2="7.225" width="0.5" layer="16"/>
 <wire x1="19" y1="7.225" x2="18.9" y2="7.125" width="0.5" layer="16"/>
 <wire x1="12.175" y1="16.125" x2="21.375" y2="16.125" width="0.5" layer="1"/>
-<wire x1="21.5" y1="16" x2="21.5" y2="15" width="0.5" layer="1"/>
-<wire x1="21.5" y1="16" x2="21.375" y2="16.125" width="0.5" layer="1"/>
+<wire x1="21.375" y1="16.125" x2="21.5" y2="16" width="0.5" layer="1"/>
 <via x="21.65" y="48.9" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="24.75" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="26.85" y="22.8" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -4251,8 +4252,6 @@ by Télega</text>
 <contactref element="CON8" pad="1"/>
 <contactref element="LED5" pad="A"/>
 <contactref element="C45" pad="1"/>
-<wire x1="21.45" y1="13.2" x2="21.5" y2="13.25" width="0.5" layer="1"/>
-<wire x1="21.5" y1="13.25" x2="21.5" y2="15" width="0.5" layer="1"/>
 <contactref element="F1" pad="P$2"/>
 <wire x1="11" y1="36.85" x2="11.675" y2="37.525" width="0.5" layer="16"/>
 <wire x1="11.675" y1="37.525" x2="13.075" y2="37.525" width="0.5" layer="16"/>
@@ -4264,7 +4263,6 @@ by Télega</text>
 <vertex x="13.375" y="36.725"/>
 <vertex x="11.775" y="36.725"/>
 </polygon>
-<contactref element="MODULE2" pad="1"/>
 <wire x1="25.2" y1="32.8" x2="24.75" y2="33.25" width="0.2" layer="16"/>
 <wire x1="24.75" y1="33.25" x2="24.75" y2="33.5" width="0.2" layer="16"/>
 <wire x1="26.15" y1="22.8" x2="26.85" y2="22.8" width="0.2" layer="16"/>
@@ -4285,12 +4283,6 @@ by Télega</text>
 <vertex x="8.375" y="23.65"/>
 <vertex x="9.4" y="23.65"/>
 </polygon>
-<wire x1="11.25" y1="18.55" x2="12.65" y2="17.15" width="0.5" layer="15"/>
-<wire x1="12.65" y1="17.15" x2="19.35" y2="17.15" width="0.5" layer="15"/>
-<wire x1="19.35" y1="17.15" x2="21.5" y2="15" width="0.5" layer="15"/>
-<wire x1="11.25" y1="21.75" x2="9.14126875" y2="23.85873125" width="0.5" layer="15"/>
-<wire x1="9.14126875" y1="23.86626875" x2="9.14126875" y2="23.85873125" width="0.5" layer="15"/>
-<wire x1="11.25" y1="21.75" x2="11.25" y2="18.55" width="0.5" layer="15"/>
 <wire x1="21.375" y1="16.125" x2="24.9279375" y2="16.125" width="0.5" layer="1"/>
 <wire x1="24.9279375" y1="16.125" x2="25.0029375" y2="16.2" width="0.5" layer="1"/>
 <wire x1="25.0029375" y1="16.2" x2="25.05" y2="16.2" width="0.5" layer="1"/>
@@ -4327,6 +4319,18 @@ by Télega</text>
 <wire x1="16.3" y1="48.1" x2="17.1" y2="48.1" width="0.2" layer="1"/>
 <wire x1="11.075" y1="16.125" x2="12.175" y2="16.125" width="0.2" layer="16"/>
 <wire x1="8.175" y1="16.125" x2="12.175" y2="16.125" width="0.5" layer="1"/>
+<contactref element="MODULE2" pad="40"/>
+<wire x1="21.5" y1="16" x2="21.5" y2="15" width="0.5" layer="1"/>
+<wire x1="21.5" y1="15" x2="21.5" y2="13.25" width="0.5" layer="1"/>
+<wire x1="21.5" y1="13.25" x2="21.45" y2="13.2" width="0.5" layer="1"/>
+<via x="9.14126875" y="23.89126875" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="9.14126875" y1="23.89126875" x2="10.7" y2="22.3325375" width="0.5" layer="15"/>
+<wire x1="10.7" y1="19.05" x2="12.7" y2="17.05" width="0.5" layer="15"/>
+<wire x1="12.7" y1="17.05" x2="19.45" y2="17.05" width="0.5" layer="15"/>
+<wire x1="19.45" y1="17.05" x2="21.5" y2="15" width="0.5" layer="15"/>
+<wire x1="10.7" y1="22.3325375" x2="10.7" y2="19.05" width="0.5" layer="15"/>
+<wire x1="21.9" y1="7.8" x2="21.9" y2="14.6" width="0.5" layer="16"/>
+<wire x1="21.9" y1="14.6" x2="21.5" y2="15" width="0.5" layer="16"/>
 </signal>
 <signal name="CAN1_VDD">
 <contactref element="IC1" pad="4"/>
@@ -4368,7 +4372,6 @@ by Télega</text>
 </signal>
 <signal name="CAN1_LED">
 <contactref element="R10" pad="1"/>
-<contactref element="MODULE2" pad="36"/>
 <via x="24.425" y="30.6" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="25.525" y1="21.025" x2="25.9" y2="21.4" width="0.2" layer="1"/>
 <wire x1="25.525" y1="21.025" x2="25.525" y2="17.9770875" width="0.2" layer="1"/>
@@ -4382,18 +4385,17 @@ by Télega</text>
 <wire x1="25.1" y1="29.75" x2="24.425" y2="30.425" width="0.2" layer="16"/>
 <wire x1="24.6479125" y1="17.1" x2="13.169975" y2="17.1" width="0.2" layer="1"/>
 <wire x1="13.169975" y1="17.1" x2="9.969975" y2="20.3" width="0.2" layer="1"/>
-<wire x1="9.969975" y1="20.3" x2="6.205025" y2="20.3" width="0.2" layer="1"/>
-<wire x1="5.905025" y1="20" x2="5" y2="20" width="0.2" layer="1"/>
-<wire x1="6.205025" y1="20.3" x2="5.905025" y2="20" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="33"/>
+<wire x1="5.3" y1="20.3" x2="5" y2="20" width="0.2" layer="1"/>
+<wire x1="9.969975" y1="20.3" x2="5.3" y2="20.3" width="0.2" layer="1"/>
 </signal>
 <signal name="BEC_ENABLE_OUT">
 <contactref element="IC2" pad="1"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="7.5" y1="43" x2="5.5" y2="41" width="0.2" layer="16"/>
 <wire x1="4.55" y1="17" x2="5.475" y2="17" width="0.2" layer="16"/>
 <wire x1="5.475" y1="17" x2="6.2" y2="16.275" width="0.2" layer="16"/>
 <wire x1="6.2" y1="16.275" x2="6.2" y2="14.7" width="0.2" layer="16"/>
-<wire x1="5.5" y1="41" x2="4.225" y2="41" width="0.2" layer="16"/>
+<wire x1="4.225" y1="41" x2="5.5" y2="41" width="0.2" layer="16"/>
 <wire x1="4.225" y1="41" x2="3.65" y2="40.425" width="0.2" layer="16"/>
 <wire x1="3.65" y1="17.9" x2="4.55" y2="17" width="0.2" layer="16"/>
 <wire x1="6.2" y1="14.7" x2="6.9" y2="14" width="0.2" layer="16"/>
@@ -4404,8 +4406,9 @@ by Télega</text>
 <wire x1="20.975" y1="11.125" x2="20.975" y2="10" width="0.2" layer="16"/>
 <wire x1="20.4" y1="11.7" x2="20.975" y2="11.125" width="0.2" layer="16"/>
 <wire x1="17.8" y1="10" x2="17.8" y2="11.7" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="24"/>
 <wire x1="3.65" y1="17.9" x2="3.65" y2="40.425" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="21"/>
+<wire x1="5.5" y1="41" x2="7.5" y2="43" width="0.2" layer="16"/>
 </signal>
 <signal name="N$44">
 <contactref element="IC4" pad="6"/>
@@ -4457,14 +4460,14 @@ by Télega</text>
 <wire x1="9.975" y1="34.6" x2="9.375" y2="35.2" width="0.2" layer="16"/>
 <wire x1="10.7" y1="32.519975" x2="9.975" y2="33.244975" width="0.2" layer="16"/>
 <wire x1="9.975" y1="33.244975" x2="9.975" y2="34.6" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="34"/>
 <wire x1="9.375" y1="35.2" x2="9.025" y2="34.85" width="0.2" layer="16"/>
 <wire x1="9.025" y1="34.85" x2="8.55" y2="34.85" width="0.2" layer="16"/>
 <via x="8.55" y="34.85" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="5" y1="24" x2="6" y2="25" width="0.2" layer="15"/>
 <wire x1="8.2" y1="34.85" x2="8.55" y2="34.85" width="0.2" layer="15"/>
-<wire x1="6" y1="25" x2="6" y2="32.65" width="0.2" layer="15"/>
+<wire x1="6" y1="32.65" x2="6" y2="25" width="0.2" layer="15"/>
 <wire x1="6" y1="32.65" x2="8.2" y2="34.85" width="0.2" layer="15"/>
+<contactref element="MODULE2" pad="31"/>
+<wire x1="6" y1="25" x2="5" y2="24" width="0.2" layer="15"/>
 </signal>
 <signal name="USB_VBUS">
 <contactref element="D2" pad="A"/>
@@ -4511,16 +4514,16 @@ by Télega</text>
 <contactref element="D4" pad="2"/>
 <wire x1="10.325" y1="32.4" x2="9.425" y2="33.3" width="0.2" layer="16"/>
 <wire x1="9.425" y1="33.3" x2="9.375" y2="33.3" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="35"/>
 <wire x1="9.375" y1="33.3" x2="8.575" y2="34.1" width="0.2" layer="16"/>
 <wire x1="8.575" y1="34.1" x2="8.55" y2="34.1" width="0.2" layer="16"/>
 <via x="8.55" y="34.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="5" y1="22" x2="6" y2="23" width="0.2" layer="15"/>
 <wire x1="6" y1="24.505025" x2="6.35" y2="24.855025" width="0.2" layer="15"/>
-<wire x1="6" y1="23" x2="6" y2="24.505025" width="0.2" layer="15"/>
+<wire x1="6" y1="24.505025" x2="6" y2="23" width="0.2" layer="15"/>
 <wire x1="6.35" y1="32.5" x2="7.95" y2="34.1" width="0.2" layer="15"/>
 <wire x1="7.95" y1="34.1" x2="8.55" y2="34.1" width="0.2" layer="15"/>
 <wire x1="6.35" y1="24.855025" x2="6.35" y2="32.5" width="0.2" layer="15"/>
+<contactref element="MODULE2" pad="32"/>
+<wire x1="6" y1="23" x2="5" y2="22" width="0.2" layer="15"/>
 </signal>
 <signal name="N$58">
 <contactref element="LED3" pad="R"/>
@@ -4558,7 +4561,6 @@ by Télega</text>
 </signal>
 <signal name="CAN2_LED">
 <contactref element="R9" pad="1"/>
-<contactref element="MODULE2" pad="37"/>
 <via x="26.05" y="20.75" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="26.15" y1="21.65" x2="26" y2="21.5" width="0.2" layer="16"/>
 <wire x1="26" y1="20.8" x2="26.05" y2="20.75" width="0.2" layer="16"/>
@@ -4568,15 +4570,14 @@ by Télega</text>
 <wire x1="25.9" y1="17.8571125" x2="24.7678875" y2="16.725" width="0.2" layer="1"/>
 <wire x1="24.7678875" y1="16.725" x2="13" y2="16.725" width="0.2" layer="1"/>
 <wire x1="9.775" y1="19.95" x2="13" y2="16.725" width="0.2" layer="1"/>
-<wire x1="5" y1="18" x2="5" y2="18.6" width="0.2" layer="1"/>
-<wire x1="6.35" y1="19.95" x2="9.775" y2="19.95" width="0.2" layer="1"/>
-<wire x1="5" y1="18.6" x2="6.35" y2="19.95" width="0.2" layer="1"/>
+<wire x1="9.775" y1="19.95" x2="6.35" y2="19.95" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="34"/>
+<wire x1="6.35" y1="19.95" x2="5" y2="18.6" width="0.2" layer="1"/>
+<wire x1="5" y1="18.6" x2="5" y2="18" width="0.2" layer="1"/>
 </signal>
 <signal name="LED_BLUE">
 <contactref element="R11" pad="2"/>
-<contactref element="MODULE2" pad="32"/>
-<wire x1="5" y1="28" x2="6.5" y2="29.5" width="0.2" layer="1"/>
-<wire x1="6.5" y1="29.5" x2="6.5" y2="32.5" width="0.2" layer="1"/>
+<wire x1="6.5" y1="32.5" x2="6.5" y2="29.5" width="0.2" layer="1"/>
 <wire x1="6.5" y1="32.5" x2="6.8" y2="32.8" width="0.2" layer="1"/>
 <wire x1="6.8" y1="32.8" x2="6.8" y2="34.71005" width="0.2" layer="1"/>
 <wire x1="18.18995" y1="38.5" x2="19.85" y2="40.16005" width="0.2" layer="1"/>
@@ -4586,6 +4587,8 @@ by Télega</text>
 <wire x1="20.425" y1="44.775" x2="20.95" y2="45.3" width="0.2" layer="1"/>
 <wire x1="19.85" y1="40.16005" x2="19.850003125" y2="44.205025" width="0.2" layer="1"/>
 <wire x1="19.850003125" y1="44.205025" x2="20.419984375" y2="44.775" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="29"/>
+<wire x1="6.5" y1="29.5" x2="5" y2="28" width="0.2" layer="1"/>
 </signal>
 <signal name="TEMPERATURE_SENSOR">
 <contactref element="IC5" pad="2"/>
@@ -4594,13 +4597,13 @@ by Télega</text>
 <via x="22.95" y="45.525" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="23.25" y1="45.825" x2="22.95" y2="45.525" width="0.3" layer="1"/>
 <wire x1="28.8" y1="45.825" x2="23.25" y2="45.825" width="0.3" layer="1"/>
-<contactref element="MODULE2" pad="20"/>
 <wire x1="22.95" y1="45.525" x2="22.225" y2="45.525" width="0.3" layer="16"/>
 <wire x1="22.225" y1="45.525" x2="21.5" y2="44.8" width="0.3" layer="16"/>
-<wire x1="21.5" y1="44.8" x2="21.5" y2="44.65" width="0.3" layer="16"/>
-<wire x1="21.5" y1="44.65" x2="21.5" y2="43" width="0.3" layer="16"/>
+<wire x1="21.5" y1="44.8" x2="21.5" y2="44.6" width="0.3" layer="16"/>
 <wire x1="21.45" y1="44.55" x2="21.5" y2="44.6" width="0.3" layer="16"/>
-<wire x1="21.5" y1="44.6" x2="21.5" y2="44.65" width="0.3" layer="16"/>
+<contactref element="MODULE2" pad="17"/>
+<wire x1="21.45" y1="44.55" x2="21.5" y2="44.5" width="0.3" layer="16"/>
+<wire x1="21.5" y1="44.5" x2="21.5" y2="43" width="0.3" layer="16"/>
 </signal>
 <signal name="PGND">
 <contactref element="C31" pad="1"/>
@@ -5122,10 +5125,9 @@ by Télega</text>
 <vertex x="33.6" y="49.85"/>
 <vertex x="30.925" y="49.85"/>
 </polygon>
-<wire x1="25.5" y1="15" x2="25.5" y2="13.4" width="2" layer="15"/>
-<wire x1="25.5" y1="13.4" x2="28.5" y2="10.4" width="2" layer="15"/>
-<wire x1="28.5" y1="10.4" x2="31.8" y2="10.4" width="2" layer="15"/>
-<contactref element="MODULE2" pad="3"/>
+<contactref element="MODULE2" pad="42"/>
+<wire x1="25.5" y1="15" x2="29.85" y2="10.65" width="1.5" layer="15"/>
+<wire x1="29.85" y1="10.65" x2="31.4" y2="10.65" width="1.5" layer="15"/>
 </signal>
 <signal name="N$16">
 <contactref element="R10" pad="2"/>
@@ -5139,71 +5141,70 @@ by Télega</text>
 </signal>
 <signal name="N$18">
 <contactref element="R7" pad="1"/>
-<contactref element="MODULE2" pad="29"/>
 <wire x1="6.45" y1="34.9" x2="5.9" y2="34.9" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="26"/>
 <wire x1="5.9" y1="34.9" x2="5" y2="34" width="0.2" layer="16"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="R25" pad="1"/>
 <contactref element="D7" pad="3"/>
-<wire x1="7.475" y1="40.375" x2="14.425" y2="40.375" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="27"/>
-<wire x1="5.1" y1="38" x2="5" y2="38" width="0.2" layer="1"/>
-<wire x1="7.475" y1="40.375" x2="5.1" y2="38" width="0.2" layer="1"/>
+<wire x1="14.425" y1="40.375" x2="7.475" y2="40.375" width="0.2" layer="1"/>
 <wire x1="18.775" y1="44.65" x2="18.85" y2="44.65" width="0.2" layer="16"/>
 <via x="17.85" y="43.8" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="18.775" y1="44.65" x2="17.925" y2="43.8" width="0.2" layer="16"/>
 <wire x1="17.85" y1="43.8" x2="17.925" y2="43.8" width="0.2" layer="16"/>
 <wire x1="17.85" y1="44.575" x2="17.85" y2="43.8" width="0.2" layer="1"/>
 <wire x1="17.85" y1="43.8" x2="14.425" y2="40.375" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="24"/>
+<wire x1="5.1" y1="38" x2="5" y2="38" width="0.2" layer="1"/>
+<wire x1="7.475" y1="40.375" x2="5.1" y2="38" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO1">
 <contactref element="R8" pad="1"/>
 <contactref element="D7" pad="6"/>
 <contactref element="CON2" pad="1"/>
 <contactref element="PAD7" pad="P$1"/>
-<wire x1="2.7" y1="30" x2="2.7" y2="32.65" width="0.5" layer="1"/>
-<contactref element="MODULE2" pad="28"/>
+<wire x1="2.7" y1="30" x2="2.7" y2="32" width="0.5" layer="1"/>
+<wire x1="2.7" y1="32" x2="2.7" y2="32.65" width="0.5" layer="1"/>
 <wire x1="2.7" y1="32.7" x2="2.7" y2="32.65" width="0.2" layer="1"/>
-<wire x1="5" y1="36" x2="3.3" y2="34.3" width="0.2" layer="1"/>
-<wire x1="3.3" y1="34.3" x2="3.3" y2="33.3" width="0.2" layer="1"/>
-<wire x1="3.3" y1="33.3" x2="2.7" y2="32.7" width="0.2" layer="1"/>
 <via x="16.35" y="45.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="16.35" y1="45.5" x2="16.35" y2="46.475" width="0.2" layer="1"/>
 <wire x1="17.1" y1="44.625" x2="17.05" y2="44.625" width="0.2" layer="16"/>
 <wire x1="17.05" y1="44.625" x2="16.35" y2="45.325" width="0.2" layer="16"/>
 <wire x1="16.35" y1="45.5" x2="16.35" y2="45.325" width="0.2" layer="16"/>
-<wire x1="5" y1="36" x2="5" y2="36.425" width="0.2" layer="1"/>
-<wire x1="5" y1="36.425" x2="3.95" y2="37.475" width="0.2" layer="1"/>
-<wire x1="3.95" y1="37.475" x2="3.95" y2="38.4" width="0.2" layer="1"/>
-<wire x1="3.95" y1="38.4" x2="4.575" y2="39.025" width="0.2" layer="1"/>
-<wire x1="4.575" y1="39.025" x2="5.6" y2="39.025" width="0.2" layer="1"/>
-<wire x1="5.6" y1="39.025" x2="7.3" y2="40.725" width="0.2" layer="1"/>
-<wire x1="7.3" y1="40.725" x2="14.125" y2="40.725" width="0.2" layer="1"/>
 <wire x1="16.35" y1="45.5" x2="15.775" y2="44.925" width="0.2" layer="1"/>
 <wire x1="15.775" y1="42.375" x2="14.125" y2="40.725" width="0.2" layer="1"/>
 <wire x1="15.775" y1="44.925" x2="15.775" y2="42.375" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="25"/>
+<wire x1="5" y1="36" x2="5" y2="35.75" width="0.2" layer="1"/>
+<wire x1="5" y1="35.75" x2="3" y2="33.75" width="0.2" layer="1"/>
+<wire x1="3" y1="33.75" x2="3" y2="32.3" width="0.2" layer="1"/>
+<wire x1="3" y1="32.3" x2="2.7" y2="32" width="0.2" layer="1"/>
+<wire x1="5.39350625" y1="39.05" x2="4.25" y2="39.05" width="0.2" layer="1"/>
+<wire x1="7.06850625" y1="40.725" x2="5.39350625" y2="39.05" width="0.2" layer="1"/>
+<wire x1="4.25" y1="39.05" x2="3.85" y2="38.65" width="0.2" layer="1"/>
+<wire x1="3.85" y1="37.15" x2="5" y2="36" width="0.2" layer="1"/>
+<wire x1="14.125" y1="40.725" x2="7.06850625" y2="40.725" width="0.2" layer="1"/>
+<wire x1="3.85" y1="38.65" x2="3.85" y2="37.15" width="0.2" layer="1"/>
 </signal>
 <signal name="GAIN_OUT">
 <contactref element="LED5" pad="C"/>
-<contactref element="MODULE2" pad="25"/>
-<wire x1="5.5" y1="41.5" x2="13.6" y2="41.5" width="0.2" layer="1"/>
-<wire x1="5.5" y1="41.5" x2="5" y2="42" width="0.2" layer="1"/>
 <via x="15.25" y="45.8" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="6" y1="41.5" x2="13.6" y2="41.5" width="0.2" layer="1"/>
 <wire x1="13.6" y1="41.5" x2="14.875" y2="42.775" width="0.2" layer="1"/>
 <wire x1="14.875" y1="45.425" x2="15.25" y2="45.8" width="0.2" layer="1"/>
 <wire x1="14.875" y1="42.775" x2="14.875" y2="45.425" width="0.2" layer="1"/>
 <wire x1="14.925" y1="47" x2="15.25" y2="46.675" width="0.2" layer="16"/>
 <wire x1="15.25" y1="46.675" x2="15.25" y2="45.8" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="22"/>
+<wire x1="6" y1="41.5" x2="5.5" y2="41.5" width="0.2" layer="1"/>
+<wire x1="5.5" y1="41.5" x2="5" y2="42" width="0.2" layer="1"/>
 </signal>
 <signal name="GATE_ENABLE_OUT">
 <contactref element="LED4" pad="A"/>
 <wire x1="5.544975" y1="41.15" x2="13.869975" y2="41.15" width="0.2" layer="1"/>
-<contactref element="MODULE2" pad="26"/>
-<wire x1="5.544975" y1="41.15" x2="5" y2="40.605025" width="0.2" layer="1"/>
-<wire x1="5" y1="40" x2="5" y2="40.605025" width="0.2" layer="1"/>
+<wire x1="5" y1="40.605025" x2="5.544975" y2="41.15" width="0.2" layer="1"/>
 <via x="16.3" y="47.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="16.3" y1="47.25" x2="16.4" y2="47.15" width="0.2" layer="16"/>
 <wire x1="13.869975" y1="41.15" x2="15.325" y2="42.605025" width="0.2" layer="1"/>
 <wire x1="15.325" y1="45.075" x2="15.8" y2="45.55" width="0.2" layer="1"/>
 <wire x1="15.8" y1="45.55" x2="15.8" y2="46.9" width="0.2" layer="1"/>
@@ -5213,9 +5214,10 @@ by Télega</text>
 <wire x1="16.3" y1="47.25" x2="16.4" y2="47.15" width="0.2" layer="16"/>
 <wire x1="17.775" y1="47.15" x2="17.925" y2="47" width="0.2" layer="16"/>
 <wire x1="16.4" y1="47.15" x2="17.775" y2="47.15" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="23"/>
+<wire x1="5" y1="40" x2="5" y2="40.605025" width="0.2" layer="1"/>
 </signal>
 <signal name="UART_RX">
-<contactref element="MODULE2" pad="23"/>
 <contactref element="R29" pad="2"/>
 <wire x1="16.9" y1="51.9" x2="16.9" y2="51.35" width="0.2" layer="1"/>
 <wire x1="16.9" y1="51.9" x2="17.45" y2="52.45" width="0.2" layer="1"/>
@@ -5224,15 +5226,16 @@ by Télega</text>
 <wire x1="14.95" y1="49.4" x2="14.95" y2="46.95" width="0.2" layer="1"/>
 <wire x1="14.95" y1="46.95" x2="12.05" y2="44.05" width="0.2" layer="1"/>
 <wire x1="12.05" y1="44.05" x2="10.55" y2="44.05" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="20"/>
 <wire x1="10.55" y1="44.05" x2="9.5" y2="43" width="0.2" layer="1"/>
 </signal>
 <signal name="UART_TX">
-<contactref element="MODULE2" pad="22"/>
 <contactref element="R28" pad="2"/>
 <wire x1="17.475" y1="51.35" x2="15.35" y2="49.225" width="0.2" layer="1"/>
 <wire x1="15.35" y1="49.225" x2="15.35" y2="46.7" width="0.2" layer="1"/>
-<wire x1="11.65" y1="43" x2="11.5" y2="43" width="0.2" layer="1"/>
 <wire x1="15.35" y1="46.7" x2="11.65" y2="43" width="0.2" layer="1"/>
+<contactref element="MODULE2" pad="19"/>
+<wire x1="11.65" y1="43" x2="11.5" y2="43" width="0.2" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="CON8" pad="2"/>
@@ -5256,12 +5259,12 @@ by Télega</text>
 <contactref element="R6" pad="1"/>
 <wire x1="6.45" y1="33.35" x2="6.45" y2="33.5" width="0.2" layer="16"/>
 <wire x1="6.45" y1="33.35" x2="6.3" y2="33.35" width="0.2" layer="16"/>
-<contactref element="MODULE2" pad="33"/>
 <wire x1="6.3" y1="33.35" x2="5.95" y2="33" width="0.2" layer="16"/>
-<wire x1="4" y1="27" x2="5" y2="26" width="0.2" layer="16"/>
 <wire x1="5.95" y1="33" x2="4.35" y2="33" width="0.2" layer="16"/>
 <wire x1="4.35" y1="33" x2="4" y2="32.65" width="0.2" layer="16"/>
 <wire x1="4" y1="32.65" x2="4" y2="27" width="0.2" layer="16"/>
+<contactref element="MODULE2" pad="30"/>
+<wire x1="4" y1="27" x2="5" y2="26" width="0.2" layer="16"/>
 </signal>
 <signal name="GNDD">
 <contactref element="C5" pad="P$1"/>
@@ -5396,13 +5399,99 @@ by Télega</text>
 <approved hash="3,1,127e250625bb12c3"/>
 <approved hash="19,1,b414b5157c197d18"/>
 <approved hash="19,1,7723f13c898efe8b"/>
-<approved hash="19,1,93c821f0dbf169c9"/>
 <approved hash="6,16,9331f32022e6eb51"/>
-<approved hash="23,15,a67b4b9d53c0be26"/>
 <approved hash="5,1,075f30ec3d4cfb87"/>
-<approved hash="5,1,92e96b7031586591"/>
-<approved hash="21,19,fffdfdfffdfffffd"/>
 <approved hash="21,19,fffffdfdfdfdffff"/>
+<approved hash="5,1,e65ce13f23903673"/>
+<approved hash="19,1,1569699a77538aee"/>
+<approved hash="23,15,02c565c365e402e2"/>
+<approved hash="4,1,102fba5333d1e2f9"/>
+<approved hash="4,1,3ce398ff3d5405ee"/>
+<approved hash="4,1,5fe5029709da940f"/>
+<approved hash="4,1,6185592d8fb0a744"/>
+<approved hash="4,1,64266410e26ae25c"/>
+<approved hash="4,1,642664307c0a7c1c"/>
+<approved hash="4,1,d57d51875799d363"/>
+<approved hash="4,1,207851f10d088102"/>
+<approved hash="4,1,d2ab51805181d2aa"/>
+<approved hash="4,1,e3e7e38c8df68d9d"/>
+<approved hash="4,1,63aee206e20463ac"/>
+<approved hash="4,1,e5dffc902e83c84f"/>
+<approved hash="4,1,3864bf190e44b519"/>
+<approved hash="4,1,79a3d31a0107fe59"/>
+<approved hash="4,1,9b4c0836a05f8359"/>
+<approved hash="4,1,3e9df969877c5fe8"/>
+<approved hash="4,1,c2c0a3cc9510d7dc"/>
+<approved hash="4,1,7f8f3d2dc2c122f1"/>
+<approved hash="4,1,e57ea472212e7875"/>
+<approved hash="4,1,6c23ca86af83150b"/>
+<approved hash="4,1,e3cbd5ae59dde631"/>
+<approved hash="4,1,64e664a0e2dae29c"/>
+<approved hash="4,1,f85dfa39c474fa80"/>
+<approved hash="4,1,fb046256c9f87eae"/>
+<approved hash="4,1,3a9427b6e382a0c5"/>
+<approved hash="4,1,b22f68a28146d871"/>
+<approved hash="4,1,e0e6e0bf8ec58e9c"/>
+<approved hash="4,1,7b48046202637d49"/>
+<approved hash="4,1,dfc6f877db9e0fe6"/>
+<approved hash="4,1,943f880a54b3bedf"/>
+<approved hash="4,1,360c1ae3a1671f10"/>
+<approved hash="4,1,218b86b7223c1a66"/>
+<approved hash="4,1,4405022ca4db2ba2"/>
+<approved hash="4,1,720ad8dc29373bc1"/>
+<approved hash="4,1,5c3502c7096a89e7"/>
+<approved hash="4,1,19b481db4dd4e868"/>
+<approved hash="4,1,07e6078fddf5dd9c"/>
+<approved hash="4,1,d2ab51035102d2aa"/>
+<approved hash="4,1,3f9e35ad6e525b24"/>
+<approved hash="4,1,000643e51b99a49c"/>
+<approved hash="4,1,e026e00f8e758e5c"/>
+<approved hash="4,1,e026e02f1d951d9c"/>
+<approved hash="4,1,03dbfd6eba8184c7"/>
+<approved hash="4,1,2a1847247dd83d64"/>
+<approved hash="4,1,8a850e35e111949d"/>
+<approved hash="4,1,90e559fa9266181b"/>
+<approved hash="4,1,28753ce83ef980f2"/>
+<approved hash="4,16,2a1847247dd83d64"/>
+<approved hash="4,16,9e660199f7dcac51"/>
+<approved hash="4,16,28753ce83ef980f2"/>
+<approved hash="4,16,53a50db6686286b3"/>
+<approved hash="4,16,16eaeae20bdfdb0a"/>
+<approved hash="4,16,3ce398ff3d5405ee"/>
+<approved hash="4,16,00290a284689d504"/>
+<approved hash="4,16,069b2089ab288408"/>
+<approved hash="4,16,09ae693209b3ac04"/>
+<approved hash="4,16,162aeb520bcfc7e2"/>
+<approved hash="4,16,90bb7500e8862b48"/>
+<approved hash="4,16,c7809ec9263fcd05"/>
+<approved hash="4,16,f96bdfa9a8887a68"/>
+<approved hash="4,16,f7ce6a92f69353f4"/>
+<approved hash="4,16,01b909984489d884"/>
+<approved hash="4,16,64266410e26ae25c"/>
+<approved hash="4,16,c2c0a3cc9510d7dc"/>
+<approved hash="4,16,64e664a0e2dae29c"/>
+<approved hash="4,16,e0e6e0bf8ec58e9c"/>
+<approved hash="4,16,218b86b7223c1a66"/>
+<approved hash="4,16,e3e7e38c8df68d9d"/>
+<approved hash="4,16,f3986b36f1ed5006"/>
+<approved hash="4,16,e36f62c762c5e36d"/>
+<approved hash="4,16,79a3d31a0107fe59"/>
+<approved hash="4,16,25a3f1f947bfcdea"/>
+<approved hash="4,16,63ecb2fc79fdb5f4"/>
+<approved hash="4,16,72f82915899e5976"/>
+<approved hash="4,16,8c53323d35883251"/>
+<approved hash="4,16,0aa9839b9f9f2ea8"/>
+<approved hash="4,16,a861d4b4165c6a8a"/>
+<approved hash="4,16,5ccd27d627c85cd3"/>
+<approved hash="4,16,edcf96d496d5edce"/>
+<approved hash="4,16,52db2b89f18088d1"/>
+<approved hash="4,16,54b0448c50f3e8da"/>
+<approved hash="4,16,b0f8e17004554c52"/>
+<approved hash="4,16,07e6078fddf5dd9c"/>
+<approved hash="4,16,9d87d8d6ab334321"/>
+<approved hash="4,16,832cf0dd80d930cb"/>
+<approved hash="4,16,e026e00f8e758e5c"/>
+<approved hash="21,19,387e3a7c3a7c387e"/>
 </errors>
 </board>
 </drawing>
