@@ -5,6 +5,8 @@ OpenMyxa uses [Mitochondrik](https://zubax.com/products/mitochondrik) motor cont
 
 OpenMyxa is reference design for Zubax Mitochondrik that utilizes most of its capabilities and interfaces. 
 
+3d view is available in [Autodesk gallery](http://bit.ly/2sWZaMW)
+
 ## License
 
 This project is licensed under the terms of [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
