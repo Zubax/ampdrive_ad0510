@@ -10,27 +10,27 @@ The device is equipped with five separate LED indicators that reflect either har
 Positions of LEDs on the board are shown on the figure \ref{fig:characteristics_leds_placement}.
 
 \begin{itemize}
-    \item \textbf{CAN1 and CAN2} green LEDs indicate data transfer through the CAN1 and CAN2 buses. 
-           Blinks once if at least one CAN frame was successfully transmitted or successfully received in the last 
+    \item \textbf{CAN1 and CAN2} green LEDs indicate data transfer through the CAN1 and CAN2 buses.
+           Blinks once if at least one CAN frame was successfully transmitted or successfully received in the last
            25~ milliseconds. Glows steadily when the intensity of CAN traffic is higher than 40 frames per second.
 
     \item \textbf{ENABLE} orange LED indicates if the power transistor driver scheme is enabled.
 
-    \item \textbf{GAIN} orange LED indicates the gain of motor currents measurement scheme. 
-           If GAIN LED is ON, the gain is high for more accurate measurement at low power. 
-           If GAIN LED is OFF, the gain is low  maintaining motor phase currents in measurement range. 
+    \item \textbf{GAIN} orange LED indicates the gain of motor currents measurement scheme.
+           If GAIN LED is ON, the gain is high for more accurate measurement at low power.
+           If GAIN LED is OFF, the gain is low  maintaining motor phase currents in measurement range.
            Gain is switching automatically by firmware.
 
-    \item \textbf{STATUS} RGB LED indicates the status of the firmware. 
-          The behavior of the status LED is more complex than the other LEDs. 
-          It is specified in the tables \ref{table:characteristics_status_led} 
+    \item \textbf{STATUS} RGB LED indicates the status of the firmware.
+          The behavior of the status LED is more complex than the other LEDs.
+          It is specified in the tables \ref{table:characteristics_status_led}
           and \ref{table:characteristics_status_led_behavior}.
 \end{itemize}
 
 \begin{ZubaxSimpleTable}{Status LED during boot\label{table:characteristics_status_led}}{|l l X|}
     Color                     & Status                  & Description \\
-    \ShowColor{yellow} Yellow & No application to boot  & The firmware haven't been 
-    flashed to the ESC or FLASH has been damaged. \\
+    \ShowColor{yellow} Yellow & No application to boot  & The firmware haven't been
+                                flashed to the ESC or FLASH has been damaged. \\
     \ShowColor{blue} Blue & Application upgrade is in progress. &   \\
     \ShowColor{green} Green & Boot canceled & The device firmware has not been properly signed. \\
     \ShowColor{magenta} Magenta   & Ready to boot & Glows after power up or restart the device 
@@ -44,16 +44,19 @@ Positions of LEDs on the board are shown on the figure \ref{fig:characteristics_
        \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX} & Idle, ready to run & The ESC is ready and waiting for the setpoint.\\
     
     {\color{red}
-       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware fault & The power stage is not ready or 
-       current is tripped.\\
+       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware fault & The power stage is not ready or
+                                                   current is tripped.\\
 
     {\color{red}
-       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware test fault & The motor 
-       is not connected or there is a short circuit on the output of the ESC.\\
+       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware test fault & The motor
+                                                             is not connected or there is a short circuit
+                                                             on the output of the ESC.\\
 
     {\color{red}
        \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX
-       \LEDX\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Invalid motor parameters & Some motor parameters 
-       are not properly initialized or the motor identification hasn't been performed.\\
+       \LEDX\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Invalid motor parameters & Some motor parameters
+                                                                          are not properly initialized
+                                                                          or the motor identification
+                                                                          hasn't been performed.\\
 \end{ZubaxSimpleTable}
 
