@@ -1,0 +1,133 @@
+\chapter{Characteristics}
+
+\section{Absolute maximum ratings}
+
+Stresses that exceed the limits specified in this section may cause permanent damage to the device.
+Proper operation of the device within the limits specified in this section is not implied.
+
+\begin{ZubaxTableWrapper}{Absolute maximum ratings}
+    \begin{ZubaxWrappedTable}{| X | c  c | c |}
+    Parameter                 & Min   & Max             & Unit           \\
+    Supply voltage            & -0.3  & 56              &   V            \\
+    Phase current amplitude   &       & 100\tnote{a}    &   A            \\
+    DC continuous current     &       & 75              &   A            \\
+    Operating temperature     & -40   & 85              &   \degree{}C   \\
+    UART/RC PWM input voltage & -0.3  & 7               &   V            \\
+    CAN H/L input voltage     & -0.3  & 7               &   V            \\
+    GPIO1 input voltage       & -0.3  & 7               &   V            \\
+    GPIO2 input voltage       & -0.3  & 3.6             &   V            \\
+\end{ZubaxWrappedTable}
+\begin{tablenotes}
+        \item [a] - At 25 \degree{}C power MOSFETs temperature
+\end{tablenotes}        
+\end{ZubaxTableWrapper}
+
+\section{Environmental conditions}
+
+\begin{ZubaxTableWrapper}{Environmental conditions}
+    \begin{ZubaxWrappedTable}{| l | X | c  c | c |}
+    Parameter                   & Note                       & Min & Max    & Unit          \\
+    Operating temperature       &                            & -40 & 85     & \degree{}C    \\
+    Storage temperature         &                            & -40 & 50     & \degree{}C    \\
+    Operating humidity          & Condensation not permitted & 0   & 100    & \%RH          \\
+    Operating altitude          & Above mean sea level (MSL) &     & 10     & km            \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\section{Operational characteristics}
+
+\begin{ZubaxTableWrapper}{Power characteristics}
+    \begin{ZubaxWrappedTable}{| l | X | c |}
+    Parameter               & Value  &  Unit  \\
+    Max continuous power    & 2500   & W      \\
+    Peak power (30sec)      & 3000   & W      \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{Electrical characteristics}
+    \begin{ZubaxWrappedTable}{| X | c  c  c | c |}
+    Parameter                               & Min   & Typ   & Max   & Unit            \\
+    Supply voltage                          & 13    &       & 51    & V               \\
+    Idle current consumption                & 3     &       & 10    & mA              \\
+    FET drain-source on-state resistance    &       & 2.15  & 2.5   & $\text{m}\Omega$\\
+    Inverter temperature measurement error  & -6    &       & 6     & \degree{}C      \\
+    Inverter temperature measurement range  & -55   &       & 125   & \degree{}C      \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{BEC characteristics}
+\begin{ZubaxWrappedTable}{| X | l | c |}
+    Parameter            & Value   & Unit \\
+    Output voltage       &  4.9    & V    \\
+    Voltage tolerance    &   2     & \%   \\
+    Maximum load current &  500    & mA   \\
+    Voltage ripple       &  100    & m$\text{V}_\text{p-p}$\\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{CAN bus interfaces characteristics}
+    \begin{ZubaxWrappedTable}{| X | c  c  c | c |}
+    Parameter                                       & Min   & Typ   & Max   & Unit              \\
+    Bit rate                                        & 12    &       & 1000  & Kbps              \\
+    Positive-going input threshold voltage          &       & 750   & 900   & mV                \\
+    Negative-going input threshold voltage          & 500   & 600   &       & mV                \\
+    Differential output voltage, dominant           & 1.5   & 2.0   & 3.0   & V                 \\
+    Differential output voltage, recessive          & -120  & 0     & 12    & mV                \\
+    Inter-connector current pass-through            & -1    &       & 1     & A                 \\
+    Connector resistance during device lifetime     &       & 30    & 50    & $\text{m}\Omega$  \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{USB interface characteristics}
+    \begin{ZubaxWrappedTable}{| X | c c | c |}
+    Parameter               & Min   & Max   & Unit  \\
+    Low-level voltage       & 0     & 0.3   & V     \\
+    High-level  voltage     & 2.8   & 3.6   & V     \\
+    Vbus voltage            & 1.485 & 5.5   & V     \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{RC PWM characteristics}
+    \begin{ZubaxWrappedTable}{| X | c  c  c | c |}
+    Parameter                      & Min    & Typ   & Max   & Unit              \\
+    RC PWM input voltage           & -0.3   & 5     & 7     & V                 \\
+    RC PWM signal period           &        & 20    &       & mS                \\
+    RC PWM pull down resistance    & 15     & 20    & 25    & $\text{k}\Omega$  \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{GPIO characteristics in output mode}
+    \begin{ZubaxWrappedTable}{| X | c  c  c | c |}
+    Parameter             & Min    & Max            & Unit  \\
+    Output voltage High   & 2      & 3.3            & V     \\
+    Output voltage low    & 0      & 0.4            & V     \\
+    Max current           &        & $\pm\text{20}$ & mA    \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\begin{ZubaxTableWrapper}{GPIO characteristics in input mode}
+    \begin{ZubaxWrappedTable}{| X | c  c  c | c |}
+    Parameter                   & Min    & Max      & Unit  \\
+    Input low level voltage     & -0.3   & 1.075    & V     \\
+    Input high level voltage    & 1.485  &          & V     \\
+    GPIO1 Maximum voltage       &        & 7        & V     \\
+    GPIO2 Maximum voltage       &        & 3.6      & V     \\
+\end{ZubaxWrappedTable}
+\end{ZubaxTableWrapper}
+
+\subsection{Regenerative braking}
+During regenerative braking, the device performs energy transfer from the motor to the power supply network.
+If the self-resistance of the power supply network is not sufficiently low,
+the regenerative energy transfer may lead to an increase of the supply voltage beyond the safe operating limits.
+Generally, batteries are capable of absorbing the energy recovered during braking without issues.
+Problems may arise if the device is powered from a source that does not permit high reverse currents,
+such as laboratory power supplies. In that case it is advised to install additional buffer capacitors to act
+as an energy storage during braking.
+
+\subsection{Power connectors}
+Input power is provided via 100 mm long 14 AWG wires. User is supposed to choose an appropriate power
+connection method for particular application at his reasonable discretion.
+The motor phases are connected via female panel-mount 3,5 mm bullet connectors. 
+
+\newpage
+

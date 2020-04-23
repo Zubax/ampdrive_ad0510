@@ -1,0 +1,77 @@
+% Copyright (c) 2019-2020  Zubax Robotics  <info@zubax.com>
+%
+% Distributed under BY-NC-ND (attribution required, non-commercial use only, no derivatives).
+%
+
+\documentclass{zubaxdoc}
+\graphicspath{{../document_templates/documentation_template_latex/}{figures/}}
+\title{Zubax Komar Datasheet}
+
+\hbadness=10000
+
+\begin{document}
+\frontmatter
+\begin{titlepage}
+
+\section*{Overview}
+
+Zubax Komar is a high-end FOC ESC based on the \text{T\'elega} motor control technology. Komar is designed for
+use in propulsion systems of light unmanned aerial (UAV), underwater, and surface vehicles. State-of-the-art vector
+control algorithms make Komar one of the most energy-efficient ESC on the market. Komar is compatible with virtually
+any PMSM or BLDC motor as it is able to measure the parameters of the driven motor and automatically optimize
+itself for best performance. Komar is based on \mbox{mitochondrik} control module.
+All hardware is open source and available on Github\footnote{\url{https://github.com/Zubax/Komar}}.
+
+\section*{Features}
+
+\begin{itemize}
+    \item 2500 W continuous power output.
+    \item 13 -- 51 V input voltage range (4 -- 12S $\text{LiCoO}_\text{2}$ battery).
+    \item Software controllable 5 V, 0.5 A BEC.
+    \item High-efficiency sensorless FOC algorithms.
+    \item Self-diagnostics and health status reporting.
+    \item Built-in motor temperature sensor for enhanced self-diagnostics.
+    \item Highly configurable, all parameters can be tuned.
+    \item Embedded bootloader. Firmware can be updated via CAN interface in the field, no need to unmount the unit.
+    \item Regenerative braking and active freewheeling.
+    \item The solder-free design facilitates in-field maintenance.
+    \item Low noise and high efficiency due to the sinusoidal \mbox{motor} currents and high-frequency PWM.
+    \item A rich set of communication interfaces.
+     \begin{itemize}
+        \item CAN bus interface (connectors are compatible with UAVCAN and the Dronecode Autopilot Connector Standard).
+         Komar offers a doubly-redundant CAN bus interface for mission-critical applications.
+        \item High-speed UART, for board-level communication.
+        \item USB interface for control, management, and telemetry; driverless compatibility with GNU/Linux, Windows,
+        Mac OS X. The connector type is USB Micro-B.
+        \item Industry-standard RC PWM input.
+    \end{itemize}
+\end{itemize}
+
+\section*{Applications}
+
+\begin{itemize}
+    \item \mbox{Propeller drives for multirotor unmanned aerial vehicles}
+    \item Pump and propeller drives for unmanned watercraft
+    \item Fuel pump drives for jet engines and gas turbines
+    \item CMG drives for LEO spacecraft
+\end{itemize}
+
+\centering
+\includegraphics[width=0.6\textwidth]{top_view.png}
+\includegraphics[width=0.6\textwidth]{bottom_view.png}
+\end{titlepage}
+
+\tableofcontents
+\BeginRightColumn
+\listoffigures
+\listoftables
+
+\mainmatter
+
+\input{overview}
+\input{characteristics}
+\input{communication_interfaces}
+\input{led_indication}
+\input{mechanical_characteristics}
+\input{motor_selection}
+\end{document}
