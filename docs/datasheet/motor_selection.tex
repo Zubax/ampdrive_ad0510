@@ -1,24 +1,36 @@
 \chapter{Motor selection considerations}
-One non-obvious matter that differs FOC-enabled motor controllers (like Zubax Komar)
-from conventional controllers with trapezoidal or six step commutation
-is so called voltage utilization factor.
-Every BLDC motor has a characteristic that defines its theoretical maximum rotational speed.
-It is called  motor speed constant K\textsubscript{v}.
-It is measured in revolutions per minute (RPM) per volt or radians per volt second [rad/(V*s)].
-Physical meaning of this constant is the number of revolutions per minute (rpm) that a motor turns when 1 V (one volt)
-is applied with no load attached to that motor.
+When selecting a motor, it is important to consider its theoretical maximum rotational speed
+(RPM\textsubscript{max}). This is derived from the motor's \emph{motor velocity constant}
+(K\textsubscript{v}), its \emph{supply voltage} (V) and the controller's \emph{voltage utilization
+factor} (F\textsubscript{util}). The RPM\textsubscript{max} is calculated as follows:
 
-FOC-enabled motor controllers have additional voltage utilization factor that decreases the maximum RPM
-for a given motor and supply voltage. For Komar this factor is:
-
-\[F\textsubscript{util} = \frac{0.91}{\sqrt{3}}\]
 \[RPM\textsubscript{max} = K\textsubscript{v} \times V\textsubscript{supply} \times F\textsubscript{util}\]
 
-RPM\textsubscript{max} of a FOC enabled motor controller will always be lower than RPM\textsubscript{max} 
-of a conventional controller with trapezoidal or six step commutation. This should be taken into account 
-when designing a propulsion system.
+K\textsubscript{v} is the ratio of the unloaded motor's rotational speed with the motor's peak
+voltage (as measured across the coil wires). Its unit is revolutions per minute per volt (RPM/V)
+or radians per volt second [rad/(V$\cdot$s)].
 
-For example, a motor with speed constant K\textsubscript{v} = 320 controlled by Komar
-running on fully charged 10S $\text{LiCoO}_\text{2}$ battery will have the following theoretical maximum RPM:
+F\textsubscript{util} is a constant factor with a value of between zero and one depending on the
+PWM type. BLDC motor controllers with a conventional trapezoidal or six-step commutation always
+have a factor of one. FOC-enabled motor controllers with SVPWM like Komar have a factor as follows:
+
+\[F\textsubscript{util} = \frac{0.91}{\sqrt{3}}\]
+
+For example, a motor with a \emph{motor velocity constant} (K\textsubscript{v}) of 320 RPM/V being
+controlled by a Komar running on a fully charged 10S $\text{LiCoO}_\text{2}$ battery (i.e. 10 cells
+of 4.2\,V) will have a theoretical maximum RPM of:
 
 \[RPM\textsubscript{max} = 320 \times 10 \times 4.2 \times \frac{0.91}{\sqrt{3}} = 7061\]
+
+In short, when selecting a motor for FOC ESCs like Komar, the motor's K\textsubscript{v} factor
+must be no less than:
+
+\[K\textsubscript{v} = \frac{RPM\textsubscript{max}}{V\textsubscript{DCmin}} \times \frac{0.91}{\sqrt{3}}\]
+
+where:
+
+\begin{enumerate}[label=(\roman*),leftmargin=\leftskip+1em,labelindent=!]
+  \item RPM\textsubscript{max} is the desired maximum speed of the unload motor; and
+  \item V\textsubscript{DCmin} is the minimum DC power supply voltage or the voltage of the
+        fully discharged battery.
+\end{enumerate}
