@@ -1,62 +1,68 @@
 
-\chapter{LED Indication}
+\chapter{LED indicators}
 
 \newcommand{\LEDX}{{\rule{0.4em}{1.0em}}}
 \newcommand{\LEDO}{{\rule{0.4em}{0.1em}}}
 
 \newcommand{\ShowColor}[1]{{\color{#1}\rule{2em}{0.8em}}}
 
-The device is equipped with five separate LED indicators that reflect either hardware or software status. 
-Positions of LEDs on the board are shown on the figure \ref{fig:characteristics_leds_placement}.
+Komar is equipped with five LEDs that indicate the status of the hardware and software.
+Their positions are shown in the figure \ref{fig:characteristics_leds_placement} below.
 
-\begin{itemize}
-    \item \textbf{CAN1 and CAN2} green LEDs indicate data transfer through the CAN1 and CAN2 buses.
-           Blinks once if at least one CAN frame was successfully transmitted or successfully received in the last
-           25~ milliseconds. Glows steadily when the intensity of CAN traffic is higher than 40 frames per second.
+\begin{figure}[!hbt]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/connectors_leds}
+    \caption{LEDs placement drawing\label{fig:characteristics_leds_placement}}
+\end{figure}
 
-    \item \textbf{ENABLE} orange LED indicates if the power transistor driver scheme is enabled.
+\subsection{CAN LEDs}
+The CAN1 and CAN2 LEDs indicate the flow of data through the CAN buses. It blinks in \textbf{green} once if
+at least one CAN frame was successfully transmitted or received within the last 25 milliseconds. It
+remains constantly \textbf{green} when the CAN traffic on the bus rises about 40 frames per second. Note that
+Myxa B does not have a CAN2 LED.
 
-    \item \textbf{GAIN} orange LED indicates the gain of motor currents measurement scheme.
-           If GAIN LED is ON, the gain is high for more accurate measurement at low power.
-           If GAIN LED is OFF, the gain is low  maintaining motor phase currents in measurement range.
-           Gain is switching automatically by firmware.
+\subsection{Inverter enabled LED}
+The inverter enabled LED indicates if the power transistor driver scheme is enabled. When enabled, the LED
+will illuminate in \textbf{orange}.
 
-    \item \textbf{STATUS} RGB LED indicates the status of the firmware.
-          The behavior of the status LED is more complex than the other LEDs.
-          It is specified in the tables \ref{table:characteristics_status_led}
-          and \ref{table:characteristics_status_led_behavior}.
-\end{itemize}
+\subsection{Gain LED}
+The Gain LED reflects the status of the automatic gain control (AGC) of the phase current measurement analog
+front-end. When the LED is on, the gain is low; otherwise it is high. When on, the LED will illuminate
+in \textbf{orange}.
+
+\subsection{Status LED}
+The Status LED indicates the current state of the firmware. During boot-up, the LED will report
+the status as shown in table \ref{table:characteristics_status_led} below.
 
 \begin{ZubaxSimpleTable}{Status LED during boot\label{table:characteristics_status_led}}{|l l X|}
     Color                     & Status                  & Description \\
-    \ShowColor{yellow} Yellow & No application to boot  & The firmware haven't been
-                                flashed to the ESC or FLASH has been damaged. \\
-    \ShowColor{blue} Blue & Application upgrade is in progress. &   \\
+    \ShowColor{yellow} Yellow & No application to boot  & The firmware has not been
+    flashed to the ESC or the firmware has been damaged. \\
+    \ShowColor{blue} Blue & Application being upgraded &  The application is in the process of being upgraded. \\
     \ShowColor{green} Green & Boot canceled & The device firmware has not been properly signed. \\
-    \ShowColor{magenta} Magenta   & Ready to boot & Glows after power up or restart the device 
-    until the application starts.\\
+    \ShowColor{magenta} Magenta   & Ready to boot & The device has power but has yet to load the application. \\
 \end{ZubaxSimpleTable}
+
+\newpage
+During operation, the LED will report the status as shown in table \ref{table:characteristics_status_led_behavior}
+below.
 
 \begin{ZubaxSimpleTable}{Status LED behavior\label{table:characteristics_status_led_behavior}}{|l X X|}
     LED pattern (step 80 ms) & Status & Description\\
 
     {\color{blue}
-       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX} & Idle, ready to run & The ESC is ready and waiting for the setpoint.\\
-    
-    {\color{red}
-       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware fault & The power stage is not ready or
-                                                   current is tripped.\\
+       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX} & Ready to run & The ESC is ready and waiting for the setpoint.\\
 
     {\color{red}
-       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Hardware test fault & The motor
-                                                             is not connected or there is a short circuit
-                                                             on the output of the ESC.\\
+       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDX\LEDX} & Hardware fault & The power stage is not ready or
+       current has tripped.\\
+
+    {\color{red}
+       \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDX\LEDX} & Hardware test fault & The motor
+       is not connected or there is a short circuit on the output of the ESC.\\
 
     {\color{red}
        \LEDX\LEDO\LEDO\LEDO\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX\LEDO\LEDX
-       \LEDX\LEDX\LEDO\LEDX\LEDX\LEDX} & Idle, Invalid motor parameters & Some motor parameters
-                                                                          are not properly initialized
-                                                                          or the motor identification
-                                                                          hasn't been performed.\\
+       \LEDX\LEDX\LEDO\LEDX\LEDX\LEDX} & Invalid motor parameters & Some motor parameters
+       are not properly initialized or the motor identification has not been performed.\\
 \end{ZubaxSimpleTable}
-
