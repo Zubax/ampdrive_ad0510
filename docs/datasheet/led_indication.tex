@@ -11,26 +11,26 @@ Their positions are shown in the figure \ref{fig:characteristics_leds_placement}
 
 \begin{figure}[!hbt]
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/connectors_leds}
+    \includegraphics[width=0.7\textwidth]{figures/leds_placement}
     \caption{LEDs placement drawing\label{fig:characteristics_leds_placement}}
 \end{figure}
 
-\subsection{CAN LEDs}
+\section{CAN LEDs}
 The CAN1 and CAN2 LEDs indicate the flow of data through the CAN buses. It blinks in \textbf{green} once if
 at least one CAN frame was successfully transmitted or received within the last 25 milliseconds. It
 remains constantly \textbf{green} when the CAN traffic on the bus rises about 40 frames per second. Note that
 Myxa B does not have a CAN2 LED.
 
-\subsection{Inverter enabled LED}
+\section{Inverter enabled LED}
 The inverter enabled LED indicates if the power transistor driver scheme is enabled. When enabled, the LED
 will illuminate in \textbf{orange}.
 
-\subsection{Gain LED}
+\section{Gain LED}
 The Gain LED reflects the status of the automatic gain control (AGC) of the phase current measurement analog
 front-end. When the LED is on, the gain is low; otherwise it is high. When on, the LED will illuminate
 in \textbf{orange}.
 
-\subsection{Status LED}
+\section{Status LED}
 The Status LED indicates the current state of the firmware. During boot-up, the LED will report
 the status as shown in table \ref{table:characteristics_status_led} below.
 
@@ -43,7 +43,6 @@ the status as shown in table \ref{table:characteristics_status_led} below.
     \ShowColor{magenta} Magenta   & Ready to boot & The device has power but has yet to load the application. \\
 \end{ZubaxSimpleTable}
 
-\newpage
 During operation, the LED will report the status as shown in table \ref{table:characteristics_status_led_behavior}
 below.
 
