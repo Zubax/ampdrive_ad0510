@@ -3396,7 +3396,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMCJ51A" urn="urn:adsk.eagle:component:19881499/1" prefix="D" library_version="18">
+<deviceset name="SMC5K51A-M3/I" urn="urn:adsk.eagle:component:19919075/1" prefix="D" library_version="20">
 <description>TVS DIODE 51V 82.4V DO214AB</description>
 <gates>
 <gate name="G$1" symbol="TVS" x="0" y="0"/>
@@ -3412,9 +3412,10 @@ DIN A3, landscape with location and doc. field</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="SMCJ51ALFTR-ND" constant="no"/>
-<attribute name="MANF" value="Littelfuse Inc." constant="no"/>
-<attribute name="MANF#" value="SMCJ51A" constant="no"/>
+<attribute name="AEC-Q" value="AEC-Q101" constant="no"/>
+<attribute name="DIGIKEY#" value="SMC5K51A-M3/IGICT-ND" constant="no"/>
+<attribute name="MANF" value="Vishay Semiconductor Diodes Division" constant="no"/>
+<attribute name="MANF#" value="SMC5K51A-M3/I" constant="no"/>
 <attribute name="REVERS_STANDOFF_V" value="51V" constant="no"/>
 </technology>
 </technologies>
@@ -5271,7 +5272,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC"/>
+<variantdef name="BASIC" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5441,7 +5442,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ELXZ630ELL331MK20S"/>
 </part>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMCJ51A" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMCJ51A">
+<part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMC5K51A-M3/I" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I">
 <attribute name="ASSY" value="DNM"/>
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5460,8 +5461,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U$11" library="usb2can_master_lib" deviceset="FIDUCIALMOUNT" device=""/>
 <part name="U$6" library="usb2can_master_lib" deviceset="FIDUCIALMOUNT" device=""/>
 <part name="U$7" library="usb2can_master_lib" deviceset="FIDUCIALMOUNT" device=""/>
-<part name="D1" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMCJ51A" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMCJ51A"/>
-<part name="D6" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMCJ51A" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMCJ51A">
+<part name="D1" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMC5K51A-M3/I" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I"/>
+<part name="D6" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMC5K51A-M3/I" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I">
 <attribute name="ASSY" value="DNM"/>
 <variant name="BASIC" populate="no"/>
 </part>
