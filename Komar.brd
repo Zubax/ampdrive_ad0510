@@ -218,7 +218,7 @@ by Télega</text>
 <libraries>
 <library name="mosfet" urn="urn:adsk.eagle:library:2640523">
 <packages>
-<package name="PQFN8_5X6" urn="urn:adsk.eagle:footprint:19980481/2" library_version="33">
+<package name="PQFN8_5X6" urn="urn:adsk.eagle:footprint:19980481/3" library_version="36">
 <description>https://www.onsemi.com/pub/Collateral/483BJ.PDF</description>
 <smd name="1" x="-2.9" y="1.905" dx="1.42" dy="0.61" layer="1"/>
 <smd name="2" x="-2.9" y="0.635" dx="1.42" dy="0.61" layer="1"/>
@@ -229,7 +229,6 @@ by Télega</text>
 <smd name="7" x="2.59" y="0.635" dx="1.42" dy="0.61" layer="1"/>
 <smd name="8" x="2.59" y="1.905" dx="1.42" dy="0.61" layer="1"/>
 <smd name="P$1" x="0.5" y="0" dx="5.1" dy="3.75" layer="1" rot="R270"/>
-<wire x1="2.38" y1="-0.28" x2="2.38" y2="-2.28" width="0.01" layer="21"/>
 <wire x1="-3.3" y1="2.45" x2="3" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-3.3" y1="2.45" x2="-3.3" y2="-2.45" width="0.1" layer="51"/>
 <wire x1="-3.3" y1="-2.45" x2="3" y2="-2.45" width="0.1" layer="51"/>
@@ -253,7 +252,7 @@ by Télega</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="PQFN8_5X6" urn="urn:adsk.eagle:package:19980482/3" type="model" library_version="33">
+<package3d name="PQFN8_5X6" urn="urn:adsk.eagle:package:19980482/4" type="model" library_version="36">
 <description>https://www.onsemi.com/pub/Collateral/483BJ.PDF</description>
 <packageinstances>
 <packageinstance name="PQFN8_5X6"/>
@@ -2364,7 +2363,7 @@ by Télega</text>
 </pass>
 </autorouter>
 <elements>
-<element name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="38.5" y="38.7" smashed="yes">
+<element name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.5" y="38.7" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="38.5" y="38.7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.5" y="38.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="38.5" y="38.7" size="1.778" layer="27" display="off"/>
@@ -2372,7 +2371,7 @@ by Télega</text>
 <attribute name="NAME" x="38.5" y="38.7" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="38.5" y="38.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="45.4" y="45.25" smashed="yes">
+<element name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="45.4" y="45.25" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
@@ -2441,7 +2440,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-32.55" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-32.55" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="45.8" y="38.85" smashed="yes">
+<element name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="45.8" y="38.85" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="45.8" y="38.85" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="45.8" y="38.85" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="45.8" y="38.85" size="1.778" layer="27" display="off"/>
@@ -2459,7 +2458,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="82.45" y="-61.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="82.45" y="-61.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="34.9" y="45.25" smashed="yes">
+<element name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="34.9" y="45.25" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="34.9" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="34.9" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="34.9" y="45.25" size="1.778" layer="27" display="off"/>
@@ -2477,7 +2476,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-27.65" y="125.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-27.65" y="125.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="34.9" y="12.75" smashed="yes">
+<element name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="34.9" y="12.75" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="34.9" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="34.9" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="34.9" y="12.75" size="1.778" layer="27" display="off"/>
@@ -2485,7 +2484,7 @@ by Télega</text>
 <attribute name="NAME" x="34.9" y="12.75" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="34.9" y="12.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="45.4" y="12.75" smashed="yes">
+<element name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="45.4" y="12.75" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
@@ -2527,7 +2526,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="36.65" y="134" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="36.65" y="134" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="45.8" y="19.15" smashed="yes">
+<element name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="45.8" y="19.15" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="45.8" y="19.15" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="45.8" y="19.15" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="45.8" y="19.15" size="1.778" layer="27" display="off"/>
@@ -2545,7 +2544,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="30.35" y="146" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="30.35" y="146" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="38.5" y="19.3" smashed="yes">
+<element name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.5" y="19.3" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="38.5" y="19.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.5" y="19.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="38.5" y="19.3" size="1.778" layer="27" display="off"/>
@@ -2563,7 +2562,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="29.55" y="158" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="29.55" y="158" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="38.7" y="24.85" smashed="yes">
+<element name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="24.85" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
@@ -2571,7 +2570,7 @@ by Télega</text>
 <attribute name="NAME" x="38.7" y="24.85" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="46" y="24.55" smashed="yes">
+<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="46" y="24.55" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="46" y="24.55" size="1.778" layer="27" display="off"/>
@@ -2602,7 +2601,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="61.225" y="204.95" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="61.225" y="204.95" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="46" y="33.45" smashed="yes">
+<element name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="46" y="33.45" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="46" y="33.45" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="46" y="33.45" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="46" y="33.45" size="1.778" layer="27" display="off"/>
@@ -2620,7 +2619,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-11.475" y="-152.05" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-11.475" y="-152.05" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/3" value="FDMS86368-F085" x="38.7" y="33.15" smashed="yes">
+<element name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="33.15" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
@@ -3422,8 +3421,8 @@ by Télega</text>
 <vertex x="30.4" y="11.7"/>
 <vertex x="30.4" y="21.45"/>
 <vertex x="36.4" y="21.45"/>
-<vertex x="36.4" y="18.4"/>
-<vertex x="35.5" y="18.4"/>
+<vertex x="36.4" y="17.9"/>
+<vertex x="35" y="17.9"/>
 <vertex x="33" y="15.9"/>
 </polygon>
 <via x="30.625" y="20.65" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3689,11 +3688,13 @@ by Télega</text>
 <wire x1="27.325" y1="27.05" x2="26.5" y2="27.05" width="0.2" layer="16"/>
 <wire x1="26.5" y1="27.05" x2="26.45" y2="27" width="0.2" layer="16"/>
 <wire x1="29.525" y1="27.05" x2="27.325" y2="27.05" width="0.2" layer="15"/>
-<wire x1="35.6" y1="36.795" x2="35.88" y2="36.795" width="0.2" layer="1"/>
 <wire x1="37.25" y1="30.15" x2="37.25" y2="30" width="0.2" layer="1"/>
 <wire x1="36.975" y1="30.425" x2="37.25" y2="30.15" width="0.2" layer="1"/>
-<wire x1="35.88" y1="36.795" x2="36.975" y2="35.7" width="0.2" layer="1"/>
-<wire x1="36.975" y1="35.7" x2="36.975" y2="30.425" width="0.2" layer="1"/>
+<wire x1="36.975" y1="30.425" x2="36.975" y2="35.525" width="0.2" layer="1"/>
+<wire x1="36.975" y1="35.525" x2="36.2" y2="36.3" width="0.2" layer="1"/>
+<wire x1="36.2" y1="36.6" x2="36.2" y2="36.3" width="0.2" layer="1"/>
+<wire x1="35.6" y1="36.795" x2="36.005" y2="36.795" width="0.2" layer="1"/>
+<wire x1="36.005" y1="36.795" x2="36.2" y2="36.6" width="0.2" layer="1"/>
 </signal>
 <signal name="PHASE_A_GATE_LOW">
 <contactref element="R16" pad="1"/>
@@ -3757,10 +3758,10 @@ by Télega</text>
 <contactref element="R15" pad="2"/>
 <wire x1="26.45" y1="11.5" x2="26.65" y2="11.5" width="0.2" layer="1"/>
 <wire x1="26.65" y1="11.5" x2="26.65" y2="11" width="0.2" layer="1"/>
-<wire x1="26.65" y1="11" x2="28.2" y2="9.45" width="0.2" layer="1"/>
-<wire x1="40.65" y1="9.45" x2="28.2" y2="9.45" width="0.2" layer="1"/>
+<wire x1="26.65" y1="11" x2="28.3" y2="9.35" width="0.2" layer="1"/>
+<wire x1="40.55" y1="9.35" x2="28.3" y2="9.35" width="0.2" layer="1"/>
 <wire x1="42.5" y1="10.845" x2="42.045" y2="10.845" width="0.2" layer="1"/>
-<wire x1="42.045" y1="10.845" x2="40.65" y2="9.45" width="0.2" layer="1"/>
+<wire x1="42.045" y1="10.845" x2="40.55" y2="9.35" width="0.2" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q6" pad="4"/>
@@ -3774,13 +3775,13 @@ by Télega</text>
 <wire x1="25.45" y1="11.425" x2="25.45" y2="11.45" width="0.2" layer="1"/>
 <wire x1="25.45" y1="11.45" x2="25.4" y2="11.5" width="0.2" layer="1"/>
 <wire x1="25.4" y1="11.5" x2="25.35" y2="11.5" width="0.2" layer="1"/>
-<wire x1="42.0557" y1="10.1443" x2="40.9114" y2="9" width="0.2" layer="1"/>
-<wire x1="42.0557" y1="10.1443" x2="43.3443" y2="10.1443" width="0.2" layer="1"/>
+<wire x1="42.2557" y1="10.1443" x2="41.0114" y2="8.9" width="0.2" layer="1"/>
+<wire x1="42.2557" y1="10.1443" x2="43.3443" y2="10.1443" width="0.2" layer="1"/>
 <wire x1="25.55" y1="10.9" x2="25.55" y2="11.35" width="0.2" layer="1"/>
 <wire x1="25.55" y1="11.35" x2="25.475" y2="11.425" width="0.2" layer="1"/>
 <wire x1="25.475" y1="11.425" x2="25.45" y2="11.425" width="0.2" layer="1"/>
-<wire x1="40.9114" y1="9" x2="27.45" y2="9" width="0.2" layer="1"/>
-<wire x1="27.45" y1="9" x2="25.55" y2="10.9" width="0.2" layer="1"/>
+<wire x1="41.0114" y1="8.9" x2="27.55" y2="8.9" width="0.2" layer="1"/>
+<wire x1="27.55" y1="8.9" x2="25.55" y2="10.9" width="0.2" layer="1"/>
 <wire x1="43.3443" y1="10.1443" x2="43.65" y2="10.45" width="0.2" layer="1"/>
 <wire x1="43.3" y1="17.2" x2="42.945" y2="17.2" width="0.2" layer="1"/>
 <wire x1="42.945" y1="17.2" x2="42.9" y2="17.245" width="0.2" layer="1"/>
@@ -3790,10 +3791,10 @@ by Télega</text>
 <signal name="N$11">
 <contactref element="R17" pad="2"/>
 <contactref element="Q8" pad="4"/>
-<wire x1="32.725" y1="9.95" x2="29.175" y2="9.95" width="0.2" layer="1"/>
+<wire x1="32.625" y1="9.85" x2="29.275" y2="9.85" width="0.2" layer="1"/>
 <wire x1="27.625" y1="11.5" x2="27.55" y2="11.5" width="0.2" layer="1"/>
-<wire x1="27.625" y1="11.5" x2="29.175" y2="9.95" width="0.2" layer="1"/>
-<wire x1="33.075" y1="10.3" x2="32.725" y2="9.95" width="0.2" layer="1"/>
+<wire x1="27.625" y1="11.5" x2="29.275" y2="9.85" width="0.2" layer="1"/>
+<wire x1="33.075" y1="10.3" x2="32.625" y2="9.85" width="0.2" layer="1"/>
 <wire x1="33.075" y1="10.3" x2="33.075" y2="15.575" width="0.2" layer="1"/>
 <wire x1="35.4" y1="17.195" x2="35.6" y2="17.395" width="0.2" layer="1"/>
 <wire x1="35.4" y1="17.195" x2="34.695" y2="17.195" width="0.2" layer="1"/>

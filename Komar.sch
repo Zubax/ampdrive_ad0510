@@ -329,7 +329,7 @@
 </library>
 <library name="mosfet" urn="urn:adsk.eagle:library:2640523">
 <packages>
-<package name="PQFN8_5X6" urn="urn:adsk.eagle:footprint:19980481/2" library_version="33">
+<package name="PQFN8_5X6" urn="urn:adsk.eagle:footprint:19980481/3" library_version="36">
 <description>https://www.onsemi.com/pub/Collateral/483BJ.PDF</description>
 <smd name="1" x="-2.9" y="1.905" dx="1.42" dy="0.61" layer="1"/>
 <smd name="2" x="-2.9" y="0.635" dx="1.42" dy="0.61" layer="1"/>
@@ -340,7 +340,6 @@
 <smd name="7" x="2.59" y="0.635" dx="1.42" dy="0.61" layer="1"/>
 <smd name="8" x="2.59" y="1.905" dx="1.42" dy="0.61" layer="1"/>
 <smd name="P$1" x="0.5" y="0" dx="5.1" dy="3.75" layer="1" rot="R270"/>
-<wire x1="2.38" y1="-0.28" x2="2.38" y2="-2.28" width="0.01" layer="21"/>
 <wire x1="-3.3" y1="2.45" x2="3" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-3.3" y1="2.45" x2="-3.3" y2="-2.45" width="0.1" layer="51"/>
 <wire x1="-3.3" y1="-2.45" x2="3" y2="-2.45" width="0.1" layer="51"/>
@@ -364,7 +363,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="PQFN8_5X6" urn="urn:adsk.eagle:package:19980482/3" type="model" library_version="33">
+<package3d name="PQFN8_5X6" urn="urn:adsk.eagle:package:19980482/4" type="model" library_version="36">
 <description>https://www.onsemi.com/pub/Collateral/483BJ.PDF</description>
 <packageinstances>
 <packageinstance name="PQFN8_5X6"/>
@@ -416,7 +415,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FDMS86368-F085" urn="urn:adsk.eagle:component:19980483/4" prefix="Q" library_version="35">
+<deviceset name="FDMS86368-F085" urn="urn:adsk.eagle:component:19980483/5" prefix="Q" library_version="36">
 <description>N-Channel 80V 80A (Tc) 214W (Tc) Surface Mount Power56</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
@@ -429,7 +428,7 @@
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5332,8 +5331,8 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
-<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/1" value="PAD-HOLE_2">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5378,7 +5377,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5386,7 +5385,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5394,8 +5393,8 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
-<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/1" value="PAD-HOLE_2">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5421,7 +5420,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5429,7 +5428,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5437,8 +5436,8 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
-<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/1" value="PAD-HOLE_2">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5456,7 +5455,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5464,7 +5463,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/3"/>
+<part name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
