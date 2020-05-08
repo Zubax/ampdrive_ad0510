@@ -415,7 +415,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FDMS86368-F085" urn="urn:adsk.eagle:component:19980483/5" prefix="Q" library_version="36">
+<deviceset name="FDMS86368-F085" urn="urn:adsk.eagle:component:19980483/5" locally_modified="yes" prefix="Q" library_version="36" library_locally_modified="yes">
 <description>N-Channel 80V 80A (Tc) 214W (Tc) Surface Mount Power56</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
@@ -436,6 +436,7 @@
 <attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" constant="no"/>
 <attribute name="MANF" value="ON Semiconductor" constant="no"/>
 <attribute name="MANF#" value="FDMS86368-F085" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" constant="no"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" constant="no"/>
 </technology>
 </technologies>
@@ -5320,7 +5321,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC"/>
+<variantdef name="BASIC" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5765,6 +5766,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="LIFETIME" value="7000 Hrs @ 105°C"/>
 <attribute name="MANF" value="United Chemi-Con"/>
 <attribute name="MANF#" value="ELXZ630ELL331MK20S"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 105°C"/>
 </part>
 <part name="GND36" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C2" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" deviceset="CPOL" device="-SIDE" package3d_urn="urn:adsk.eagle:package:4410644/2" value="330uF 63V">
@@ -5773,6 +5775,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="LIFETIME" value="7000 Hrs @ 105°C"/>
 <attribute name="MANF" value="United Chemi-Con"/>
 <attribute name="MANF#" value="ELXZ630ELL331MK20S"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 105°C"/>
 </part>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SMC5K51A-M3/I" device="" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I">
@@ -5788,6 +5791,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-VERTICAL" package3d_urn="urn:adsk.eagle:package:4410721/3">
+<attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-35°C ~ 85°C"/>
 </part>
 <part name="D4" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="DRTR5V0U2SR-7" device="" package3d_urn="urn:adsk.eagle:package:3333649/3"/>
@@ -5993,7 +5997,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="238.76" y1="137.16" x2="238.76" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="238.76" y1="30.48" x2="375.92" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="375.92" y1="30.48" x2="375.92" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
-<text x="248.92" y="33.02" size="5.08" layer="97" ratio="15">UAVCAN</text>
+<text x="241.3" y="33.02" size="5.08" layer="97" font="vector" ratio="15">UAVCAN</text>
 <wire x1="137.922" y1="85.09" x2="137.922" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="96.52" y1="85.09" x2="137.922" y2="85.09" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.922" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
@@ -6024,15 +6028,15 @@ to the power transistors.</text>
 <text x="78.74" y="246.38" size="1.27" layer="97" font="vector">Place ground and power ground junction
 as close to negative supply pad as possible</text>
 <text x="78.232" y="150.622" size="2.54" layer="97" font="vector">LOW SIDE INTERFACES</text>
-<text x="93.472" y="140.462" size="2.54" layer="97" font="vector">HIGH SIDE INTERFACES</text>
+<text x="93.726" y="140.462" size="2.54" layer="97" font="vector">HIGH SIDE INTERFACES</text>
 <text x="7.62" y="12.7" size="1.27" layer="97">In case CAN2 is not used leave pins CAN2_TX CAN2_RX floating</text>
 <text x="7.62" y="10.16" size="1.27" layer="97">In case POWER_ENABLE_IN is not used, leave it floating</text>
 <text x="142.24" y="160.02" size="2.54" layer="97">Place close to power mosfets</text>
-<text x="180.34" y="76.2" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
-<wire x1="177.8" y1="73.66" x2="177.8" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="177.8" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="236.22" y1="30.48" x2="236.22" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="236.22" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
+<text x="182.88" y="76.2" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
+<wire x1="180.34" y1="73.66" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="180.34" y1="30.48" x2="233.68" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="30.48" x2="233.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="Q2" gate="G$1" x="228.6" y="203.2" smashed="yes">
@@ -6458,8 +6462,8 @@ as close to negative supply pad as possible</text>
 <instance part="GND19" gate="G$1" x="284.48" y="101.6" smashed="yes">
 <attribute name="VALUE" x="284.48" y="99.568" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND11" gate="1" x="157.48" y="71.12" smashed="yes">
-<attribute name="VALUE" x="157.48" y="69.85" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND11" gate="1" x="162.56" y="71.12" smashed="yes">
+<attribute name="VALUE" x="162.56" y="69.85" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="D2" gate="G$1" x="149.86" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="147.32" y="88.9" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
@@ -6468,8 +6472,8 @@ as close to negative supply pad as possible</text>
 <instance part="+P9" gate="G$1" x="149.86" y="93.98" smashed="yes">
 <attribute name="VALUE" x="149.86" y="97.536" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND8" gate="1" x="144.78" y="48.26" smashed="yes">
-<attribute name="VALUE" x="144.78" y="46.99" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND8" gate="1" x="144.78" y="50.8" smashed="yes">
+<attribute name="VALUE" x="144.78" y="49.53" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="R19" gate="G$1" x="157.48" y="83.82" smashed="yes">
 <attribute name="OPERATING_TEMP" x="157.48" y="83.82" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6590,6 +6594,7 @@ as close to negative supply pad as possible</text>
 <attribute name="NAME" x="117.8814" y="230.251" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="117.8306" y="226.949" size="1.27" layer="96" rot="R270" align="center-left"/>
 <attribute name="PACKAGE" x="116.078" y="227.076" size="0.762" layer="97" font="vector" rot="R90" align="center-right"/>
+<attribute name="OPERATING_TEMP" x="116.84" y="228.6" size="1.778" layer="96" font="vector" ratio="15" rot="R90" align="center" display="off"/>
 </instance>
 <instance part="GND36" gate="G$1" x="116.84" y="215.9" smashed="yes">
 <attribute name="VALUE" x="116.84" y="214.63" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
@@ -6600,6 +6605,7 @@ as close to negative supply pad as possible</text>
 <attribute name="NAME" x="130.5814" y="230.251" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="130.5306" y="226.949" size="1.27" layer="96" rot="R270" align="center-left"/>
 <attribute name="PACKAGE" x="128.778" y="227.076" size="0.762" layer="97" font="vector" rot="R90" align="center-right"/>
+<attribute name="OPERATING_TEMP" x="129.54" y="228.6" size="1.778" layer="96" font="vector" ratio="15" rot="R90" align="center" display="off"/>
 </instance>
 <instance part="GND37" gate="G$1" x="129.54" y="215.9" smashed="yes">
 <attribute name="VALUE" x="129.54" y="214.63" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
@@ -6636,9 +6642,10 @@ as close to negative supply pad as possible</text>
 <instance part="CON1" gate="G$1" x="167.64" y="76.2" smashed="yes">
 <attribute name="OPERATING_TEMP" x="167.64" y="76.2" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
 <attribute name="NAME" x="170.18" y="86.36" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="AEC-Q" x="167.64" y="76.2" size="1.27" layer="96" font="vector" ratio="15" align="center" display="off"/>
 </instance>
-<instance part="D4" gate="G$1" x="134.62" y="55.88" smashed="yes">
-<attribute name="NAME" x="133.096" y="63.5" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="D4" gate="G$1" x="134.62" y="58.42" smashed="yes">
+<attribute name="NAME" x="133.096" y="66.04" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
 <instance part="+P19" gate="G$1" x="167.64" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="167.64" y="201.676" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -6665,53 +6672,53 @@ as close to negative supply pad as possible</text>
 <instance part="GND5" gate="1" x="114.3" y="58.42" smashed="yes">
 <attribute name="VALUE" x="114.3" y="57.15" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND38" gate="1" x="190.5" y="35.56" smashed="yes">
-<attribute name="VALUE" x="190.5" y="34.29" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND38" gate="1" x="193.04" y="35.56" smashed="yes">
+<attribute name="VALUE" x="193.04" y="34.29" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="195.58" y="53.34" smashed="yes">
-<attribute name="DIGIKEY#" x="195.58" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MANF" x="195.58" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MANF#" x="195.58" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="AEC-Q" x="195.58" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
-<attribute name="NAME" x="195.58" y="55.118" size="1.27" layer="95" align="center"/>
-<attribute name="PACKAGE" x="191.77" y="53.848" size="0.508" layer="95" align="center"/>
+<instance part="F1" gate="G$1" x="198.12" y="53.34" smashed="yes">
+<attribute name="DIGIKEY#" x="198.12" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="198.12" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="198.12" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="AEC-Q" x="198.12" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
+<attribute name="NAME" x="198.12" y="55.118" size="1.27" layer="95" align="center"/>
+<attribute name="PACKAGE" x="194.31" y="53.848" size="0.508" layer="95" align="center"/>
 </instance>
-<instance part="R8" gate="G$1" x="195.58" y="50.8" smashed="yes" rot="R180">
-<attribute name="OPERATING_TEMP" x="195.58" y="50.8" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
-<attribute name="NAME" x="195.58" y="50.8" size="1.27" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="195.834" y="52.832" size="0.762" layer="96" rot="R180" align="bottom-right"/>
-<attribute name="PACKAGE" x="199.39" y="50.292" size="0.508" layer="95" rot="R180" align="center"/>
-<attribute name="TOLERANCE" x="195.326" y="52.832" size="0.762" layer="96" rot="R180"/>
+<instance part="R8" gate="G$1" x="198.12" y="50.8" smashed="yes" rot="R180">
+<attribute name="OPERATING_TEMP" x="198.12" y="50.8" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
+<attribute name="NAME" x="198.12" y="50.8" size="1.27" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="198.374" y="52.832" size="0.762" layer="96" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGE" x="201.93" y="50.292" size="0.508" layer="95" rot="R180" align="center"/>
+<attribute name="TOLERANCE" x="197.866" y="52.832" size="0.762" layer="96" rot="R180"/>
 </instance>
-<instance part="GND39" gate="1" x="213.36" y="33.02" smashed="yes">
-<attribute name="VALUE" x="213.36" y="31.75" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND39" gate="1" x="215.9" y="33.02" smashed="yes">
+<attribute name="VALUE" x="215.9" y="31.75" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P20" gate="G$1" x="228.6" y="40.64" smashed="yes">
-<attribute name="VALUE" x="228.6" y="44.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P20" gate="G$1" x="231.14" y="40.64" smashed="yes">
+<attribute name="VALUE" x="231.14" y="44.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="R25" gate="G$1" x="195.58" y="48.26" smashed="yes" rot="R180">
-<attribute name="OPERATING_TEMP" x="195.58" y="48.26" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
-<attribute name="NAME" x="195.58" y="48.26" size="1.27" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="195.834" y="50.292" size="0.762" layer="96" rot="R180" align="bottom-right"/>
-<attribute name="PACKAGE" x="199.39" y="47.752" size="0.508" layer="95" rot="R180" align="center"/>
-<attribute name="TOLERANCE" x="195.326" y="50.292" size="0.762" layer="96" rot="R180"/>
+<instance part="R25" gate="G$1" x="198.12" y="48.26" smashed="yes" rot="R180">
+<attribute name="OPERATING_TEMP" x="198.12" y="48.26" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
+<attribute name="NAME" x="198.12" y="48.26" size="1.27" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="198.374" y="50.292" size="0.762" layer="96" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGE" x="201.93" y="47.752" size="0.508" layer="95" rot="R180" align="center"/>
+<attribute name="TOLERANCE" x="197.866" y="50.292" size="0.762" layer="96" rot="R180"/>
 </instance>
-<instance part="D7" gate="D1" x="220.98" y="38.1" smashed="yes" rot="MR90">
-<attribute name="NAME" x="220.98" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="MANF#" x="220.98" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="D7" gate="D1" x="223.52" y="38.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="223.52" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="MANF#" x="223.52" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="D7" gate="D2" x="203.2" y="38.1" smashed="yes" rot="MR90">
-<attribute name="NAME" x="203.2" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="MANF#" x="203.2" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="D7" gate="D2" x="205.74" y="38.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="205.74" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="MANF#" x="205.74" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="GND40" gate="1" x="195.58" y="33.02" smashed="yes">
-<attribute name="VALUE" x="195.58" y="31.75" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND40" gate="1" x="198.12" y="33.02" smashed="yes">
+<attribute name="VALUE" x="198.12" y="31.75" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P21" gate="G$1" x="210.82" y="40.64" smashed="yes">
-<attribute name="VALUE" x="210.82" y="44.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P21" gate="G$1" x="213.36" y="40.64" smashed="yes">
+<attribute name="VALUE" x="213.36" y="44.196" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND45" gate="1" x="182.88" y="35.56" smashed="yes">
-<attribute name="VALUE" x="182.88" y="34.29" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND45" gate="1" x="185.42" y="35.56" smashed="yes">
+<attribute name="VALUE" x="185.42" y="34.29" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="LED5" gate="G$1" x="157.48" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="154.94" y="109.22" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
@@ -6753,20 +6760,20 @@ as close to negative supply pad as possible</text>
 <instance part="+P16" gate="G$1" x="213.36" y="121.92" smashed="yes">
 <attribute name="VALUE" x="213.36" y="125.476" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON2" gate="G$1" x="218.44" y="71.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="224.79" y="68.58" size="1.778" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<instance part="CON2" gate="G$1" x="220.98" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="227.33" y="68.58" size="1.778" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="CON9" gate="G$1" x="208.28" y="71.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="214.63" y="68.58" size="1.778" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<instance part="CON9" gate="G$1" x="210.82" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="217.17" y="68.58" size="1.778" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="GND41" gate="1" x="210.82" y="55.88" smashed="yes">
-<attribute name="VALUE" x="210.82" y="54.61" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND41" gate="1" x="213.36" y="55.88" smashed="yes">
+<attribute name="VALUE" x="213.36" y="54.61" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="PAD6" gate="G$1" x="205.74" y="60.96" smashed="yes">
-<attribute name="NAME" x="205.74" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="PAD6" gate="G$1" x="208.28" y="60.96" smashed="yes">
+<attribute name="NAME" x="208.28" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="PAD7" gate="G$1" x="215.9" y="60.96" smashed="yes">
-<attribute name="NAME" x="215.9" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="PAD7" gate="G$1" x="218.44" y="60.96" smashed="yes">
+<attribute name="NAME" x="218.44" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="C45" gate="G$1" x="22.86" y="119.38" smashed="yes">
 <attribute name="ASSY" x="22.86" y="119.38" size="1.778" layer="96" display="off"/>
@@ -6792,8 +6799,8 @@ as close to negative supply pad as possible</text>
 <attribute name="PACKAGE" x="168.148" y="173.228" size="0.508" layer="97" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="167.132" y="176.276" size="0.508" layer="97" rot="R90" align="center-left"/>
 </instance>
-<instance part="+P23" gate="G$1" x="203.2" y="55.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="203.2" y="59.436" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="+P23" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="205.74" y="59.436" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="CON3" gate="G$1" x="368.3" y="124.46" smashed="yes" rot="R270">
 <attribute name="OPERATING_TEMP" x="368.3" y="124.46" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6815,10 +6822,10 @@ as close to negative supply pad as possible</text>
 <attribute name="NAME" x="374.65" y="49.53" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="AEC-Q" x="368.3" y="55.88" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center" display="off"/>
 </instance>
-<instance part="CON7" gate="G$1" x="185.42" y="55.88" smashed="yes" rot="MR270">
-<attribute name="OPERATING_TEMP" x="185.42" y="55.88" size="1.778" layer="96" font="vector" ratio="15" rot="MR270" align="center" display="off"/>
-<attribute name="NAME" x="179.07" y="49.53" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="AEC-Q" x="185.42" y="55.88" size="1.27" layer="96" font="vector" ratio="15" rot="MR270" align="center" display="off"/>
+<instance part="CON7" gate="G$1" x="187.96" y="55.88" smashed="yes" rot="MR270">
+<attribute name="OPERATING_TEMP" x="187.96" y="55.88" size="1.778" layer="96" font="vector" ratio="15" rot="MR270" align="center" display="off"/>
+<attribute name="NAME" x="181.61" y="49.53" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="AEC-Q" x="187.96" y="55.88" size="1.27" layer="96" font="vector" ratio="15" rot="MR270" align="center" display="off"/>
 </instance>
 <instance part="MODULE2" gate="G$1" x="25.4" y="38.1" smashed="yes">
 <attribute name="NAME" x="55.88" y="110.744" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
@@ -6864,9 +6871,8 @@ as close to negative supply pad as possible</text>
 <wire x1="320.04" y1="139.7" x2="175.26" y2="139.7" width="0.762" layer="92"/>
 <wire x1="93.98" y1="99.06" x2="93.98" y2="139.7" width="0.762" layer="92"/>
 <wire x1="93.98" y1="139.7" x2="175.26" y2="139.7" width="0.762" layer="92"/>
-<wire x1="175.26" y1="139.7" x2="175.26" y2="43.18" width="0.762" layer="92"/>
-<wire x1="175.26" y1="43.18" x2="104.14" y2="43.18" width="0.762" layer="92"/>
-<wire x1="104.14" y1="43.18" x2="104.14" y2="48.26" width="0.762" layer="92"/>
+<wire x1="175.26" y1="139.7" x2="175.26" y2="48.26" width="0.762" layer="92"/>
+<wire x1="175.26" y1="48.26" x2="104.14" y2="48.26" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -6943,9 +6949,9 @@ as close to negative supply pad as possible</text>
 <wire x1="241.3" y1="104.14" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="157.48" y1="76.2" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -6968,7 +6974,7 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="144.78" y1="50.8" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="53.34" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -6979,19 +6985,19 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="D7" gate="D1" pin="A"/>
-<wire x1="213.36" y1="35.56" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="38.1" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="35.56" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="38.1" x2="218.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D7" gate="D2" pin="A"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="195.58" y1="35.56" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="35.56" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="190.5" y1="45.72" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="45.72" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="CON7" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -7018,11 +7024,11 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="CON9" gate="G$1" pin="1"/>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="210.82" y1="63.5" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="63.5" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="PAD6" gate="G$1" pin="P$1"/>
-<wire x1="210.82" y1="60.96" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<junction x="210.82" y="60.96"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<junction x="213.36" y="60.96"/>
 </segment>
 <segment>
 <pinref part="C45" gate="G$1" pin="2"/>
@@ -7033,7 +7039,7 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <pinref part="CON7" gate="G$1" pin="GND"/>
-<wire x1="182.88" y1="38.1" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="38.1" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
@@ -7667,14 +7673,14 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="+P20" gate="G$1" pin="VDD_5V"/>
 <pinref part="D7" gate="D1" pin="C"/>
-<wire x1="226.06" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="38.1" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="38.1" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="38.1" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D7" gate="D2" pin="C"/>
 <pinref part="+P21" gate="G$1" pin="VDD_5V"/>
-<wire x1="208.28" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="38.1" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="38.1" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="38.1" x2="213.36" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+P22" gate="G$1" pin="VDD_5V"/>
@@ -7689,8 +7695,8 @@ as close to negative supply pad as possible</text>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="53.34" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="+P23" gate="G$1" pin="VDD_5V"/>
 </segment>
 <segment>
@@ -7723,9 +7729,9 @@ as close to negative supply pad as possible</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="111.76" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="99.06" x2="355.6" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="99.06" x2="289.56" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="99.06" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="99.06" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="99.06" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
 <junction x="284.48" y="114.3"/>
 <wire x1="365.76" y1="99.06" x2="355.6" y2="99.06" width="0.1524" layer="91"/>
 <junction x="355.6" y="99.06"/>
@@ -7827,7 +7833,7 @@ as close to negative supply pad as possible</text>
 <wire x1="152.4" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="D2"/>
-<wire x1="144.78" y1="73.66" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="144.78" y="81.28"/>
 <pinref part="MODULE2" gate="G$1" pin="USB-"/>
 </segment>
@@ -7840,7 +7846,7 @@ as close to negative supply pad as possible</text>
 <wire x1="149.86" y1="78.74" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="VBUS"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="73.66" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="76.2" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -7865,7 +7871,7 @@ as close to negative supply pad as possible</text>
 <wire x1="88.9" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="D1"/>
-<wire x1="139.7" y1="73.66" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="76.2" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <junction x="139.7" y="83.82"/>
 <pinref part="MODULE2" gate="G$1" pin="USB+"/>
 </segment>
@@ -8147,12 +8153,12 @@ as close to negative supply pad as possible</text>
 <net name="GPIO2" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="D7" gate="D2" pin="COMMON"/>
-<wire x1="203.2" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="40.64" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
-<junction x="203.2" y="48.26"/>
-<label x="208.28" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="205.74" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="40.64" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
+<junction x="205.74" y="48.26"/>
+<label x="210.82" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
@@ -8163,18 +8169,18 @@ as close to negative supply pad as possible</text>
 <net name="GPIO1" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="50.8" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="223.52" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="203.2" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="226.06" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="D7" gate="D1" pin="COMMON"/>
-<wire x1="220.98" y1="40.64" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
-<junction x="220.98" y="50.8"/>
+<wire x1="223.52" y1="40.64" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<junction x="223.52" y="50.8"/>
 <pinref part="CON2" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="63.5" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="PAD7" gate="G$1" pin="P$1"/>
-<wire x1="220.98" y1="60.96" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
-<junction x="220.98" y="60.96"/>
+<wire x1="223.52" y1="60.96" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<junction x="223.52" y="60.96"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
@@ -8254,21 +8260,21 @@ as close to negative supply pad as possible</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="CON7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="CON7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="CON7" gate="G$1" pin="3"/>
 </segment>
 </net>
