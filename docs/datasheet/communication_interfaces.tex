@@ -33,7 +33,7 @@ for more information on UAVCAN.} that are joined in parallel. Note that the devi
 terminate the CAN bus internally.
 
 The secondary CAN bus interface (CAN2) can only be used with redundant CAN bus configurations.
-If the bus is not redundant, only the primary CAN bus connectors (CAN1) can be used and the secondary
+With non-redundant CAN bus configurations, only the primary CAN bus connectors (CAN1) can be used; the secondary
 CAN2 bus connectors should be left empty.
 
 \begin{ZubaxSimpleTable}{CAN bus connectors pinout}{|c X X X[3]|}
@@ -48,11 +48,11 @@ CAN2 bus connectors should be left empty.
 Zubax Komar features one software-controllable BEC output per CAN interface which can be accessed using the
 bus power supply pins on the UAVCAN connectors. The BEC outputs are protected against short-circuits to
 a maximum output current of 500\,mA per CAN interface. The outputs are also protected from reverse current
-flows with ideal diodes. BEC outputs for both CAN interfaces are controled by a single software parameter.
+flows with ideal diodes. BEC outputs for both CAN interfaces are controlled by a single software parameter.
 
 \section{USB interface}
 Komar features a full-speed USB 2.0 port with a standard CDC ACM interface providing driverless compatibility
-with all major operating systems (GNU/Linux, Windows, Mac OS X). It is sometimes referred to as the
+with all major operating systems (GNU/Linux, Windows, Mac OS X). It is sometimes termed the
 \emph{virtual serial port}. It accepts a standard USB Micro-B connector and will report the
 following properties to the USB host when connected:
 \begin{itemize}
@@ -70,15 +70,15 @@ for GPIO purposes, GPIO1 permits additional functions to be enabled using softwa
 thermistor input; and 2) the RC PWM input.
 
 \begin{ZubaxSimpleTable}{AUX connector pinout}{|c X X X[3]|}
-	Pin no. & Type         & Name      & Comment                        \\
-	1       & Power        & PWR       & 5\,V power line output         \\
-	2       & Input/Output & GPIO1     & RC PWM input/Thermistor input  \\
-	3       & Input/Output & GPIO2     &                                \\
-	4       & Ground       & GND       &                                \\
+	Pin no. & Type         & Name      & Comment                          \\
+	1       & Power        & PWR       & 5\,V power line output           \\
+	2       & Input/Output & GPIO1     & RC PWM input or Thermistor input \\
+	3       & Input/Output & GPIO2     &                                  \\
+	4       & Ground       & GND       &                                  \\
 \end{ZubaxSimpleTable}
 
 \subsection{Thermistor input}
-The PTC thermistor measures the motor windings temperature. Myxa supports KTY84/130, KTY81/120 and KTY83/120
+The PTC thermistor measures the motor windings temperature. Komar supports KTY84/130, KTY81/120 and KTY83/120
 thermistors and no additional components are needed to connect the thermistor. The thermistor model can be
 configured in the firmware. The thermistor should be connected between the GPIO1 and GROUND pins of the AUX
 connector.
@@ -93,5 +93,4 @@ to electromagnetic interference, it remains one of the most widely-used ESC inte
 
 The RC PWM input should be connected to the GPIO1 of the AUX connector and then configured in the firmware.
 \text{T\'elega} firmware is highly configurable when using the RC PWM interface. For a detailed description,
-please refer to \text{T\'elega} reference manual or
-\href{https://forum.zubax.com/t/quick-start-guide-for-myxa-v0-1/911}{Myxa quick start guide}.
+please refer to the \text{T\'elega} reference manual.

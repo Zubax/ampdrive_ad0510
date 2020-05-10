@@ -15,33 +15,36 @@
 
 \section*{Overview}
 
-Zubax Komar is a high-quality FOC ESC based on the \text{T\'elega} motor control technology. Komar is designed for
-use in propulsion systems of light unmanned aerial vehicles (UAV), unmanned underwater vehicles (UUVs) and
-unmanned surface vehicles (USVs). State-of-the-art vector control algorithms make Komar one of the most
-energy-efficient ESCs on the market. Komar is compatible with almost all PMSM and BLDC motors and continuously
-measures the motor parameters to optimize its own performance. Komar is based on the Mitochondrik control module,
-the hardware design of which is open source and available on Github.\footnote{\url{https://github.com/Zubax/Komar}}
+Zubax Komar is a high-quality FOC ESC based on \text{T\'elega} motor control technology. Komar is designed to
+support the propulsion systems of light unmanned aerial vehicles (UAVs), unmanned underwater vehicles (UUVs)
+and unmanned surface vehicles (USVs). State-of-the-art vector control algorithms make Komar one of the most
+energy-efficient ESCs on the market. Komar is compatible with almost all PMSM and BLDC motors and can
+optimize motor performance by automatically calibrating the motor parameters. Komar is based
+%calibrate the controller's motor control parameters to produce optimal motor performance. Komar is based
+on the Mitochondrik control module, the hardware design of which is open source and available on
+Github.\footnote{\url{https://github.com/Zubax/Komar}}
+
 
 \section*{Features}
 
 \begin{itemize}[leftmargin=!,labelindent=!,itemindent=0pt]
     \item Up to 2500\,W of continuous power output
     \item 13 -- 51\,V input voltage range (4 -- 12S $\text{LiCoO}_\text{2}$ battery)
-    \item A software-controllable 5\,V, 0.5\,A BEC
-    \item Highly energy efficient thanks to the embedded sensorless FOC algorithms
+    \item Software-controllable 5\,V, 0.5\,A BEC
+    \item Embedded sensorless FOC algorithms provide high levels of energy efficiency
     \item Self-diagnostics and health status reporting
     \item Built-in motor temperature sensor for enhanced self-diagnostics
-    \item Highly configurable (all parameters are tunable)
+    \item Highly configurable (wide range of tunable parameters)
     \item Embedded bootloader (firmware can be updated via the CAN and USB interfaces in the field)
     \item Regenerative braking and active freewheeling
     \item No soldering required for installation or use
     \item Low noise and highly efficient courtesy of the sinusoidal motor currents and high-frequency PWM
-    \item A rich set of communication interfaces
+    \item Rich set of communication interfaces:
      \begin{itemize}[label=--,itemindent=0pt]
-        \item CAN bus interface
+        \item CAN bus interface:
         \begin{itemize}[label=*,leftmargin=8pt,itemindent=0pt]
-            \item UAVCAN and Dronecode Autopilot Connector Standard-compatible connectors
-            \item A doubly-redundant CAN bus interface for mission-critical applications
+            \item UAVCAN and Dronecode Autopilot Connector Standard ports
+            \item Doubly-redundant CAN bus interface for mission-critical applications
         \end{itemize}
         \item USB Micro-B interface for control, management, and telemetry (driverless compatibility
               with GNU/Linux, Windows, Mac OS X)
