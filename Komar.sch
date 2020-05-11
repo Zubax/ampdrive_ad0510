@@ -5960,9 +5960,9 @@ DIN A3, landscape with location and doc. field</description>
 <plain>
 <text x="27.94" y="114.3" size="1.778" layer="97">Current version 0.3</text>
 <text x="27.94" y="99.06" size="1.778" layer="97">Whats new
--TVS diodes replaced with ones with lower reverse standoff voltage (51 V) 
--Bulk capacitors replaced. The value and size increased
--Overcurrent protection trip level increase 1.5x times and now is 200 A</text>
+-TVS diodes replaced with ones with lower reverse standoff voltage (51 V).
+-Bulk capacitors replaced. The value and size increased.
+-Overcurrent protection trip level increase 1.5x times and now is 200 A.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
