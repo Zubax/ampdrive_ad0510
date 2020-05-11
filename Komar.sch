@@ -4997,7 +4997,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TJA1051" urn="urn:adsk.eagle:component:4771010/6" prefix="IC" library_version="20">
+<deviceset name="ATA6561-GBQW-N" urn="urn:adsk.eagle:component:20056997/1" prefix="IC" library_version="21">
 <description>1/1 Transceiver Half CAN 8-HVSON (3x3)</description>
 <gates>
 <gate name="G$1" symbol="TJA1051(X)/3" x="-2.54" y="0"/>
@@ -5021,9 +5021,9 @@ DIN A3, landscape with location and doc. field</description>
 <technology name="">
 <attribute name="AEC-Q" value="AEC-Q100" constant="no"/>
 <attribute name="DATA_RATE" value="5Mbps" constant="no"/>
-<attribute name="DIGIKEY#" value="568-TJA1051ATK/3/0ZTR-ND" constant="no"/>
-<attribute name="MANF" value="NXP USA Inc." constant="no"/>
-<attribute name="MANF#" value="TJA1051ATK/3/0Z" constant="no"/>
+<attribute name="DIGIKEY#" value="ATA6561-GBQW-NCT-ND" constant="no"/>
+<attribute name="MANF" value="Microchip Technology" constant="no"/>
+<attribute name="MANF#" value="ATA6561-GBQW-N" constant="no"/>
 <attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 5.5V" constant="no"/>
 </technology>
 </technologies>
@@ -5044,9 +5044,9 @@ DIN A3, landscape with location and doc. field</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="568-8684-2-ND" constant="no"/>
-<attribute name="MANF" value="NXP USA Inc" constant="no"/>
-<attribute name="MANF#" value="TJA1051T/3,118" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5321,7 +5321,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC" current="yes"/>
+<variantdef name="BASIC"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5553,7 +5553,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.5" package3d_urn="urn:adsk.eagle:package:4854324/1" value="PAD-HOLE_2.5">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
+<part name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="ATA6561-GBQW-N" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
 <attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)"/>
 </part>
 <part name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
@@ -5565,7 +5565,7 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="GND24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="IC4" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
+<part name="IC4" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="ATA6561-GBQW-N" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
 <attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)"/>
 </part>
 <part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
