@@ -7143,7 +7143,7 @@ as close to negative supply pad as possible</text>
 <pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="1">
+<net name="BGH2" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -7168,7 +7168,7 @@ as close to negative supply pad as possible</text>
 <label x="259.08" y="154.94" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="BGL2" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -7193,7 +7193,7 @@ as close to negative supply pad as possible</text>
 <label x="269.24" y="154.94" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
-<net name="N$4" class="1">
+<net name="BGH1" class="1">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="241.3" y1="220.98" x2="238.76" y2="220.98" width="0.1524" layer="91"/>
@@ -7202,7 +7202,7 @@ as close to negative supply pad as possible</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="BGL1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="193.04" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
@@ -7211,21 +7211,21 @@ as close to negative supply pad as possible</text>
 <wire x1="238.76" y1="203.2" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="1">
+<net name="AGH2" class="1">
 <segment>
 <pinref part="Q5" gate="G$1" pin="G"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="AGL2" class="0">
 <segment>
 <pinref part="Q6" gate="G$1" pin="G"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="203.2" x2="289.56" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="1">
+<net name="AGH1" class="1">
 <segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="304.8" y1="220.98" x2="302.26" y2="220.98" width="0.1524" layer="91"/>
@@ -7234,7 +7234,7 @@ as close to negative supply pad as possible</text>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="AGL1" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="193.04" x2="302.26" y2="193.04" width="0.1524" layer="91"/>
@@ -7324,21 +7324,21 @@ as close to negative supply pad as possible</text>
 <label x="223.52" y="154.94" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
-<net name="N$12" class="1">
+<net name="CGH2" class="1">
 <segment>
 <pinref part="Q9" gate="G$1" pin="G"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="220.98" x2="353.06" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="CGL2" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="G"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="1">
+<net name="CGH1" class="1">
 <segment>
 <pinref part="Q11" gate="G$1" pin="G"/>
 <wire x1="368.3" y1="220.98" x2="365.76" y2="220.98" width="0.1524" layer="91"/>
@@ -7347,7 +7347,7 @@ as close to negative supply pad as possible</text>
 <pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="CGL1" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="193.04" x2="365.76" y2="193.04" width="0.1524" layer="91"/>
