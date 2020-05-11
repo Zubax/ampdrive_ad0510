@@ -29,8 +29,10 @@ All the communication interfaces are available via dedicated connectors.
 \section{CAN bus}
 The device is equipped with a doubly redundant ISO 11898-2 CAN 2.0A/B interface.
 Each CAN interface has two standard UAVCAN Micro connectors\footnote{Refer to \url{http://uavcan.org}
-for more information on UAVCAN.} that are joined in parallel. Note that the device does not 
-terminate the CAN bus internally.
+for more information on UAVCAN.} that are joined in parallel.
+Please note that the CAN bus must be terminated externally since it is not terminated internally by
+the device.
+%Note that the device does not terminate the CAN bus internally.
 
 The secondary CAN bus interface (CAN2) can only be used with redundant CAN bus configurations.
 With non-redundant CAN bus configurations, only the primary CAN bus connectors (CAN1) can be used; the secondary
