@@ -2613,7 +2613,7 @@ by Télega</text>
 <element name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SENSE-0.6" package3d_urn="urn:adsk.eagle:package:7365871/1" value="SENSE" x="34.775" y="35.35" populate="no" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="-183.225" y="-31.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C35" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.95" y="7.1" smashed="yes" rot="R30">
+<element name="C35" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.95" y="7.1" populate="no" smashed="yes" rot="R30">
 <attribute name="AEC-Q" value="AEC-Q200" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="DIGIKEY#" value="490-14484-1-ND" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
@@ -2683,7 +2683,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="1210" x="82.7" y="26.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="51.9" y="34.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.75" y="50.9" smashed="yes" rot="R330">
+<element name="C32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.75" y="50.9" populate="no" smashed="yes" rot="R330">
 <attribute name="AEC-Q" value="AEC-Q200" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="DIGIKEY#" value="490-14484-1-ND" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>

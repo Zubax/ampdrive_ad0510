@@ -5289,6 +5289,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="GCM32DC72A475KE02L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="100V"/>
+<variant name="BASIC" populate="no"/>
 </part>
 <part name="C58" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF">
 <attribute name="AEC-Q" value="AEC-Q200"/>
@@ -5345,6 +5346,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="GCM32DC72A475KE02L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="100V"/>
+<variant name="BASIC" populate="no"/>
 </part>
 <part name="C31" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF">
 <attribute name="AEC-Q" value="AEC-Q200"/>
