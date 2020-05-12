@@ -3118,11 +3118,11 @@ by Télega</text>
 </element>
 <element name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF" x="21.45" y="11.65" populate="no" smashed="yes" rot="R270">
 <attribute name="ASSY" value="DNM" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="490-4844-1-ND" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Murata Electronics" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="GCM32ER70J476KE19L" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="21.45" y="11.65" size="0.6" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="1210" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="6.3 V" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
 </element>

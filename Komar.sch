@@ -5699,6 +5699,10 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF">
 <attribute name="ASSY" value="DNM"/>
+<attribute name="DIGIKEY#" value="490-4844-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32ER70J476KE19L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="6.3 V"/>
 <variant name="BASIC" populate="no"/>
 </part>
@@ -6554,11 +6558,11 @@ as close to negative supply pad as possible</text>
 <attribute name="PACKAGE" x="212.09" y="116.332" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="TOLERANCE" x="208.026" y="118.872" size="0.762" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R29" gate="G$1" x="208.28" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="208.28" y="114.3" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
-<attribute name="VALUE" x="208.534" y="116.332" size="0.762" layer="96" font="vector" rot="R180" align="bottom-right"/>
-<attribute name="PACKAGE" x="212.09" y="113.792" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
-<attribute name="TOLERANCE" x="208.026" y="116.332" size="0.762" layer="96" font="vector" rot="R180"/>
+<instance part="R29" gate="G$1" x="208.28" y="114.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="208.28" y="114.3" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="VALUE" x="208.534" y="112.268" size="0.762" layer="96" font="vector" rot="MR0" align="bottom-right"/>
+<attribute name="PACKAGE" x="212.09" y="114.808" size="0.508" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="TOLERANCE" x="208.026" y="112.268" size="0.762" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="CON8" gate="G$1" x="218.44" y="104.14" smashed="yes">
 <attribute name="NAME" x="220.98" y="122.936" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
