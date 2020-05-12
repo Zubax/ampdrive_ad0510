@@ -3955,7 +3955,7 @@ DIN A3, landscape with location and doc. field</description>
 </library>
 <library name="zubax_modules" urn="urn:adsk.eagle:library:5014895">
 <packages>
-<package name="MITOHONDRIQUE-TH" urn="urn:adsk.eagle:footprint:4410641/6" library_version="18">
+<package name="MITOHONDRIK-TH" urn="urn:adsk.eagle:footprint:4410641/7" library_version="19">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="21"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="21" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="21"/>
@@ -4272,7 +4272,7 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="39" x="3" y="14" drill="0.8" diameter="1.4"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:footprint:7007262/3" library_version="18">
+<package name="MITOHONDRIK-SMD" urn="urn:adsk.eagle:footprint:7007262/4" library_version="19">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="51" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="51"/>
@@ -4335,19 +4335,19 @@ DIN A3, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/13" type="model" library_version="18">
+<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/15" type="model" library_version="19">
 <packageinstances>
-<packageinstance name="MITOHONDRIQUE-TH"/>
+<packageinstance name="MITOHONDRIK-TH"/>
 </packageinstances>
 </package3d>
-<package3d name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:package:7007264/5" type="model" library_version="18">
+<package3d name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:package:7007264/6" type="model" library_version="19">
 <packageinstances>
-<packageinstance name="MITOHONDRIQUE-SMD"/>
+<packageinstance name="MITOHONDRIK-SMD"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MITOHONDRIQUE_V0.2" urn="urn:adsk.eagle:symbol:5014898/2" library_version="18">
+<symbol name="MITOHONDRIK_LV" urn="urn:adsk.eagle:symbol:5014898/3" library_version="19">
 <pin name="5V_OUT" x="-2.54" y="68.58" length="short" direction="pwr"/>
 <pin name="GND" x="-2.54" y="66.04" length="short" direction="pwr"/>
 <pin name="VDC" x="-2.54" y="63.5" length="short" direction="pwr"/>
@@ -4399,12 +4399,12 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MITOHONDRIQUE_V0.2" urn="urn:adsk.eagle:component:5014900/12" prefix="MODULE" library_version="18">
+<deviceset name="MITOCHONDRIK_LV" urn="urn:adsk.eagle:component:5014900/13" prefix="MODULE" library_version="19">
 <gates>
-<gate name="G$1" symbol="MITOHONDRIQUE_V0.2" x="-22.86" y="-27.94"/>
+<gate name="G$1" symbol="MITOHONDRIK_LV" x="-22.86" y="-27.94"/>
 </gates>
 <devices>
-<device name="-TH" package="MITOHONDRIQUE-TH">
+<device name="-TH" package="MITOHONDRIK-TH">
 <connects>
 <connect gate="G$1" pin="5V_OUT" pad="40"/>
 <connect gate="G$1" pin="BEC_ENABLE_OUT" pad="21"/>
@@ -4450,7 +4450,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VDC" pad="42"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/13"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/15"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4459,7 +4459,7 @@ DIN A3, landscape with location and doc. field</description>
 </technology>
 </technologies>
 </device>
-<device name="-SMD" package="MITOHONDRIQUE-SMD">
+<device name="-SMD" package="MITOHONDRIK-SMD">
 <connects>
 <connect gate="G$1" pin="5V_OUT" pad="40"/>
 <connect gate="G$1" pin="BEC_ENABLE_OUT" pad="21"/>
@@ -4505,7 +4505,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VDC" pad="42"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7007264/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7007264/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5128,7 +5128,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC" current="yes"/>
+<variantdef name="BASIC"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5746,7 +5746,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C"/>
 </part>
-<part name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" deviceset="MITOHONDRIQUE_V0.2" device="-TH" package3d_urn="urn:adsk.eagle:package:4410646/13"/>
+<part name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" deviceset="MITOCHONDRIK_LV" device="-TH" package3d_urn="urn:adsk.eagle:package:4410646/15"/>
 <part name="IC6" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="11LC040T-E/TT" device="" package3d_urn="urn:adsk.eagle:package:1040193/4"/>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
