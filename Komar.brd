@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -3353,9 +3353,10 @@ by Télega</text>
 <via x="22.45" y="17.925" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="12.7" y="14.15" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.15" y="16.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="2.7" y1="28" x2="3.7" y2="27" width="0.3" layer="1"/>
+<wire x1="3.7" y1="27" x2="5.4" y2="27" width="0.3" layer="1"/>
 <wire x1="9.5" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-16"/>
 <wire x1="9.35" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-1"/>
-<wire x1="2.7" y1="28" x2="6.5" y2="29.025" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PHASE_A_GND">
 <contactref element="Q6" pad="1"/>
@@ -3777,11 +3778,10 @@ by Télega</text>
 <via x="30.625" y="43.325" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="MODULE2" pad="8"/>
 <via x="30.625" y="39.175" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="30.45" y1="39" x2="30.625" y2="39.175" width="0.2" layer="1"/>
 <wire x1="28" y1="30" x2="28.1" y2="30" width="0.3" layer="16"/>
 <wire x1="28.1" y1="30" x2="29.4" y2="31.3" width="0.3" layer="16"/>
-<wire x1="29.4" y1="31.3" x2="29.4" y2="35.50281875" width="0.3" layer="16"/>
-<wire x1="29.4" y1="35.50281875" x2="30.625" y2="36.72781875" width="0.3" layer="16"/>
+<wire x1="29.4" y1="35.75" x2="30.625" y2="36.975" width="0.3" layer="16"/>
+<wire x1="29.4" y1="31.3" x2="29.4" y2="35.75" width="0.3" layer="16"/>
 </signal>
 <signal name="PHASE_B_CURRENT_SHUNT_N">
 <contactref element="R5" pad="S1"/>
@@ -3976,7 +3976,6 @@ by Télega</text>
 <contactref element="Q10" pad="7"/>
 <contactref element="Q10" pad="8"/>
 <contactref element="Q10" pad="P$1"/>
-<wire x1="37.5" y1="35.55" x2="37.95" y2="35.1" width="0.3" layer="1"/>
 <wire x1="28" y1="34" x2="26.95" y2="35.05" width="0.2" layer="15"/>
 <wire x1="26.95" y1="35.05" x2="26.95" y2="36.29350625" width="0.2" layer="15"/>
 <wire x1="26.95" y1="36.29350625" x2="27.60649375" y2="36.95" width="0.2" layer="15"/>
@@ -5208,7 +5207,6 @@ by Télega</text>
 <contactref element="R8" pad="1"/>
 <contactref element="D7" pad="6"/>
 <contactref element="CON2" pad="1"/>
-<wire x1="2.7" y1="30" x2="2.7" y2="32" width="0.5" layer="1"/>
 <via x="16.35" y="45.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="16.35" y1="45.5" x2="16.35" y2="46.475" width="0.2" layer="1"/>
 <wire x1="17.1" y1="44.625" x2="17.05" y2="44.625" width="0.2" layer="16"/>
@@ -5218,16 +5216,17 @@ by Télega</text>
 <wire x1="15.775" y1="42.375" x2="14.125" y2="40.725" width="0.2" layer="1"/>
 <wire x1="15.775" y1="44.925" x2="15.775" y2="42.375" width="0.2" layer="1"/>
 <contactref element="MODULE2" pad="25"/>
-<wire x1="5" y1="36" x2="5" y2="35.75" width="0.2" layer="1"/>
-<wire x1="5" y1="35.75" x2="3" y2="33.75" width="0.2" layer="1"/>
-<wire x1="3" y1="33.75" x2="3" y2="32.3" width="0.2" layer="1"/>
-<wire x1="3" y1="32.3" x2="2.7" y2="32" width="0.2" layer="1"/>
-<wire x1="5.39350625" y1="39.05" x2="4.25" y2="39.05" width="0.2" layer="1"/>
-<wire x1="7.06850625" y1="40.725" x2="5.39350625" y2="39.05" width="0.2" layer="1"/>
-<wire x1="4.25" y1="39.05" x2="3.85" y2="38.65" width="0.2" layer="1"/>
-<wire x1="3.85" y1="37.15" x2="5" y2="36" width="0.2" layer="1"/>
-<wire x1="14.125" y1="40.725" x2="7.06850625" y2="40.725" width="0.2" layer="1"/>
-<wire x1="3.85" y1="38.65" x2="3.85" y2="37.15" width="0.2" layer="1"/>
+<wire x1="5" y1="36" x2="5" y2="35.55" width="0.2" layer="1"/>
+<wire x1="5" y1="35.55" x2="3.8" y2="34.35" width="0.2" layer="1"/>
+<wire x1="5.49350625" y1="39.05" x2="4.55" y2="39.05" width="0.2" layer="1"/>
+<wire x1="7.16850625" y1="40.725" x2="5.49350625" y2="39.05" width="0.2" layer="1"/>
+<wire x1="4.55" y1="39.05" x2="3.95" y2="38.45" width="0.2" layer="1"/>
+<wire x1="5" y1="36.4" x2="5" y2="36" width="0.2" layer="1"/>
+<wire x1="5" y1="36.4" x2="3.95" y2="37.45" width="0.2" layer="1"/>
+<wire x1="14.125" y1="40.725" x2="7.16850625" y2="40.725" width="0.2" layer="1"/>
+<wire x1="3.95" y1="38.45" x2="3.95" y2="37.45" width="0.2" layer="1"/>
+<wire x1="3.8" y1="31.1" x2="2.7" y2="30" width="0.2" layer="1"/>
+<wire x1="3.8" y1="34.35" x2="3.8" y2="31.1" width="0.2" layer="1"/>
 </signal>
 <signal name="GAIN_OUT">
 <contactref element="LED5" pad="C"/>
@@ -5244,8 +5243,9 @@ by Télega</text>
 </signal>
 <signal name="GATE_ENABLE_OUT">
 <contactref element="LED4" pad="A"/>
-<wire x1="5.544975" y1="41.15" x2="13.869975" y2="41.15" width="0.2" layer="1"/>
-<wire x1="5" y1="40.605025" x2="5.544975" y2="41.15" width="0.2" layer="1"/>
+<wire x1="6.944975" y1="41.15" x2="13.869975" y2="41.15" width="0.2" layer="1"/>
+<wire x1="5" y1="40" x2="5.794975" y2="40" width="0.2" layer="1"/>
+<wire x1="6.944975" y1="41.15" x2="5.794975" y2="40" width="0.2" layer="1"/>
 <via x="16.3" y="47.25" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="13.869975" y1="41.15" x2="15.325" y2="42.605025" width="0.2" layer="1"/>
 <wire x1="15.325" y1="45.075" x2="15.8" y2="45.55" width="0.2" layer="1"/>
@@ -5257,7 +5257,6 @@ by Télega</text>
 <wire x1="17.775" y1="47.15" x2="17.925" y2="47" width="0.2" layer="16"/>
 <wire x1="16.4" y1="47.15" x2="17.775" y2="47.15" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="23"/>
-<wire x1="5" y1="40" x2="5" y2="40.605025" width="0.2" layer="1"/>
 </signal>
 <signal name="UART_RX">
 <contactref element="R29" pad="2"/>
