@@ -181,44 +181,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="macaroni_masterlib">
-<packages>
-<package name="CURRENT_SHUNT_SENSE">
-<smd name="IN" x="0" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<pad name="SHELL" x="0" y="0" drill="0.3" diameter="0.55" stop="no" thermals="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SENSE">
-<pin name="SHELLL" x="-5.08" y="2.54" visible="off" length="short"/>
-<pin name="IN" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="0.508" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SENSE" prefix="S">
-<gates>
-<gate name="G$1" symbol="SENSE" x="-5.08" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="CURRENT_SHUNT_SENSE">
-<connects>
-<connect gate="G$1" pin="IN" pad="IN"/>
-<connect gate="G$1" pin="SHELLL" pad="SHELL"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply_symbols" urn="urn:adsk.eagle:library:5017758">
 <packages>
 </packages>
@@ -5111,6 +5073,10 @@ DIN A3, landscape with location and doc. field</description>
 <smd name="3" x="0" y="0" dx="0.55" dy="0.55" layer="16" roundness="100" rot="R180"/>
 <pad name="2" x="0" y="0" drill="0.1" diameter="0.15" stop="no" thermals="no"/>
 </package>
+<package name="SENSE-0.6" urn="urn:adsk.eagle:footprint:7365866/1" library_version="75" library_locally_modified="yes">
+<smd name="IN" x="0" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<pad name="SHELL" x="0" y="0" drill="0.3" diameter="0.6" stop="no" thermals="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23B-3" urn="urn:adsk.eagle:package:1040193/4" type="model" library_version="74">
@@ -5144,6 +5110,11 @@ DIN A3, landscape with location and doc. field</description>
 <packageinstance name="CONNECTION2"/>
 </packageinstances>
 </package3d>
+<package3d name="SENSE-0.6" urn="urn:adsk.eagle:package:7365871/1" type="box" library_version="75" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SENSE-0.6"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="MCP9700" urn="urn:adsk.eagle:symbol:7365867/1" library_version="74">
@@ -5174,6 +5145,14 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
 <text x="5.08" y="16.51" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="5.08" y="-1.27" size="1.27" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+<symbol name="MACARONI_MASTERLIB_SENSE" urn="urn:adsk.eagle:symbol:7365868/1" library_version="75" library_locally_modified="yes">
+<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.508" y2="0.508" width="0.254" layer="94"/>
+<pin name="IN" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
+<pin name="SHELLL" x="-5.08" y="2.54" visible="off" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5310,6 +5289,27 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF" value="Microchip Technology" constant="no"/>
 <attribute name="MANF#" value="11LC040T-E/TT" constant="no"/>
 <attribute name="OPERATING_TEMP" value="-40°C ~ 125°C (TA)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SENSE" urn="urn:adsk.eagle:component:7365873/1" prefix="S" library_version="75" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="MACARONI_MASTERLIB_SENSE" x="-5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SENSE-0.6">
+<connects>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="SHELLL" pad="SHELL"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365871/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5472,7 +5472,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="S1" library="macaroni_masterlib" deviceset="SENSE" device="">
+<part name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SENSE" device="" package3d_urn="urn:adsk.eagle:package:7365871/1">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="C35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF">
