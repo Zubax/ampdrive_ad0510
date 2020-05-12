@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -273,17 +273,6 @@ by Télega</text>
 <pad name="P$1" x="0" y="0" drill="1.5" diameter="3"/>
 <text x="0" y="2.54" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="3X1.5" urn="urn:adsk.eagle:footprint:4854315/1" library_version="4" library_locally_modified="yes">
-<smd name="P$1" x="0" y="0" dx="3" dy="1.5" layer="1" roundness="50"/>
-<wire x1="1.25" y1="-0.9" x2="-1.25" y2="-0.9" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-0.9" x2="-1.65" y2="-0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="-1.65" y1="-0.5" x2="-1.65" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-1.65" y1="0.5" x2="-1.25" y2="0.9" width="0.127" layer="51" curve="-90"/>
-<wire x1="-1.25" y1="0.9" x2="1.25" y2="0.9" width="0.127" layer="51"/>
-<wire x1="1.25" y1="0.9" x2="1.65" y2="0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="1.65" y1="0.5" x2="1.65" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="1.65" y1="-0.5" x2="1.25" y2="-0.9" width="0.127" layer="51" curve="-90"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="HOLE_1.5" urn="urn:adsk.eagle:package:3332368@1/2" locally_modified="yes" type="box" library_version="3" library_locally_modified="yes">
@@ -299,11 +288,6 @@ by Télega</text>
 <package3d name="HOLE_2.5" urn="urn:adsk.eagle:package:4854324/1" type="box" library_version="21" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HOLE_2.5"/>
-</packageinstances>
-</package3d>
-<package3d name="3X1.5" urn="urn:adsk.eagle:package:4854322/1" type="box" library_version="4" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="3X1.5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2709,43 +2693,43 @@ by Télega</text>
 <element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.5" package3d_urn="urn:adsk.eagle:package:4854324/1" value="PAD-HOLE_2.5" x="47.35" y="29" smashed="yes" rot="R180">
 <attribute name="BOM" value="EXCLUDE" x="47.35" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="11.05" y="19.3" smashed="yes" rot="MR90">
-<attribute name="AEC-Q" value="AEC-Q100" x="11.05" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DATA_RATE" value="5Mbps" x="11.05" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY#" value="ATA6561-GBQW-NCT-ND" x="63.05" y="-64.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF" value="Microchip Technology" x="63.05" y="-64.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF#" value="ATA6561-GBQW-N" x="63.05" y="-64.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="11.05" y="19.3" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)" x="11.05" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 5.5V" x="11.05" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="11.05" y="19.2" smashed="yes" rot="MR90">
+<attribute name="AEC-Q" value="AEC-Q100" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DATA_RATE" value="5Mbps" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="ATA6561-GBQW-NCT-ND" x="63.05" y="-64.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Microchip Technology" x="63.05" y="-64.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="ATA6561-GBQW-N" x="63.05" y="-64.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="11.05" y="19.2" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 5.5V" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF" x="11.075" y="16.95" smashed="yes" rot="MR180">
-<attribute name="AEC-Q" value="AEC-Q200" x="11.075" y="16.95" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGIKEY#" value="490-7998-1-ND" x="-75.925" y="-44.05" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF" value="Murata Electronics" x="-75.925" y="-44.05" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF#" value="GCM155R71C104KA55J" x="-75.925" y="-44.05" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="11.075" y="16.95" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="PACKAGE" value="0402" x="-75.925" y="-44.05" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="-75.925" y="-44.05" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF" x="11.075" y="16.85" smashed="yes" rot="MR180">
+<attribute name="AEC-Q" value="AEC-Q200" x="11.075" y="16.85" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY#" value="490-7998-1-ND" x="-75.925" y="-44.15" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Murata Electronics" x="-75.925" y="-44.15" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="GCM155R71C104KA55J" x="-75.925" y="-44.15" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="11.075" y="16.85" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="PACKAGE" value="0402" x="-75.925" y="-44.15" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="-75.925" y="-44.15" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC4" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="7.75" y="19.3" smashed="yes" rot="MR90">
-<attribute name="AEC-Q" value="AEC-Q100" x="7.75" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DATA_RATE" value="5Mbps" x="7.75" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY#" value="ATA6561-GBQW-NCT-ND" x="56.75" y="-92.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF" value="Microchip Technology" x="56.75" y="-92.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF#" value="ATA6561-GBQW-N" x="56.75" y="-92.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="7.75" y="19.3" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)" x="7.75" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 5.5V" x="7.75" y="19.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="IC4" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="7.75" y="19.2" smashed="yes" rot="MR90">
+<attribute name="AEC-Q" value="AEC-Q100" x="7.75" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DATA_RATE" value="5Mbps" x="7.75" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="ATA6561-GBQW-NCT-ND" x="56.75" y="-92.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Microchip Technology" x="56.75" y="-92.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="ATA6561-GBQW-N" x="56.75" y="-92.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="7.75" y="19.2" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)" x="7.75" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE_SUPPLY" value="4.5V ~ 5.5V" x="7.75" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF" x="7.725" y="16.975" smashed="yes" rot="MR180">
-<attribute name="AEC-Q" value="AEC-Q200" x="7.725" y="16.975" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGIKEY#" value="490-7998-1-ND" x="-105.275" y="-41.025" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF" value="Murata Electronics" x="-105.275" y="-41.025" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF#" value="GCM155R71C104KA55J" x="-105.275" y="-41.025" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="7.725" y="16.975" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="PACKAGE" value="0402" x="-105.275" y="-41.025" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="-105.275" y="-41.025" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF" x="7.725" y="16.875" smashed="yes" rot="MR180">
+<attribute name="AEC-Q" value="AEC-Q200" x="7.725" y="16.875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY#" value="490-7998-1-ND" x="-105.275" y="-41.125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Murata Electronics" x="-105.275" y="-41.125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="GCM155R71C104KA55J" x="-105.275" y="-41.125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="7.725" y="16.875" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="PACKAGE" value="0402" x="-105.275" y="-41.125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="-105.275" y="-41.125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT26" package3d_urn="urn:adsk.eagle:package:1040217/3" value="TPD3S014DBVR-SOT23-6" x="20.025" y="11.3" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="---" x="20.025" y="11.3" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3110,12 +3094,6 @@ by Télega</text>
 </element>
 <element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="2.7" y="30" smashed="yes" rot="R270"/>
 <element name="CON9" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="2.7" y="28" smashed="yes" rot="R270"/>
-<element name="PAD6" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/1" value="PAD-3X1.5" x="2.7" y="25.35" smashed="yes" rot="R270">
-<attribute name="BOM" value="EXCLUDE" x="2.7" y="25.35" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="PAD7" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/1" value="PAD-3X1.5" x="2.7" y="32.65" smashed="yes" rot="R270">
-<attribute name="BOM" value="EXCLUDE" x="2.7" y="32.65" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF" x="21.45" y="11.65" smashed="yes" rot="R270">
 <attribute name="ASSY" value="DNM" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="490-4844-1-ND" x="21.45" y="11.65" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3303,17 +3281,17 @@ by Télega</text>
 <via x="8.375" y="22.425" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="D7" pad="1"/>
 <contactref element="D7" pad="4"/>
-<wire x1="8.075" y1="17.9" x2="8.075" y2="18.975" width="0.2" layer="16"/>
-<wire x1="8.075" y1="18.975" x2="7.75" y2="19.3" width="0.2" layer="16"/>
-<wire x1="11.375" y1="17.9" x2="11.375" y2="18.975" width="0.2" layer="16"/>
-<wire x1="11.375" y1="18.975" x2="11.075" y2="19.275" width="0.2" layer="16"/>
+<wire x1="8.075" y1="17.8" x2="8.075" y2="18.875" width="0.2" layer="16"/>
+<wire x1="8.075" y1="18.875" x2="7.75" y2="19.2" width="0.2" layer="16"/>
+<wire x1="11.375" y1="17.8" x2="11.375" y2="18.875" width="0.2" layer="16"/>
+<wire x1="11.375" y1="18.875" x2="11.075" y2="19.175" width="0.2" layer="16"/>
 <via x="9.4" y="21.475" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="12.175" y="21.525" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="29.375" y="43.85" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="23" y="41.125" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="19.475" y="38.925" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="23.55" y="17.925" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="11.075" y1="19.275" x2="11.05" y2="19.3" width="0.2" layer="16"/>
+<wire x1="11.075" y1="19.175" x2="11.05" y2="19.2" width="0.2" layer="16"/>
 <wire x1="9.5" y1="30.3" x2="9.5" y2="33.425" width="0.5" layer="1"/>
 <wire x1="11.125" y1="31.8" x2="9.35" y2="31.8" width="0.5" layer="1"/>
 <wire x1="9.5" y1="30.4" x2="9.5" y2="31.8" width="0.4" layer="16"/>
@@ -3322,8 +3300,6 @@ by Télega</text>
 <contactref element="CON8" pad="G2"/>
 <contactref element="CON9" pad="1"/>
 <contactref element="LED4" pad="C"/>
-<contactref element="PAD6" pad="P$1"/>
-<wire x1="2.7" y1="28" x2="2.7" y2="25.35" width="0.5" layer="1"/>
 <contactref element="C45" pad="2"/>
 <via x="23.15" y="11.025" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="23.15" y="10.075" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -3350,11 +3326,8 @@ by Télega</text>
 <via x="6.9" y="25.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="18.225" y="42.95" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="16.925" y="40.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="7.75" y="19.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="7.75" y="19.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="8.4" y1="28.95" x2="6.7" y2="28.95" width="0.5" layer="1"/>
-<wire x1="4.4" y1="25" x2="2.95" y2="25" width="0.5" layer="1"/>
-<wire x1="2.95" y1="25" x2="2.7" y2="25.25" width="0.5" layer="1"/>
-<wire x1="2.7" y1="25.35" x2="2.7" y2="25.25" width="0.5" layer="1"/>
 <wire x1="9.25" y1="30.3" x2="9.5" y2="30.3" width="0.2" layer="16"/>
 <wire x1="9.5" y1="30.3" x2="9.5" y2="30.4" width="0.2" layer="16"/>
 <contactref element="CON7" pad="4"/>
@@ -3368,20 +3341,21 @@ by Télega</text>
 <via x="29.2" y="29.625" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="29.2" y="29.075" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="29.2" y="28.525" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="8.225" y1="16.975" x2="8.075" y2="17.125" width="0.15" layer="16"/>
-<wire x1="8.075" y1="17.125" x2="8.075" y2="17.9" width="0.15" layer="16"/>
-<wire x1="11.575" y1="16.95" x2="11.375" y2="17.15" width="0.15" layer="16"/>
-<wire x1="11.375" y1="17.15" x2="11.375" y2="17.9" width="0.15" layer="16"/>
-<via x="11.05" y="19.3" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="8.725" y1="20.7" x2="8.725" y2="19.3" width="0.3" layer="16"/>
-<wire x1="8.725" y1="19.3" x2="7.75" y2="19.3" width="0.3" layer="16"/>
-<wire x1="12.025" y1="20.7" x2="12.025" y2="19.275" width="0.3" layer="16"/>
-<wire x1="12.025" y1="19.275" x2="11.075" y2="19.275" width="0.3" layer="16"/>
+<wire x1="8.225" y1="16.875" x2="8.075" y2="17.025" width="0.15" layer="16"/>
+<wire x1="8.075" y1="17.025" x2="8.075" y2="17.8" width="0.15" layer="16"/>
+<wire x1="11.575" y1="16.85" x2="11.375" y2="17.05" width="0.15" layer="16"/>
+<wire x1="11.375" y1="17.05" x2="11.375" y2="17.8" width="0.15" layer="16"/>
+<via x="11.05" y="19.2" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="8.725" y1="20.6" x2="8.725" y2="19.2" width="0.3" layer="16"/>
+<wire x1="8.725" y1="19.2" x2="7.75" y2="19.2" width="0.3" layer="16"/>
+<wire x1="12.025" y1="20.6" x2="12.025" y2="19.175" width="0.3" layer="16"/>
+<wire x1="12.025" y1="19.175" x2="11.075" y2="19.175" width="0.3" layer="16"/>
 <via x="22.45" y="17.925" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="12.7" y="14.15" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.15" y="16.1" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="9.5" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-16"/>
 <wire x1="9.35" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-1"/>
+<wire x1="2.7" y1="28" x2="6.5" y2="29.025" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PHASE_A_GND">
 <contactref element="Q6" pad="1"/>
@@ -4175,23 +4149,23 @@ by Télega</text>
 </signal>
 <signal name="CAN2_TX">
 <contactref element="IC4" pad="1"/>
-<wire x1="8.725" y1="17.9" x2="8.725" y2="15.775" width="0.2" layer="16"/>
+<wire x1="8.725" y1="17.8" x2="8.725" y2="15.775" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="37"/>
 <wire x1="8.725" y1="15.775" x2="9.5" y2="15" width="0.2" layer="16"/>
 </signal>
 <signal name="CAN2_RX">
 <contactref element="IC4" pad="4"/>
-<wire x1="6.775" y1="17.9" x2="6.775" y2="17.5" width="0.2" layer="16"/>
-<wire x1="6.775" y1="17.5" x2="6.625" y2="17.35" width="0.2" layer="16"/>
-<wire x1="6.625" y1="17.35" x2="6.625" y2="15.875" width="0.2" layer="16"/>
+<wire x1="6.775" y1="17.8" x2="6.775" y2="17.4" width="0.2" layer="16"/>
+<wire x1="6.775" y1="17.4" x2="6.625" y2="17.25" width="0.2" layer="16"/>
+<wire x1="6.625" y1="17.25" x2="6.625" y2="15.875" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="36"/>
 <wire x1="6.625" y1="15.875" x2="7.5" y2="15" width="0.2" layer="16"/>
 </signal>
 <signal name="CAN1_TX">
 <contactref element="IC3" pad="1"/>
-<wire x1="12.2" y1="17.3" x2="12.2" y2="16.3" width="0.2" layer="16"/>
-<wire x1="12.025" y1="17.475" x2="12.025" y2="17.9" width="0.2" layer="16"/>
-<wire x1="12.2" y1="17.3" x2="12.025" y2="17.475" width="0.2" layer="16"/>
+<wire x1="12.2" y1="17.2" x2="12.2" y2="16.3" width="0.2" layer="16"/>
+<wire x1="12.025" y1="17.375" x2="12.025" y2="17.8" width="0.2" layer="16"/>
+<wire x1="12.2" y1="17.2" x2="12.025" y2="17.375" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="39"/>
 <wire x1="12.2" y1="16.3" x2="13.5" y2="15" width="0.2" layer="16"/>
 </signal>
@@ -4223,9 +4197,9 @@ by Télega</text>
 </signal>
 <signal name="CAN1_RX">
 <contactref element="IC3" pad="4"/>
-<wire x1="10.075" y1="17.9" x2="10.075" y2="17.45" width="0.2" layer="16"/>
-<wire x1="10.075" y1="17.45" x2="9.975" y2="17.35" width="0.2" layer="16"/>
-<wire x1="9.975" y1="17.35" x2="9.975" y2="16.125" width="0.2" layer="16"/>
+<wire x1="10.075" y1="17.8" x2="10.075" y2="17.35" width="0.2" layer="16"/>
+<wire x1="10.075" y1="17.35" x2="9.975" y2="17.25" width="0.2" layer="16"/>
+<wire x1="9.975" y1="17.25" x2="9.975" y2="16.125" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="38"/>
 <wire x1="11.1" y1="15" x2="9.975" y2="16.125" width="0.2" layer="16"/>
 <wire x1="11.1" y1="15" x2="11.5" y2="15" width="0.2" layer="16"/>
@@ -4243,8 +4217,8 @@ by Télega</text>
 <contactref element="LED3" pad="+"/>
 <contactref element="IC4" pad="5"/>
 <contactref element="IC3" pad="5"/>
-<via x="7.375" y="16.225" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="10.875" y="16.125" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="7.375" y="16.125" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="10.875" y="16.025" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="LED2" pad="A"/>
 <contactref element="R27" pad="2"/>
@@ -4357,36 +4331,36 @@ by Télega</text>
 <wire x1="25.2" y1="32.8" x2="25" y2="33" width="0.2" layer="16"/>
 <wire x1="25" y1="33" x2="25" y2="33.55" width="0.2" layer="16"/>
 <via x="25" y="33.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="21.5" y1="16.125" x2="10.875" y2="16.125" width="0.5" layer="1"/>
-<wire x1="10.075" y1="20.7" x2="9.75" y2="20.7" width="0.2" layer="16"/>
-<wire x1="9.75" y1="20.7" x2="9.4" y2="20.35" width="0.2" layer="16"/>
-<wire x1="9.4" y1="20.35" x2="9.4" y2="16.95" width="0.2" layer="16"/>
-<wire x1="6.775" y1="20.7" x2="6.45" y2="20.7" width="0.2" layer="16"/>
-<wire x1="6.45" y1="20.7" x2="6.1" y2="20.35" width="0.2" layer="16"/>
+<wire x1="21.5" y1="16.125" x2="10.975" y2="16.125" width="0.5" layer="1"/>
+<wire x1="10.975" y1="16.125" x2="10.875" y2="16.025" width="0.5" layer="1"/>
+<wire x1="10.075" y1="20.6" x2="9.75" y2="20.6" width="0.2" layer="16"/>
+<wire x1="9.75" y1="20.6" x2="9.4" y2="20.25" width="0.2" layer="16"/>
+<wire x1="9.4" y1="20.25" x2="9.4" y2="16.85" width="0.2" layer="16"/>
+<wire x1="6.775" y1="20.6" x2="6.45" y2="20.6" width="0.2" layer="16"/>
+<wire x1="6.45" y1="20.6" x2="6.1" y2="20.25" width="0.2" layer="16"/>
 <wire x1="6.1" y1="17.35" x2="6.05" y2="17.3" width="0.2" layer="16"/>
 <via x="6.05" y="17.3" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="6.1" y1="20.35" x2="6.1" y2="17.35" width="0.2" layer="16"/>
-<via x="9.4" y="16.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="10.875" y1="16.125" x2="10.525" y2="16.125" width="0.5" layer="1"/>
-<wire x1="10.525" y1="16.125" x2="9.7" y2="16.95" width="0.5" layer="1"/>
-<wire x1="9.7" y1="16.95" x2="9.4" y2="16.95" width="0.5" layer="1"/>
-<wire x1="7.425" y1="17.9" x2="7.425" y2="17.175" width="0.3" layer="16"/>
-<wire x1="7.425" y1="17.175" x2="7.225" y2="16.975" width="0.3" layer="16"/>
-<wire x1="7.225" y1="16.975" x2="7.225" y2="16.375" width="0.3" layer="16"/>
-<wire x1="7.225" y1="16.375" x2="7.375" y2="16.225" width="0.3" layer="16"/>
-<wire x1="10.725" y1="17.9" x2="10.725" y2="17.1" width="0.3" layer="16"/>
-<wire x1="10.725" y1="17.1" x2="10.575" y2="16.95" width="0.3" layer="16"/>
-<wire x1="10.725" y1="17.1" x2="10.725" y2="16.275" width="0.3" layer="16"/>
-<wire x1="10.875" y1="16.125" x2="10.725" y2="16.275" width="0.3" layer="16"/>
-<wire x1="6.4" y1="16.95" x2="6.05" y2="17.3" width="0.5" layer="1"/>
-<wire x1="9.4" y1="16.95" x2="7.4" y2="16.95" width="0.5" layer="1"/>
-<wire x1="7.4" y1="16.95" x2="6.4" y2="16.95" width="0.5" layer="1"/>
-<wire x1="7.375" y1="16.225" x2="7.375" y2="16.925" width="0.5" layer="1"/>
-<wire x1="7.375" y1="16.925" x2="7.4" y2="16.95" width="0.5" layer="1"/>
+<wire x1="6.1" y1="20.25" x2="6.1" y2="17.35" width="0.2" layer="16"/>
+<via x="9.4" y="16.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="7.225" y1="16.875" x2="7.225" y2="16.275" width="0.3" layer="16"/>
+<wire x1="7.225" y1="16.275" x2="7.375" y2="16.125" width="0.3" layer="16"/>
+<wire x1="10.725" y1="17.8" x2="10.725" y2="17" width="0.3" layer="16"/>
+<wire x1="10.725" y1="17" x2="10.575" y2="16.85" width="0.3" layer="16"/>
+<wire x1="10.725" y1="17" x2="10.725" y2="16.175" width="0.3" layer="16"/>
+<wire x1="10.875" y1="16.025" x2="10.725" y2="16.175" width="0.3" layer="16"/>
+<wire x1="9.4" y1="16.85" x2="7.375" y2="16.85" width="0.5" layer="1"/>
+<wire x1="7.375" y1="16.125" x2="7.375" y2="16.85" width="0.5" layer="1"/>
 <wire x1="25.7" y1="19.85" x2="25.7" y2="19.15" width="0.5" layer="1"/>
 <wire x1="25.275" y1="18.725" x2="25.275" y2="17.625" width="0.5" layer="1"/>
 <wire x1="25.7" y1="19.15" x2="25.275" y2="18.725" width="0.5" layer="1"/>
 <wire x1="25.275" y1="17.625" x2="23.775" y2="16.125" width="0.5" layer="1"/>
+<wire x1="7.425" y1="17.075" x2="7.425" y2="17.8" width="0.3" layer="16"/>
+<wire x1="7.225" y1="16.875" x2="7.425" y2="17.075" width="0.3" layer="16"/>
+<wire x1="7.375" y1="16.85" x2="6.5" y2="16.85" width="0.5" layer="1"/>
+<wire x1="6.5" y1="16.85" x2="6.05" y2="17.3" width="0.5" layer="1"/>
+<wire x1="9.4" y1="16.85" x2="9.7678875" y2="16.85" width="0.5" layer="1"/>
+<wire x1="9.7678875" y1="16.85" x2="10.4928875" y2="16.125" width="0.5" layer="1"/>
+<wire x1="10.4928875" y1="16.125" x2="10.975" y2="16.125" width="0.5" layer="1"/>
 </signal>
 <signal name="CAN1_VDD">
 <contactref element="IC1" pad="4"/>
@@ -4493,9 +4467,9 @@ by Télega</text>
 <wire x1="14.5" y1="32.475" x2="18.525" y2="32.475" width="0.15" layer="16"/>
 <wire x1="18.525" y1="32.475" x2="18.975" y2="32.925" width="0.15" layer="16"/>
 <wire x1="9.475" y1="22.75" x2="8.475" y2="21.75" width="0.15" layer="16"/>
-<wire x1="8.475" y1="21.75" x2="8.15" y2="21.75" width="0.15" layer="16"/>
-<wire x1="8.15" y1="21.75" x2="7.425" y2="21.025" width="0.15" layer="16"/>
-<wire x1="7.425" y1="21.025" x2="7.425" y2="20.7" width="0.15" layer="16"/>
+<wire x1="8.475" y1="21.75" x2="8.25" y2="21.75" width="0.15" layer="16"/>
+<wire x1="8.25" y1="21.75" x2="7.425" y2="20.925" width="0.15" layer="16"/>
+<wire x1="7.425" y1="20.925" x2="7.425" y2="20.6" width="0.15" layer="16"/>
 </signal>
 <signal name="N$46">
 <contactref element="IC4" pad="7"/>
@@ -4512,9 +4486,9 @@ by Télega</text>
 <wire x1="14.475" y1="32.125" x2="18.475" y2="32.125" width="0.15" layer="16"/>
 <wire x1="18.475" y1="32.125" x2="18.925" y2="31.675" width="0.15" layer="16"/>
 <wire x1="9.59926875" y1="22.45" x2="8.59926875" y2="21.45" width="0.15" layer="16"/>
-<wire x1="8.59926875" y1="21.45" x2="8.3" y2="21.45" width="0.15" layer="16"/>
-<wire x1="8.3" y1="21.45" x2="8.075" y2="21.225" width="0.15" layer="16"/>
-<wire x1="8.075" y1="21.225" x2="8.075" y2="20.7" width="0.15" layer="16"/>
+<wire x1="8.59926875" y1="21.45" x2="8.4" y2="21.45" width="0.15" layer="16"/>
+<wire x1="8.4" y1="21.45" x2="8.075" y2="21.125" width="0.15" layer="16"/>
+<wire x1="8.075" y1="21.125" x2="8.075" y2="20.6" width="0.15" layer="16"/>
 </signal>
 <signal name="N$51">
 <contactref element="R20" pad="1"/>
@@ -5234,9 +5208,7 @@ by Télega</text>
 <contactref element="R8" pad="1"/>
 <contactref element="D7" pad="6"/>
 <contactref element="CON2" pad="1"/>
-<contactref element="PAD7" pad="P$1"/>
 <wire x1="2.7" y1="30" x2="2.7" y2="32" width="0.5" layer="1"/>
-<wire x1="2.7" y1="32" x2="2.7" y2="32.65" width="0.5" layer="1"/>
 <via x="16.35" y="45.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="16.35" y1="45.5" x2="16.35" y2="46.475" width="0.2" layer="1"/>
 <wire x1="17.1" y1="44.625" x2="17.05" y2="44.625" width="0.2" layer="16"/>
@@ -5430,7 +5402,7 @@ by Télega</text>
 </signal>
 <signal name="N$21">
 <contactref element="IC3" pad="7"/>
-<wire x1="11.375" y1="20.7" x2="11.375" y2="21.65" width="0.15" layer="16"/>
+<wire x1="11.375" y1="20.6" x2="11.375" y2="21.65" width="0.15" layer="16"/>
 <wire x1="11.375" y1="21.65" x2="12.175" y2="22.45" width="0.15" layer="16"/>
 <wire x1="12.175" y1="22.45" x2="13.3" y2="22.45" width="0.15" layer="16"/>
 <contactref element="CON3" pad="2"/>
@@ -5445,7 +5417,7 @@ by Télega</text>
 </signal>
 <signal name="N$22">
 <contactref element="IC3" pad="6"/>
-<wire x1="10.725" y1="20.7" x2="10.725" y2="21.494975" width="0.15" layer="16"/>
+<wire x1="10.725" y1="20.6" x2="10.725" y2="21.494975" width="0.15" layer="16"/>
 <wire x1="10.725" y1="21.494975" x2="12.955025" y2="23.725" width="0.15" layer="16"/>
 <contactref element="CON3" pad="3"/>
 <contactref element="CON4" pad="3"/>

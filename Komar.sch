@@ -5693,12 +5693,6 @@ DIN A3, landscape with location and doc. field</description>
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="GND41" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="PAD6" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/1">
-<variant name="BASIC" populate="no"/>
-</part>
-<part name="PAD7" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/1">
-<variant name="BASIC" populate="no"/>
-</part>
 <part name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF">
 <attribute name="ASSY" value="DNM"/>
 <attribute name="DIGIKEY#" value="490-4844-1-ND"/>
@@ -6581,12 +6575,6 @@ as close to negative supply pad as possible</text>
 <instance part="GND41" gate="1" x="213.36" y="55.88" smashed="yes">
 <attribute name="VALUE" x="213.36" y="54.61" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="PAD6" gate="G$1" x="208.28" y="60.96" smashed="yes">
-<attribute name="NAME" x="208.28" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
-</instance>
-<instance part="PAD7" gate="G$1" x="218.44" y="60.96" smashed="yes">
-<attribute name="NAME" x="218.44" y="62.23" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
-</instance>
 <instance part="C45" gate="G$1" x="22.86" y="119.38" smashed="yes">
 <attribute name="ASSY" x="22.86" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="24.13" y="118.491" size="1.27" layer="95" font="vector" align="center-left"/>
@@ -6826,11 +6814,7 @@ as close to negative supply pad as possible</text>
 <segment>
 <pinref part="CON9" gate="G$1" pin="1"/>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="213.36" y1="63.5" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="PAD6" gate="G$1" pin="P$1"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<junction x="213.36" y="60.96"/>
+<wire x1="213.36" y1="63.5" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C45" gate="G$1" pin="2"/>
@@ -7991,11 +7975,7 @@ as close to negative supply pad as possible</text>
 <wire x1="223.52" y1="40.64" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 <junction x="223.52" y="50.8"/>
 <pinref part="CON2" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="63.5" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="PAD7" gate="G$1" pin="P$1"/>
-<wire x1="223.52" y1="60.96" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<junction x="223.52" y="60.96"/>
+<wire x1="223.52" y1="63.5" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
