@@ -6028,8 +6028,8 @@ to the power transistors.</text>
 as close to negative supply pad as possible</text>
 <text x="78.232" y="150.622" size="2.54" layer="97" font="vector">LOW SIDE INTERFACES</text>
 <text x="93.726" y="140.462" size="2.54" layer="97" font="vector">HIGH SIDE INTERFACES</text>
-<text x="7.62" y="12.7" size="1.27" layer="97">In case CAN2 is not used leave pins CAN2_TX CAN2_RX floating</text>
-<text x="7.62" y="10.16" size="1.27" layer="97">In case POWER_ENABLE_IN is not used, leave it floating</text>
+<text x="7.62" y="12.7" size="1.27" layer="97">In case CAN2 is not used leave pins CAN2_TX CAN2_RX floating.</text>
+<text x="7.62" y="10.16" size="1.27" layer="97">In case POWER_ENABLE_IN is not used, leave it floating.</text>
 <text x="142.24" y="160.02" size="2.54" layer="97">Place close to power mosfets</text>
 <text x="182.88" y="76.2" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
 <wire x1="180.34" y1="73.66" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
@@ -7143,7 +7143,7 @@ as close to negative supply pad as possible</text>
 <pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="BGH2" class="1">
+<net name="JHKJ" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R2" gate="G$1" pin="2"/>
