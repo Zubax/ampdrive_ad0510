@@ -7143,7 +7143,7 @@ as close to negative supply pad as possible</text>
 <pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="JHKJ" class="1">
+<net name="BGH2" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R2" gate="G$1" pin="2"/>
