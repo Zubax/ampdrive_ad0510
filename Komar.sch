@@ -5145,7 +5145,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC" current="yes"/>
+<variantdef name="BASIC"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5781,6 +5781,12 @@ DIN A3, landscape with location and doc. field</description>
 <part name="CON8" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2" package3d_urn="urn:adsk.eagle:package:4854340/3">
 <variant name="BASIC" populate="no"/>
 </part>
+<part name="CON10" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
+<part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
+<part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
+<part name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
+<part name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
+<part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -6682,6 +6688,24 @@ as close to negative supply pad as possible</text>
 </instance>
 <instance part="CON8" gate="G$1" x="223.52" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="220.98" y="123.19" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
+<instance part="CON10" gate="G$1" x="264.16" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="257.81" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="CON11" gate="G$1" x="254" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="247.65" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="CON12" gate="G$1" x="241.3" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.95" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="CON13" gate="G$1" x="231.14" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="224.79" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="CON14" gate="G$1" x="220.98" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="214.63" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="CON15" gate="G$1" x="210.82" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.47" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
 </instances>
 <busses>
