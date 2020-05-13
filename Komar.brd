@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="6" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -180,7 +180,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMDI3MTU2OTA4Mjgx" f3durn="urn:adsk.wipprod:dm.lineage:yua-ROE5Tb29pIDQe9ePEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="bc640fca-ebd0-4133-9e78-bae0a64d3f22" lastsyncedrevisionid="bc640fca-ebd0-4133-9e78-bae0a64d3f22" lastboardhashguid="b37a2527-1958-626a-e22f-b3c5ef6fe3f5" lastpushedtime="2020-05-13T10:39:41Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMDI3MTU2OTA4Mjgx" f3durn="urn:adsk.wipprod:dm.lineage:yua-ROE5Tb29pIDQe9ePEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f5e52f81-e1ec-4bc7-a7ac-4354384377ce" lastsyncedrevisionid="f5e52f81-e1ec-4bc7-a7ac-4354384377ce" lastboardhashguid="d9b10883-1cbf-9c25-ac75-1f4f0d1185e4" lastpushedtime="2020-05-13T10:46:03Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="29.2" y1="56.85" x2="29.2" y2="1.15" width="0.2" layer="22" style="shortdash"/>
 <text x="29.2" y="2.55" size="1.4" layer="1" font="vector" ratio="15" align="center">Zubax Komar 0.3</text>
@@ -6066,7 +6066,7 @@ by Télega</text>
 <attribute name="DIGIKEY#" value="1830-IN-S42BT5ACT-ND" x="16.6" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANF" value="Inolux" x="16.6" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANF#" value="IN-S42BT5A" x="16.6" y="51.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="17.05" y="49.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="18" y="49.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
 <element name="LED4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="ORANGE" x="21" y="49.4" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="---" x="21" y="49.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6074,7 +6074,7 @@ by Télega</text>
 <attribute name="DIGIKEY#" value="1830-IN-S42BT5ACT-ND" x="23.9" y="49.675" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF" value="Inolux" x="23.9" y="49.675" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF#" value="IN-S42BT5A" x="23.9" y="49.675" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="20.125" y="49.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="NAME" x="20.975" y="49.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
 <element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="17.975" y="51.35" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="1" x="17.975" y="51.35" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7273,10 +7273,10 @@ by Télega</text>
 <via x="9.14126875" y="23.89126875" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="11.725" y1="20.4575375" x2="9.14126875" y2="23.04126875" width="0.5" layer="15"/>
 <wire x1="9.14126875" y1="23.89126875" x2="9.14126875" y2="23.04126875" width="0.5" layer="15"/>
-<wire x1="11.725" y1="18.45" x2="13.675" y2="16.5" width="0.5" layer="15"/>
-<wire x1="13.675" y1="16.5" x2="19.275" y2="16.5" width="0.5" layer="15"/>
-<wire x1="21.5" y1="15" x2="20.775" y2="15" width="0.5" layer="15"/>
-<wire x1="20.775" y1="15" x2="19.275" y2="16.5" width="0.5" layer="15"/>
+<wire x1="11.725" y1="18.45" x2="14.025" y2="16.15" width="0.5" layer="15"/>
+<wire x1="14.025" y1="16.15" x2="20.075" y2="16.15" width="0.5" layer="15"/>
+<wire x1="21.5" y1="15" x2="21.225" y2="15" width="0.5" layer="15"/>
+<wire x1="21.225" y1="15" x2="20.075" y2="16.15" width="0.5" layer="15"/>
 <wire x1="11.725" y1="20.4575375" x2="11.725" y2="18.45" width="0.5" layer="15"/>
 <contactref element="IC6" pad="2"/>
 <contactref element="C15" pad="2"/>
@@ -8271,7 +8271,6 @@ by Télega</text>
 <wire x1="15.225" y1="42.205025" x2="15.225" y2="44.975" width="0.2" layer="1"/>
 <contactref element="MODULE2" pad="23"/>
 <wire x1="15.7" y1="46.75" x2="17.2" y2="48.25" width="0.2" layer="1"/>
-<wire x1="21" y1="48.9" x2="20.85" y2="48.75" width="0.2" layer="16"/>
 <wire x1="17.2" y1="48.25" x2="20.15" y2="48.25" width="0.2" layer="1"/>
 <wire x1="20.15" y1="48.25" x2="20.3" y2="48.4" width="0.2" layer="1"/>
 <via x="20.3" y="48.4" extent="1-16" drill="0.2" diameter="0.55"/>
