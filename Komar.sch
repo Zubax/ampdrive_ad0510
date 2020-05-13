@@ -4335,7 +4335,7 @@ DIN A3, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/15" type="model" library_version="19">
+<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/16" type="model" library_version="20">
 <packageinstances>
 <packageinstance name="MITOHONDRIK-TH"/>
 </packageinstances>
@@ -4399,7 +4399,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MITOCHONDRIK_LV" urn="urn:adsk.eagle:component:5014900/13" prefix="MODULE" library_version="19">
+<deviceset name="MITOCHONDRIK_LV" urn="urn:adsk.eagle:component:5014900/14" prefix="MODULE" library_version="20">
 <gates>
 <gate name="G$1" symbol="MITOHONDRIK_LV" x="-22.86" y="-27.94"/>
 </gates>
@@ -4450,7 +4450,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VDC" pad="42"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/15"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/16"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5633,8 +5633,11 @@ DIN A3, landscape with location and doc. field</description>
 <part name="F1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="FUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:4852859/2">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="MF-MSMF010-2CT-ND"/>
+<attribute name="HOLD_CURRENT" value="100 mA"/>
 <attribute name="MANF" value="Bourns Inc."/>
 <attribute name="MANF#" value="MF-MSMF010-2"/>
+<attribute name="TIME_TO_TRIP" value="1.5 S"/>
+<attribute name="TRIP_CURRENT" value="300 mA"/>
 </part>
 <part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="200R">
 <attribute name="AEC-Q" value="AEC-Q200"/>
@@ -5740,7 +5743,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-25°C ~ 85°C"/>
 </part>
-<part name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" deviceset="MITOCHONDRIK_LV" device="-TH" package3d_urn="urn:adsk.eagle:package:4410646/15"/>
+<part name="MODULE2" library="zubax_modules" library_urn="urn:adsk.eagle:library:5014895" deviceset="MITOCHONDRIK_LV" device="-TH" package3d_urn="urn:adsk.eagle:package:4410646/16"/>
 <part name="IC6" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="11LC040T-E/TT" device="" package3d_urn="urn:adsk.eagle:package:1040193/4"/>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
@@ -6494,6 +6497,9 @@ as close to negative supply pad as possible</text>
 <attribute name="AEC-Q" x="198.12" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
 <attribute name="NAME" x="198.12" y="55.118" size="1.27" layer="95" align="center"/>
 <attribute name="PACKAGE" x="194.31" y="53.848" size="0.508" layer="95" align="center"/>
+<attribute name="TIME_TO_TRIP" x="198.12" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
+<attribute name="HOLD_CURRENT" x="198.12" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
+<attribute name="TRIP_CURRENT" x="198.12" y="53.34" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="198.12" y="50.8" smashed="yes" rot="R180">
 <attribute name="OPERATING_TEMP" x="198.12" y="50.8" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
