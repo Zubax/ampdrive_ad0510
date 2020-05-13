@@ -180,7 +180,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMDI3MTU2OTA4Mjgx" f3durn="urn:adsk.wipprod:dm.lineage:yua-ROE5Tb29pIDQe9ePEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="99d9bd0f-ab10-4f4c-9d53-7a49861b2582" lastsyncedrevisionid="99d9bd0f-ab10-4f4c-9d53-7a49861b2582" lastboardhashguid="794f6e2b-7879-ceef-8c4b-03a35c66539a" lastpushedtime="2020-05-13T06:42:24Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMDI3MTU2OTA4Mjgx" f3durn="urn:adsk.wipprod:dm.lineage:yua-ROE5Tb29pIDQe9ePEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="bc640fca-ebd0-4133-9e78-bae0a64d3f22" lastsyncedrevisionid="bc640fca-ebd0-4133-9e78-bae0a64d3f22" lastboardhashguid="b37a2527-1958-626a-e22f-b3c5ef6fe3f5" lastpushedtime="2020-05-13T10:39:41Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="29.2" y1="56.85" x2="29.2" y2="1.15" width="0.2" layer="22" style="shortdash"/>
 <text x="29.2" y="2.55" size="1.4" layer="1" font="vector" ratio="15" align="center">Zubax Komar 0.3</text>
@@ -6205,9 +6205,7 @@ by Télega</text>
 <element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="25.5" y="49.4" smashed="yes"/>
 <element name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="17.5" y="8.6" smashed="yes"/>
 <element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="20.5" y="8.6" smashed="yes"/>
-<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes">
-<attribute name="NAME" x="28.5" y="51" size="1" layer="25" font="vector" ratio="15" align="center"/>
-</element>
+<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/3" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -6358,6 +6356,7 @@ by Télega</text>
 <via x="19.2" y="7.15" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="21.85" y="9.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="16.6" y="7.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="25.425" y="46.525" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="9.5" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-16"/>
 <wire x1="9.35" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -7318,10 +7317,10 @@ by Télega</text>
 <wire x1="21.65" y1="44.875" x2="21.65" y2="47.7" width="0.5" layer="1"/>
 <wire x1="28.2" y1="52.7" x2="27" y2="51.5" width="0.5" layer="16"/>
 <wire x1="28.2" y1="52.7" x2="28.2" y2="53.5" width="0.5" layer="16"/>
-<wire x1="26.7" y1="52" x2="28.2" y2="53.5" width="0.5" layer="1"/>
-<wire x1="26.7" y1="52" x2="26.7" y2="48.65" width="0.5" layer="1"/>
-<wire x1="21.65" y1="47.7" x2="25.75" y2="47.7" width="0.5" layer="1"/>
-<wire x1="25.75" y1="47.7" x2="26.7" y2="48.65" width="0.5" layer="1"/>
+<wire x1="27" y1="52.3" x2="28.2" y2="53.5" width="0.5" layer="1"/>
+<wire x1="27" y1="52.3" x2="27" y2="48.65" width="0.5" layer="1"/>
+<wire x1="21.65" y1="47.7" x2="26.05" y2="47.7" width="0.5" layer="1"/>
+<wire x1="26.05" y1="47.7" x2="27" y2="48.65" width="0.5" layer="1"/>
 <wire x1="27" y1="49.9" x2="27" y2="51.5" width="0.5" layer="16"/>
 <wire x1="27" y1="51.5" x2="24" y2="51.5" width="0.5" layer="16"/>
 <wire x1="24" y1="51.5" x2="18" y2="51.5" width="0.5" layer="16"/>
@@ -7625,10 +7624,10 @@ by Télega</text>
 <via x="24.6" y="35.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="26.5" y1="36.9" x2="24.8" y2="35.2" width="0.2" layer="16"/>
 <wire x1="24.6" y1="35.2" x2="24.8" y2="35.2" width="0.2" layer="16"/>
-<wire x1="26.5" y1="36.9" x2="26.5" y2="46.29350625" width="0.2" layer="16"/>
-<wire x1="26.04350625" y1="46.75" x2="24.15" y2="46.75" width="0.2" layer="16"/>
-<wire x1="24" y1="46.9" x2="24.15" y2="46.75" width="0.2" layer="16"/>
-<wire x1="26.5" y1="46.29350625" x2="26.04350625" y2="46.75" width="0.2" layer="16"/>
+<wire x1="26.5" y1="36.9" x2="26.5" y2="45.19350625" width="0.2" layer="16"/>
+<wire x1="25.74350625" y1="45.95" x2="24.95" y2="45.95" width="0.2" layer="16"/>
+<wire x1="24" y1="46.9" x2="24.95" y2="45.95" width="0.2" layer="16"/>
+<wire x1="26.5" y1="45.19350625" x2="25.74350625" y2="45.95" width="0.2" layer="16"/>
 </signal>
 <signal name="LED_BLUE">
 <contactref element="R11" pad="2"/>
