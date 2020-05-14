@@ -1,36 +1,13 @@
 {
     "author": {
         "email": "j3qq4hch@gmail.com",
-        "name": "Who Cares"
+        "name": "Zubax Robotics"
     },
     "description": {
-        "EN": "EAGLE default 6 layer CAM job."
+        "EN": "4 layer CAM job."
     },
     "output_type": "directory",
     "outputs": [
-        {
-            "format_specifier": {
-                "decimal": 3,
-                "integer": 3
-            },
-            "output_type": "drill",
-            "outputs": [
-                {
-                    "drills": {
-                        "NPTH": true,
-                        "PTH": true,
-                        "VIA": true
-                    },
-                    "filename_format": "outputs/drills.xln",
-                    "layers": {
-                        "from": 1,
-                        "to": 16
-                    },
-                    "name": "Excellon",
-                    "type": "excellon"
-                }
-            ]
-        },
         {
             "filename_prefix": "outputs",
             "format_specifier": {
@@ -72,7 +49,7 @@
                         17,
                         18
                     ],
-                    "name": "GND1",
+                    "name": "layer2",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -84,13 +61,13 @@
                         "layer_details": "mixed",
                         "layer_type": "Inner"
                     },
-                    "filename_format": "%PREFIX/copper_inner_l5.gbr",
+                    "filename_format": "%PREFIX/copper_inner_l3.gbr",
                     "layers": [
                         15,
                         17,
                         18
                     ],
-                    "name": "ROUTE",
+                    "name": "layer3",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -102,7 +79,7 @@
                         "layer_details": "mixed",
                         "layer_type": "bottom"
                     },
-                    "filename_format": "%PREFIX/copper_bottom_l6.gbr",
+                    "filename_format": "%PREFIX/copper_bottom_l4.gbr",
                     "layers": [
                         16,
                         17,
@@ -137,7 +114,7 @@
                         29
                     ],
                     "name": "Soldermask Top",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -152,7 +129,7 @@
                         30
                     ],
                     "name": "Soldermask Bottom",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -219,9 +196,44 @@
                 }
             ],
             "version": "RS274X"
+        },
+        {
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "outputs/drills.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
         }
     ],
-    "timestamp": "2018-08-29T14:44:52",
+    "timestamp": "2020-05-14T16:21:53",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.1"
