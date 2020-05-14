@@ -719,9 +719,17 @@
 <pad name="1" x="0" y="0" drill="2.2" diameter="2.7" shape="square"/>
 <text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="HOLE_2.8" library_version="22" library_locally_modified="yes">
+<package name="HOLE_2.8" urn="urn:adsk.eagle:footprint:20139474/1" library_version="23">
 <pad name="1" x="0" y="0" drill="2.8" diameter="3.3" shape="square"/>
 <text x="0" y="2.3" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="HOLE_2.3" urn="urn:adsk.eagle:footprint:20139475/1" library_version="23">
+<pad name="1" x="0" y="0" drill="2.3" diameter="2.8" shape="square"/>
+<text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="HOLE_2.4" urn="urn:adsk.eagle:footprint:20139476/1" library_version="23">
+<pad name="1" x="0" y="0" drill="2.4" diameter="2.8" shape="square"/>
+<text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -933,6 +941,21 @@
 <packageinstance name="HOLE_2.2"/>
 </packageinstances>
 </package3d>
+<package3d name="HOLE_2.8" urn="urn:adsk.eagle:package:20139477/1" type="box" library_version="23">
+<packageinstances>
+<packageinstance name="HOLE_2.8"/>
+</packageinstances>
+</package3d>
+<package3d name="HOLE_2.3" urn="urn:adsk.eagle:package:20139478/1" type="box" library_version="23">
+<packageinstances>
+<packageinstance name="HOLE_2.3"/>
+</packageinstances>
+</package3d>
+<package3d name="HOLE_2.4" urn="urn:adsk.eagle:package:20139479/1" type="box" library_version="23">
+<packageinstances>
+<packageinstance name="HOLE_2.4"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PAD" urn="urn:adsk.eagle:symbol:3188703/1" library_version="3">
@@ -943,7 +966,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/20" locally_modified="yes" prefix="PAD" library_version="22" library_locally_modified="yes">
+<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/21" prefix="PAD" library_version="23">
 <gates>
 <gate name="G$1" symbol="PAD" x="-20.32" y="7.62"/>
 </gates>
@@ -1450,6 +1473,31 @@
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20139477/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOLE_2.3_SQUARE" package="HOLE_2.3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20139478/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOLE_2.4_SQUARE" package="HOLE_2.4">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20139479/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5230,7 +5278,7 @@ DIN A3, landscape with location and doc. field</description>
 <parts>
 <part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.2_SQUARE" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE">
+<part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="R5" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" technology="-0.001R" value="1 mOhms">
@@ -5292,7 +5340,7 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.2_SQUARE" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE">
+<part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="R18" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" technology="-0.001R" value="1 mOhms">
@@ -5335,7 +5383,7 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
 <part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.2_SQUARE" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE">
+<part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="R22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
@@ -5445,10 +5493,10 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.8_SQUARE" value="PAD-HOLE_2.8_SQUARE">
+<part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.8_SQUARE" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.8_SQUARE" value="PAD-HOLE_2.8_SQUARE">
+<part name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.8_SQUARE" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="ATA6561-GBQW-N" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
@@ -7824,12 +7872,12 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <net name="TEMPERATURE_SENSOR" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="175.26" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="177.8" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
-<junction x="162.56" y="180.34"/>
+<wire x1="175.26" y1="180.34" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="177.8" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
+<junction x="165.1" y="182.88"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="149.86" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="149.86" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
 <label x="139.7" y="180.34" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>

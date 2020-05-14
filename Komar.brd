@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -180,6 +180,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMDI3MTU2OTA4Mjgx" f3durn="urn:adsk.wipprod:dm.lineage:yua-ROE5Tb29pIDQe9ePEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="40f2dc70-8264-4802-93fa-dee4f7e9705b" lastsyncedrevisionid="40f2dc70-8264-4802-93fa-dee4f7e9705b" lastboardhashguid="d8aefb4d-6236-847f-f60d-83415f18fefc" lastpushedtime="2020-05-14T08:10:56Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="29.2" y1="56.85" x2="29.2" y2="1.15" width="0.2" layer="22" style="shortdash"/>
 <text x="29.2" y="2.55" size="1.4" layer="1" font="vector" ratio="15" align="center">Zubax Komar 0.3</text>
@@ -268,7 +269,7 @@ by Télega</text>
 </library>
 <library name="PADS" urn="urn:adsk.eagle:library:3188696">
 <packages>
-<package name="HOLE_2.8" library_version="22" library_locally_modified="yes">
+<package name="HOLE_2.8" urn="urn:adsk.eagle:footprint:20139474/1" library_version="23">
 <pad name="1" x="0" y="0" drill="2.8" diameter="3.3" shape="square"/>
 <text x="0" y="2.3" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
@@ -276,8 +277,8 @@ by Télega</text>
 <pad name="P$1" x="0" y="0" drill="1.5" diameter="3"/>
 <text x="0" y="2.54" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="HOLE_2.2" urn="urn:adsk.eagle:footprint:20137051/1" library_version="22" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="2.2" diameter="2.7" shape="square"/>
+<package name="HOLE_2.4" urn="urn:adsk.eagle:footprint:20139476/1" library_version="23">
+<pad name="1" x="0" y="0" drill="2.4" diameter="2.8" shape="square"/>
 <text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
@@ -287,9 +288,14 @@ by Télega</text>
 <packageinstance name="HOLE_1.5@1"/>
 </packageinstances>
 </package3d>
-<package3d name="HOLE_2.2" urn="urn:adsk.eagle:package:20137055/1" type="box" library_version="22" library_locally_modified="yes">
+<package3d name="HOLE_2.8" urn="urn:adsk.eagle:package:20139477/1" type="box" library_version="23">
 <packageinstances>
-<packageinstance name="HOLE_2.2"/>
+<packageinstance name="HOLE_2.8"/>
+</packageinstances>
+</package3d>
+<package3d name="HOLE_2.4" urn="urn:adsk.eagle:package:20139479/1" type="box" library_version="23">
+<packageinstances>
+<packageinstance name="HOLE_2.4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5326,7 +5332,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.2" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE" x="39.9" y="43" smashed="yes"/>
+<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="43" smashed="yes"/>
 <element name="R5" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" value="1 mOhms" x="32.7" y="35.75" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="32.7" y="35.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="CRE2512-FZ-R001E-3CT-ND" x="101.7" y="85.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5441,7 +5447,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.2" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE" x="39.9" y="15" smashed="yes" rot="R180"/>
+<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="15" smashed="yes" rot="R180"/>
 <element name="R18" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" value="1 mOhms" x="32.7" y="22.25" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="AEC-Q200" x="32.7" y="22.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="CRE2512-FZ-R001E-3CT-ND" x="24.7" y="-88.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5511,14 +5517,14 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-116.525" y="11.95" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-116.525" y="11.95" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="24.85" smashed="yes">
-<attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="FDMS86368-F085" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.7" y="24.85" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="PQFN8-5x6" x="38.7" y="24.85" size="1.778" layer="27" display="off"/>
+<element name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="24.8" smashed="yes">
+<attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="ON Semiconductor" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="FDMS86368-F085" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.7" y="24.8" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="PQFN8-5x6" x="38.7" y="24.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="46" y="24.55" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="46" y="24.55" size="1.778" layer="27" display="off"/>
@@ -5529,7 +5535,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.2" package3d_urn="urn:adsk.eagle:package:20137055/1" value="PAD-HOLE_2.2_SQUARE" x="39.7" y="29" smashed="yes"/>
+<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="29" smashed="yes"/>
 <element name="R22" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="43.625" y="28.6" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q200" x="43.625" y="28.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND" x="-123.375" y="-3.4" size="1.778" layer="27" display="off"/>
@@ -5569,14 +5575,14 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-141.375" y="-8.3" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-141.375" y="-8.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="33.15" smashed="yes">
-<attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="ON Semiconductor" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="FDMS86368-F085" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.7" y="33.15" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="PQFN8-5x6" x="38.7" y="33.15" size="1.778" layer="27" display="off"/>
+<element name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="PQFN8_5X6" package3d_urn="urn:adsk.eagle:package:19980482/4" value="FDMS86368-F085" x="38.7" y="33.2" smashed="yes">
+<attribute name="AEC-Q" value="AEC-Q101" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="FDMS86368-F085CT-ND" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="ON Semiconductor" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="FDMS86368-F085" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.7" y="33.2" size="1.2" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="PQFN8-5x6" x="38.7" y="33.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="36.75" y="29.5" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q200" x="36.75" y="29.5" size="1.778" layer="27" display="off"/>
@@ -5681,8 +5687,8 @@ by Télega</text>
 <attribute name="PACKAGE" value="1210" x="95.6" y="29.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="51.6" y="37.82" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" value="PAD-HOLE_2.8_SQUARE" x="33.025" y="29" smashed="yes" rot="R180"/>
-<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" value="PAD-HOLE_2.8_SQUARE" x="47.35" y="29" smashed="yes" rot="R180"/>
+<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="33.025" y="29" smashed="yes" rot="R180"/>
+<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="47.35" y="29" smashed="yes" rot="R180"/>
 <element name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="11.05" y="19.2" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="AEC-Q100" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DATA_RATE" value="5Mbps" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6685,15 +6691,15 @@ by Télega</text>
 <wire x1="27.5" y1="41" x2="29.3" y2="41" width="0.3" layer="15"/>
 <wire x1="29.3" y1="41" x2="30.3" y2="42" width="0.3" layer="15"/>
 <wire x1="30.3" y1="42" x2="38.05" y2="42" width="0.3" layer="15"/>
-<wire x1="39.15" y1="40.9" x2="41.25" y2="40.9" width="0.3" layer="15"/>
+<wire x1="39.15" y1="40.9" x2="41.3" y2="40.9" width="0.3" layer="15"/>
 <via x="46.25" y="42.05" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="46.25" y1="42.05" x2="45.6" y2="42.05" width="0.3" layer="1"/>
-<wire x1="41.25" y1="40.9" x2="41.9" y2="41.55" width="0.3" layer="15"/>
-<via x="41.9" y="41.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="42.35" y1="42.05" x2="41.9" y2="41.6" width="0.3" layer="1"/>
-<wire x1="41.9" y1="41.55" x2="41.9" y2="41.6" width="0.3" layer="1"/>
-<wire x1="42.4" y1="42.05" x2="41.9" y2="41.55" width="0.3" layer="15"/>
-<wire x1="46.25" y1="42.05" x2="42.4" y2="42.05" width="0.3" layer="15"/>
+<wire x1="41.3" y1="40.9" x2="41.95" y2="41.55" width="0.3" layer="15"/>
+<via x="41.95" y="41.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<wire x1="42.35" y1="42.05" x2="41.95" y2="41.65" width="0.3" layer="1"/>
+<wire x1="41.95" y1="41.55" x2="41.95" y2="41.65" width="0.3" layer="1"/>
+<wire x1="42.45" y1="42.05" x2="41.95" y2="41.55" width="0.3" layer="15"/>
+<wire x1="46.25" y1="42.05" x2="42.45" y2="42.05" width="0.3" layer="15"/>
 </signal>
 <signal name="PHASE_B_GATE_LOW">
 <contactref element="R3" pad="1"/>
@@ -6822,8 +6828,8 @@ by Télega</text>
 <signal name="CGL2">
 <contactref element="Q10" pad="4"/>
 <contactref element="R23" pad="2"/>
-<wire x1="35.8" y1="22.945" x2="36.32" y2="22.945" width="0.3" layer="1"/>
-<wire x1="36.32" y1="22.945" x2="36.875" y2="23.5" width="0.3" layer="1"/>
+<wire x1="35.8" y1="22.895" x2="36.27" y2="22.895" width="0.3" layer="1"/>
+<wire x1="36.27" y1="22.895" x2="36.875" y2="23.5" width="0.3" layer="1"/>
 <wire x1="36.875" y1="23.5" x2="36.875" y2="27.975" width="0.3" layer="1"/>
 <wire x1="37.25" y1="28.4" x2="37.25" y2="28.35" width="0.3" layer="1"/>
 <wire x1="37.25" y1="28.35" x2="36.875" y2="27.975" width="0.3" layer="1"/>
@@ -6841,8 +6847,8 @@ by Télega</text>
 <signal name="CGL1">
 <contactref element="R24" pad="2"/>
 <contactref element="Q12" pad="4"/>
-<wire x1="37.15" y1="30.2093125" x2="36.1143125" y2="31.245" width="0.3" layer="1"/>
-<wire x1="35.8" y1="31.245" x2="36.1143125" y2="31.245" width="0.3" layer="1"/>
+<wire x1="37.15" y1="30.2093125" x2="36.0643125" y2="31.295" width="0.3" layer="1"/>
+<wire x1="35.8" y1="31.295" x2="36.0643125" y2="31.295" width="0.3" layer="1"/>
 <wire x1="37.15" y1="30.2093125" x2="37.15" y2="29.6" width="0.3" layer="1"/>
 <wire x1="37.15" y1="29.6" x2="37.25" y2="29.5" width="0.3" layer="1"/>
 </signal>
@@ -6868,91 +6874,91 @@ by Télega</text>
 <vertex x="41.4" y="21.9"/>
 <vertex x="41.4" y="36.1"/>
 </polygon>
-<via x="37.95" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="25.7" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="24.6" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="25.15" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="24.05" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="22.95" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="23.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="34.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="34" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="32.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="33.45" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="32.35" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="31.25" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="37.95" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="38.5" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.05" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="39.6" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.15" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="40.7" y="31.8" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="25.65" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="24.55" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="25.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="24" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="22.9" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="23.45" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="34.6" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="34.05" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="32.95" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="32.4" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="31.3" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="38.5" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.05" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="39.6" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.15" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="40.7" y="31.85" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="MODULE2" pad="10"/>
-<via x="37.95" y="35.1" extent="1-16" drill="0.2" diameter="0.55"/>
+<via x="37.95" y="35.15" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="Q12" pad="6"/>
 <contactref element="Q12" pad="7"/>
 <contactref element="Q12" pad="8"/>
@@ -6968,7 +6974,7 @@ by Télega</text>
 <wire x1="28.525" y1="36.975" x2="29.55" y2="35.95" width="0.2" layer="15"/>
 <wire x1="29.55" y1="35.95" x2="32.8" y2="35.95" width="0.2" layer="15"/>
 <wire x1="32.8" y1="35.95" x2="34.05" y2="34.7" width="0.2" layer="15"/>
-<wire x1="37.95" y1="34.7" x2="37.95" y2="34.55" width="0.2" layer="15"/>
+<wire x1="37.95" y1="34.7" x2="37.95" y2="34.6" width="0.2" layer="15"/>
 <wire x1="34.05" y1="34.7" x2="37.95" y2="34.7" width="0.2" layer="15"/>
 </signal>
 <signal name="PHASE_C_GATE_LOW">
@@ -6993,11 +6999,11 @@ by Télega</text>
 <wire x1="43.125" y1="29.7" x2="43.125" y2="28.6" width="0.3" layer="1"/>
 <wire x1="28.1" y1="31.9" x2="28" y2="32" width="0.3" layer="15"/>
 <wire x1="33.46651875" y1="31.9" x2="38.46651875" y2="26.9" width="0.3" layer="15"/>
-<wire x1="38.46651875" y1="26.9" x2="40.7" y2="26.9" width="0.3" layer="15"/>
+<wire x1="38.46651875" y1="26.9" x2="40.9" y2="26.9" width="0.3" layer="15"/>
 <via x="42.3" y="28.6" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="42.3" y1="28.6" x2="43.125" y2="28.6" width="0.3" layer="1"/>
-<wire x1="42.3" y1="28.5" x2="42.3" y2="28.6" width="0.3" layer="15"/>
-<wire x1="42.3" y1="28.5" x2="40.7" y2="26.9" width="0.3" layer="15"/>
+<wire x1="42.3" y1="28.3" x2="42.3" y2="28.6" width="0.3" layer="15"/>
+<wire x1="42.3" y1="28.3" x2="40.9" y2="26.9" width="0.3" layer="15"/>
 <wire x1="28.1" y1="31.9" x2="33.46651875" y2="31.9" width="0.3" layer="15"/>
 </signal>
 <signal name="PHASE_B" class="1">
@@ -8544,6 +8550,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
