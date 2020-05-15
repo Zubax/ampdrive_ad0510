@@ -4095,14 +4095,6 @@ DIN A3, landscape with location and doc. field</description>
 <library name="zubax_modules" urn="urn:adsk.eagle:library:5014895">
 <packages>
 <package name="MITOHONDRIK-TH" urn="urn:adsk.eagle:footprint:4410641/7" locally_modified="yes" library_version="20" library_locally_modified="yes">
-<wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
-<wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="51" curve="-90"/>
-<wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="51"/>
-<wire x1="12.45" y1="-13.45" x2="10.95" y2="-14.95" width="0.01" layer="51" curve="-90"/>
-<wire x1="10.95" y1="-14.95" x2="-10.95" y2="-14.95" width="0.01" layer="51"/>
-<wire x1="-10.95" y1="-14.95" x2="-12.45" y2="-13.45" width="0.01" layer="51" curve="-90"/>
-<wire x1="-12.45" y1="-13.45" x2="-12.45" y2="13.45" width="0.01" layer="51"/>
-<wire x1="-12.45" y1="13.45" x2="-10.95" y2="14.95" width="0.01" layer="51" curve="-90"/>
 <wire x1="-9.5" y1="15" x2="-8.5" y2="15" width="0.15" layer="21"/>
 <wire x1="-8.5" y1="15" x2="-8" y2="14.5" width="0.15" layer="21"/>
 <wire x1="-8" y1="13.5" x2="-8.5" y2="13" width="0.15" layer="21"/>
@@ -4334,7 +4326,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="6.5" y1="13" x2="6" y2="13.5" width="0.15" layer="21"/>
 <wire x1="6" y1="14.5" x2="6.5" y2="15" width="0.15" layer="21"/>
 <wire x1="8.5" y1="15" x2="9.5" y2="15" width="0.15" layer="21"/>
-<wire x1="9.5" y1="15" x2="10" y2="14.5" width="0.15" layer="21"/>
+<wire x1="9.5" y1="15" x2="9.55" y2="14.95" width="0.15" layer="21"/>
+<wire x1="9.55" y1="14.95" x2="10" y2="14.5" width="0.15" layer="21"/>
 <wire x1="10" y1="13.5" x2="9.5" y2="13" width="0.15" layer="21"/>
 <wire x1="9.5" y1="13" x2="8.5" y2="13" width="0.15" layer="21"/>
 <wire x1="8.5" y1="13" x2="8" y2="13.5" width="0.15" layer="21"/>
@@ -4410,6 +4403,37 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="38" x="5" y="14" drill="0.8" diameter="1.4"/>
 <pad name="39" x="3" y="14" drill="0.8" diameter="1.4"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-12.45" y1="-13.45" x2="-12.45" y2="13.7" width="0.01" layer="51"/>
+<wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="51" curve="-90"/>
+<wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="51"/>
+<wire x1="12.45" y1="-13.45" x2="10.95" y2="-14.95" width="0.01" layer="51" curve="-90"/>
+<wire x1="10.95" y1="-14.95" x2="-10.95" y2="-14.95" width="0.01" layer="51"/>
+<wire x1="-10.95" y1="-14.95" x2="-12.45" y2="-13.45" width="0.01" layer="51" curve="-90"/>
+<wire x1="-12.45" y1="13.7" x2="-11.2" y2="14.95" width="0.01" layer="51"/>
+<wire x1="-11.2" y1="14.95" x2="0.05" y2="14.95" width="0.01" layer="51"/>
+<wire x1="0.05" y1="14.95" x2="0.55" y2="14.45" width="0.01" layer="51" curve="-90"/>
+<wire x1="0.55" y1="14.45" x2="0.55" y2="14.15" width="0.01" layer="51"/>
+<wire x1="0.55" y1="14.15" x2="1.25" y2="13.45" width="0.01" layer="51" curve="90"/>
+<wire x1="1.25" y1="13.45" x2="2.05" y2="14.25" width="0.01" layer="51" curve="90"/>
+<wire x1="2.05" y1="14.25" x2="2.05" y2="14.45" width="0.01" layer="51"/>
+<wire x1="2.05" y1="14.45" x2="2.55" y2="14.95" width="0.01" layer="51" curve="-90"/>
+<wire x1="2.55" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
+<wire x1="-9.6" y1="-14.95" x2="-11" y2="-14.95" width="0.1" layer="21"/>
+<wire x1="-11" y1="-14.95" x2="-12.45" y2="-13.5" width="0.1" layer="21" curve="-90"/>
+<wire x1="-4.4" y1="-14.95" x2="2.4" y2="-14.95" width="0.1" layer="21"/>
+<wire x1="9.6" y1="-14.95" x2="11" y2="-14.95" width="0.1" layer="21"/>
+<wire x1="11" y1="-14.95" x2="12.45" y2="-13.5" width="0.1" layer="21" curve="90"/>
+<wire x1="9.55" y1="14.95" x2="11" y2="14.95" width="0.1" layer="21"/>
+<wire x1="11" y1="14.95" x2="12.45" y2="13.5" width="0.1" layer="21" curve="-90"/>
+<wire x1="-9.75" y1="14.95" x2="-11.2" y2="14.95" width="0.1" layer="21"/>
+<wire x1="-11.2" y1="14.95" x2="-12.45" y2="13.7" width="0.1" layer="21"/>
+<wire x1="-4.25" y1="14.95" x2="0.05" y2="14.95" width="0.1" layer="21"/>
+<wire x1="0.05" y1="14.95" x2="0.55" y2="14.45" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.55" y1="14.45" x2="0.55" y2="14.15" width="0.1" layer="21"/>
+<wire x1="0.55" y1="14.15" x2="1.25" y2="13.45" width="0.1" layer="21" curve="90"/>
+<wire x1="1.25" y1="13.45" x2="1.3" y2="13.45" width="0.1" layer="21"/>
+<wire x1="1.3" y1="13.45" x2="2" y2="14.15" width="0.1" layer="21" curve="90"/>
+<wire x1="2" y1="14.15" x2="2" y2="14.5" width="0.1" layer="21"/>
 </package>
 <package name="MITOHONDRIK-SMD" urn="urn:adsk.eagle:footprint:7007262/4" library_version="19">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
