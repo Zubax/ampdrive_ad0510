@@ -42,26 +42,30 @@ There are several steps to assemble the PCB:
 
 1. **SMD assembly**. After SMD assembly the board should look like this:
 
-![img](pics/1.jpg)
+   
 
-![img](pics/2.jpg)
+<img src="pics/1.jpg" width="500"> 
+
+
+
+<img src="pics/2.jpg" width="500">
 
 2. **Capacitors and pin headers soldering**.
 
    C1 and C2 radial electrolytic should be soldered sideways as in picture below. **Observe the polarity!**
 
-   ![img](pics/3.jpg)
+   <img src="pics/3.jpg" width="500">
 
    3. **Wires soldering.** There are total 5 wires to be soldered to the PCB: 2 power supply wires (20 cm long each, one red and one black, 12 AWG cable) and 3 phase wires (20 cm long each, one red and one black, 14 AWG cable). Power supply wires’ ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm). Phase wires’ ends that are not soldered to the PCB should not be stripped. For better wires representation please refer to wires drawing in the manufacturing doc pack. The wires should be soldered as shown in the pictures below.
 
       **Phase wires:**
 
-      ![img](pics/4.jpg)
+      <img src="pics/4.jpg" width="500">
 
       **Power wires:**
 
-      ![img](pics/5.jpg)
+      <img src="pics/5.jpg" width="500">
 
-      ![img](pics/6.jpg)
+      <img src="pics/6.jpg" width="500">
 
 4. **Conformal coating.** The PCBs should be covered with conformal coating entirely excluding pin headers on the top (CON100, CON101, CON102, CON103, CON104, CON105) and connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7). 
