@@ -24,8 +24,8 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -5139,7 +5139,7 @@ by Télega</text>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC"/>
+<variantdef name="BASIC" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5365,7 +5365,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="45.4" y="45.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="43.1" smashed="yes"/>
+<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="43.1" populate="no" smashed="yes"/>
 <element name="R5" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" value="1 mOhms" x="32.7" y="35.75" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="32.7" y="35.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="CRE2512-FZ-R001E-3CT-ND" x="101.7" y="85.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5480,7 +5480,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="45.4" y="12.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="14.9" smashed="yes" rot="R180"/>
+<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="14.9" populate="no" smashed="yes" rot="R180"/>
 <element name="R18" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" value="1 mOhms" x="32.7" y="22.25" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="AEC-Q200" x="32.7" y="22.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="CRE2512-FZ-R001E-3CT-ND" x="24.7" y="-88.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5568,7 +5568,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 175°C (TJ)" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="PQFN8-5x6" x="46" y="24.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="29" smashed="yes"/>
+<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.4" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE" x="39.9" y="29" populate="no" smashed="yes"/>
 <element name="R22" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="43.625" y="28.6" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q200" x="43.625" y="28.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND" x="-123.375" y="-3.4" size="1.778" layer="27" display="off"/>
@@ -5627,10 +5627,10 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="-160.25" y="-11.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-160.25" y="-11.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SENSE-0.6" package3d_urn="urn:adsk.eagle:package:7365871/1" value="SENSE" x="34.775" y="35.35" smashed="yes">
+<element name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SENSE-0.6" package3d_urn="urn:adsk.eagle:package:7365871/1" value="SENSE" x="34.775" y="35.35" populate="no" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="-183.225" y="-31.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C35" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.95" y="7.1" smashed="yes" rot="R30">
+<element name="C35" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.95" y="7.1" populate="no" smashed="yes" rot="R30">
 <attribute name="AEC-Q" value="AEC-Q200" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="DIGIKEY#" value="490-14484-1-ND" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="42.95" y="7.1" size="1.778" layer="27" rot="R30" display="off"/>
@@ -5700,7 +5700,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="1210" x="82.7" y="26.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="51.9" y="34.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.75" y="50.9" smashed="yes" rot="R330">
+<element name="C32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7µF" x="42.75" y="50.9" populate="no" smashed="yes" rot="R330">
 <attribute name="AEC-Q" value="AEC-Q200" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="DIGIKEY#" value="490-14484-1-ND" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="42.75" y="50.9" size="1.778" layer="27" rot="R330" display="off"/>
@@ -5720,8 +5720,8 @@ by Télega</text>
 <attribute name="PACKAGE" value="1210" x="95.6" y="29.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="51.6" y="37.82" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="33.025" y="29" smashed="yes" rot="R180"/>
-<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="47.35" y="29" smashed="yes" rot="R180"/>
+<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="33.025" y="29" populate="no" smashed="yes" rot="R180"/>
+<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="HOLE_2.8" package3d_urn="urn:adsk.eagle:package:20139477/1" value="PAD-HOLE_2.8_SQUARE" x="47.35" y="29" populate="no" smashed="yes" rot="R180"/>
 <element name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" package="SOT782-1" package3d_urn="urn:adsk.eagle:package:1040194/3" value="ATA6561-GBQW-N-HVSON8" x="11.05" y="19.2" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="AEC-Q100" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DATA_RATE" value="5Mbps" x="11.05" y="19.2" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5908,9 +5908,9 @@ by Télega</text>
 </element>
 <element name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="20.95" y="45.8" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="20.95" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.95" y="45.8" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="20.95" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0402" x="30.95" y="196.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5918,9 +5918,9 @@ by Télega</text>
 </element>
 <element name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="19.9" y="45.8" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="19.9" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="19.9" y="45.8" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="19.9" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0402" x="26.9" y="199.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5928,9 +5928,9 @@ by Télega</text>
 </element>
 <element name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="18.85" y="45.8" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="18.85" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="18.85" y="45.8" size="0.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="18.85" y="45.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0402" x="22.85" y="202.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5938,9 +5938,9 @@ by Télega</text>
 </element>
 <element name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="24" y="47.4" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="AEC-Q200" x="24" y="47.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24" y="47.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="24" y="47.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0402" x="25" y="-97.6" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5948,18 +5948,18 @@ by Télega</text>
 </element>
 <element name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="27" y="47.4" smashed="yes" rot="MR90">
 <attribute name="AEC-Q" value="AEC-Q200" x="27" y="47.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="27" y="47.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="27" y="47.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0402" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="25" y="-100.6" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U$3" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION" package3d_urn="urn:adsk.eagle:package:7439847/1" value="CONNECTION-SMD" x="30.1" y="29.05" smashed="yes">
+<element name="U$3" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION" package3d_urn="urn:adsk.eagle:package:7439847/1" value="CONNECTION-SMD" x="30.1" y="29.05" populate="no" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="27.1" y="33.05" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION" package3d_urn="urn:adsk.eagle:package:7439847/1" value="CONNECTION-SMD" x="23.2" y="18.65" smashed="yes" rot="R90">
+<element name="U$1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION" package3d_urn="urn:adsk.eagle:package:7439847/1" value="CONNECTION-SMD" x="23.2" y="18.65" populate="no" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="19.2" y="15.65" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" package="SIDE_10X22" package3d_urn="urn:adsk.eagle:package:4410644/2" value="330uF 63V" x="39.2" y="49.4" smashed="yes" rot="R90">
@@ -5982,7 +5982,7 @@ by Télega</text>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 105°C" x="40.2" y="8.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="radial" x="69.05" y="27.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I" x="34.7" y="6.7" smashed="yes">
+<element name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I" x="34.7" y="6.7" populate="no" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="34.7" y="6.7" size="1.778" layer="27" display="off"/>
 <attribute name="ASSY" value="DNM" x="34.7" y="6.7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="SMC5K51A-M3/IGICT-ND" x="34.7" y="6.7" size="1.778" layer="27" display="off"/>
@@ -6007,16 +6007,16 @@ by Télega</text>
 <attribute name="NAME" x="10.375" y="34.25" size="0.7" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="OPERATING_TEMP" value="-65°C ~ 150°C (TJ)" x="10.375" y="34.25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$5" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="55.55" y="29" smashed="yes">
+<element name="U$5" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="55.55" y="29" populate="no" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="55.55" y="29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$11" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="28.2" y="1.8" smashed="yes" rot="MR0">
+<element name="U$11" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="28.2" y="1.8" populate="no" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="28.2" y="1.8" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$6" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="14.8" y="5.6" smashed="yes">
+<element name="U$6" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="14.8" y="5.6" populate="no" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="14.8" y="5.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="28.2" y="56.2" smashed="yes" rot="MR0">
+<element name="U$7" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="FIDUCIA-MOUNT" package3d_urn="urn:adsk.eagle:package:7544833/1" value="FIDUCIALMOUNT" x="28.2" y="56.2" populate="no" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="28.2" y="56.2" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="D1" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I" x="25.2" y="9" smashed="yes" rot="MR90">
@@ -6027,7 +6027,7 @@ by Télega</text>
 <attribute name="NAME" x="25.2" y="9" size="1.27" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="REVERS_STANDOFF_V" value="51V" x="25.2" y="9" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D6" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I" x="34.7" y="51.3" smashed="yes">
+<element name="D6" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="DO-214AB(SMC)" package3d_urn="urn:adsk.eagle:package:3333646/4" value="SMC5K51A-M3/I" x="34.7" y="51.3" populate="no" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q101" x="34.7" y="51.3" size="1.778" layer="27" display="off"/>
 <attribute name="ASSY" value="DNM" x="34.7" y="51.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="SMC5K51A-M3/IGICT-ND" x="34.7" y="51.3" size="1.778" layer="27" display="off"/>
@@ -6099,7 +6099,7 @@ by Télega</text>
 <attribute name="MANF#" value="IN-S42BT5A" x="23.9" y="49.675" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="20.175" y="49.4" size="0.5" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="17.975" y="51.35" smashed="yes" rot="R180">
+<element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="17.975" y="51.35" populate="no" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="1" x="17.975" y="51.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="2" x="17.525" y="45.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="" x="17.525" y="45.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6108,7 +6108,7 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="17.525" y="45.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="17.525" y="45.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R29" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="17.975" y="52.45" smashed="yes" rot="R180">
+<element name="R29" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R3" x="17.975" y="52.45" populate="no" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="1" x="17.975" y="52.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="2" x="19.575" y="49.325" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="" x="19.575" y="49.325" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6117,9 +6117,9 @@ by Télega</text>
 <attribute name="PACKAGE" value="0402" x="19.575" y="49.325" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="19.575" y="49.325" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="2.7" y="30" smashed="yes" rot="R270"/>
-<element name="CON9" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="2.7" y="28" smashed="yes" rot="R270"/>
-<element name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF" x="22.3" y="12.05" smashed="yes">
+<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="2.7" y="30" populate="no" smashed="yes" rot="R270"/>
+<element name="CON9" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="2.7" y="28" populate="no" smashed="yes" rot="R270"/>
+<element name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="47µF" x="22.3" y="12.05" populate="no" smashed="yes">
 <attribute name="ASSY" value="DNM" x="22.3" y="12.05" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="490-4844-1-ND" x="22.3" y="12.05" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="22.3" y="12.05" size="1.778" layer="27" display="off"/>
@@ -6131,9 +6131,9 @@ by Télega</text>
 </element>
 <element name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="6.95" y="33.5" smashed="yes" rot="MR180">
 <attribute name="AEC-Q" value="AEC-Q200" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="6.95" y="33.5" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PACKAGE" value="0402" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -6213,22 +6213,22 @@ by Télega</text>
 </element>
 <element name="R26" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="18" y="12.55" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="18" y="12.55" size="0.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0402" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="18" y="12.55" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="logo" library_urn="urn:adsk.eagle:library:20108282" package="YOBA_17X17" value="" x="10" y="21" smashed="yes"/>
-<element name="CON8" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2" package3d_urn="urn:adsk.eagle:package:4854340/4" value="PINHEAD_1X04-2" x="25.2" y="53.5" smashed="yes"/>
-<element name="CON10" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="19.5" y="49.4" smashed="yes"/>
-<element name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="22.5" y="49.4" smashed="yes"/>
-<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="25.5" y="49.4" smashed="yes"/>
-<element name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="17.5" y="8.6" smashed="yes"/>
-<element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="20.5" y="8.6" smashed="yes"/>
-<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes"/>
+<element name="CON8" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2" package3d_urn="urn:adsk.eagle:package:4854340/4" value="PINHEAD_1X04-2" x="25.2" y="53.5" populate="no" smashed="yes"/>
+<element name="CON10" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="19.5" y="49.4" populate="no" smashed="yes"/>
+<element name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="22.5" y="49.4" populate="no" smashed="yes"/>
+<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="25.5" y="49.4" populate="no" smashed="yes"/>
+<element name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="17.5" y="8.6" populate="no" smashed="yes"/>
+<element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="20.5" y="8.6" populate="no" smashed="yes"/>
+<element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="28.5" y="49.4" populate="no" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">

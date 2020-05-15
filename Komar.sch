@@ -5291,7 +5291,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC"/>
+<variantdef name="BASIC" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5680,38 +5680,38 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
@@ -5868,9 +5868,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND64" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="4.7µF">
@@ -5917,9 +5917,9 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="R26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.0KGCT-ND"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-3GEYJ102V"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="+P25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
