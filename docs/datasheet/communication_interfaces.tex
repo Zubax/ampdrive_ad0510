@@ -29,17 +29,17 @@ All the communication interfaces are available via dedicated connectors.
 \section{CAN bus}
 The device is equipped with a doubly redundant ISO 11898-2 CAN 2.0A/B interface.
 Each CAN interface has two standard UAVCAN Micro connectors\footnote{Refer to \url{http://uavcan.org}
-for more information on UAVCAN.} that are joined in parallel.
+for more information on UAVCAN.} which are joined in parallel.
 Please note that the CAN bus must be terminated externally since it cannot be terminated internally by
 the device.
 
 The secondary CAN bus interface (CAN2) can only be used with redundant CAN bus configurations.
 With non-redundant CAN bus configurations, only the primary CAN bus connectors (CAN1) can be used; the secondary
-CAN2 bus connectors should be left empty.
+CAN2 bus connectors should remain empty.
 
 \begin{ZubaxSimpleTable}{CAN bus connectors pinout}{|c X X X[3]|}
 	Pin no. & Type         & Name      & Comment \\
-	1       & Power        & PWR       & Not connected to the device's circuits internally.\\
+	1       & Power        & PWR       & Not internally connected to the device's circuits\\
 	2       & Input/Output & CAN H     & \\
 	3       & Input/Output & CAN L     & \\
 	4       & Ground       & GND       & \\
@@ -53,21 +53,21 @@ flows with ideal diodes. BEC outputs for both CAN interfaces are controlled by a
 
 \section{USB interface}
 Komar features a full-speed USB 2.0 port with a standard CDC ACM interface providing driverless compatibility
-with all major operating systems (GNU/Linux, Windows, Mac OS X). It is sometimes termed the
+with all major operating systems (GNU/Linux, Windows, Mac OS X) and is sometimes termed the
 \emph{virtual serial port}. It accepts a standard USB Micro-B connector and will report the
 following properties to the USB host when connected:
 \begin{itemize}
     \item Vendor ID -- 0x1D50
     \item Product ID -- 0x60C7
-    \item Vendor string -- Zubax Robotics 
+    \item Vendor string -- Zubax Robotics
     \item Device description string -- Zubax Robotics Telega
 \end{itemize}
-The USB interface uses Popcop protocol to communicate with Kucher, the GUI software for \text{T\'elega}-based
+The USB interface uses the Popcop protocol to communicate with Kucher, the GUI software for \text{T\'elega}-based
 products.
 
 \section{GPIO}
 Zubax Komar is equipped with two GPIO pins that are available on the AUX connector. While GPIO2 can only be used
-for GPIO purposes, GPIO1 permits additional functions to be enabled using software. These functions are: 1) the
+for GPIO purposes, GPIO1 can be used to enable additional functions using software. These functions are: 1) the
 thermistor input; and 2) the RC PWM input.
 
 \begin{ZubaxSimpleTable}{AUX connector pinout}{|c X X X[3]|}
@@ -92,6 +92,6 @@ extension wires to the thermistor; and 2) gluing the thermistor to the motor win
 Zubax Komar also supports the older analog RC PWM interface. Although this may be slow and prone
 to electromagnetic interference, it remains one of the most widely-used ESC interfaces in the industry.
 
-The RC PWM input should be connected to the GPIO1 of the AUX connector and then configured in the firmware.
+The RC PWM input should be connected to the GPIO1 pin of the AUX connector and then configured in the firmware.
 \text{T\'elega} firmware is highly configurable when using the RC PWM interface. For a detailed description,
 please refer to the \text{T\'elega} reference manual.
