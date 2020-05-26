@@ -30,7 +30,7 @@ front-end. When the LED is on, the gain is low; when off, it is high. The LED il
 \newpage
 \section{Status LED}
 The Status LED indicates the current state of the firmware. During boot-up, the LED will report
-the status as shown in table \ref{table:characteristics_status_led} below.
+the firmware status as shown in table \ref{table:characteristics_status_led} below:
 
 \begin{ZubaxSimpleTable}{Status LED during boot\label{table:characteristics_status_led}}{|l l X|}
     Color                     & Status                  & Description \\
@@ -42,7 +42,7 @@ the status as shown in table \ref{table:characteristics_status_led} below.
 \end{ZubaxSimpleTable}
 
 During operation, the LED will report the status as shown in table \ref{table:characteristics_status_led_behavior}
-below.
+below:
 
 \begin{ZubaxSimpleTable}{Status LED behavior\label{table:characteristics_status_led_behavior}}{|l X X|}
     LED pattern (step 80 ms) & Status & Description\\
@@ -63,3 +63,6 @@ below.
        \LEDX\LEDX\LEDO\LEDX\LEDX\LEDX} & Invalid motor parameters & Some motor parameters
        are not properly initialized or the motor identification has not been performed.\\
 \end{ZubaxSimpleTable}
+
+{\bf Note}: The signals shown in the tables above apply only to Telega v0.3. For other firmware versions,
+please refer to the Telega reference manual.

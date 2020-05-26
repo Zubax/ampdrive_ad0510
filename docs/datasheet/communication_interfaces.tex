@@ -2,7 +2,7 @@
 All the communication interfaces are available via dedicated connectors.
 
 \begin{ZubaxTableWrapper}{Connectors types}
-    \begin{ZubaxWrappedTable}{| X | X |}
+    \begin{ZubaxWrappedTable}{| X X |}
     Connector name          & Connector type    \\
     CAN1 (2 connectors)     & JST BM04B-GHS     \\
     CAN2 (2 connectors)     & JST BM04B-GHS     \\
@@ -62,7 +62,7 @@ following properties to the USB host when connected:
     \item Vendor string -- Zubax Robotics
     \item Device description string -- Zubax Robotics Telega
 \end{itemize}
-The USB interface uses the Popcop protocol to communicate with Kucher, the GUI software for \text{T\'elega}-based
+The USB interface uses the Popcop protocol to communicate with Kucher, the GUI software for Telega-based
 products.
 
 \section{GPIO}
@@ -93,5 +93,5 @@ Zubax Komar also supports the older analog RC PWM interface. Although this may b
 to electromagnetic interference, it remains one of the most widely-used ESC interfaces in the industry.
 
 The RC PWM input should be connected to the GPIO1 pin of the AUX connector and then configured in the firmware.
-\text{T\'elega} firmware is highly configurable when using the RC PWM interface. For a detailed description,
-please refer to the \text{T\'elega} reference manual.
+Telega firmware is highly configurable when using the RC PWM interface. For a detailed description,
+please refer to the Telega reference manual.
