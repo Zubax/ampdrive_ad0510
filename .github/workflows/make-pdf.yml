@@ -21,8 +21,7 @@ jobs:
     - name: Run texer container
       uses: docker://uavcan/texer:ubuntu-16.04
       with:
-        entrypoint: docs/datasheet/compile.sh
-        args: ./Komar.tex
+        entrypoint: docs/datasheet/compile.ps1
 
     # Upload datasheet
     - name: Upload pdf as an artifact
