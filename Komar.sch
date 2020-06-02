@@ -2290,7 +2290,7 @@ DIN A3, landscape with location and doc. field</description>
 <smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/2" library_version="23">
+<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/3" library_version="70">
 <wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
 <wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
 <wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
@@ -2313,7 +2313,7 @@ DIN A3, landscape with location and doc. field</description>
 <smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
 <smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
 <smd name="P$4" x="-2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100"/>
+<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
 <smd name="P$1" x="0" y="-2.15" dx="2" dy="0.9" layer="1" roundness="100" cream="no"/>
 <smd name="P$2" x="-2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
 <smd name="P$5" x="2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
@@ -2538,7 +2538,7 @@ DIN A3, landscape with location and doc. field</description>
 <packageinstance name="MICRO_USB_WITHOUT_PEGS"/>
 </packageinstances>
 </package3d>
-<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/3" type="model" library_version="23">
+<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/4" type="model" library_version="70">
 <packageinstances>
 <packageinstance name="1051330011"/>
 </packageinstances>
@@ -2592,7 +2592,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/11" prefix="CON" library_version="69">
+<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/12" prefix="CON" library_version="70">
 <description>Connector Receptacle USB - micro B 2.0 5 Position</description>
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
@@ -2642,7 +2642,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5291,7 +5291,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC" current="yes"/>
+<variantdef name="BASIC"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5665,17 +5665,17 @@ DIN A3, landscape with location and doc. field</description>
 <part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="GREEN">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="COLOR" value="GREEN"/>
-<attribute name="DIGIKEY#" value="511-1652-1-ND"/>
-<attribute name="MANF" value="Rohm Semiconductor"/>
-<attribute name="MANF#" value="SML-P11MTT86"/>
+<attribute name="DIGIKEY#" value="1830-IN-S42BT5GCT-ND"/>
+<attribute name="MANF" value="Inolux"/>
+<attribute name="MANF#" value="IN-S42BT5G"/>
 </part>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:2539470/2" value="GREEN">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="COLOR" value="GREEN"/>
-<attribute name="DIGIKEY#" value="511-1652-1-ND"/>
-<attribute name="MANF" value="Rohm Semiconductor"/>
-<attribute name="MANF#" value="SML-P11MTT86"/>
+<attribute name="DIGIKEY#" value="1830-IN-S42BT5GCT-ND"/>
+<attribute name="MANF" value="Inolux"/>
+<attribute name="MANF#" value="IN-S42BT5G"/>
 </part>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="1K">
@@ -5762,7 +5762,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+P1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-VERTICAL" package3d_urn="urn:adsk.eagle:package:4410721/3">
+<part name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-VERTICAL" package3d_urn="urn:adsk.eagle:package:4410721/4">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="OPERATING_TEMP" value="-35°C ~ 85°C"/>
 </part>
