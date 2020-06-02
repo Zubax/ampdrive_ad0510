@@ -1,4 +1,6 @@
 #!/usr/bin/env pwsh
-pdflatex --halt-on-error --shell-escape Komar.tex
-pdflatex --halt-on-error --shell-escape Komar.tex
-pdflatex --halt-on-error --shell-escape Komar.tex
+param ($texfile='Komar.tex')
+Set-Location (Split-Path $script:MyInvocation.MyCommand.Path)
+pdflatex --halt-on-error --shell-escape $texfile
+pdflatex --halt-on-error --shell-escape $texfile
+pdflatex --halt-on-error --shell-escape $texfile

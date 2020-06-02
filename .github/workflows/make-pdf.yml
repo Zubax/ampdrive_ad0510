@@ -22,6 +22,7 @@ jobs:
       uses: docker://uavcan/texer:ubuntu-16.04
       with:
         entrypoint: docs/datasheet/compile.ps1
+        args: Komar.tex
 
     # Upload datasheet
     - name: Upload pdf as an artifact
