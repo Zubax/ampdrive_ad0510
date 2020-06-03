@@ -37,11 +37,44 @@ Despite that Komar still can be used as a separate unit. In this case a custom p
 
 ## Construction and usage
 
-Komar itself consists of a power stage PCB with mitochondrik and an aluminum housing (and one or two plastic parts). 
+Komar itself consists of a power stage PCB with mitochondrik and an aluminum housing (and several plastic parts). 
 
-<img src="pics/blow scheme.png" style="zoom:50%;"/>
- 
-The housing is kept together using 4 M3 screws. Komar mounting is performed using 4 M3 screws too. For mounting a motor to the top part of the housing M3 or M4 screws may be used. 
+<img src="pics/blow_scheme.png" alt="Komar blow scheme" style="zoom:100%;"/>
+
+The housing is kept together using 4 M3.5 screws. Komar mounting is performed using 4 M4 screws. For mounting a motor to the top part of the housing M4 screws should be used. 
+
+## Release notes
+
+Newest entries at the top.
+
+### Komar V0.3
+
+#### Major PCB updates
+
+* Every component is replaced with its AEC-Q qualified substitute to be compatible with hardware development policies.
+* Better and bigger bulk capacitors.
+* Holes for adding 3d printed capacitor supports added; capacitor supports  developed (not shown in the pcb).
+* All the gate networks re-routed and greatly improved.
+* All the LEDs grouped in one place; holes for mounting lightpipe added.
+* Holes diameter for power supply wires soldering greatly increased to fit any 12 AWG multi-stand wire.
+* Holes diameter for phase wires increased to fit either any 14 AWG multi-stand wire (in the case of motor soldering to the PCB) or 12 AWG single-strand wire (in the case of using the phase connector).
+* YOBA silkscreen logo added.
+* Overcurrent protection trip level increased 1.5 times to around 200 A.
+* TVS diodes replaced with ones with lower reverse standoff voltage (51 V).
+
+#### Major housing changes
+
+* Housing halves are now held together with 4 M3.5 screws instead of M3.
+
+* Housing itself is now mounted on the chassis using 4 M4 screws (was M3).
+* Wall thickness of the top part of the housing increased from 1 to 1.6 mm.
+* Connector window is slightly smaller now.
+* Totally different construction of the phase connector. It became much bigger and now should fit up to 6 mm bullet connectors (previously 3.5 mm bullet connectors were used).
+* Phase connector is now supposed to use single stranded thick stiff copper wires instead of flexible multi-stranded ones.    
+* All the LEDs are grouped in one place now. Holes for the LEDs moved.
+* Lightpipe for the LEDs added (will be manufactured inhouse using 3d printing).
+* 3D printed spacers between the PCB and the housing added. 
+* Slightly improved heatsink efficiency by redesigning the fins.
 
 ## License
 
