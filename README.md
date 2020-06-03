@@ -4,7 +4,9 @@
 
 Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/technologies/telega) motor control technology. Komar is designed to support the propulsion systems of light unmanned aerial vehicles (UAVs), unmanned underwater vehicles (UUVs) and unmanned surface vehicles (USVs). Komar is compatible with almost all PMSM and BLDC motors and can optimize motor performance by automatically calibrating the motor parameters. It is designed to be a part of an integrated drive but allows operation as a separate unit as well. Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) control module.
 
-  <img src="pics/Komar.png"  style="zoom:33%;"/>
+<p align="center">
+<img src="pics/Komar.png" alt="drawing" width="500"/>
+</p>
 
 ## Brief specs
 
