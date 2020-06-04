@@ -41,7 +41,7 @@ Despite that Komar still can be used as a separate unit. In this case a custom p
 
 Komar itself consists of a power stage PCB with mitochondrik and an aluminum housing (and several plastic parts). 
 
-<img src="pics/blow_scheme.png" alt="Komar blow scheme" style="zoom:100%;"/>
+<img src="pics/blow scheme.png" alt="Komar blow scheme" style="zoom:100%;"/>
 
 The housing is kept together using 4 M3.5 screws. Komar mounting is performed using 4 M4 screws. For mounting a motor to the top part of the housing M4 screws should be used. 
 
@@ -77,6 +77,8 @@ Newest entries at the top.
 * Lightpipe for the LEDs added (will be manufactured inhouse using 3d printing).
 * 3D printed spacers between the PCB and the housing added. 
 * Slightly improved heatsink efficiency by redesigning the fins.
+* 3 M2.5 holes for mounting optional (and not yet developed) connector protection cap added
+* Optional power connector assembly  mount added. 
 
 ## License
 
