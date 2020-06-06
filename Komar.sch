@@ -6031,7 +6031,7 @@ as close to negative supply pad as possible</text>
 <wire x1="233.68" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="276.86" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Motor phases should be connected with multi-strand 14AWG wire in silicone insulation</text>
 <text x="5.08" y="271.78" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Power should be connected with multi-strand 12AWG wire in silicone insulation</text>
-<text x="68.58" y="287.02" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are base on the chart from PCBLibraries.com
+<text x="68.58" y="287.02" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are based on the chart from PCBLibraries.com
 http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</text>
 </plain>
 <instances>
@@ -7910,12 +7910,12 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <net name="TEMPERATURE_SENSOR" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="175.26" y1="180.34" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="177.8" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<junction x="165.1" y="182.88"/>
+<wire x1="175.26" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="177.8" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<junction x="162.56" y="180.34"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="149.86" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="149.86" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
 <label x="139.7" y="180.34" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
