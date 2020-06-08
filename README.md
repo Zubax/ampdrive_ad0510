@@ -16,9 +16,9 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 *  A software-controllable 5 V, 0.5 A BEC.
 *  Built-in motor temperature sensor for enhanced self-diagnostics.
 * Komar supports a rich set of communication interfaces:
-  * Double redundant CAN bus interface
-  * USB Micro-B interface for control, management, and telemetry
-  * Industry-standard RC PWM input
+  * Double redundant CAN bus interface.
+  * USB Micro-B interface for control, management, and telemetry.
+  * Industry-standard RC PWM input.
 
 * Komar is manufactured using highly reliable automotive grade AEC-Q qualified components.
 
