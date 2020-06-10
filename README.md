@@ -12,7 +12,7 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 
 * 13 - 51 V input voltage range (4 - 12S LiCoO<sub>2</sub> battery).
 * Up to 2500 W output power (in the whole voltage range of 12S LiCoO<sub>2</sub> battery).
-* Maximum phase current 100 A. 
+* Maximum continuous phase current amplitude - 100 A.
 *  A software-controllable 5 V, 0.5 A BEC.
 *  Built-in motor temperature sensor for enhanced self-diagnostics.
 * Komar supports a rich set of communication interfaces:
@@ -31,7 +31,7 @@ Due to its superb efficiency Komar can operate at high power levels using only a
 Komar is designed to be a part of an integrated drive for mid-power motors. It is best suited for the motors with following specs:
 
 * Power level: 1.5 - 2.5 kW
-* Current: 50 - 80 A
+* Continuous phase current amplitude: 50 - 80 A
 * Diameter 60 - 80 mm
 * KV > 180 (assuming 12S battery is used)
 
@@ -49,7 +49,7 @@ The housing is kept together using 4 M3.5 screws. Komar mounting is performed us
 
 Newest entries at the top.
 
-### Komar V0.3
+### Komar V1.0 (released in June 2020)
 
 #### Major PCB updates
 
@@ -60,8 +60,7 @@ Newest entries at the top.
 * All the LEDs grouped in one place; holes for mounting lightpipe added.
 * Holes diameter for power supply wires soldering greatly increased to fit any 12 AWG multi-stand wire.
 * Holes diameter for phase wires increased to fit either any 14 AWG multi-stand wire (in the case of motor soldering to the PCB) or 12 AWG single-strand wire (in the case of using the phase connector).
-* YOBA silkscreen logo added.
-* Overcurrent protection trip level increased 1.5 times to around 200 A.
+* Overcurrent protection trip level increased 1.5 times to theoretical value of 200 A. In practice, however, overcurrent protection tends to trip at approx 20-30% lower current level due to themperature drift of the MOSFETs R<sub>DS(on)</sub> and RF noise. 
 * TVS diodes replaced with ones with lower reverse standoff voltage (51 V).
 
 #### Major housing changes
