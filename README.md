@@ -67,7 +67,6 @@ Newest entries at the top.
 #### Major housing changes
 
 * Housing halves are now held together with 4 M3.5 screws instead of M3.
-
 * Housing itself is now mounted on the chassis using 4 M4 screws (was M3).
 * Wall thickness of the top part of the housing increased from 1 to 1.6 mm.
 * Connector window is slightly smaller now.
@@ -83,4 +82,3 @@ Newest entries at the top.
 ## License
 
 This project is licensed under the terms of [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
