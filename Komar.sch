@@ -6029,9 +6029,8 @@ as close to negative supply pad as possible</text>
 <wire x1="180.34" y1="30.48" x2="233.68" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="233.68" y1="30.48" x2="233.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="233.68" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
-<text x="5.08" y="276.86" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Motor phases should be connected with multi-strand 14AWG wire in silicone insulation</text>
-<text x="5.08" y="271.78" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Power should be connected with multi-strand 12AWG wire in silicone insulation</text>
-<text x="68.58" y="287.02" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are based on the chart from PCBLibraries.com
+<text x="5.08" y="269.24" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Power should be connected with multi-strand 12AWG wire in silicone insulation</text>
+<text x="68.58" y="276.86" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are based on the chart from PCBLibraries.com
 http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</text>
 </plain>
 <instances>
