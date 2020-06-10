@@ -37,7 +37,7 @@ Copper layer order is:
 
    
 
-   ### Assembly
+## Assembly
 
 There are several steps to assemble the PCB:
 
