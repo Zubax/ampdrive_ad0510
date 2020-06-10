@@ -25,14 +25,11 @@ PCB properties:
 The PCB is 4 layer PCB with 35 um copper on all layers. Its dimensions is a circle with a diameter of 58 mm. PCB Total
  thickness is 1.58 - 1.6 mm. Solder Mask color should be red, silkscreen color - white. 
 
-Copper layer order is:
+The copper layers are ordered as follows:
 
 1. copper_top_l1
-
 2. copper_inner_l2
-
 3. copper_inner_l3
-
 4. copper_bottom_l4
 
    
