@@ -182,7 +182,7 @@
 <board>
 <plain>
 <wire x1="29.2" y1="56.85" x2="29.2" y2="1.15" width="0.2" layer="22" style="shortdash"/>
-<text x="29.2" y="2.55" size="1.4" layer="1" font="vector" ratio="15" align="center">Zubax Komar 0.3</text>
+<text x="29.2" y="2.55" size="1.4" layer="1" font="vector" ratio="15" align="center">Zubax Komar 1.0</text>
 <wire x1="16.5" y1="3.6" x2="40" y2="3.6" width="0.1" layer="49"/>
 <text x="23.25" y="5.825" size="1.5" layer="21" font="vector" ratio="15" align="center">Propelled
 by Télega</text>
