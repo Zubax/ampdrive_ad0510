@@ -35,7 +35,7 @@ Komar is designed to be a part of an integrated drive for mid-power motors. It i
 * Diameter 60 - 80 mm
 * KV > 180 (assuming 12S battery is used)
 
-Despite that Komar still can be used as a separate unit. In this case a custom phase connector mounted on the housing may be used to provide motor connections. 
+Komar can also be used as a separate unit. In this case, a custom phase connector mounted on the housing may be used to provide motor connections.
 
 ## Construction and usage
 
