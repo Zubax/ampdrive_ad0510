@@ -1,4 +1,4 @@
-## Zubax Komar power stage manufacturing instructions
+# Zubax Komar power stage manufacturing instructions
 
 The manufacturing documents package can be found attached to the releases in this repository. It contains following entities:
 
