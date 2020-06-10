@@ -39,7 +39,7 @@ Komar can also be used as a separate unit. In this case, a custom phase connecto
 
 ## Construction and usage
 
-Komar itself consists of a power stage PCB with mitochondrik and an aluminum housing (and several plastic parts). 
+Komar itself consists of a power stage PCB with Mitochondrik and an aluminum housing (and several plastic parts).
 
 <img src="pics/blow scheme.png" alt="Komar blow scheme" style="zoom:100%;"/>
 
