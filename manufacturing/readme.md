@@ -22,7 +22,8 @@ The device assembly involves soldering wires. Considering that Digikey has a ver
 
 PCB properties:
 
-The PCB is 4 layer PCB with 1 oz copper on all layers. Its dimensions is a circle with a diameter of 58 mm. PCB Total thickness is 1.58 - 1.6 mm. Solder Mask color should be red, silkscreen color - white. 
+The PCB is 4 layer PCB with 35 um copper on all layers. Its dimensions is a circle with a diameter of 58 mm. PCB Total
+ thickness is 1.58 - 1.6 mm. Solder Mask color should be red, silkscreen color - white. 
 
 Copper layer order is:
 
