@@ -64,14 +64,12 @@ There are several steps to assemble the PCB:
    It should be soldered to the PCB so that bottom surface of the plastic part rests on the PCB (see the pic below).
 
    <p align="center">
-<img src="pics/6.png" alt="" width="500"/>
+   <img src="pics/6.png" alt="" width="500"/>
    </p>
    
    **Conformal coating.** The PCBs should be covered with conformal coating (see BOM table below for the recommended partnumber) entirely excluding and connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7) and phase connector's bullet connectors inner surfaces.
 
-7. **Housing assembly**.  At this step the PCB is placed into the housing. For detailed instructions please watch the video below.
-
-   
+7. **Housing assembly**.  At this step the PCB is placed into the housing. For detailed instructions please watch the video below. 
 
 ## BOM for final assembly
 
@@ -90,4 +88,3 @@ There are several steps to assemble the PCB:
 | Motor screws                                                 | Are used for attaching the motor to the top part of the housing. | 4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screw). |
 | Connectors protection cap                                    | Provides some level of protection for interface connectors and may act as a guide for power wires. | 3d printed plastic part. ABS plastic.                        |
 | Cap screws                                                   | Are used to hold connectors protection cap in place          | 3 pcs screws 91290A099 from mcmaster.com (M2.5 DIN912 4 mm length screws). |
-
