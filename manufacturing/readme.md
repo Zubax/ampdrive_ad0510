@@ -71,7 +71,9 @@ There are several steps to assemble the PCB:
    
    **Conformal coating.** The PCBs should be covered with conformal coating (see BOM table below for the recommended partnumber) entirely excluding and connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7) and phase connector's bullet connectors inner surfaces.
 
-7. **Housing assembly**.  At this step the PCB is placed into the housing. For detailed instructions please watch the video below. 
+6. **Housing assembly**.  At this step the PCB is placed into the housing. For detailed instructions please watch the video below. 
+
+   [![Komar housing assembly instruction](http://img.youtube.com/vi/qDjCuD04zwk/0.jpg)](http://www.youtube.com/watch?v=qDjCuD04zwk "Komar housing assembly instruction")
 
 ## BOM for final assembly
 
