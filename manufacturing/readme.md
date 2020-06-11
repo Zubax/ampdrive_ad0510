@@ -51,7 +51,9 @@ There are several steps to assemble the PCB:
 
    After mounting the capacitors they should be glued to the PCB with non-conductive silicone glue (see BOM table below for the recommended partnumber).
 
-   <img src="pics/3.png" width="500">
+   <p align="center">
+   <img src="pics/3.png" alt="" width="500"/>
+   </p>
 
 4. **Power wires soldering.** 2 power supply wires (20 cm long each, one red and one black, 12 AWG multi-strand cable) Power supply wires’ ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm). Phase wires’ ends that are not soldered to the PCB should not be stripped. The wires should be soldered as shown in the pictures below.
 
