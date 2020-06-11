@@ -89,6 +89,7 @@ There are several steps to assemble the PCB:
 | Housing screws                                               | Screws that hold both parts of the housing together.         | 4 pcs 91420A183 from mcmaster.com (M3.5 DIN 965, 16 mm length screws). |
 | PCB spacers                                                  | Spacers that are placed between the PCB and the housing.     | 3d printed parts. ABS plastic.                               |
 | Thermal pad                                                  | Provides good thermal contact between the PCB and the bottom part of the housing. | 1 mm thick thermal pad from arctic cooling.                  |
-| Motor screws                                                 | Are used for attaching the motor to the top part of the housing. | 4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screw). |
+| Motor screws                                                 | Are used for attaching the motor to the top part of the housing. | 4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screws). |
 | Connectors protection cap                                    | Provides some level of protection for interface connectors and may act as a guide for power wires. | 3d printed plastic part. ABS plastic.                        |
 | Cap screws                                                   | Are used to hold connectors protection cap in place          | 3 pcs screws 91290A099 from mcmaster.com (M2.5 DIN912 4 mm length screws). |
+| Mounting screws                                              | Are used to mount the assembled Komar in place               | 4 pcs screws 91292A107 from mcmaster.com (M4 DIN 912 6 mm length screws) |
