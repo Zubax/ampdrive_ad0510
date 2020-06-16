@@ -24,9 +24,7 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 
   <img src="pics/connectors leds.png" alt="Komar connectors and LEDs placement" style="zoom:50%;"/>
 
-Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down. Komar's theoretical efficiency graph vs output power can be seen below. It should be noted that efficiency tends to decrease with supply voltage. The picture below is correct for 40 V supply voltage which corresponds to a discharged 12S  LiCoO<sub>2</sub> battery. 
-
-![](pics/Efficiency.png)
+Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down. 
 
 Komar is designed to be a part of an integrated drive for mid-power motors. It is best suited for the motors with following specs:
 
