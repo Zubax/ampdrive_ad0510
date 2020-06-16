@@ -10,7 +10,7 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 
 ## Brief specs
 
-* 13 - 51 V input voltage range (4 - 12S LiCoO<sub>2</sub> battery).
+* 12...51 V input voltage range (4 - 12S LiCoO<sub>2</sub> battery).
 * Up to 2500 W output power (in the whole voltage range of 12S LiCoO<sub>2</sub> battery).
 * Maximum continuous phase current amplitude - 100 A.
 *  A software-controllable 5 V, 0.5 A BEC.
