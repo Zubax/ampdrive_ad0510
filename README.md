@@ -28,9 +28,9 @@ Due to its superb efficiency Komar can operate at high power levels using only a
 
 Komar is designed to be a part of an integrated drive for mid-power motors. It is best suited for the motors with following specs:
 
-* Power level: 1.5 - 2.5 kW
-* Continuous phase current amplitude: 60 - 90 A
-* Diameter 60 - 80 mm
+* Continuous power: 2.5 kW
+* Continuous phase current amplitude: 90 A
+* Outer diameter: 80 mm
 * KV > 180 (assuming 12S battery is used)
 
 Komar can also be used as a separate unit. In this case, a custom phase connector mounted on the housing may be used to provide motor connections.
