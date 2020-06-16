@@ -77,19 +77,19 @@ There are several steps to assemble the PCB:
 
 ## BOM for final assembly
 
-| Name                                                         | Application                                                  | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Penosil 2121](https://penosil.com/gb/silicone-and-acrylic-sealants/38-penosil-premium-neutral-silicone-2121.html) | Is used to blue the radial capacitors to the PCB.            | Silicone glue.                                               |
-| [Taerosol PRF 202](https://taerosol.com/202-plastic-spray-2/) | Is used for conformal coating of the device.                 | Fast drying protective coating.                              |
-| Phase connector                                              | Provides the connection between the motor and the PCB        | Custom connector for motor phase wires.                      |
-| Positive wire                                                | Positive power wire.                                         | 20 cm piece of 12 AWG multi-strand RED wire in silicone insulation . |
-| Negative wire                                                | Negative power wire.                                         | 20 cm piece of 12 AWG multi-strand BLACK wire in silicone insulation. |
-| Housing top                                                  |                                                              | Top part of the housing.                                     |
-| Housing bottom                                               |                                                              | Bottom part of the housing.                                  |
-| Housing screws                                               | Screws that hold both parts of the housing together.         | 4 pcs 91420A183 from mcmaster.com (M3.5 DIN 965, 16 mm length screws). |
-| PCB spacers                                                  | Spacers that are placed between the PCB and the housing.     | 3d printed parts. ABS plastic.                               |
-| Thermal pad                                                  | Provides good thermal contact between the PCB and the bottom part of the housing. | 1 mm thick thermal pad from arctic cooling.                  |
-| Motor screws                                                 | Are used for attaching the motor to the top part of the housing. | 4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screws). |
-| Connectors protection cap                                    | Provides some level of protection for interface connectors and may act as a guide for power wires. | 3d printed plastic part. ABS plastic.                        |
-| Cap screws                                                   | Are used to hold connectors protection cap in place          | 3 pcs screws 91290A099 from mcmaster.com (M2.5 DIN912 4 mm length screws). |
-| Mounting screws                                              | Are used to mount the assembled Komar in place               | 4 pcs screws 91292A107 from mcmaster.com (M4 DIN 912 6 mm length screws) |
+| Name                                                         | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Penosil 2121](https://penosil.com/gb/silicone-and-acrylic-sealants/38-penosil-premium-neutral-silicone-2121.html) | Silicone glue. Is used to blue the radial capacitors to the PCB. |
+| [Taerosol PRF 202](https://taerosol.com/202-plastic-spray-2/) | Fast drying protective coating. Is used for conformal coating of the device. |
+| Phase connector                                              | Custom connector for motor phase wires. Provides the connection between the motor and the PCB |
+| Positive wire                                                | Positive power wire. 20 cm piece of 12 AWG multi-strand RED wire in silicone insulation. |
+| Negative wire                                                | Negative power wire. 20 cm piece of 12 AWG multi-strand BLACK wire in silicone insulation. |
+| Housing top                                                  | Top part of the housing.                                     |
+| Housing bottom                                               | Bottom part of the housing.                                  |
+| Housing screws                                               | Screws that hold both parts of the housing together. 4 pcs 91420A183 from mcmaster.com (M3.5 DIN 965, 16 mm length screws). |
+| PCB spacers                                                  | Spacers that are placed between the PCB and the housing. 3d printed parts. ABS plastic. |
+| Thermal pad                                                  | 1 mm thick thermal pad from arctic cooling. Provides thermal contact between the PCB and the bottom part of the housing. |
+| Motor screws                                                 | Screws that are used for attaching the motor to the top part of the housing.4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screws). |
+| Connectors protection cap                                    | Provides some level of protection for interface connectors and may act as a guide for power wires./ 3d printed plastic part. ABS plastic. |
+| Cap screws                                                   | Screws that are used to hold connectors protection cap in place. 3 pcs screws 91290A099 from mcmaster.com (M2.5 DIN912 4 mm length screws). |
+| Mounting screws                                              | Screws that are used to mount the assembled Komar in place. 4 pcs screws 91292A107 from mcmaster.com (M4 DIN 912 6 mm length screws) |
