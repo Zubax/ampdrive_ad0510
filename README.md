@@ -8,6 +8,7 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 <img src="pics/Komar.png" alt="drawing" width="500"/>
 </p>
 
+
 ## Brief specs
 
 * 12...51 V input voltage range (4 - 12S LiCoO<sub>2</sub> battery).
@@ -37,11 +38,17 @@ Komar can also be used as a separate unit. In this case, a custom phase connecto
 
 ## Construction and usage
 
-Komar itself consists of a power stage PCB with Mitochondrik and an aluminum housing (and several plastic parts).
+Komar itself consists of a power stage PCB with Mitochondrik and an aluminum housing (and several plastic parts). The PCB may use several optional 3d printed parts that don't influence its properties directly, but may improve the overall user experience.  The usage of these parts (lightpipe and cap_suport parts) may be omitted if the parts are considered unnecessary.  
 
-<img src="pics/blow scheme.png" alt="Komar blow scheme" style="zoom:100%;"/>
+### Komar PCB blow scheme
 
-The housing is kept together using 4 M3.5 screws. Komar mounting is performed using 4 M4 screws. For mounting a motor to the top part of the housing M4 screws should be used. 
+<img src="pics/pcb_blow_scheme.svg" alt="Komar blow scheme" style="zoom:100%;"/>
+
+### Komar blow scheme
+
+<img src="pics/blow_scheme.svg" alt="Komar blow scheme" style="zoom:100%;"/>
+
+The housing is kept together using 4 M3.5 screws. Komar mounting is performed using 4 M4 screws. For mounting a motor to the top part of the housing 4 M4 button head screws (ISO 7380) should be used. 
 
 ## Release notes
 
