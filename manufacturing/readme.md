@@ -14,7 +14,7 @@ The device assembly involves soldering wires. Considering that Digikey has a ver
 
 * Wire material - copper
 * Wire type - multi stranded
-* AWG (12 and 14 AWG are used in the design)
+* Cross section: 2.5 mm<sup>2</sup> (AWG 12)
 * Color (red and black are used in the design)
 * Insulation material (silicone is highly recommended for its outstanding thermal resistance, although PVC may be used as well)
 
@@ -55,11 +55,11 @@ There are several steps to assemble the PCB:
    <img src="pics/3.png" alt="" width="500"/>
    </p>
 
-4. **Power wires soldering.** 2 power supply wires (20 cm long each, one red and one black, 12 AWG multi-strand cable) Power supply wires’ ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm). Phase wires’ ends that are not soldered to the PCB should not be stripped. The wires should be soldered as shown in the pictures below.
+4. **Power wires soldering.** 2 power supply wires (20 cm long each, one red and one black, 2.5 mm<sup>2</sup> multi-strand cable) Power supply wires’ ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm). Phase wires’ ends that are not soldered to the PCB should not be stripped. The wires should be soldered as shown in the pictures below.
 
    <img src="pics/4.png" width="1000">
 
-5. **Phase connector mounting**. Phase connector consists of a plastic part with epoxy-glued 4.5 mm female bullet connectors with pre-formed and pre-soldered solid wires (12 AWG solid wire).
+5. **Phase connector mounting**. Phase connector consists of a plastic part with epoxy-glued 4.5 mm female bullet connectors with pre-formed and pre-soldered 2 mm<sup>2</sup> cross-section solid wires. 
    
    <img src="pics/5.png" width="1000">
 
@@ -82,8 +82,8 @@ There are several steps to assemble the PCB:
 | [Penosil 2121](https://penosil.com/gb/silicone-and-acrylic-sealants/38-penosil-premium-neutral-silicone-2121.html) | Silicone glue. Is used to blue the radial capacitors to the PCB. |
 | [Taerosol PRF 202](https://taerosol.com/202-plastic-spray-2/) | Fast drying protective coating. Is used for conformal coating of the device. |
 | Phase connector                                              | Custom connector for motor phase wires. Provides the connection between the motor and the PCB |
-| Positive wire                                                | Positive power wire. 20 cm piece of 12 AWG multi-strand RED wire in silicone insulation. |
-| Negative wire                                                | Negative power wire. 20 cm piece of 12 AWG multi-strand BLACK wire in silicone insulation. |
+| Positive wire                                                | Positive power wire. 20 cm piece of 2.5 mm<sup>2</sup> (12 AWG) multi-strand RED wire in silicone insulation. |
+| Negative wire                                                | Negative power wire. 20 cm piece of 2.5 mm<sup>2</sup> (12 AWG) multi-strand BLACK wire in silicone insulation. |
 | Housing top                                                  | Top part of the housing.                                     |
 | Housing bottom                                               | Bottom part of the housing.                                  |
 | Housing screws                                               | Screws that hold both parts of the housing together. 4 pcs 91420A183 from mcmaster.com (M3.5 DIN 965, 16 mm length screws). |
