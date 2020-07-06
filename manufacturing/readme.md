@@ -1,29 +1,23 @@
 # Zubax Komar power stage manufacturing instructions
 
-The manufacturing documents package can be found attached to the releases in this repository. It contains following entities:
+The manufacturing documentation package contains the following entities:
 
-* Gerber - all the necessary gerber files are contained here.
-* Assembly - assembly drawings (in PDF format) and centroid files are contained here.
-* BOM - a bill of materials in a form of spreadsheet.
-* PCB stack - a file containing description of the PCB stack and layers.
-* Wires drawing.
+* Gerber files.
+* Assembly drawings (in PDF format) and centroid files.
+* BOM spreadsheet.
+* PCB stack specification exported from the EDA.
+* This document.
 
-It should be noted that Komar is a highly reliable device and consists of AEC-Q qualified components, thus any changes to BOM are **highly undesirable**.
+The device assembly involves soldering wires.
+Considering that Digikey has a very limited choice of wires and the overall impracticality of the idea of
+buying wires on Digikey it is recommended to source the wires from local suppliers.
 
-The device assembly involves soldering wires. Considering that Digikey has a very limited choice of wires and the overall impracticality of the idea of buying wires on Digikey it is recommended to source the wires from local suppliers. The criteria are:
+### PCB properties
 
-* Wire material - copper
-* Wire type - multi stranded
-* Cross section: 2.5 mm<sup>2</sup> (AWG 12)
-* Color (red and black are used in the design)
-* Insulation material (silicone is highly recommended for its outstanding thermal resistance, although PVC may be used as well)
-
-
-
-### PCB properties:
-
-The PCB is 4 layer PCB with 35 um copper on all layers. Its dimensions is a circle with a diameter of 58 mm. PCB Total
- thickness is 1.55 ± 0.05 mm. Solder Mask color should be red, silkscreen color - white. 
+The PCB is 4-layer with 35 um copper on all layers.
+Its dimensions is a circle with a diameter of 58 mm.
+The total PCB thickness is 1.6±0.1 mm.
+The solder mask color should be red, silkscreen color -- white.
 
 The copper layers are ordered as follows:
 
@@ -32,64 +26,84 @@ The copper layers are ordered as follows:
 3. copper_inner_l3
 4. copper_bottom_l4
 
-   
-
 ## Assembly
 
-There are several steps to assemble the PCB:
+### SMD assembly
 
-1. **SMD assembly**. After SMD assembly the board should look like this:
-   
+<img src="pics/1.png" />
 
-<img src="pics/1.png" width="1000"> 
+### Mitochondrik mounting
 
-2. **Mitochondrik mounting**. Prior to mounting Mitochondrik PLS2 pin headers (CON100, CON101, CON102, CON103, CON104, CON105) should be soldered to the PCB. Mitochondrik is mounted on top of these pinheaders and soldered. 
+Prior to mounting the Mitochondrik,
+the PLS2 pin headers (CON100, CON101, CON102, CON103, CON104, CON105) should be soldered to the PCB.
+The Mitochondrik is inserted on top of these headers and soldered.
 
-3. **Capacitors soldering**.
+### Capacitor soldering
 
-   C1 and C2 radial electrolytic should be soldered sideways as in picture below. **Observe the polarity!** 
+The C1 and C2 radial electrolytic caps should be soldered sideways as shown in picture below.
+Ensure the correct polarity.
 
-   After mounting the capacitors they should be glued to the PCB with non-conductive silicone glue (see BOM table below for the recommended partnumber).
+The capacitors should be glued to the PCB with a non-conductive silicone glue
+(see the BOM table below for the recommended partnumber).
 
-   <p align="center">
-   <img src="pics/3.png" alt="" width="500"/>
-   </p>
+<img src="pics/3.png" width="500" />
 
-4. **Power wires soldering.** 2 power supply wires (20 cm long each, one red and one black, 2.5 mm<sup>2</sup> multi-strand cable) Power supply wires’ ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm). Phase wires’ ends that are not soldered to the PCB should not be stripped. The wires should be soldered as shown in the pictures below.
+### Power wires soldering
 
-   <img src="pics/4.png" width="1000">
+The ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm).
+The wires should be soldered as shown in the pictures below.
 
-5. **Phase connector mounting**. Phase connector consists of a plastic part with epoxy-glued 4.5 mm female bullet connectors with pre-formed and pre-soldered 2 mm<sup>2</sup> cross-section solid wires. 
-   
-   <img src="pics/5.png" width="1000">
+<img src="pics/4.png" />
 
-   It should be soldered to the PCB so that bottom surface of the plastic part rests on the PCB (see the pic below).
+### Motor phase interface assembly
 
-   <p align="center">
-   <img src="pics/6.png" alt="" width="500"/>
-   </p>
-   
-   **Conformal coating.** The PCBs should be covered with conformal coating (see BOM table below for the recommended partnumber) entirely excluding and connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7) and phase connector's bullet connectors inner surfaces.
+The motor phase interface can be assembled in one of the configurations described in this section.
 
-6. **Housing assembly**.  At this step the PCB is placed into the housing. For detailed instructions please watch the video below. 
+#### Rigid phase connector
 
-   [![Komar housing assembly instruction](http://img.youtube.com/vi/qDjCuD04zwk/0.jpg)](http://www.youtube.com/watch?v=qDjCuD04zwk "Komar housing assembly instruction")
+The phase connector consists of a plastic part with epoxy-glued 4.5 mm female bullet connectors
+with pre-formed and pre-soldered 2 mm<sup>2</sup> solid wires.
 
-## BOM for final assembly
+<img src="pics/5.png" />
 
-| Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Penosil 2121](https://penosil.com/gb/silicone-and-acrylic-sealants/38-penosil-premium-neutral-silicone-2121.html) | Silicone glue. Is used to blue the radial capacitors to the PCB. |
-| [Taerosol PRF 202](https://taerosol.com/202-plastic-spray-2/) | Fast drying protective coating. Is used for conformal coating of the device. |
-| Phase connector                                              | Custom connector for motor phase wires. Provides the connection between the motor and the PCB |
-| Positive wire                                                | Positive power wire. 20 cm piece of 2.5 mm<sup>2</sup> (12 AWG) multi-strand RED wire in silicone insulation. |
-| Negative wire                                                | Negative power wire. 20 cm piece of 2.5 mm<sup>2</sup> (12 AWG) multi-strand BLACK wire in silicone insulation. |
-| Housing top                                                  | Top part of the housing.                                     |
-| Housing bottom                                               | Bottom part of the housing.                                  |
-| Housing screws                                               | Screws that hold both parts of the housing together. 4 pcs 91420A183 from mcmaster.com (M3.5 DIN 965, 16 mm length screws). |
-| PCB spacers                                                  | Spacers that are placed between the PCB and the housing. 3d printed parts. ABS plastic. |
-| Thermal pad                                                  | 1 mm thick thermal pad from arctic cooling. Provides thermal contact between the PCB and the bottom part of the housing. |
-| Motor screws                                                 | Screws that are used for attaching the motor to the top part of the housing.4 pcs 92095A188 from mcmaster.com (M4 ISO 7380, 6 mm length screws). |
-| Connectors protection cap                                    | Provides some level of protection for interface connectors and may act as a guide for power wires./ 3d printed plastic part. ABS plastic. |
-| Cap screws                                                   | Screws that are used to hold connectors protection cap in place. 3 pcs screws 91290A099 from mcmaster.com (M2.5 DIN912 4 mm length screws). |
-| Mounting screws                                              | Screws that are used to mount the assembled Komar in place. 4 pcs screws 91292A107 from mcmaster.com (M4 DIN 912 6 mm length screws) |
+It should be soldered to the PCB so that the bottom surface of the plastic part rests on the PCB:
+
+<img src="pics/6.png" width="500" />
+
+#### Fixed motor attachment
+
+The motor is installed onto the top part of the enclosure.
+The motor phase wires are routed inside the enclosure, cut to the appropriate length, and then soldered to the PCB.
+
+The motor and its parts, if any, are not part of the bill of materials.
+
+### Conformal coating
+
+The PCB should be conformal-coated (see the BOM table below for the recommended partnumber),
+excluding the connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7)
+and the inner surfaces of the phase connectors.
+
+### Housing assembly
+
+The PCB is placed inside the housing. For the detailed instructions please watch the video.
+
+[![Komar housing assembly instruction](http://img.youtube.com/vi/qDjCuD04zwk/0.jpg)](http://www.youtube.com/watch?v=qDjCuD04zwk "Komar housing assembly instruction")
+
+## BOM for the final assembly
+
+| Item                          | Amount| Part number               | Description                                           |
+|-------------------------------|-------|---------------------------|-------------------------------------------------------|
+| Silicone glue                 | 5 ml  | Penosil 2121              | Used for fixing the large aluminum capacitors         |
+| Conformal coating             | 5 ml  | Taerosol PRF 202          | Fast-curing protective coating                        |
+| Phase connector               | 1     |                           | 3D-printed from ABS                                   |
+| Positive wire                 | 1     | copper 2.5 sqmm multi-strand silicone/PVC red 105 °C   | Positive power wire      |
+| Negative wire                 | 1     | copper 2.5 sqmm multi-strand silicone/PVC black 105 °C | Negative power wire      |
+| Housing top                   | 1     |                           | Milled from aluminum                                  |
+| Housing bottom                | 1     |                           | Milled from aluminum                                  |
+| Housing screws                | 4     | DIN 965 M3.5 16 mm        | Fastening both parts of the housing together          |
+| Motor screws                  | 4     | ISO 7380 M4 6 mm          | Fastening the motor to the top part of the housing    |
+| Mounting screws               | 4     | DIN 912 M4 6 mm           | Fastening the assembled Komar in place                |
+| Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm          | Fastening the connector protection cap against the bottom |
+| Connector protection cap      | 0/1   |                           | 3D-printed from ABS                                   |
+| PCB spacers                   | 1     |                           | 3D-printed from ABS                                   |
+| Thermal pad                   | 50x30 mm | Arctic Cooling, 1 mm   | Sinks the heat to the bottom part of the housing      |
