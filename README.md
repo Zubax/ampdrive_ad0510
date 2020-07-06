@@ -83,6 +83,10 @@ Newest entries at the top.
 * 3 M2.5 holes for mounting optional (and not yet developed) connector protection cap added
 * Optional power connector assembly  mount added. 
 
-## License
+### Komar V0.2 (released in 2018)
+
+First release that was actually manufactured. 
+
+### License
 
 This project is licensed under the terms of [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
