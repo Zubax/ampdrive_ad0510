@@ -48,7 +48,7 @@ Komar itself consists of a power stage PCB with Mitochondrik and an aluminum hou
 
 <img src="pics/blow_scheme.svg" alt="Komar blow scheme" style="zoom:100%;"/>
 
-The housing is kept together using 4 M3.5 screws. Komar mounting is performed using 4 M4 screws. For mounting a motor to the top part of the housing 4 M4 button head screws (ISO 7380) should be used. 
+The housing is kept together with 4x M3.5 screws. Komar is mounted using 4x M4 screws. The motor is mounted onto the top part of the housing with M4 button head screws (ISO 7380).
 
 ## Release notes
 
