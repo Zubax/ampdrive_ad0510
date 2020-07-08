@@ -61,7 +61,7 @@ The motor phase interface can be assembled in one of the configurations describe
 
 #### Option #1. Rigid phase connector
 
-The phase connector is shown in the picture below. The manufacturing guide for it is available in the repository.
+The phase connector is shown in the picture below. The guide for manual manucturing small amounts of such connectors is available in the repository.
 
 <img src="pics/5.png" />
 
