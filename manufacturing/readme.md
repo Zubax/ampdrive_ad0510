@@ -83,6 +83,12 @@ The PCB should be conformal-coated (see the BOM table below for the recommended 
 excluding the connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7)
 and the inner surfaces of the phase connectors.
 
+### Thermal pad
+
+The thermal pad serves as thermal interface between the PCB and the housing. The thermal pad has a relatively complex shape, some kind of jig may be used to cut it in a repeatedly and easy way. Use picture below as a reference. Detailed thermal pad drawing can be exported from the 3d model of the device.
+
+<img src="pics/thermal pad.svg" width="250" />
+
 ### Housing assembly
 
 The PCB is placed inside the housing. For the detailed instructions please watch the video.
@@ -93,11 +99,11 @@ The PCB is placed inside the housing. For the detailed instructions please watch
 
 | Item                          | Amount| Part number               | Description                                           |
 |-------------------------------|-------|---------------------------|-------------------------------------------------------|
-| Silicone glue                 | 5 ml  | Penosil 2121              | Used for fixing the large aluminum capacitors         |
-| Conformal coating             | 5 ml  | Taerosol PRF 202          | Fast-curing protective coating                        |
+| Silicone glue                 | 20-40 ml | Penosil 2121              | Used for fixing the large aluminum capacitors         |
+| Conformal coating             | 2-3 ml | Taerosol PRF 202          | Fast-curing protective coating                        |
 | Phase connector               | 1     |                           | 3D-printed from ABS                                   |
-| Positive wire                 | 1     | copper 2.5 sqmm multi-strand silicone/PVC red 105 °C   | Positive power wire      |
-| Negative wire                 | 1     | copper 2.5 sqmm multi-strand silicone/PVC black 105 °C | Negative power wire      |
+| Positive wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C | Positive power wire      |
+| Negative wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C | Negative power wire      |
 | Housing top                   | 1     |                           | Milled from aluminum                                  |
 | Housing bottom                | 1     |                           | Milled from aluminum                                  |
 | Housing screws                | 4     | DIN 965 M3.5 16 mm        | Fastening both parts of the housing together          |
@@ -106,4 +112,5 @@ The PCB is placed inside the housing. For the detailed instructions please watch
 | Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm          | Fastening the connector protection cap against the bottom |
 | Connector protection cap      | 0/1   |                           | 3D-printed from ABS                                   |
 | PCB spacers                   | 1     |                           | 3D-printed from ABS                                   |
-| Thermal pad                   | 50x30 mm | Arctic Cooling, 1 mm   | Sinks the heat to the bottom part of the housing      |
+| Thermal pad                   | 60x30 mm | [Arctic Cooling, 1 mm thick thermal pad](https://www.arctic.ac/worldwide_en/thermal-pad.html) (pn ACTPD00018A or ACTPD00005A or ACTPD00002A) | Sinks the heat to the bottom part of the housing      |
+
