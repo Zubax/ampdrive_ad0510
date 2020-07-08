@@ -73,7 +73,7 @@ It should be soldered to the PCB so that the bottom surface of the plastic part 
 
 The motor is installed onto the top part of the enclosure. 
 
-The motor phase wires are routed inside the enclosure through a 3d printed cable inlet, cut to the appropriate length, and then soldered to the PCB. The cable inlet can be seen on the picture below. It is fixed on the top part of the housing in a similar way to the phase connector.
+The motor phase wires are routed inside the enclosure through a 3d printed cable inlet, cut to the appropriate length, and then soldered to the PCB. The cable inlet can be seen on the picture below. It is fixed on the top part of the housing in a similar way to the phase connector. Minor modifications of the cable inlet may be necessary depending on the particular motor phase wires' thickness. 
 
 <img src="pics/7.png" width="700" />
 
@@ -111,19 +111,19 @@ The PCB is placed inside the housing. For the detailed instructions please watch
 
 | Item                          | Amount| Part number               | Description                                           |
 |-------------------------------|-------|---------------------------|-------------------------------------------------------|
-| Silicone glue                 | 20-40 ml | Penosil 2121              | Used for fixing the large aluminum capacitors         |
-| Conformal coating             | 2-3 ml | Taerosol PRF 202          | Fast-curing protective coating                        |
+| Silicone glue                 | 20-40 ml | Penosil 2121              | Used for fixing the large aluminum capacitors.        |
+| Conformal coating             | 2-3 ml | Taerosol PRF 202          | Fast-curing protective coating.                       |
 | Phase connector               | 1     |                           | 3D-printed part, ABS plastic. Used with **option #1 motor phase wires interface.** |
 | Wire holder | 1 | | 3D-printed part, ABS plastic. Used with **option #2 motor phase wires interface.** |
-| Positive wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C | Positive power wire      |
-| Negative wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C | Negative power wire      |
-| Housing top                   | 1     |                           | Milled from aluminum                                  |
-| Housing bottom                | 1     |                           | Milled from aluminum                                  |
-| Housing screws                | 4     | DIN 965 M3.5 16 mm        | Fastening both parts of the housing together          |
-| Motor screws                  | 4     | ISO 7380 M4 6 mm          | Fastening the motor to the top part of the housing    |
-| Mounting screws               | 4     | DIN 912 M4 6 mm           | Fastening the assembled Komar in place                |
-| Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm          | Fastening the connector protection cap against the bottom |
-| Connector protection cap      | 0/1   |                           | 3D-printed from ABS                                   |
-| PCB spacers                   | 1     |                           | 3D-printed from ABS                                   |
-| Thermal pad                   | 60x30 mm | [Arctic Cooling, 1 mm thick thermal pad](https://www.arctic.ac/worldwide_en/thermal-pad.html) (pn ACTPD00018A or ACTPD00005A or ACTPD00002A) | Sinks the heat to the bottom part of the housing      |
+| Positive wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C | Positive power wire.     |
+| Negative wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C | Negative power wire.     |
+| Housing top                   | 1     |                           | Milled from aluminum.                                 |
+| Housing bottom                | 1     |                           | Milled from aluminum.                                 |
+| Housing screws                | 4     | DIN 965 M3.5 16 mm        | Fastening both parts of the housing together.         |
+| Motor screws                  | 4     | ISO 7380 M4 6 mm          | Fastening the motor to the top part of the housing.   |
+| Mounting screws               | 4     | DIN 912 M4 6 mm           | Fastening the assembled Komar in place.               |
+| Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm          | Fastening the connector protection cap against the bottom. |
+| Connector protection cap      | 0/1   |                           | 3D-printed from ABS.                                 |
+| PCB spacers                   | 1     |                           | 3D-printed from ABS.                                  |
+| Thermal pad                   | 60x30 mm | [Arctic Cooling, 1 mm thick thermal pad](https://www.arctic.ac/worldwide_en/thermal-pad.html) (pn ACTPD00018A or ACTPD00005A or ACTPD00002A) | Sinks the heat to the bottom part of the housing.     |
 
