@@ -111,7 +111,7 @@ The PCB is placed inside the housing. For the detailed instructions please watch
 
 | Item                          | Amount| Part number               | Description                                           |
 |-------------------------------|-------|---------------------------|-------------------------------------------------------|
-| Silicone glue                 | 20-40 ml | Penosil 2121              | Used for fixing the large aluminum capacitors.        |
+| Silicone glue                 | 2-3 ml | Penosil 2121              | Used for fixing two bulk aluminum capacitors. |
 | Conformal coating             | 2-3 ml | Taerosol PRF 202          | Fast-curing protective coating.                       |
 | Phase connector               | 1     |                           | 3D-printed part, ABS plastic. Used with **option #1 motor phase wires interface.** |
 | Wire holder | 1 | | 3D-printed part, ABS plastic. Used with **option #2 motor phase wires interface.** |
