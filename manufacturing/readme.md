@@ -59,10 +59,9 @@ The wires should be soldered as shown in the pictures below.
 
 The motor phase interface can be assembled in one of the configurations described in this section.
 
-#### Rigid phase connector
+#### Option #1. Rigid phase connector
 
-The phase connector consists of a plastic part with epoxy-glued 4.5 mm female bullet connectors
-with pre-formed and pre-soldered 2 mm<sup>2</sup> solid wires.
+The phase connector is shown in the picture below. The manufacturing guide for it is available in the repository.
 
 <img src="pics/5.png" />
 
@@ -70,10 +69,13 @@ It should be soldered to the PCB so that the bottom surface of the plastic part 
 
 <img src="pics/6.png" width="500" />
 
-#### Fixed motor attachment
+#### Option #2. Fixed motor attachment
 
-The motor is installed onto the top part of the enclosure.
-The motor phase wires are routed inside the enclosure, cut to the appropriate length, and then soldered to the PCB.
+The motor is installed onto the top part of the enclosure. 
+
+The motor phase wires are routed inside the enclosure through a 3d printed cable inlet, cut to the appropriate length, and then soldered to the PCB. The cable inlet can be seen on the picture below. It is fixed on the top part of the housing in a similar way to the phase connector.
+
+<img src="pics/7.png" width="700" />
 
 The motor and its parts, if any, are not part of the bill of materials.
 
@@ -82,6 +84,16 @@ The motor and its parts, if any, are not part of the bill of materials.
 The PCB should be conformal-coated (see the BOM table below for the recommended partnumber),
 excluding the connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7)
 and the inner surfaces of the phase connectors.
+
+### Plastic parts
+
+Several 3d printed plastic parts are needed during assembly.  These are: motor phase wires interface and PCB spacers. All these parts can be printed using generic FDM 3D-printer. All parts should be printed using ABS filament. 
+
+Recommended settings:
+
+* Nozzel diameter 0.3-0.4 mm
+* Layer width 0.36-0.44 mm
+* Layer height 0.1 mm
 
 ### Thermal pad
 
@@ -101,7 +113,8 @@ The PCB is placed inside the housing. For the detailed instructions please watch
 |-------------------------------|-------|---------------------------|-------------------------------------------------------|
 | Silicone glue                 | 20-40 ml | Penosil 2121              | Used for fixing the large aluminum capacitors         |
 | Conformal coating             | 2-3 ml | Taerosol PRF 202          | Fast-curing protective coating                        |
-| Phase connector               | 1     |                           | 3D-printed from ABS                                   |
+| Phase connector               | 1     |                           | 3D-printed part, ABS plastic. Used with **option #1 motor phase wires interface.** |
+| Wire holder | 1 | | 3D-printed part, ABS plastic. Used with **option #2 motor phase wires interface.** |
 | Positive wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C | Positive power wire      |
 | Negative wire                 | 1     | copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C | Negative power wire      |
 | Housing top                   | 1     |                           | Milled from aluminum                                  |
