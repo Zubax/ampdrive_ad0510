@@ -39,15 +39,7 @@ Komar itself consists of a power stage PCB with Mitochondrik and the housing (al
 - Lightpipe
 - Capacitor support
 
-### Komar PCB blow scheme
-
-<img src="pics/pcb_blow_scheme.svg" alt="Komar blow scheme" />
-
-### Komar blow scheme
-
-<img src="pics/blow_scheme.svg" alt="Komar blow scheme" />
-
-The housing is kept together with 4x M3.5 screws. Komar is mounted using 4x M4 screws. The motor is mounted onto the top part of the housing with M4 button head screws (ISO 7380).
+Please refer to the manufacturing manual for further information.
 
 ## Release notes
 
