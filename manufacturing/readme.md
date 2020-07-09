@@ -51,7 +51,7 @@ The detailed thermal pad drawing can be exported from the 3d model of the device
 
 ### Bill of materials
 
-The PCB assembly is not included in the BOM.
+PCB assembly not included. Solder and consumables not included.
 
 Item                          | Amount| Part number                                                     | Description
 ------------------------------|-------|-----------------------------------------------------------------|-------------------------------------------------------
@@ -109,7 +109,7 @@ The motor phase interface can be assembled in one of the configurations describe
 #### Option #1. Rigid phase connector
 
 The phase connector is shown in the picture below.
-The guide for manual manucturing small amounts of such connectors is available in the repository.
+The guide for low-volume production is available in the adjacent document.
 
 <img src="pics/5.png" />
 

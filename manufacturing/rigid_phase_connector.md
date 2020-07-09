@@ -6,6 +6,8 @@ This is the manufacturing documentation for the rigid phase connector sub-assemb
 
 ## Bill of materials
 
+Solder and consumables not included.
+
 Item               | Amount | Description
 -------------------|--------|-------------------------------------------------------------
 Connector body     | 1      | 3D-printed
