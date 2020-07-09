@@ -49,14 +49,16 @@ The detailed thermal pad drawing can be exported from the 3d model of the device
 
 <img src="pics/thermal pad.svg" width="250" />
 
-### BOM for the final assembly
+### Bill of materials
+
+The PCB assembly is not included in the BOM.
 
 Item                          | Amount| Part number                                                     | Description
 ------------------------------|-------|-----------------------------------------------------------------|-------------------------------------------------------
 Silicone glue                 | ~3 ml | Penosil 2121                                                    | Used for fixing two bulk aluminum capacitors.
 Conformal coating             | ~3 ml | Taerosol PRF 202                                                | Fast-curing protective coating.
-Phase connector               | 0/1   | (see enclosed assembly documentation)                           | 3D-printed part, ABS plastic. Used with **option #1 motor phase wires interface.**
-Wire holder                   | 0/1   |                                                                 | 3D-printed part, ABS plastic. Used with **option #2 motor phase wires interface.**
+Phase connector               | 0/1   | (see enclosed assembly documentation)                           | 3D-printed. Used with **option #1 motor phase wires interface.**
+Wire holder                   | 0/1   |                                                                 | 3D-printed. Used with **option #2 motor phase wires interface.**
 Positive wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C  | Positive power wire.
 Negative wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C| Negative power wire.
 Housing top                   | 1     |                                                                 | Milled from aluminum.
@@ -65,8 +67,10 @@ Housing screws                | 4     | DIN 965 M3.5 16 mm                      
 Motor screws                  | 4     | ISO 7380 M4 6 mm                                                | Fastening the motor to the top part of the housing.
 Mounting screws               | 4     | DIN 912 M4 6 mm                                                 | Fastening the assembled Komar in place.
 Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm                                                | Fastening the connector protection cap against the bottom.
-Connector protection cap      | 0/1   |                                                                 | 3D-printed from ABS.
-PCB spacers                   | 1     |                                                                 | 3D-printed from ABS.
+PCB spacers                   | 1 set |                                                                 | 3D-printed.
+Connector protection cap      | 0/1   |                                                                 | 3D-printed, optional.
+Capacitor support             | 0/2   |                                                                 | 3D-printed, optional.
+Lightpipe                     | 0/1   |                                                                 | 3D-printed, optional.
 Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD00005A, or ACTPD00002A      | Sinks the heat to the bottom part of the housing.
 
 ## Assembly
