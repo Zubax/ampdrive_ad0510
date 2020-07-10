@@ -136,10 +136,6 @@ and the inner surfaces of the phase connectors.
 
 ### 7. Housing assembly
 
-The finished PCB assembly with the motor phase interface option #1 (rigid phase connector) is shown below.
-
-<img src="pics/pcb_blow_scheme.svg" alt="Komar PCB blow scheme" />
-
 The assembly is placed inside the housing:
 
 <img src="pics/blow_scheme.svg" alt="Komar blow scheme" />
