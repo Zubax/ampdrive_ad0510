@@ -66,11 +66,8 @@ Housing bottom                | 1     |                                         
 Housing screws                | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
 Motor screws                  | 4     | ISO 7380 M4 6 mm                                                | Fastening the motor to the top part of the housing.
 Mounting screws               | 4     | DIN 912 M4 6 mm                                                 | Fastening the assembled Komar in place.
-Connector protection cap screws | 0/3 | DIN912 M2.5 4 mm                                                | Fastening the connector protection cap against the bottom.
-PCB spacers                   | 1 set |                                                                 | 3D-printed.
-Connector protection cap      | 0/1   |                                                                 | 3D-printed, optional.
-Capacitor support             | 0/2   |                                                                 | 3D-printed, optional.
-Lightpipe                     | 0/1   |                                                                 | 3D-printed, optional.
+Connector protection cap screws | 0/3 | DIN 912 M2.5 4 mm                                               | Fastening the connector protection cap against the bottom.
+PCB spacers                   | 1 set |                                                                 | 3D-printed parts. 
 Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD00005A, or ACTPD00002A      | Sinks the heat to the bottom part of the housing.
 
 ## Assembly
