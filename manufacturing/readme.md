@@ -143,7 +143,3 @@ The finished PCB assembly with the motor phase interface option #1 (rigid phase 
 The assembly is placed inside the housing:
 
 <img src="pics/blow_scheme.svg" alt="Komar blow scheme" />
-
-For the detailed instructions please watch the video:
-
-[![Komar housing assembly instruction](http://img.youtube.com/vi/qDjCuD04zwk/0.jpg)](http://www.youtube.com/watch?v=qDjCuD04zwk "Komar housing assembly instruction")
