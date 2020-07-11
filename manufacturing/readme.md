@@ -45,7 +45,7 @@ The recommended settings are as follows:
 The thermal pad serves as thermal interface between the PCB and the housing.
 The thermal pad has a relatively complex shape, some kind of jig may be used to cut it in a repeatedly and easy way.
 Use the picture below as a reference.
-The detailed thermal pad drawing can be exported from the 3d model of the device.
+The detailed thermal pad drawing can be exported from the 3D model of the device.
 
 <img src="pics/thermal pad.svg" width="250" />
 
@@ -63,11 +63,10 @@ Positive wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand s
 Negative wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C| Negative power wire.
 Housing top                   | 1     |                                                                 | Milled from aluminum.
 Housing bottom                | 1     |                                                                 | Milled from aluminum.
-Housing screws                | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
-Motor screws                  | 4     | ISO 7380 M4 6 mm                                                | Fastening the motor to the top part of the housing.
-Mounting screws               | 4     | DIN 912 M4 6 mm                                                 | Fastening the assembled Komar in place.
-Connector protection cap screws | 0/3 | DIN 912 M2.5 4 mm                                               | Fastening the connector protection cap against the bottom.
-PCB spacers                   | 1 set |                                                                 | 3D-printed parts. 
+Housing screw                 | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
+Motor screw                   | 4     | ISO 7380 M4 6 mm                                                | Fastening the motor to the top part of the housing.
+Mounting screw                | 4     | DIN 912 M4 6 mm                                                 | Fastening the assembled Komar in place.
+PCB spacers                   | 1 set |                                                                 | 3D-printed parts.
 Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD00005A, or ACTPD00002A      | Sinks the heat to the bottom part of the housing.
 
 ## Assembly
@@ -84,11 +83,11 @@ The Mitochondrik is inserted on top of these headers and soldered.
 
 ### 3. Capacitor soldering
 
-The C1 and C2 radial electrolytic caps should be soldered sideways as shown in picture below.
+The C1 and C2 radial electrolytic caps should be soldered sideways as shown in the picture below.
 Ensure the correct polarity.
 
 The capacitors should be glued to the PCB with a non-conductive silicone glue
-(see the BOM table below for the recommended partnumber).
+(see the BOM table for the recommended partnumber).
 
 <img src="pics/3.png" width="500" />
 
@@ -118,7 +117,7 @@ It should be soldered to the PCB so that the bottom surface of the plastic part 
 
 The motor is installed onto the top part of the enclosure.
 
-The motor phase wires are routed inside the enclosure through a 3d printed cable inlet, cut to the appropriate length,
+The motor phase wires are routed inside the enclosure through a 3D printed cable inlet, cut to the appropriate length,
 and then soldered to the PCB.
 The cable inlet can be seen on the picture below.
 It is fixed on the top part of the housing in a similar way to the rigid phase connector.
@@ -130,34 +129,34 @@ The motor and its parts, if any, are not part of the bill of materials.
 
 ### 6. Conformal coating
 
-The PCB should be conformal-coated (see the BOM table below for the recommended partnumber),
+The PCB should be conformal-coated (see the BOM table for the recommended partnumber),
 excluding the connectors on the bottom side of the PCB (CON1, CON3, CON4, CON5, CON6, CON7)
 and the inner surfaces of the phase connectors.
 
 ### 7. Housing assembly
 
-Assembled Komar blow scheme is shown in the picture below.  
+The blow scheme for motor phase interface option #1 (rigid phase connector) is shown in the picture below.
 
-<img src="pics/blow_scheme.svg" alt="Komar blow scheme" />
+<img src="pics/blow_scheme_rigid_phase_connector.svg" alt="Komar blow scheme with a rigid phase connector" />
 
 #### Bottom part assembly
 
-Prior to placing the PCB to the housing heatsink and PCB spacers should be placed in the bottom part of the housing as shown in the picture below.
+Insert the **thermal pad** and the **PCB spacers** into the bottom part of the housing as shown in the picture below.
 
-  <img src="pics/13.png" width="500" />
+<img src="pics/13.png" width="500" />
 
-After that the PCB can be installed on top of the heat pad. The power wires should run through the corresponding holes in the housing.
+After that, the **PCB assembly** can be installed on top of the **thermal pad**.
+The **positive wire** and **negative wire** should run through the corresponding holes in the housing.
 
-  <img src="pics/14.png" width="1000" />
-
-
+<img src="pics/14.png" width="1000" />
 
 #### Top part assembly
 
-If needed, the motor should be installed on the top part of the housing. It should be secured in place using **motor mount screws set.**
+If needed, the motor should be installed on the top part of the housing using the set of **motor mount screws**.
 
 #### Final assembly
 
-Two parts of the housing should be connected together at this step. After aligning the mounting holes they should be fastened using **housing screws set.**
+Two parts of the housing should be connected together at this step.
+The mounting holes should be aligned and fastened using the set of **housing screws**.
 
 <img src="pics/15.png" width="500" />
