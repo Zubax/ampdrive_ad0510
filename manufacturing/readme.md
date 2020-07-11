@@ -136,6 +136,28 @@ and the inner surfaces of the phase connectors.
 
 ### 7. Housing assembly
 
-The assembly is placed inside the housing:
+Assembled Komar blow scheme is shown in the picture below.  
 
 <img src="pics/blow_scheme.svg" alt="Komar blow scheme" />
+
+#### Bottom part assembly
+
+Prior to placing the PCB to the housing heatsink and PCB spacers should be placed in the bottom part of the housing as shown in the picture below.
+
+  <img src="pics/13.png" width="500" />
+
+After that the PCB can be installed on top of the heat pad. The power wires should run through the corresponding holes in the housing.
+
+  <img src="pics/14.png" width="1000" />
+
+
+
+#### Top part assembly
+
+If needed, the motor should be installed on the top part of the housing. It should be secured in place using **motor mount screws set.**
+
+#### Final assembly
+
+Two parts of the housing should be connected together at this step. After aligning the mounting holes they should be fastened using **housing screws set.**
+
+<img src="pics/15.png" width="500" />
