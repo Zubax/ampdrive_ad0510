@@ -64,8 +64,6 @@ Negative wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand s
 Housing top                   | 1     |                                                                 | Milled from aluminum.
 Housing bottom                | 1     |                                                                 | Milled from aluminum.
 Housing screw                 | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
-Motor screw                   | 4     | ISO 7380 M4 6 mm                                                | Fastening the motor to the top part of the housing.
-Mounting screw                | 4     | DIN 912 M4 6 mm                                                 | Fastening the assembled Komar in place.
 PCB spacers                   | 1 set |                                                                 | 3D-printed parts.
 Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD00005A, or ACTPD00002A      | Sinks the heat to the bottom part of the housing.
 
