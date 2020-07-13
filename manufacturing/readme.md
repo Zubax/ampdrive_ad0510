@@ -150,7 +150,8 @@ The **positive wire** and **negative wire** should run through the corresponding
 
 #### Top part assembly
 
-If needed, the motor should be installed on the top part of the housing using the set of **motor mount screws**.
+If needed, the motor should be installed on the top part of the housing.
+The motor itself and its fasteners are not part of this design.
 
 #### Final assembly
 
