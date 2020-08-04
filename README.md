@@ -19,7 +19,9 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
   * Industry-standard RC PWM input.
 * Komar is built using highly reliable automotive-grade AEC-Q qualified components.
 
-<img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" />
+<p align="center">
+<img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" width="900"/>
+</p>
 
 Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
@@ -40,6 +42,18 @@ Komar itself consists of a power stage PCB with Mitochondrik and the housing (al
 - Capacitor support
 
 Please refer to the manufacturing manual for further information.
+
+## Thermal performance
+
+Thermal simulation is performed with following conditions:
+
+* Heat source power applied to the heatsink - PCB pad 54 W. It is a typical value of power losses in the Komar power stage when operating at power level of 2000 W and powered from a discharged 12S battery (~30 V). This should represent worst case scenario.
+
+* Convection - 300 W / m<sup>2</sup> * K is applied to all the faces of the heatsing excluding the inner ones, ambient temperature 20 °C. Convection value of 300 is defined empirically after conducting several experiments with actual hardware. It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was obviously suboptimal. 
+
+  <p align="center">
+  <img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" width="800"/>
+  </p>
 
 ## Release notes
 
