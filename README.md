@@ -45,11 +45,11 @@ Please refer to the manufacturing manual for further information.
 
 ## Thermal performance
 
-Thermal simulation is performed with following conditions:
+Thermal simulation is performed under following conditions:
 
-* Heat source power applied to the heatsink - PCB pad 54 W. It is a typical value of power losses in the Komar power stage when operating at power level of 2000 W and powered from a discharged 12S battery (~30 V). This should represent worst case scenario.
+* The heat source is applied to the heatsink area where the PCB is placed. Its power is 54 W. It is a typical value of power losses in the Komar power stage when operating at a power level of 2000 W and powered from a discharged 12S battery (~30 V). This should represent the worst-case scenario.
 
-* Convection - 300 W / m<sup>2</sup> * K is applied to all the faces of the heatsing excluding the inner ones, ambient temperature 20 °C. Convection value of 300 is defined empirically after conducting several experiments with actual hardware. It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was obviously suboptimal. 
+* Convection value of 300 is defined empirically after conducting several experiments with actual hardware. It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
 
   <p align="center">
   <img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" width="800"/>
