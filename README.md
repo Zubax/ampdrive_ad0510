@@ -55,7 +55,7 @@ Thermal simulation is performed under following conditions:
 It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W
 and powered from a discharged 12S battery (~40 V). This should represent the worst-case scenario.
 
-* Ambient temperature is 20 °C
+* Ambient temperature is 20 °C.
 
 * Convection value of 350 is defined empirically after conducting several experiments with actual hardware.
 It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
