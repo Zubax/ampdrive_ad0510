@@ -52,8 +52,8 @@ Please refer to the manufacturing manual for further information.
 Thermal simulation is performed under following conditions:
 
 * The heat source is applied to the heatsink area where the PCB is placed. Its power is 78.5 W.
-It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W
-and powered from a discharged 12S battery (~40 V). This should represent the worst-case scenario.
+  It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W
+  and powered from a discharged 12S battery (~40 V). This should represent the worst-case scenario.
 
 * Ambient temperature is 20 °C.
 
