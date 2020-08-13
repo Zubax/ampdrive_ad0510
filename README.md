@@ -59,9 +59,7 @@ and powered from a discharged 12S battery (~40 V). This should represent the wor
 
 * The convection value of 350 W/(m<sup>2</sup>K) is established empirically after conducting several experiments with real hardware.
 
-  <p align="center">
-  <img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" width="800"/>
-  </p>
+<img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" />
 
 ## Release notes
 
