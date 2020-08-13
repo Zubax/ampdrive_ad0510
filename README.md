@@ -58,7 +58,6 @@ and powered from a discharged 12S battery (~40 V). This should represent the wor
 * Ambient temperature is 20 °C.
 
 * The convection value of 350 W/(m<sup>2</sup>K) is established empirically after conducting several experiments with real hardware.
-It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
 
   <p align="center">
   <img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" width="800"/>
