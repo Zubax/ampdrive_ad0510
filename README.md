@@ -49,7 +49,7 @@ Please refer to the manufacturing manual for further information.
 
 ## Thermal performance
 
-Thermal simulation is performed under following conditions:
+Thermal simulation is performed under the following conditions:
 
 * The heat source is applied to the heatsink area where the PCB is placed. Its power is 78.5 W.
   It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W
