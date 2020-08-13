@@ -76,7 +76,7 @@ Newest entries at the top.
 * All the LEDs grouped in one place; holes for mounting lightpipe added.
 * Holes diameter for power supply wires soldering greatly increased to fit any 3.3 sqmm multi-stand wire.
 * Holes diameter for phase wires increased to fit either any 2 sqmm multi-stand wire
-(in the case of motor soldering to the PCB) or 3.3 sqmm single-strand wire (if phase connectors are used).
+  (in the case of motor soldering to the PCB) or 3.3 sqmm single-strand wire (if phase connectors are used).
 * Overcurrent protection trip level increased 1.5 times to theoretical value of 200 A.
 In practice, however, overcurrent protection tends to trip at approx 20-30% lower current level due to themperature drift of the MOSFETs R<sub>DS(on)</sub> and RF noise.
 * TVS diodes with a lower reverse standoff voltage are used (51 V).
