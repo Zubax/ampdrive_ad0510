@@ -88,8 +88,8 @@ Newest entries at the top.
 * The housing itself is now mounted on the chassis using 4x M4 screws (was M3).
 * Wall thickness of the top part of the housing increased from 1 to 1.6 mm.
 * The connector window is slightly smaller now.
-* Totally different construction of the phase connector.
-It became much bigger and now should fit up to 6 mm bullet connectors (previously 3.5 mm bullet connectors were used).
+* A totally different construction of the phase connector.
+  It is much bigger and accepts bullet connectors up to 6 mm (previously, 3.5 mm bullet connectors were used).
 * Phase connector is now supposed to use single-stranded thick stiff copper wires instead of flexible multi-stranded ones.
 * All the LEDs are grouped in one place now. The holes for the LEDs have been moved.
 * Lightpipe for the LEDs added (will be manufactured inhouse using 3d printing).
