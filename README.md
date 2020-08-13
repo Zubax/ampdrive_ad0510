@@ -23,9 +23,7 @@ Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.co
   * Industry-standard RC PWM input.
 * Komar is built using highly reliable automotive-grade AEC-Q qualified components.
 
-<p align="center">
-<img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" width="900"/>
-</p>
+<img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" />
 
 Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
