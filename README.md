@@ -57,7 +57,7 @@ and powered from a discharged 12S battery (~40 V). This should represent the wor
 
 * Ambient temperature is 20 °C.
 
-* Convection value of 350 is defined empirically after conducting several experiments with actual hardware.
+* The convection value of 350 W/(m<sup>2</sup>K) is established empirically after conducting several experiments with real hardware.
 It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
 
   <p align="center">
