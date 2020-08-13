@@ -1,6 +1,10 @@
 # Zubax Komar
 
-Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/technologies/telega) motor control technology. Komar is designed to support the propulsion systems of light unmanned aerial vehicles (UAVs), unmanned underwater vehicles (UUVs) and unmanned surface vehicles (USVs). Komar is compatible with almost all PMSM and BLDC motors. It is designed to be a part of an integrated drive but allows operation as a separate unit as well. Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) control module.
+Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/technologies/telega) motor control technology.
+Komar is designed to support the propulsion systems of light unmanned aerial vehicles (UAVs), unmanned underwater vehicles (UUVs)
+and unmanned surface vehicles (USVs). Komar is compatible with almost all PMSM and BLDC motors.
+It is designed to be a part of an integrated drive but allows operation as a separate unit as well.
+Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) control module.
 
 <p align="center">
 <img src="pics/Komar.svg" alt="Zubax Komar" width="500"/>
@@ -25,7 +29,8 @@ Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/techno
 
 Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
-Komar is designed to be a part of an integrated drive for mid-power motors. It is best suited for the motors with following specs:
+Komar is designed to be a part of an integrated drive for mid-power motors.
+It is best suited for the motors with following specs:
 
 * Continuous power: 2.5 kW
 * Continuous phase current amplitude: 90 A
@@ -36,7 +41,8 @@ Komar can also be used as a separate unit. In this case, a custom phase connecto
 
 ## Construction and usage
 
-Komar itself consists of a power stage PCB with Mitochondrik and the housing (aluminum enclosure plus several plastic parts). The PCB may use several optional 3D-printed parts that don't influence its properties directly, but may improve the overall user experience:
+Komar itself consists of a power stage PCB with Mitochondrik and the housing (aluminum enclosure plus several plastic parts).
+The PCB may use several optional 3D-printed parts that don't influence its properties directly, but may improve the overall user experience:
 
 - Lightpipe
 - Capacitor support
@@ -47,11 +53,14 @@ Please refer to the manufacturing manual for further information.
 
 Thermal simulation is performed under following conditions:
 
-* The heat source is applied to the heatsink area where the PCB is placed. Its power is 78.5 W. It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W and powered from a discharged 12S battery (~40 V). This should represent the worst-case scenario.
+* The heat source is applied to the heatsink area where the PCB is placed. Its power is 78.5 W.
+It is a typical value of power losses in the Komar power stage when operating at a power level of 2500 W
+and powered from a discharged 12S battery (~40 V). This should represent the worst-case scenario.
 
 * Ambient temperature is 20 °C
 
-* Convection value of 350 is defined empirically after conducting several experiments with actual hardware. It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
+* Convection value of 350 is defined empirically after conducting several experiments with actual hardware.
+It may be considered a moderate convection estimation as during the laboratory testing the device mounting point was suboptimal.
 
   <p align="center">
   <img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" width="800"/>
@@ -71,8 +80,10 @@ Newest entries at the top.
 * All the gate networks re-routed and greatly improved.
 * All the LEDs grouped in one place; holes for mounting lightpipe added.
 * Holes diameter for power supply wires soldering greatly increased to fit any 3.3 sqmm multi-stand wire.
-* Holes diameter for phase wires increased to fit either any 2 sqmm multi-stand wire (in the case of motor soldering to the PCB) or 3.3 sqmm single-strand wire (if phase connectors are used).
-* Overcurrent protection trip level increased 1.5 times to theoretical value of 200 A. In practice, however, overcurrent protection tends to trip at approx 20-30% lower current level due to themperature drift of the MOSFETs R<sub>DS(on)</sub> and RF noise.
+* Holes diameter for phase wires increased to fit either any 2 sqmm multi-stand wire
+(in the case of motor soldering to the PCB) or 3.3 sqmm single-strand wire (if phase connectors are used).
+* Overcurrent protection trip level increased 1.5 times to theoretical value of 200 A.
+In practice, however, overcurrent protection tends to trip at approx 20-30% lower current level due to themperature drift of the MOSFETs R<sub>DS(on)</sub> and RF noise.
 * TVS diodes with a lower reverse standoff voltage are used (51 V).
 
 #### Major housing changes
@@ -81,7 +92,8 @@ Newest entries at the top.
 * The housing itself is now mounted on the chassis using 4x M4 screws (was M3).
 * Wall thickness of the top part of the housing increased from 1 to 1.6 mm.
 * The connector window is slightly smaller now.
-* Totally different construction of the phase connector. It became much bigger and now should fit up to 6 mm bullet connectors (previously 3.5 mm bullet connectors were used).
+* Totally different construction of the phase connector.
+It became much bigger and now should fit up to 6 mm bullet connectors (previously 3.5 mm bullet connectors were used).
 * Phase connector is now supposed to use single-stranded thick stiff copper wires instead of flexible multi-stranded ones.
 * All the LEDs are grouped in one place now. The holes for the LEDs have been moved.
 * Lightpipe for the LEDs added (will be manufactured inhouse using 3d printing).
