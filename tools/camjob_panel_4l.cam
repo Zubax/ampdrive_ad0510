@@ -31,7 +31,7 @@
                         18,
                         17
                     ],
-                    "name": "copper_top_l1",
+                    "name": "top_l1",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -49,7 +49,7 @@
                         17,
                         18
                     ],
-                    "name": "copper_inner_l2",
+                    "name": "inner_l2",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -67,7 +67,7 @@
                         18,
                         15
                     ],
-                    "name": "copper_inner_l3",
+                    "name": "inner_l3",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -85,7 +85,7 @@
                         17,
                         18
                     ],
-                    "name": "copper_bottom_l4",
+                    "name": "bottom_l4",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -250,7 +250,7 @@
             ]
         }
     ],
-    "timestamp": "2020-08-31T11:29:55",
+    "timestamp": "2020-08-31T12:08:43",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.1"
