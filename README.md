@@ -67,7 +67,7 @@ Newest entries at the top.
 
 ### Minor update August 2020 (no version bump)
 
-Solder mask issue with phase connectors PADs fixed
+Solder mask issue with phase connectors PADs fixed.
 
 ### Komar V1.0 (July 2020)
 
