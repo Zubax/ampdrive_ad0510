@@ -65,9 +65,10 @@ Thermal simulation is performed under the following conditions:
 
 Newest entries at the top.
 
-### Minor update August 2020 (no version bump)
+### Komar V1.1 (August 2020)
 
-Solder mask issue with phase connectors PADs fixed.
+* Panel template fix: solder mask issue with phase connectors pads fixed (#13).
+* Enclosure: increase chamfering depth (#14).
 
 ### Komar V1.0 (July 2020)
 
