@@ -33,7 +33,6 @@ It is best suited for the motors with following specs:
 * Continuous power: 2.5 kW
 * Continuous phase current amplitude: 90 A
 * Outer diameter: 80 mm
-* KV > 180 (assuming 12S battery is used)
 
 Komar can also be used as a separate unit. In this case, a custom phase connector mounted on the housing may be used to provide motor connections.
 
@@ -65,9 +64,10 @@ Thermal simulation is performed under the following conditions:
 
 Newest entries at the top.
 
-### Minor update August 2020 (no version bump)
+### Komar V1.1 (August 2020)
 
-Solder mask issue with phase connectors PADs fixed.
+* Panel template fix: solder mask issue with phase connectors pads fixed (#13).
+* Enclosure: increase chamfering depth (#14).
 
 ### Komar V1.0 (July 2020)
 
