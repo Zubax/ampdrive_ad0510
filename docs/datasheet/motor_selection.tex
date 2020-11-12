@@ -11,7 +11,7 @@ is applied with no load attached to that motor.
 FOC-enabled motor controllers have additional voltage utilization factor that decreases the maximum RPM
 for a given motor and supply voltage. For Komar this factor is:
 
-\[F\textsubscript{util} = \frac{0.91}{\sqrt{3}}\]
+\[F\textsubscript{util} = 0.99\]
 \[RPM\textsubscript{max} = K\textsubscript{v} \times V\textsubscript{supply} \times F\textsubscript{util}\]
 
 RPM\textsubscript{max} of a FOC enabled motor controller will always be lower than RPM\textsubscript{max} 
@@ -21,4 +21,4 @@ when designing a propulsion system.
 For example, a motor with speed constant K\textsubscript{v} = 320 controlled by Komar
 running on fully charged 10S $\text{LiCoO}_\text{2}$ battery will have the following theoretical maximum RPM:
 
-\[RPM\textsubscript{max} = 320 \times 10 \times 4.2 \times \frac{0.91}{\sqrt{3}} = 7061\]
+\[RPM\textsubscript{max} = 320 \times 10 \times 4.2 \times 0.99 = 13305\]
