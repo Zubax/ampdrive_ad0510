@@ -49,6 +49,7 @@ The detailed thermal pad drawing can be exported from the 3D model of the device
 ### PCB spacer
 
 The PCB spacer is a flat part that is placed between the main PCB and the bottom part of the housing to provide proper distance between them.
+It also protects the main PCB from damaging it with mounting screws in case their length is incorrectly selected.
 It can be laser cut from any sheet material with 0.5 mm thickness that can withstand temperature up to 100 °C. 
 It can also be manufacted as a general PCB with all copper removed. In this case the main criteria is thickness.
 Most PCB houses offer cheap manufacturing of PCBs with thickness of the resulting PCB down to 0.6 mm. 
