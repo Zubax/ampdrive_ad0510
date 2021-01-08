@@ -54,6 +54,8 @@ It can also be manufacted as a general PCB with all copper removed. In this case
 Most PCB houses offer cheap manufacturing of PCBs with thickness of the resulting PCB down to 0.6 mm. 
 Substracting 2 copper layers of 0.35 mm each, the resulting PCB can have ideal thickness of 0.53 mm which is suitable. 
 
+Exact drawing of this part for laser cutting can be exported from file **pcb spacer.brd** in the root of this repository.
+
 ### Bill of materials
 
 PCB assembly not included. Solder and consumables not included.
