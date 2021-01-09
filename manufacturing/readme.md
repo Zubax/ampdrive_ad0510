@@ -28,7 +28,7 @@ The copper layers are ordered as follows:
 
 ### Plastic part
 
-One custom 3D-printed plastic part us needed for the assembly: Motor phase wires interface.
+One custom 3D-printed plastic part is needed for the assembly: motor phase wires interface.
 
 It can be printed using a generic FDM 3D printer using ABS filament.
 The recommended settings are as follows:
