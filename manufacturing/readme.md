@@ -26,14 +26,11 @@ The copper layers are ordered as follows:
 3. copper_inner_l3
 4. copper_bottom_l4
 
-### Custom plastic parts
+### Plastic part
 
-Several 3D-printed plastic parts are needed for the assembly:
+One custom 3D-printed plastic part is needed for the assembly: motor phase wires interface.
 
-- Motor phase wires interface
-- PCB spacers
-
-The parts should be printed using a generic FDM 3D printer using ABS filament.
+It can be printed using a generic FDM 3D printer using ABS filament.
 The recommended settings are as follows:
 
 * Nozzle diameter: 0.3-0.4 mm
@@ -48,6 +45,17 @@ Use the picture below as a reference.
 The detailed thermal pad drawing can be exported from the 3D model of the device.
 
 <img src="pics/thermal pad.svg" width="250" />
+
+### PCB spacer
+
+The PCB spacer is a flat part that is placed between the main PCB and the bottom part of the housing to provide proper distance between them.
+It also protects the main PCB from damaging it with mounting screws in case their length is incorrectly selected.
+It can be laser cut from any sheet material with 0.5 mm thickness that can withstand temperature up to 100 °C. 
+It can also be manufacted as a general PCB with all copper removed. In this case the main criteria is thickness.
+Most PCB houses offer cheap manufacturing of PCBs with thickness of the resulting PCB down to 0.6 mm. 
+Substracting 2 copper layers of 0.35 mm each, the resulting PCB can have ideal thickness of 0.53 mm which is suitable. 
+
+Exact drawing of this part for laser cutting can be exported from file **pcb spacer.brd** in the root of this repository.
 
 ### Bill of materials
 
@@ -64,7 +72,7 @@ Negative wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand s
 Housing top                   | 1     |                                                                 | Milled from aluminum.
 Housing bottom                | 1     |                                                                 | Milled from aluminum.
 Housing screw                 | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
-PCB spacers                   | 1 set |                                                                 | 3D-printed parts.
+PCB spacer                    | 1     |                                                                 | Flat part that lifts the main PCB from the heatsink. 
 Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD00005A, or ACTPD00002A      | Sinks the heat to the bottom part of the housing.
 
 ## Assembly
@@ -139,7 +147,7 @@ The blow scheme for motor phase interface option #1 (rigid phase connector) is s
 
 #### Bottom part assembly
 
-Insert the **thermal pad** and the **PCB spacers** into the bottom part of the housing as shown in the picture below.
+Insert the **thermal pad** and the **PCB spacer** into the bottom part of the housing as shown in the picture below.
 
 <img src="pics/13.png" width="500" />
 
