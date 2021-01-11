@@ -22,6 +22,8 @@ Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.co
   * USB Micro-B interface for control, management, and telemetry.
   * Industry-standard RC PWM input.
 * Komar is built using highly reliable automotive-grade AEC-Q qualified components.
+* Operating device temperature - -40..85 °C.
+* Operating humidity - 0..100 %RH (Condensation not permitted).
 
 <img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" />
 
