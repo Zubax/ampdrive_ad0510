@@ -5,8 +5,9 @@ This is the manufacturing documentation for the rigid phase connector sub-assemb
 <img src="pics/11.png" width="800" />
 
 A special jig may be used to ease the process of manufacturing. 
-The jig consists of two 3d-printed parts that are fastened together using two M3 x 30 mm screws. 
-The jig allows for precision connector's pins forming and installing the bullet connectors into the connector housing at the right depth.
+The jig consists of two 3d-printed parts that are fastened together using two M3 x 30 mm screws.
+The jig allows for precision connector's pins forming and installing 
+the bullet connectors into the connector housing at the right depth.
 
 ## Bill of materials
 
@@ -43,7 +44,8 @@ Apply some force to form the wires in the right manner.
 
 <img src="pics/connector/2.png" />
 
-3.4. Apply some epoxy to the bullet connectors and then slip the phase connector housing on the bullet connectors as far as it can go.
+3.4. Apply some epoxy to the bullet connectors and then slip the phase connector housing on the bullet connectors
+as far as it can go.
 
 <img src="pics/connector/3.png" />
 
