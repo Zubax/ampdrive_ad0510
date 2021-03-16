@@ -33,12 +33,21 @@ Epoxy glue         | ~3 g   | N/A
 
 3. Form and trim the wires in place using the jig.
 
-3.1. Place the bullet connectors with pre-soldered wires into the jig as in the picture below. 
-Apply some force to form the wires in the right manner.
+3.1 Due to wires' stiffness, it may be hard to form the side wires in place by hand.
+To guarantee the wires' proper shape one should use the jig's additional features. 
+For setting proper wire length the bullet connector should be pushed against the surface showed red in the picture below.
+The wires should be trimmed so they are flush with the jig's bottom surface.
+
+<img src="pics/connector/6.png" />
+
+3.2. Then while keeping the other end of the wire flush with the bottom of the jig
+the side bend can be done in the outer direction of the jig as shown in the picture below.
+
+<img src="pics/connector/5.png" /> 
+
+3.2. Place the bullet connectors with pre-soldered wires into the jig as in the picture below. 
 
 <img src="pics/connector/1.png" />
-
-3.2. Trim the wires so that the wires' ends are flush with the bottom surface of the jig.
 
 3.3. Remove the front part of the jig and the guiding M3 screws.
 
