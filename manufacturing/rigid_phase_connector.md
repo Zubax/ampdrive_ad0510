@@ -41,7 +41,7 @@ The wires should be trimmed so they are flush with the jig's bottom surface.
 <img src="pics/connector/6.png" />
 
 3.2. Then while keeping the other end of the wire flush with the bottom of the jig
-the side bend can be done in the outer direction of the jig as shown in the picture below.
+the side bend can be done in the outer direction of the jig using the rounded surface showed red in the picture below.
 
 <img src="pics/connector/5.png" /> 
 
