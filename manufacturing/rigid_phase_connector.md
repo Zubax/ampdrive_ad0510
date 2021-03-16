@@ -53,16 +53,16 @@ the side bend can be done in the outer direction of the jig using the rounded su
 
 <img src="pics/connector/2.png" />
 
-3.4. Apply some epoxy to the bullet connectors and then slip the phase connector housing on the bullet connectors
+4. Apply some epoxy to the bullet connectors and then slip the phase connector housing on the bullet connectors
 as far as it can go.
 
 <img src="pics/connector/3.png" />
 
-3.5. After the epoxy cures the connector can be removed from the jig by pulling it up.
+5. After the epoxy cures the connector can be removed from the jig by pulling it up.
 
 <img src="pics/connector/4.png" />
 
-5. Place a piece of heat shrink tube on each wire so that it covers all the surface of the wire excluding
+6. Place a piece of heat shrink tube on each wire so that it covers all the surface of the wire excluding
    approx. 2-3 mm on the side that is meant for soldering it to the PCB.
    The final result should be like this:
 
