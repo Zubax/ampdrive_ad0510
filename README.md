@@ -66,6 +66,14 @@ Thermal simulation is performed under the following conditions:
 
 Newest entries at the top.
 
+
+### Komar V1.1 (February 2021)
+
+* Manufacturing instructions update.
+* New design of the phase connector.
+* Phase connector manufacturing instructions and jig added.
+* A better design of the PCB spacer added.
+
 ### Komar V1.1 (August 2020)
 
 * Panel template fix: solder mask issue with phase connectors pads fixed (#13).
