@@ -66,8 +66,7 @@ Thermal simulation is performed under the following conditions:
 
 Newest entries at the top.
 
-
-### Komar V1.1 (February 2021)
+### Komar V1.2 (March 2021)
 
 * Manufacturing instructions update.
 * New design of the phase connector.
