@@ -35,7 +35,7 @@ Epoxy glue         | ~3 g   | N/A
 
 3.1 Due to wires' stiffness, it may be hard to form the side wires in place by hand.
 To guarantee the wires' proper shape one should use the jig's additional features. 
-For setting proper wire length the bullet connector should be pushed against the surface showed red in the picture below.
+For setting proper wire length the bullet connector should be pushed against the surface shown red in the picture below.
 The wires should be trimmed so they are flush with the jig's bottom surface.
 
 <img src="pics/connector/6.png" />
