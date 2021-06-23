@@ -44,7 +44,7 @@ The thermal pad has a relatively complex shape, some kind of jig may be used to 
 Use the picture below as a reference.
 The detailed thermal pad drawing can be exported from the 3D model of the device.
 
-<img src="pics/thermal pad.svg" width="250" />
+<img src="figures/thermal pad.svg" width="250" />
 
 ### PCB spacer
 
@@ -79,7 +79,7 @@ Thermal pad                   | 60x30 mm | Arctic Cooling ACTPD00018A, ACTPD0000
 
 ### 1. SMD assembly
 
-<img src="pics/1.png" />
+<img src="figures/1.png" />
 
 ### 2. Mitochondrik mounting
 
@@ -95,14 +95,14 @@ Ensure the correct polarity.
 The capacitors should be glued to the PCB with a non-conductive silicone glue
 (see the BOM table for the recommended partnumber).
 
-<img src="pics/3.png" width="500" />
+<img src="figures/3.png" width="500" />
 
 ### 4. Power wires soldering
 
 The ends that are not soldered to the PCB should be stripped and tinned (approx. 5 mm).
 The wires should be soldered as shown in the pictures below.
 
-<img src="pics/4.png" />
+<img src="figures/4.png" />
 
 ### 5. Motor phase interface assembly
 
@@ -113,11 +113,11 @@ The motor phase interface can be assembled in one of the configurations describe
 The phase connector is shown in the picture below.
 The guide for low-volume production is available in the adjacent document.
 
-<img src="pics/5.png" />
+<img src="figures/5.png" />
 
 It should be soldered to the PCB so that the bottom surface of the plastic part rests on the PCB:
 
-<img src="pics/6.png" width="500" />
+<img src="figures/6.png" width="500" />
 
 #### Option #2. Fixed motor attachment
 
@@ -129,7 +129,7 @@ The cable inlet can be seen on the picture below.
 It is fixed on the top part of the housing in a similar way to the rigid phase connector.
 Minor modifications of the cable inlet may be necessary depending on the particular motor phase wires' thickness.
 
-<img src="pics/7.png" width="700" />
+<img src="figures/7.png" width="700" />
 
 The motor and its parts, if any, are not part of the bill of materials.
 
@@ -143,18 +143,18 @@ and the inner surfaces of the phase connectors.
 
 The blow scheme for motor phase interface option #1 (rigid phase connector) is shown in the picture below.
 
-<img src="pics/blow_scheme_rigid_phase_connector.svg" alt="Komar blow scheme with a rigid phase connector" />
+<img src="figures/blow_scheme_rigid_phase_connector.svg" alt="Komar blow scheme with a rigid phase connector" />
 
 #### Bottom part assembly
 
 Insert the **thermal pad** and the **PCB spacer** into the bottom part of the housing as shown in the picture below.
 
-<img src="pics/13.png" width="500" />
+<img src="figures/13.png" width="500" />
 
 After that, the **PCB assembly** can be installed on top of the **thermal pad**.
 The **positive wire** and **negative wire** should run through the corresponding holes in the housing.
 
-<img src="pics/14.png" width="1000" />
+<img src="figures/14.png" width="1000" />
 
 #### Top part assembly
 
@@ -166,4 +166,4 @@ The motor itself and its fasteners are not part of this design.
 Two parts of the housing should be connected together at this step.
 The mounting holes should be aligned and fastened using the set of **housing screws**.
 
-<img src="pics/15.png" width="500" />
+<img src="figures/15.png" width="500" />
