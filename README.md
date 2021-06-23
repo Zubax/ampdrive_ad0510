@@ -7,7 +7,7 @@ It is designed to be a part of an integrated drive but allows operation as a sep
 Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) control module.
 
 <p align="center">
-<img src="pics/Komar.svg" alt="Zubax Komar" width="500"/>
+<img src="figures/Komar.svg" alt="Zubax Komar" width="500"/>
 </p>
 
 ## Brief specs
@@ -25,7 +25,7 @@ Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.co
 * Operating device temperature - -40..85 °C.
 * Operating humidity - 0..100 %RH (Condensation not permitted).
 
-<img src="pics/connectors leds.svg" alt="Komar connectors and LEDs placement" />
+<img src="figures/connectors leds.svg" alt="Komar connectors and LEDs placement" />
 
 Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
@@ -60,7 +60,7 @@ Thermal simulation is performed under the following conditions:
 
 * The convection value of 350 W/(m<sup>2</sup>K) is established empirically after conducting several experiments with real hardware.
 
-<img src="pics/thermal_performance.png" alt="Zubax Komar thermal performance" />
+<img src="figures/thermal_performance.png" alt="Zubax Komar thermal performance" />
 
 ## Release notes
 
