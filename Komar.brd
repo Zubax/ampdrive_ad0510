@@ -8,9 +8,9 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="29" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="6" visible="no" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -483,36 +483,6 @@ by Télega</text>
 </library>
 <library name="Connectors" urn="urn:adsk.eagle:library:3750510">
 <packages>
-<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/3" library_version="70">
-<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="-2.45" y1="-0.25" x2="-2.45" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="-0.55" y2="-1.9" width="0.01" layer="20" curve="-180"/>
-<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0.01" layer="20" curve="180"/>
-<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="3.15" y1="-0.25" x2="3.15" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-3.7" y1="0.6" x2="3.7" y2="0.6" width="0.1" layer="21"/>
-<wire x1="3.7" y1="0.6" x2="3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="3.7" y1="-2.75" x2="-3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="-3.7" y1="-2.75" x2="-3.7" y2="0.6" width="0.1" layer="21"/>
-<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$4" x="-2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$1" x="0" y="-2.15" dx="2" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$5" x="2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$6" x="0" y="-2.15" dx="2" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<text x="0" y="-0.8" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="JST_GH-4P-STRAIGHT" urn="urn:adsk.eagle:footprint:3587952/3" library_version="52">
 <smd name="M$1" x="3.825" y="0.45" dx="2.8" dy="1" layer="1" roundness="50" rot="R270"/>
 <smd name="M$0" x="-3.825" y="0.45" dx="2.8" dy="1" layer="1" roundness="50" rot="R270"/>
@@ -589,11 +559,6 @@ by Télega</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/4" type="model" library_version="70">
-<packageinstances>
-<packageinstance name="1051330011"/>
-</packageinstances>
-</package3d>
 <package3d name="JST_GH-4P-STRAIGHT" urn="urn:adsk.eagle:package:3587964/5" type="model" library_version="52">
 <packageinstances>
 <packageinstance name="JST_GH-4P-STRAIGHT"/>
@@ -5197,6 +5162,60 @@ by Télega</text>
 </package>
 </packages>
 </library>
+<library name="105133-0011">
+<packages>
+<package name="MOLEX_105133-0011">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R</description>
+<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0" layer="46"/>
+<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0" layer="46"/>
+<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0" layer="46" curve="-180"/>
+<wire x1="-2.45" y1="0.25" x2="-2.45" y2="-0.25" width="0" layer="46" curve="-180"/>
+<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0" layer="46"/>
+<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0" layer="46"/>
+<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0" layer="46" curve="-180"/>
+<wire x1="3.15" y1="0.25" x2="3.15" y2="-0.25" width="0" layer="46" curve="-180"/>
+<text x="-4.40571875" y="3.17276875" size="0.812925" layer="25">&gt;NAME</text>
+<text x="-4.406959375" y="-3.86216875" size="0.81328125" layer="27">&gt;VALUE</text>
+<circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0" layer="46"/>
+<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0" layer="46"/>
+<wire x1="-0.55" y1="-1.9" x2="-0.55" y2="-2.4" width="0" layer="46" curve="180"/>
+<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0" layer="46" curve="180"/>
+<wire x1="4" y1="-2.225" x2="-4" y2="-2.225" width="0.127" layer="51"/>
+<wire x1="4" y1="-2.225" x2="4" y2="0.875" width="0.127" layer="51"/>
+<wire x1="4" y1="0.875" x2="2.025" y2="0.875" width="0.127" layer="51"/>
+<wire x1="2.025" y1="0.875" x2="2.025" y2="2.225" width="0.127" layer="51"/>
+<wire x1="2.025" y1="2.225" x2="-2.025" y2="2.225" width="0.127" layer="51"/>
+<wire x1="-2.025" y1="0.875" x2="-2.025" y2="2.225" width="0.127" layer="51"/>
+<wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2.225" x2="-4" y2="0.875" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.475" x2="4.25" y2="2.475" width="0.05" layer="39"/>
+<wire x1="4.25" y1="2.475" x2="4.25" y2="-2.95" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-2.95" x2="-4.25" y2="-2.95" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-2.95" x2="-4.25" y2="2.475" width="0.05" layer="39"/>
+<wire x1="2.025" y1="2.225" x2="2.025" y2="0.875" width="0.127" layer="21"/>
+<wire x1="2.025" y1="0.875" x2="4" y2="0.875" width="0.127" layer="21"/>
+<wire x1="4" y1="0.875" x2="4" y2="0.467" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.477" x2="4" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.225" x2="1.35" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-2.225" x2="-4" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.225" x2="-4" y2="-0.477" width="0.127" layer="21"/>
+<wire x1="-4" y1="0.467" x2="-4" y2="0.875" width="0.127" layer="21"/>
+<wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="0.875" x2="-2.025" y2="2.225" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="2.225" x2="2.025" y2="2.225" width="0.127" layer="21"/>
+<circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<pad name="S1" x="-2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
+<pad name="S2" x="2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
+<pad name="S3" x="0" y="-2.15" drill="0.5" diameter="1.1" shape="long"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6053,14 +6072,6 @@ by Télega</text>
 <attribute name="NAME" x="34.7" y="6.7" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="REVERS_STANDOFF_V" value="51V" x="34.7" y="6.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="1051330011" package3d_urn="urn:adsk.eagle:package:4410721/4" value="USB-VERTICAL" x="9.5" y="29" smashed="yes" rot="MR90">
-<attribute name="AEC-Q" value="---" x="9.5" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY#" value="WM10134TR-ND" x="9.5" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF" value="Molex LLC" x="9.5" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANF#" value="1051330011" x="9.5" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="8.7" y="29" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="OPERATING_TEMP" value="-35°C ~ 85°C" x="9.5" y="29" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
 <element name="D4" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="SOT143B" package3d_urn="urn:adsk.eagle:package:3333649/3" value="DRTR5V0U2SR-7" x="10.375" y="34.25" smashed="yes" rot="MR0">
 <attribute name="AEC-Q" value="AEC-Q101" x="10.375" y="34.25" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY#" value="DRTR5V0U2SR-7DICT-ND" x="10.375" y="34.25" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -6191,15 +6202,15 @@ by Télega</text>
 <attribute name="PACKAGE" value="1210" x="22.3" y="12.05" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="6.3 V" x="22.3" y="12.05" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="6.95" y="33.5" smashed="yes" rot="MR180">
-<attribute name="AEC-Q" value="AEC-Q200" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF" value="Panasonic Electronic Components" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF#" value="ERJ-2RKF1001X" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="6.95" y="33.5" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="0402" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="6.95" y="33.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K" x="6.85" y="33.7" smashed="yes" rot="MR180">
+<attribute name="AEC-Q" value="AEC-Q200" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY#" value="P1.00KLCT-ND" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Panasonic Electronic Components" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="ERJ-2RKF1001X" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="6.85" y="33.7" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="0402" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="6.85" y="33.7" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="4.7µF" x="26.475" y="45.825" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="AEC-Q200" x="26.475" y="45.825" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6291,6 +6302,16 @@ by Télega</text>
 <element name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="17.5" y="8.6" smashed="yes"/>
 <element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="20.5" y="8.6" smashed="yes"/>
 <element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes"/>
+<element name="J1" library="105133-0011" package="MOLEX_105133-0011" value="105133-0011" x="9.1" y="28.9" smashed="yes" rot="MR90">
+<attribute name="AVAILABILITY" value="In Stock" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount " x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Molex" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MP" value="1051330011" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="12.27276875" y="24.49428125" size="0.812925" layer="26" rot="MR90"/>
+<attribute name="PACKAGE" value="None" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PRICE" value="None" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="5.23783125" y="24.493040625" size="0.81328125" layer="28" rot="MR90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6310,13 +6331,6 @@ by Télega</text>
 <contactref element="C3" pad="2"/>
 <contactref element="U$3" pad="P$1"/>
 <contactref element="U$1" pad="P$1"/>
-<contactref element="CON1" pad="P$1"/>
-<contactref element="CON1" pad="P$2"/>
-<contactref element="CON1" pad="P$3"/>
-<contactref element="CON1" pad="5"/>
-<contactref element="CON1" pad="P$4"/>
-<contactref element="CON1" pad="P$5"/>
-<contactref element="CON1" pad="P$6"/>
 <contactref element="D4" pad="1"/>
 <polygon width="0.2" layer="1" rank="5">
 <vertex x="29.7" y="3.6"/>
@@ -6332,16 +6346,12 @@ by Télega</text>
 </polygon>
 <wire x1="6.75" y1="27.4" x2="6.7" y2="27.4" width="0.2" layer="16"/>
 <wire x1="6.75" y1="30.4" x2="6.8" y2="30.4" width="0.2" layer="16"/>
-<wire x1="8.2" y1="26.2" x2="8.2" y2="26.1" width="0.2" layer="16"/>
 <polygon width="0.2" layer="2" rank="5">
 <vertex x="4.2" y="54.4"/>
 <vertex x="4.2" y="3.6"/>
 <vertex x="29.7" y="3.6"/>
 <vertex x="29.7" y="54.4"/>
 </polygon>
-<wire x1="9.5" y1="26.2" x2="8.1" y2="26.2" width="0.5" layer="1"/>
-<wire x1="9.525" y1="26.175" x2="10.925" y2="26.175" width="0.5" layer="1"/>
-<wire x1="9.5" y1="26.2" x2="9.5" y2="27.625" width="0.5" layer="1"/>
 <via x="5.8" y="43.525" extent="1-16" drill="0.2" diameter="0.55"/>
 <polygon width="0.2" layer="15" rank="5">
 <vertex x="29.7" y="3.6"/>
@@ -6352,23 +6362,8 @@ by Télega</text>
 <via x="8.375" y="23.025" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.2" y="25.175" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="7.825" y="38.55" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="7.35" y1="29" x2="6.525" y2="29" width="0.5" layer="16"/>
-<wire x1="6.525" y1="29" x2="6.5" y2="29.025" width="0.5" layer="16"/>
 <via x="27.975" y="48.225" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="7.35" y1="29" x2="7.35" y2="30.575" width="0.4" layer="16"/>
-<wire x1="7.35" y1="29" x2="7.35" y2="27.775" width="0.4" layer="16"/>
-<wire x1="9.5" y1="26.2" x2="8.725" y2="26.2" width="0.4" layer="16"/>
-<wire x1="9.5" y1="26.2" x2="10.35" y2="26.2" width="0.4" layer="16"/>
-<wire x1="10.35" y1="26.2" x2="10.375" y2="26.175" width="0.4" layer="16"/>
-<wire x1="9.5" y1="26.2" x2="9.5" y2="25.125" width="0.4" layer="16"/>
-<wire x1="9.5" y1="25.125" x2="9.525" y2="25.1" width="0.4" layer="16"/>
-<via x="7.1" y="27.6" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.325" y="26.9" extent="1-16" drill="0.2" diameter="0.55"/>
-<via x="7.3" y="30.75" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="7.35" y1="29" x2="7.35" y2="30.7" width="0.5" layer="1"/>
-<wire x1="7.35" y1="30.7" x2="7.3" y2="30.75" width="0.4" layer="1"/>
-<wire x1="7.35" y1="29" x2="8.4" y2="29" width="0.4" layer="1"/>
-<wire x1="7.35" y1="29" x2="7.35" y2="27.125" width="0.5" layer="1"/>
 <contactref element="R7" pad="2"/>
 <via x="8.375" y="22.425" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="D7" pad="1"/>
@@ -6384,9 +6379,8 @@ by Télega</text>
 <via x="19.475" y="38.925" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="23.55" y="17.925" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="11.075" y1="19.175" x2="11.05" y2="19.2" width="0.2" layer="16"/>
-<wire x1="9.5" y1="30.3" x2="9.5" y2="33.425" width="0.5" layer="1"/>
+<wire x1="9.5" y1="33.425" x2="9.5" y2="30.3" width="0.5" layer="1"/>
 <wire x1="11.125" y1="31.8" x2="9.35" y2="31.8" width="0.5" layer="1"/>
-<wire x1="9.5" y1="30.4" x2="9.5" y2="31.8" width="0.4" layer="16"/>
 <contactref element="CON9" pad="1"/>
 <contactref element="LED4" pad="C"/>
 <contactref element="C45" pad="2"/>
@@ -6397,7 +6391,6 @@ by Télega</text>
 <via x="13.3" y="18.075" extent="1-16" drill="0.2" diameter="0.55"/>
 <contactref element="C14" pad="1"/>
 <via x="29.25" y="48.275" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="9.5" y1="26.2" x2="9.525" y2="26.175" width="0.5" layer="1"/>
 <via x="15.575" y="37.9" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="11.475" y="34.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="10.825" y="34.2" extent="1-16" drill="0.2" diameter="0.55"/>
@@ -6410,8 +6403,6 @@ by Télega</text>
 <via x="16.925" y="40.15" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="7.75" y="19.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="8.4" y1="28.95" x2="6.7" y2="28.95" width="0.5" layer="1"/>
-<wire x1="9.25" y1="30.3" x2="9.5" y2="30.3" width="0.2" layer="16"/>
-<wire x1="9.5" y1="30.3" x2="9.5" y2="30.4" width="0.2" layer="16"/>
 <contactref element="CON7" pad="4"/>
 <contactref element="CON7" pad="M$0"/>
 <contactref element="CON7" pad="M$1"/>
@@ -6442,8 +6433,12 @@ by Télega</text>
 <via x="21.85" y="9.5" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="16.6" y="7.3" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="25.425" y="46.525" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="9.5" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-16"/>
-<wire x1="9.35" y1="31.8" x2="9.5" y2="31.8" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="S1"/>
+<contactref element="J1" pad="S3"/>
+<contactref element="J1" pad="S2"/>
+<wire x1="9.1" y1="31.7" x2="9.1" y2="30.45" width="0.2" layer="16"/>
+<wire x1="9.1" y1="30.45" x2="8.85" y2="30.2" width="0.2" layer="16"/>
 </signal>
 <signal name="PHASE_A_GND">
 <contactref element="Q6" pad="1"/>
@@ -7599,47 +7594,35 @@ by Télega</text>
 <wire x1="8.7" y1="35" x2="8.55" y2="34.85" width="0.2" layer="16"/>
 <via x="8.55" y="34.85" extent="1-16" drill="0.2" diameter="0.55"/>
 <wire x1="8.2" y1="34.85" x2="8.55" y2="34.85" width="0.2" layer="15"/>
-<wire x1="6" y1="32.65" x2="6" y2="25" width="0.2" layer="15"/>
-<wire x1="6" y1="32.65" x2="8.2" y2="34.85" width="0.2" layer="15"/>
+<wire x1="5.9" y1="32.55" x2="5.9" y2="24.9" width="0.2" layer="15"/>
+<wire x1="5.9" y1="32.55" x2="8.2" y2="34.85" width="0.2" layer="15"/>
 <contactref element="MODULE2" pad="31"/>
-<wire x1="6" y1="25" x2="5" y2="24" width="0.2" layer="15"/>
+<wire x1="5.9" y1="24.9" x2="5" y2="24" width="0.2" layer="15"/>
 </signal>
 <signal name="USB_VBUS">
 <contactref element="D2" pad="A"/>
-<contactref element="CON1" pad="1"/>
 <contactref element="D4" pad="4"/>
 <via x="10.25" y="35.2" extent="1-16" drill="0.2" diameter="0.55"/>
 <via x="8.15" y="33.5" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="7.175" y1="24.125" x2="7.575" y2="24.125" width="0.4" layer="16"/>
-<wire x1="9.25" y1="27.7" x2="8.1" y2="27.7" width="0.4" layer="16"/>
-<wire x1="7.575" y1="27.175" x2="7.575" y2="24.125" width="0.4" layer="16"/>
+<wire x1="7.175" y1="24.125" x2="7.4" y2="24.125" width="0.4" layer="16"/>
 <contactref element="R6" pad="2"/>
-<wire x1="8.1" y1="27.7" x2="7.575" y2="27.175" width="0.4" layer="16"/>
-<wire x1="8.15" y1="33.5" x2="7.45" y2="33.5" width="0.4" layer="16"/>
-<wire x1="8.15" y1="27.75" x2="8.1" y2="27.7" width="0.4" layer="16"/>
-<wire x1="8.15" y1="33.5" x2="8.15" y2="27.75" width="0.4" layer="16"/>
+<wire x1="7.4" y1="24.125" x2="7.575" y2="24.125" width="0.4" layer="16"/>
+<wire x1="8.15" y1="33.5" x2="7.95" y2="33.7" width="0.4" layer="16"/>
+<wire x1="7.95" y1="33.7" x2="7.35" y2="33.7" width="0.4" layer="16"/>
 <wire x1="11.375" y1="35.2" x2="10.25" y2="35.2" width="0.2" layer="16"/>
 <wire x1="8.15" y1="33.5" x2="8.75" y2="33.5" width="0.2" layer="1"/>
 <wire x1="10.25" y1="35" x2="10.25" y2="35.2" width="0.2" layer="1"/>
 <wire x1="8.75" y1="33.5" x2="10.25" y2="35" width="0.2" layer="1"/>
-</signal>
-<signal name="N$52">
-<contactref element="R19" pad="2"/>
-<contactref element="CON1" pad="3"/>
-<wire x1="11.075" y1="29" x2="10.9" y2="29" width="0.2" layer="16"/>
-<wire x1="10.925" y1="28.85" x2="11.075" y2="29" width="0.2" layer="16"/>
-<wire x1="9.25" y1="29" x2="10.2" y2="29" width="0.2" layer="16"/>
-<wire x1="10.35" y1="28.85" x2="10.925" y2="28.85" width="0.2" layer="16"/>
-<wire x1="10.2" y1="29" x2="10.35" y2="28.85" width="0.2" layer="16"/>
-</signal>
-<signal name="N$54">
-<contactref element="R20" pad="2"/>
-<contactref element="CON1" pad="2"/>
-<wire x1="9.25" y1="28.35" x2="11.175" y2="28.35" width="0.2" layer="16"/>
-<wire x1="11.175" y1="28.35" x2="11.5" y2="28.675" width="0.2" layer="16"/>
-<wire x1="10.95" y1="31.025" x2="10.9" y2="31.025" width="0.2" layer="16"/>
-<wire x1="11.5" y1="28.675" x2="11.5" y2="30.475" width="0.2" layer="16"/>
-<wire x1="11.5" y1="30.475" x2="10.95" y2="31.025" width="0.2" layer="16"/>
+<contactref element="J1" pad="1"/>
+<wire x1="7.35" y1="33.7" x2="7.35" y2="30.21955625" width="0.254" layer="16"/>
+<wire x1="7.35" y1="30.21955625" x2="7.777" y2="29.79255625" width="0.254" layer="16"/>
+<wire x1="7.777" y1="29.79255625" x2="7.777" y2="27.5" width="0.254" layer="16"/>
+<wire x1="7.777" y1="27.5" x2="7.777" y2="27.49635" width="0.254" layer="16"/>
+<wire x1="7.777" y1="27.49635" x2="7.452" y2="27.17135" width="0.254" layer="16"/>
+<wire x1="7.452" y1="27.17135" x2="7.452" y2="24.177" width="0.254" layer="16"/>
+<wire x1="7.452" y1="24.177" x2="7.4" y2="24.125" width="0.254" layer="16"/>
+<wire x1="8.85" y1="27.6" x2="7.877" y2="27.6" width="0.254" layer="16"/>
+<wire x1="7.877" y1="27.6" x2="7.777" y2="27.5" width="0.254" layer="16"/>
 </signal>
 <signal name="N$55">
 <contactref element="R19" pad="1"/>
@@ -7652,11 +7635,11 @@ by Télega</text>
 <wire x1="9.375" y1="33.3" x2="8.575" y2="34.1" width="0.2" layer="16"/>
 <wire x1="8.575" y1="34.1" x2="8.55" y2="34.1" width="0.2" layer="16"/>
 <via x="8.55" y="34.1" extent="1-16" drill="0.2" diameter="0.55"/>
-<wire x1="6" y1="24.505025" x2="6.35" y2="24.855025" width="0.2" layer="15"/>
+<wire x1="6" y1="24.505025" x2="6.25" y2="24.755025" width="0.2" layer="15"/>
 <wire x1="6" y1="24.505025" x2="6" y2="23" width="0.2" layer="15"/>
-<wire x1="6.35" y1="32.5" x2="7.95" y2="34.1" width="0.2" layer="15"/>
+<wire x1="6.25" y1="32.4" x2="7.95" y2="34.1" width="0.2" layer="15"/>
 <wire x1="7.95" y1="34.1" x2="8.55" y2="34.1" width="0.2" layer="15"/>
-<wire x1="6.35" y1="24.855025" x2="6.35" y2="32.5" width="0.2" layer="15"/>
+<wire x1="6.25" y1="24.755025" x2="6.25" y2="32.4" width="0.2" layer="15"/>
 <contactref element="MODULE2" pad="32"/>
 <wire x1="6" y1="23" x2="5" y2="22" width="0.2" layer="15"/>
 </signal>
@@ -7718,17 +7701,20 @@ by Télega</text>
 </signal>
 <signal name="LED_BLUE">
 <contactref element="R11" pad="2"/>
-<wire x1="6.5" y1="32.5" x2="6.5" y2="29.5" width="0.2" layer="1"/>
-<wire x1="6.5" y1="32.5" x2="6.8" y2="32.8" width="0.2" layer="1"/>
+<wire x1="6.8" y1="32.8" x2="6.5" y2="32.5" width="0.2" layer="1"/>
 <wire x1="6.8" y1="32.8" x2="6.8" y2="34.71005" width="0.2" layer="1"/>
 <wire x1="17.18995" y1="38.5" x2="19.85" y2="41.16005" width="0.2" layer="1"/>
 <wire x1="10.58995" y1="38.5" x2="17.18995" y2="38.5" width="0.2" layer="1"/>
 <wire x1="6.8" y1="34.71005" x2="10.58995" y2="38.5" width="0.2" layer="1"/>
 <wire x1="19.85" y1="41.16005" x2="19.850003125" y2="44.205025" width="0.2" layer="1"/>
 <contactref element="MODULE2" pad="29"/>
-<wire x1="6.5" y1="29.5" x2="5" y2="28" width="0.2" layer="1"/>
+<wire x1="5" y1="28.5" x2="5" y2="28" width="0.2" layer="1"/>
 <wire x1="19.850003125" y1="44.205025" x2="20.944978125" y2="45.3" width="0.2" layer="1"/>
 <wire x1="20.944978125" y1="45.3" x2="20.95" y2="45.3" width="0.2" layer="1"/>
+<wire x1="6.5" y1="30.531375" x2="6.05" y2="30.081375" width="0.2" layer="1"/>
+<wire x1="6.05" y1="30.081375" x2="6.05" y2="29.55" width="0.2" layer="1"/>
+<wire x1="6.5" y1="32.5" x2="6.5" y2="30.531375" width="0.2" layer="1"/>
+<wire x1="6.05" y1="29.55" x2="5" y2="28.5" width="0.2" layer="1"/>
 </signal>
 <signal name="TEMPERATURE_SENSOR">
 <contactref element="IC5" pad="2"/>
@@ -8399,8 +8385,8 @@ by Télega</text>
 </signal>
 <signal name="N$5">
 <contactref element="R6" pad="1"/>
-<wire x1="6.45" y1="33.35" x2="6.45" y2="33.5" width="0.2" layer="16"/>
-<wire x1="6.45" y1="33.35" x2="6.3" y2="33.35" width="0.2" layer="16"/>
+<wire x1="6.35" y1="33.35" x2="6.35" y2="33.7" width="0.2" layer="16"/>
+<wire x1="6.35" y1="33.35" x2="6.3" y2="33.35" width="0.2" layer="16"/>
 <wire x1="6.3" y1="33.35" x2="5.95" y2="33" width="0.2" layer="16"/>
 <wire x1="5.95" y1="33" x2="4.35" y2="33" width="0.2" layer="16"/>
 <wire x1="4.35" y1="33" x2="4" y2="32.65" width="0.2" layer="16"/>
@@ -8528,6 +8514,24 @@ by Télega</text>
 <wire x1="14.5" y1="23.275" x2="18.5" y2="23.275" width="0.15" layer="16"/>
 <wire x1="18.5" y1="23.275" x2="18.95" y2="23.725" width="0.15" layer="16"/>
 </signal>
+<signal name="N$1">
+<contactref element="R19" pad="2"/>
+<contactref element="J1" pad="3"/>
+<wire x1="8.85" y1="28.8" x2="8.85" y2="28.9" width="0.2" layer="16"/>
+<wire x1="9.1" y1="28.9" x2="10.8" y2="28.9" width="0.254" layer="16"/>
+<wire x1="10.8" y1="28.9" x2="10.9" y2="29" width="0.254" layer="16"/>
+<wire x1="8.85" y1="28.9" x2="9.1" y2="28.9" width="0.2" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="J1" pad="2"/>
+<contactref element="R20" pad="2"/>
+<wire x1="10.9" y1="31.025" x2="10.9" y2="30.90355625" width="0.2" layer="16"/>
+<wire x1="10.9" y1="30.90355625" x2="11.45" y2="30.35355625" width="0.2" layer="16"/>
+<wire x1="11.45" y1="30.35355625" x2="11.45" y2="28.64644375" width="0.2" layer="16"/>
+<wire x1="11.45" y1="28.64644375" x2="11.02855625" y2="28.225" width="0.2" layer="16"/>
+<wire x1="8.85" y1="28.25" x2="8.875" y2="28.225" width="0.2" layer="16"/>
+<wire x1="11.02855625" y1="28.225" x2="8.875" y2="28.225" width="0.2" layer="16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8E00000"/>
@@ -8537,95 +8541,7 @@ by Télega</text>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,fffffdfdfdfdffff"/>
 <approved hash="23,15,02c565c365e402e2"/>
-<approved hash="4,1,102fba5333d1e2f9"/>
-<approved hash="4,1,3ce398ff3d5405ee"/>
-<approved hash="4,1,5fe5029709da940f"/>
-<approved hash="4,1,6185592d8fb0a744"/>
-<approved hash="4,1,64266410e26ae25c"/>
-<approved hash="4,1,642664307c0a7c1c"/>
-<approved hash="4,1,d57d51875799d363"/>
-<approved hash="4,1,207851f10d088102"/>
-<approved hash="4,1,d2ab51805181d2aa"/>
-<approved hash="4,1,e3e7e38c8df68d9d"/>
-<approved hash="4,1,63aee206e20463ac"/>
-<approved hash="4,1,e5dffc902e83c84f"/>
-<approved hash="4,1,3864bf190e44b519"/>
-<approved hash="4,1,79a3d31a0107fe59"/>
-<approved hash="4,1,9b4c0836a05f8359"/>
-<approved hash="4,1,3e9df969877c5fe8"/>
-<approved hash="4,1,c2c0a3cc9510d7dc"/>
-<approved hash="4,1,7f8f3d2dc2c122f1"/>
-<approved hash="4,1,e57ea472212e7875"/>
-<approved hash="4,1,6c23ca86af83150b"/>
-<approved hash="4,1,e3cbd5ae59dde631"/>
-<approved hash="4,1,64e664a0e2dae29c"/>
-<approved hash="4,1,f85dfa39c474fa80"/>
-<approved hash="4,1,fb046256c9f87eae"/>
-<approved hash="4,1,3a9427b6e382a0c5"/>
-<approved hash="4,1,b22f68a28146d871"/>
-<approved hash="4,1,e0e6e0bf8ec58e9c"/>
-<approved hash="4,1,7b48046202637d49"/>
-<approved hash="4,1,dfc6f877db9e0fe6"/>
-<approved hash="4,1,943f880a54b3bedf"/>
-<approved hash="4,1,360c1ae3a1671f10"/>
-<approved hash="4,1,218b86b7223c1a66"/>
-<approved hash="4,1,4405022ca4db2ba2"/>
-<approved hash="4,1,720ad8dc29373bc1"/>
-<approved hash="4,1,5c3502c7096a89e7"/>
-<approved hash="4,1,19b481db4dd4e868"/>
-<approved hash="4,1,07e6078fddf5dd9c"/>
-<approved hash="4,1,d2ab51035102d2aa"/>
-<approved hash="4,1,3f9e35ad6e525b24"/>
-<approved hash="4,1,000643e51b99a49c"/>
-<approved hash="4,1,e026e00f8e758e5c"/>
-<approved hash="4,1,e026e02f1d951d9c"/>
-<approved hash="4,1,03dbfd6eba8184c7"/>
-<approved hash="4,1,2a1847247dd83d64"/>
-<approved hash="4,1,8a850e35e111949d"/>
-<approved hash="4,1,90e559fa9266181b"/>
-<approved hash="4,1,28753ce83ef980f2"/>
-<approved hash="4,16,2a1847247dd83d64"/>
-<approved hash="4,16,9e660199f7dcac51"/>
-<approved hash="4,16,28753ce83ef980f2"/>
-<approved hash="4,16,53a50db6686286b3"/>
-<approved hash="4,16,16eaeae20bdfdb0a"/>
-<approved hash="4,16,3ce398ff3d5405ee"/>
-<approved hash="4,16,00290a284689d504"/>
-<approved hash="4,16,069b2089ab288408"/>
-<approved hash="4,16,09ae693209b3ac04"/>
-<approved hash="4,16,162aeb520bcfc7e2"/>
-<approved hash="4,16,90bb7500e8862b48"/>
-<approved hash="4,16,c7809ec9263fcd05"/>
-<approved hash="4,16,f96bdfa9a8887a68"/>
-<approved hash="4,16,f7ce6a92f69353f4"/>
-<approved hash="4,16,01b909984489d884"/>
-<approved hash="4,16,64266410e26ae25c"/>
-<approved hash="4,16,c2c0a3cc9510d7dc"/>
-<approved hash="4,16,64e664a0e2dae29c"/>
-<approved hash="4,16,e0e6e0bf8ec58e9c"/>
-<approved hash="4,16,218b86b7223c1a66"/>
-<approved hash="4,16,e3e7e38c8df68d9d"/>
-<approved hash="4,16,f3986b36f1ed5006"/>
-<approved hash="4,16,e36f62c762c5e36d"/>
-<approved hash="4,16,79a3d31a0107fe59"/>
-<approved hash="4,16,25a3f1f947bfcdea"/>
-<approved hash="4,16,63ecb2fc79fdb5f4"/>
-<approved hash="4,16,72f82915899e5976"/>
-<approved hash="4,16,8c53323d35883251"/>
-<approved hash="4,16,0aa9839b9f9f2ea8"/>
-<approved hash="4,16,a861d4b4165c6a8a"/>
-<approved hash="4,16,5ccd27d627c85cd3"/>
-<approved hash="4,16,edcf96d496d5edce"/>
-<approved hash="4,16,52db2b89f18088d1"/>
-<approved hash="4,16,54b0448c50f3e8da"/>
-<approved hash="4,16,b0f8e17004554c52"/>
-<approved hash="4,16,07e6078fddf5dd9c"/>
-<approved hash="4,16,9d87d8d6ab334321"/>
-<approved hash="4,16,832cf0dd80d930cb"/>
-<approved hash="4,16,e026e00f8e758e5c"/>
-<approved hash="21,19,387e3a7c3a7c387e"/>
 <approved hash="21,19,fe7cfc7efc7efe7c"/>
 <approved hash="19,1,b417b3177a1b7d1b"/>
 <approved hash="19,15,7b16dbd22dab7c99"/>
