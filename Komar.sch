@@ -5088,16 +5088,13 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="4" y1="-2.225" x2="-4" y2="-2.225" width="0.127" layer="51"/>
 <wire x1="4" y1="-2.225" x2="4" y2="0.875" width="0.127" layer="51"/>
 <wire x1="4" y1="0.875" x2="2.025" y2="0.875" width="0.127" layer="51"/>
-<wire x1="2.025" y1="0.875" x2="2.025" y2="2.225" width="0.127" layer="51"/>
-<wire x1="2.025" y1="2.225" x2="-2.025" y2="2.225" width="0.127" layer="51"/>
-<wire x1="-2.025" y1="0.875" x2="-2.025" y2="2.225" width="0.127" layer="51"/>
 <wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="51"/>
 <wire x1="-4" y1="-2.225" x2="-4" y2="0.875" width="0.127" layer="51"/>
 <wire x1="-4.25" y1="2.475" x2="4.25" y2="2.475" width="0.05" layer="39"/>
 <wire x1="4.25" y1="2.475" x2="4.25" y2="-2.95" width="0.05" layer="39"/>
 <wire x1="4.25" y1="-2.95" x2="-4.25" y2="-2.95" width="0.05" layer="39"/>
 <wire x1="-4.25" y1="-2.95" x2="-4.25" y2="2.475" width="0.05" layer="39"/>
-<wire x1="2.025" y1="2.225" x2="2.025" y2="0.875" width="0.127" layer="21"/>
+<wire x1="2.025" y1="1.225" x2="2.025" y2="0.875" width="0.127" layer="21"/>
 <wire x1="2.025" y1="0.875" x2="4" y2="0.875" width="0.127" layer="21"/>
 <wire x1="4" y1="0.875" x2="4" y2="0.467" width="0.127" layer="21"/>
 <wire x1="4" y1="-0.477" x2="4" y2="-2.225" width="0.127" layer="21"/>
@@ -5106,8 +5103,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-4" y1="-2.225" x2="-4" y2="-0.477" width="0.127" layer="21"/>
 <wire x1="-4" y1="0.467" x2="-4" y2="0.875" width="0.127" layer="21"/>
 <wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="21"/>
-<wire x1="-2.025" y1="0.875" x2="-2.025" y2="2.225" width="0.127" layer="21"/>
-<wire x1="-2.025" y1="2.225" x2="2.025" y2="2.225" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="0.875" x2="-2.025" y2="1.225" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="1.225" x2="2.025" y2="1.225" width="0.127" layer="21"/>
 <circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
 <smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
