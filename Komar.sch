@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5902,10 +5902,10 @@ as close to negative supply pad as possible</text>
 <text x="7.62" y="10.16" size="1.27" layer="97" font="vector">In case POWER_ENABLE_IN is not used, leave it floating.</text>
 <text x="142.24" y="160.02" size="2.54" layer="97">Place close to power mosfets</text>
 <text x="182.88" y="76.2" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
-<wire x1="180.34" y1="73.66" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="180.34" y1="71.12" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="30.48" x2="233.68" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="233.68" y1="30.48" x2="233.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="233.68" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="30.48" x2="233.68" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="269.24" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Power should be connected with multi-strand 12AWG wire in silicone insulation</text>
 <text x="68.58" y="276.86" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are based on the chart from PCBLibraries.com
 http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</text>
