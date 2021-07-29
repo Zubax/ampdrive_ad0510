@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2269,57 +2269,6 @@ DIN A3, landscape with location and doc. field</description>
 </library>
 <library name="Connectors" urn="urn:adsk.eagle:library:3750510">
 <packages>
-<package name="MICRO_USB_WITHOUT_PEGS" urn="urn:adsk.eagle:footprint:1041164/2" library_version="1" library_locally_modified="yes">
-<wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
-<wire x1="1.8" y1="1.59" x2="4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="4.3" y1="1.59" x2="4.3" y2="-0.11" width="0.254" layer="21"/>
-<wire x1="4.1" y1="-2.61" x2="4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="-4.1" y1="-2.61" x2="-4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="4.2" y1="-2.69" x2="-4.1" y2="-2.69" width="0.01" layer="51"/>
-<smd name="D+" x="0" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="D-" x="-0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND" x="1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND1" x="-1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND2" x="1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND3" x="-3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND4" x="3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND5" x="-3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="GND6" x="3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="ID" x="0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/3" library_version="70">
-<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="-2.45" y1="-0.25" x2="-2.45" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="-0.55" y2="-1.9" width="0.01" layer="20" curve="-180"/>
-<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0.01" layer="20" curve="180"/>
-<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="3.15" y1="-0.25" x2="3.15" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-3.7" y1="0.6" x2="3.7" y2="0.6" width="0.1" layer="21"/>
-<wire x1="3.7" y1="0.6" x2="3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="3.7" y1="-2.75" x2="-3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="-3.7" y1="-2.75" x2="-3.7" y2="0.6" width="0.1" layer="21"/>
-<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$4" x="-2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$1" x="0" y="-2.15" dx="2" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$5" x="2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$6" x="0" y="-2.15" dx="2" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<text x="0" y="-0.8" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="JST_GH-4P-RA" urn="urn:adsk.eagle:footprint:1040040/4" library_version="52">
 <description>http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf</description>
 <smd name="M$1" x="3.825" y="0.19" dx="2.8" dy="1" layer="1" roundness="50" rot="R270"/>
@@ -2469,80 +2418,8 @@ DIN A3, landscape with location and doc. field</description>
 <vertex x="1.8" y="-2.15" curve="90"/>
 </polygon>
 </package>
-<package name="MICRO_USB_WITH_PEGS" urn="urn:adsk.eagle:footprint:1041163/4" library_version="69">
-<description>http://www.digikey.com/product-detail/en/10118193-0001LF/609-4616-1-ND/2785380</description>
-<wire x1="-4.3" y1="1.03" x2="-4.3" y2="2.83" width="0.254" layer="21"/>
-<wire x1="-4.3" y1="2.83" x2="-1.8" y2="2.83" width="0.254" layer="21"/>
-<wire x1="1.8" y1="2.83" x2="4.3" y2="2.83" width="0.254" layer="21"/>
-<wire x1="4.3" y1="2.83" x2="4.3" y2="1.13" width="0.254" layer="21"/>
-<wire x1="4.1" y1="-1.37" x2="4.1" y2="-2.07" width="0.254" layer="21"/>
-<wire x1="-4.1" y1="-1.37" x2="-4.1" y2="-1.45" width="0.254" layer="21"/>
-<wire x1="-4.1" y1="-1.45" x2="-4.1" y2="-2.07" width="0.254" layer="21"/>
-<wire x1="4.2" y1="-1.45" x2="-4.1" y2="-1.45" width="0.01" layer="21"/>
-<wire x1="-3.3" y1="-0.6" x2="-3.05" y2="-0.35" width="0.01" layer="20" curve="90"/>
-<wire x1="-3.05" y1="-0.35" x2="-3.05" y2="0.35" width="0.01" layer="20"/>
-<wire x1="-3.05" y1="0.35" x2="-3.3" y2="0.6" width="0.01" layer="20" curve="90"/>
-<wire x1="-3.3" y1="0.6" x2="-3.55" y2="0.35" width="0.01" layer="20" curve="90"/>
-<wire x1="-3.55" y1="0.35" x2="-3.55" y2="-0.35" width="0.01" layer="20"/>
-<wire x1="-3.55" y1="-0.35" x2="-3.3" y2="-0.6" width="0.01" layer="20" curve="90"/>
-<wire x1="3.3" y1="-0.6" x2="3.55" y2="-0.35" width="0.01" layer="20" curve="90"/>
-<wire x1="3.55" y1="-0.35" x2="3.55" y2="0.35" width="0.01" layer="20"/>
-<wire x1="3.55" y1="0.35" x2="3.3" y2="0.6" width="0.01" layer="20" curve="90"/>
-<wire x1="3.3" y1="0.6" x2="3.05" y2="0.35" width="0.01" layer="20" curve="90"/>
-<wire x1="3.05" y1="0.35" x2="3.05" y2="-0.35" width="0.01" layer="20"/>
-<wire x1="3.05" y1="-0.35" x2="3.3" y2="-0.6" width="0.01" layer="20" curve="90"/>
-<smd name="D+" x="0" y="2.68" dx="0.4" dy="1.35" layer="1"/>
-<smd name="D-" x="-0.65" y="2.68" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND" x="1.3" y="2.68" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND1" x="-1.2" y="0" dx="1.9" dy="1.6" layer="1"/>
-<smd name="GND2" x="1.2" y="0" dx="1.9" dy="1.6" layer="1"/>
-<smd name="GND3" x="-3.2" y="2.45" dx="1.6" dy="1.4" layer="1"/>
-<smd name="GND4" x="3.2" y="2.45" dx="1.6" dy="1.4" layer="1"/>
-<smd name="ID" x="0.65" y="2.68" dx="0.4" dy="1.35" layer="1"/>
-<smd name="VBUS" x="-1.3" y="2.68" dx="0.4" dy="1.35" layer="1"/>
-<smd name="P$1" x="-3.3" y="0" dx="1.6" dy="0.9" layer="1" roundness="100" rot="R90"/>
-<smd name="P$2" x="3.3" y="0" dx="1.6" dy="0.9" layer="1" roundness="100" rot="R90"/>
-<smd name="P$3" x="-3.3" y="0" dx="1.6" dy="0.9" layer="16" roundness="100" rot="R90"/>
-<smd name="P$4" x="3.3" y="0" dx="1.6" dy="0.9" layer="16" roundness="100" rot="R90"/>
-<text x="-0.65" y="-1.7" size="0.2" layer="49">PCB END</text>
-<text x="0" y="1.24" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-1.4" y1="2.2" x2="-1.2" y2="3.2" layer="51"/>
-<rectangle x1="-0.75" y1="2.2" x2="-0.55" y2="3.2" layer="51"/>
-<rectangle x1="-0.1" y1="2.2" x2="0.1" y2="3.2" layer="51"/>
-<rectangle x1="0.55" y1="2.2" x2="0.75" y2="3.2" layer="51"/>
-<rectangle x1="1.2" y1="2.2" x2="1.4" y2="3.2" layer="51"/>
-</package>
-<package name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:footprint:9941914/1" library_version="69">
-<wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
-<wire x1="1.8" y1="1.59" x2="4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="4.3" y1="1.59" x2="4.3" y2="-0.11" width="0.254" layer="21"/>
-<wire x1="4.1" y1="-2.61" x2="4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="-4.1" y1="-2.61" x2="-4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="4.2" y1="-2.69" x2="-4.1" y2="-2.69" width="0.01" layer="51"/>
-<smd name="D+" x="0" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="D-" x="-0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND" x="1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND3" x="-3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND4" x="3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND5" x="-3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="GND6" x="3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="ID" x="0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 </packages>
 <packages3d>
-<package3d name="MICRO_USB_WITHOUT_PEGS" urn="urn:adsk.eagle:package:1041166/3" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="MICRO_USB_WITHOUT_PEGS"/>
-</packageinstances>
-</package3d>
-<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/4" type="model" library_version="70">
-<packageinstances>
-<packageinstance name="1051330011"/>
-</packageinstances>
-</package3d>
 <package3d name="JST_GH-4P-RA" urn="urn:adsk.eagle:package:1040150/6" type="model" library_version="52">
 <description>http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf</description>
 <packageinstances>
@@ -2554,30 +2431,8 @@ DIN A3, landscape with location and doc. field</description>
 <packageinstance name="JST_GH-4P-STRAIGHT"/>
 </packageinstances>
 </package3d>
-<package3d name="MICRO_USB_WITH_PEGS" urn="urn:adsk.eagle:package:1041165/6" type="model" library_version="69">
-<description>http://www.digikey.com/product-detail/en/10118193-0001LF/609-4616-1-ND/2785380</description>
-<packageinstances>
-<packageinstance name="MICRO_USB_WITH_PEGS"/>
-</packageinstances>
-</package3d>
-<package3d name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:package:9941917/1" type="box" library_version="69">
-<packageinstances>
-<packageinstance name="MICRO_USB_WITHOUT_PEGS_MODIFIED"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="USB" urn="urn:adsk.eagle:symbol:4410719/2" library_version="9">
-<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
-<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
-<pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
-<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
-<text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-</symbol>
 <symbol name="CON-4P-TAB" urn="urn:adsk.eagle:symbol:4707148/2" library_version="52">
 <pin name="1" x="2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
 <pin name="2" x="5.08" y="-2.54" visible="pad" length="short" rot="R90"/>
@@ -2592,82 +2447,6 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/12" prefix="CON" library_version="70">
-<description>Connector Receptacle USB - micro B 2.0 5 Position</description>
-<gates>
-<gate name="G$1" symbol="USB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1" package="MICRO_USB_WITH_PEGS">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4 P$1 P$2 P$3 P$4"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1041165/6"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="609-4616-1-ND" constant="no"/>
-<attribute name="MANF" value="FCI" constant="no"/>
-<attribute name="MANF#" value="10118193-0001LF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-2" package="MICRO_USB_WITHOUT_PEGS">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1041166/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="609-4613-1-ND" constant="no"/>
-<attribute name="MANF" value="FCI" constant="no"/>
-<attribute name="MANF#" value="10118192-0001LF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERTICAL" package="1051330011">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$5 P$6"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="WM10134TR-ND" constant="no"/>
-<attribute name="MANF" value="Molex LLC" constant="no"/>
-<attribute name="MANF#" value="1051330011" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-MODIFIED" package="MICRO_USB_WITHOUT_PEGS_MODIFIED">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND GND3 GND4 GND5 GND6"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9941917/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CON-4P-TABS" urn="urn:adsk.eagle:component:4707152/6" prefix="CON" library_version="52">
 <description>Connector Receptacle 4 Position 0.049" (1.25mm) Tin Surface Mount</description>
 <gates>
@@ -5287,6 +5066,104 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="105133-0011">
+<packages>
+<package name="MOLEX_105133-0011">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R</description>
+<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0" layer="46"/>
+<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0" layer="46"/>
+<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0" layer="46" curve="-180"/>
+<wire x1="-2.45" y1="0.25" x2="-2.45" y2="-0.25" width="0" layer="46" curve="-180"/>
+<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0" layer="46"/>
+<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0" layer="46"/>
+<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0" layer="46" curve="-180"/>
+<wire x1="3.15" y1="0.25" x2="3.15" y2="-0.25" width="0" layer="46" curve="-180"/>
+<text x="-4.40571875" y="3.17276875" size="0.812925" layer="25">&gt;NAME</text>
+<text x="-4.406959375" y="-3.86216875" size="0.81328125" layer="27">&gt;VALUE</text>
+<circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0" layer="46"/>
+<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0" layer="46"/>
+<wire x1="-0.55" y1="-1.9" x2="-0.55" y2="-2.4" width="0" layer="46" curve="180"/>
+<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0" layer="46" curve="180"/>
+<wire x1="4" y1="-2.225" x2="-4" y2="-2.225" width="0.127" layer="51"/>
+<wire x1="4" y1="-2.225" x2="4" y2="0.875" width="0.127" layer="51"/>
+<wire x1="4" y1="0.875" x2="2.025" y2="0.875" width="0.127" layer="51"/>
+<wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2.225" x2="-4" y2="0.875" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.475" x2="4.25" y2="2.475" width="0.05" layer="39"/>
+<wire x1="4.25" y1="2.475" x2="4.25" y2="-2.95" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-2.95" x2="-4.25" y2="-2.95" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-2.95" x2="-4.25" y2="2.475" width="0.05" layer="39"/>
+<wire x1="2.025" y1="1.225" x2="2.025" y2="0.875" width="0.127" layer="21"/>
+<wire x1="2.025" y1="0.875" x2="4" y2="0.875" width="0.127" layer="21"/>
+<wire x1="4" y1="0.875" x2="4" y2="0.467" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.477" x2="4" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.225" x2="1.35" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-2.225" x2="-4" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.225" x2="-4" y2="-0.477" width="0.127" layer="21"/>
+<wire x1="-4" y1="0.467" x2="-4" y2="0.875" width="0.127" layer="21"/>
+<wire x1="-4" y1="0.875" x2="-2.025" y2="0.875" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="0.875" x2="-2.025" y2="1.225" width="0.127" layer="21"/>
+<wire x1="-2.025" y1="1.225" x2="2.025" y2="1.225" width="0.127" layer="21"/>
+<circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-1.3" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<pad name="S1" x="-2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
+<pad name="S2" x="2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
+<pad name="S3" x="0" y="-2.15" drill="0.5" diameter="0.8128" shape="long"/>
+</package>
+</packages>
+<symbols>
+<symbol name="105133-0011">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R</description>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08748125" y="10.6837" size="2.541159375" layer="95">&gt;NAME</text>
+<text x="-5.09701875" y="-12.7349" size="2.540890625" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="D-" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="D+" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="ID" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="105133-0011" prefix="J">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R &lt;a href="https://pricing.snapeda.com/parts/1051330011/Molex/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="105133-0011" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_105133-0011">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="1051330011"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5762,10 +5639,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+P1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-VERTICAL" package3d_urn="urn:adsk.eagle:package:4410721/4">
-<attribute name="AEC-Q" value="---"/>
-<attribute name="OPERATING_TEMP" value="-35°C ~ 85°C"/>
-</part>
 <part name="D4" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="DRTR5V0U2SR-7" device="" package3d_urn="urn:adsk.eagle:package:3333649/3"/>
 <part name="+P19" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="U$5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="FIDUCIALMOUNT" device="" package3d_urn="urn:adsk.eagle:package:7544833/1">
@@ -5945,6 +5818,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/4">
 <variant name="BASIC" populate="no"/>
 </part>
+<part name="J1" library="105133-0011" deviceset="105133-0011" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6025,10 +5899,10 @@ as close to negative supply pad as possible</text>
 <text x="7.62" y="10.16" size="1.27" layer="97" font="vector">In case POWER_ENABLE_IN is not used, leave it floating.</text>
 <text x="142.24" y="160.02" size="2.54" layer="97">Place close to power mosfets</text>
 <text x="182.88" y="76.2" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
-<wire x1="180.34" y1="73.66" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="180.34" y1="71.12" x2="180.34" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="30.48" x2="233.68" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="233.68" y1="30.48" x2="233.68" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="233.68" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="30.48" x2="233.68" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="269.24" size="2.54" layer="97" font="vector" ratio="15" align="center-left">Power should be connected with multi-strand 12AWG wire in silicone insulation</text>
 <text x="68.58" y="276.86" size="2.54" layer="97" font="vector" ratio="15" align="center">PCB hole diameters for wires are based on the chart from PCBLibraries.com
 http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</text>
@@ -6637,11 +6511,6 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="+P8" gate="G$1" x="43.18" y="223.52" smashed="yes">
 <attribute name="VALUE" x="43.18" y="227.076" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON1" gate="G$1" x="167.64" y="76.2" smashed="yes">
-<attribute name="OPERATING_TEMP" x="167.64" y="76.2" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
-<attribute name="AEC-Q" x="167.64" y="76.2" size="1.27" layer="96" font="vector" ratio="15" align="center" display="off"/>
-<attribute name="NAME" x="170.18" y="86.36" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
-</instance>
 <instance part="D4" gate="G$1" x="134.62" y="58.42" smashed="yes">
 <attribute name="NAME" x="133.096" y="66.04" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
@@ -6868,6 +6737,10 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="CON15" gate="G$1" x="213.36" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="207.01" y="10.16" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
+<instance part="J1" gate="G$1" x="175.26" y="81.28" smashed="yes">
+<attribute name="NAME" x="170.17251875" y="91.9637" size="2.541159375" layer="95"/>
+<attribute name="VALUE" x="170.16298125" y="68.5451" size="2.540890625" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="PHASE_A,PHASE_A_CURRENT_SHUNT_N,PHASE_A_CURRENT_SHUNT_P,PHASE_A_GATE_HIGH,PHASE_A_GATE_LOW,PHASE_A_GND,PHASE_B,PHASE_B_CURRENT_SHUNT_N,PHASE_B_CURRENT_SHUNT_P,PHASE_B_GATE_HIGH,PHASE_B_GATE_LOW,PHASE_B_GND,PHASE_C,PHASE_C_GATE_HIGH,PHASE_C_GATE_LOW,PHASE_C_GND,TEMPERATURE_SENSOR,TEMP_SENS">
@@ -6878,11 +6751,11 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 </bus>
 <bus name="BEC_ENABLE_OUT,CAN1_RX,CAN1_TX,CAN2_RX,CAN2_TX">
 <segment>
-<wire x1="320.04" y1="139.7" x2="175.26" y2="139.7" width="0.762" layer="92"/>
+<wire x1="320.04" y1="139.7" x2="182.26" y2="139.7" width="0.762" layer="92"/>
 <wire x1="93.98" y1="99.06" x2="93.98" y2="139.7" width="0.762" layer="92"/>
-<wire x1="93.98" y1="139.7" x2="175.26" y2="139.7" width="0.762" layer="92"/>
-<wire x1="175.26" y1="139.7" x2="175.26" y2="48.26" width="0.762" layer="92"/>
-<wire x1="175.26" y1="48.26" x2="104.14" y2="48.26" width="0.762" layer="92"/>
+<wire x1="93.98" y1="139.7" x2="182.26" y2="139.7" width="0.762" layer="92"/>
+<wire x1="182.26" y1="139.7" x2="182.26" y2="48.26" width="0.762" layer="92"/>
+<wire x1="182.26" y1="48.26" x2="104.14" y2="48.26" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -6959,10 +6832,14 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <wire x1="241.3" y1="104.14" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="162.56" y1="76.2" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="165.1" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<junction x="162.56" y="73.66"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="165.1" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -7833,29 +7710,16 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 </net>
 <net name="USB_VBUS" class="0">
 <segment>
-<wire x1="165.1" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <junction x="149.86" y="78.74"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="78.74" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="VBUS"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="76.2" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="D+"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="D-"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
+<wire x1="165.1" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+<junction x="149.86" y="88.9"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -8293,6 +8157,22 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <junction x="358.14" y="116.84"/>
 <pinref part="CON3" gate="G$1" pin="3"/>
 <pinref part="CON4" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
+<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="D-"/>
+<wire x1="165.1" y1="86.36" x2="164" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="164" y1="86.36" x2="164" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="164" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
