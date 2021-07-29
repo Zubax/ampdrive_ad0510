@@ -5106,14 +5106,14 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-2.025" y1="0.875" x2="-2.025" y2="1.225" width="0.127" layer="21"/>
 <wire x1="-2.025" y1="1.225" x2="2.025" y2="1.225" width="0.127" layer="21"/>
 <circle x="-1.403" y="2.762" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="-0.0468" dx="1.397" dy="0.45" layer="1" rot="R90"/>
 <pad name="S1" x="-2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
 <pad name="S2" x="2.8" y="0" drill="0.5" diameter="1.1" shape="long"/>
-<pad name="S3" x="0" y="-2.15" drill="0.5" diameter="1.1" shape="long"/>
+<pad name="S3" x="0" y="-2.15" drill="0.5" diameter="0.8128" shape="long"/>
 </package>
 </packages>
 <symbols>
