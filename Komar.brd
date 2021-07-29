@@ -8,9 +8,9 @@
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="29" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -7426,56 +7426,44 @@ by Télega</text>
 <wire x1="19.35" y1="13.05" x2="20.7" y2="13.05" width="0.5" layer="1"/>
 <wire x1="20.7" y1="13.05" x2="20.75" y2="13" width="0.5" layer="1"/>
 <wire x1="18" y1="12.05" x2="18.55" y2="12.05" width="0.5" layer="1"/>
-<polygon width="0.1524" layer="15">
-<vertex x="7.81" y="23.31"/>
-<vertex x="7.81" y="24.04"/>
-<vertex x="7.94" y="24.17"/>
-<vertex x="8.84" y="24.17"/>
-<vertex x="8.95" y="24.06"/>
-<vertex x="8.95" y="23.17"/>
-<vertex x="8.84" y="23.06"/>
-<vertex x="7.9" y="23.06"/>
-<vertex x="7.81" y="23.15"/>
-<vertex x="7.81" y="23.27"/>
-<vertex x="7.81" y="23.28"/>
-<vertex x="7.8" y="23.29"/>
-</polygon>
 <wire x1="11.725" y1="20.74163125" x2="9.1553625" y2="23.31126875" width="0.508" layer="15"/>
 <wire x1="9.1553625" y1="23.31126875" x2="9.1453625" y2="23.32126875" width="0.508" layer="15"/>
 <wire x1="9.1453625" y1="23.32126875" x2="8.08126875" y2="23.32126875" width="0.508" layer="15"/>
-<polygon width="0.2" layer="1">
-<vertex x="7.9" y="24.16"/>
-<vertex x="7.82" y="24.08"/>
-<vertex x="7.82" y="23.1"/>
-<vertex x="7.9" y="23.02"/>
-<vertex x="8.08" y="23.02"/>
-<vertex x="8.91" y="23.02"/>
-<vertex x="8.97" y="23.08"/>
-<vertex x="8.97" y="24.14"/>
-<vertex x="8.93" y="24.18"/>
-<vertex x="7.95" y="24.18"/>
-<vertex x="7.93" y="24.18"/>
-</polygon>
 <wire x1="8.69126875" y1="23.31126875" x2="9.1553625" y2="23.31126875" width="0.508" layer="15"/>
-<polygon width="0.15" layer="16">
-<vertex x="7.89" y="24"/>
-<vertex x="7.89" y="23.21"/>
-<vertex x="7.93" y="23.17"/>
-<vertex x="8.03" y="23.07"/>
-<vertex x="8.04" y="23.07"/>
-<vertex x="10.25" y="23.07"/>
-<vertex x="10.27" y="23.09"/>
-<vertex x="10.27" y="24.15"/>
-<vertex x="10.2" y="24.22"/>
-<vertex x="8.01" y="24.22"/>
-<vertex x="7.91" y="24.12"/>
-<vertex x="7.89" y="24.1"/>
-<vertex x="7.89" y="24.02"/>
-</polygon>
-<wire x1="8.69126875" y1="23.93126875" x2="9.36873125" y2="23.93126875" width="0.508" layer="16"/>
-<wire x1="9.36873125" y1="23.93126875" x2="9.675" y2="23.625" width="0.508" layer="16"/>
-<wire x1="8.69126875" y1="23.31126875" x2="9.36126875" y2="23.31126875" width="0.508" layer="16"/>
+<wire x1="9.655" y1="23.645" x2="9.675" y2="23.625" width="0.508" layer="16"/>
 <wire x1="9.36126875" y1="23.31126875" x2="9.675" y2="23.625" width="0.508" layer="16"/>
+<polygon width="0.0762" layer="1">
+<vertex x="7.8" y="24.2"/>
+<vertex x="9" y="24.2"/>
+<vertex x="9" y="23.05"/>
+<vertex x="7.8" y="23.05"/>
+</polygon>
+<polygon width="0.0762" layer="15">
+<vertex x="7.8" y="24.2"/>
+<vertex x="9" y="24.2"/>
+<vertex x="9" y="23.05"/>
+<vertex x="7.8" y="23.05"/>
+</polygon>
+<polygon width="0.0762" layer="16">
+<vertex x="7.8" y="24.2"/>
+<vertex x="10.4" y="24.2"/>
+<vertex x="10.4" y="23.05"/>
+<vertex x="7.8" y="23.05"/>
+</polygon>
+<polygon width="0.0762" layer="2">
+<vertex x="7.8" y="24.2"/>
+<vertex x="9" y="24.2"/>
+<vertex x="9" y="23.05"/>
+<vertex x="7.8" y="23.05"/>
+</polygon>
+<polygon width="0.0762" layer="16">
+<vertex x="8.82" y="24.2"/>
+<vertex x="8.82" y="23.07"/>
+<vertex x="8.84" y="23.05"/>
+</polygon>
+<wire x1="8.69126875" y1="23.93126875" x2="9.36873125" y2="23.93126875" width="0.6096" layer="16"/>
+<wire x1="9.36873125" y1="23.93126875" x2="9.655" y2="23.645" width="0.6096" layer="16"/>
+<wire x1="8.69126875" y1="23.31126875" x2="9.36126875" y2="23.31126875" width="0.6096" layer="16"/>
 </signal>
 <signal name="CAN1_VDD">
 <contactref element="IC1" pad="4"/>
