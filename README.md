@@ -66,12 +66,9 @@ Thermal simulation is performed under the following conditions:
 
 Newest entries at the top.
 
-### Komar V1.3(July 2021)
+### Komar V1.2 (July 2021)
 
-* USB connector with mounting pads swaped with through-hole USB connector to ensure durability. 
-
-### Komar V1.2 (March 2021)
-
+* USB connector with mounting pads swaped with through-hole USB connector to ensure durability.
 * Manufacturing instructions update.
 * New design of the phase connector.
 * Phase connector manufacturing instructions and jig added.
