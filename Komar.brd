@@ -6295,7 +6295,7 @@ by Télega</text>
 <element name="CON8" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2" package3d_urn="urn:adsk.eagle:package:4854340/4" value="PINHEAD_1X04-2" x="25.2" y="53.5" smashed="yes"/>
 <element name="CON10" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="19.5" y="49.4" smashed="yes"/>
 <element name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="22.5" y="49.4" smashed="yes"/>
-<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="25.5" y="49.4" smashed="yes"/>
+<element name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="25.61" y="49.39" locked="yes" smashed="yes"/>
 <element name="CON13" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="17.5" y="8.6" smashed="yes"/>
 <element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="20.5" y="8.6" smashed="yes"/>
 <element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes"/>
@@ -8556,8 +8556,8 @@ by Télega</text>
 <approved hash="3,1,620dc975c9aa62d2"/>
 <approved hash="19,1,8d26e99d6f2395b4"/>
 <approved hash="19,1,0aa728e9dd9a963c"/>
-<approved hash="5,1,dbbdc85340f7730b"/>
 <approved hash="23,1,60c13b0300879079"/>
+<approved hash="5,1,dbbdc85340f7730b"/>
 </errors>
 </board>
 </drawing>

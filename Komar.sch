@@ -8179,9 +8179,20 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,22.86,106.68,MODULE1,5V_OUT,VDD_5V,,,"/>
-<approved hash="202,2,88.9,40.64,MODULE1,POWER_ENABLE_IN,,,,"/>
+<approved hash="101,2,261.62,15.24,CON10,1,,,,"/>
+<approved hash="101,2,251.46,15.24,CON11,1,,,,"/>
+<approved hash="101,2,241.3,15.24,CON12,1,,,,"/>
+<approved hash="101,2,231.14,15.24,CON13,1,,,,"/>
+<approved hash="101,2,220.98,15.24,CON14,1,,,,"/>
+<approved hash="101,2,210.82,15.24,CON15,1,,,,"/>
+<approved hash="104,2,22.86,106.68,MODULE2,5V_OUT,VDD_5V,,,"/>
+<approved hash="202,2,88.9,40.64,MODULE2,POWER_ENABLE_IN,,,,"/>
+<approved hash="110,2,360.68,50.8,N$46,N$44,,,,"/>
+<approved hash="110,2,360.68,50.8,N$46,N$44,,,,"/>
+<approved hash="110,2,360.68,116.84,N$21,N$22,,,,"/>
+<approved hash="110,2,360.68,116.84,N$21,N$22,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,91.971,66.571,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
