@@ -24,8 +24,7 @@ Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.co
 * Komar is built using highly reliable automotive-grade AEC-Q qualified components.
 * Operating device temperature - -40..85 °C.
 * Operating humidity - 0..100 %RH (Condensation not permitted).
-
-<img src="figures/connectors leds.svg" alt="Komar connectors and LEDs placement" />
+* Weight - 96.5 g (cables not included).
 
 Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
@@ -46,9 +45,40 @@ The PCB may use several optional 3D-printed parts that don't influence its prope
 - Lightpipe
 - Capacitor support
 
-Please refer to the manufacturing manual and schematics for further information.
-The most up-to-date documentation is attached to the latest published
-[release package](https://github.com/Zubax/Komar/releases).
+## Connections and indication
+
+All connections (except the phase connector) and indicators are presented on the bottom cover, as shown in figure below.
+
+<img src="figures/connectors leds.svg" alt="Komar connectors and LEDs placement" />
+
+Pinout of connectors is presented in the tables below. 
+
+### CAN1 & CAN2 connectors (type JST BM04B-GHS)
+
+| Pin # | Type  | Name  | Comments                                        |
+|-------|-------|-------|-------------------------------------------------|
+| 1     | Power | PWR   | BEC 5V power output. Activated in the firmware. |
+| 2     | I/O   | CAN_H |                                                 |
+| 3     | I/O   | CAN_L |                                                 |
+| 4     | Power | GND   |                                                 |
+
+The device does not terminate the CAN bus internally.
+If the bus is not redundant, only CAN1 (the primary CAN bus interface) can be used.
+
+### AUX connector (type JST BM04B-GHS)
+
+| Pin # | Type  | Name  | Comments                          |
+|-------|-------|-------|-----------------------------------|
+| 1     | Power | PWR   | 5V line output                    |
+| 2     | I/O   | GPIO1 | GPIO/RCPWM input/Thermistor input |
+| 3     | I/O   | GPIO2 |                                   |
+| 4     | Power | GND   |                                   |
+
+The motor windings temperature can be measured by means of PTC thermistor. The following thermistors can be connected to between GPIO1 and GND pins: KTY84/130, KTY81/120, KTY83/120. No additional components are needed to connect the thermistor. The thermistor model is selected in the firmware.
+
+### USB connector
+
+Common USB2.0 MicroUSB connector is dedicated for the device configuration and control using [Kucher GUI](https://files.zubax.com/products/com.zubax.kucher/1.0.0/).
 
 ## Thermal performance
 
@@ -63,6 +93,14 @@ Thermal simulation is performed under the following conditions:
 * The convection value of 350 W/(m<sup>2</sup>K) is established empirically after conducting several experiments with real hardware.
 
 <img src="figures/thermal_performance.png" alt="Zubax Komar thermal performance" />
+
+## Mounting pattern
+
+<img src="figures/mounting_pattern.png" alt="Zubax Komar mounting pattern" />
+
+Please refer to the manufacturing manual and schematics for further information.
+The most up-to-date documentation is attached to the latest published
+[release package](https://github.com/Zubax/Komar/releases).
 
 ## Release notes
 
