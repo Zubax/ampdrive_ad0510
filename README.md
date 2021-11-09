@@ -46,7 +46,9 @@ The PCB may use several optional 3D-printed parts that don't influence its prope
 - Lightpipe
 - Capacitor support
 
-Please refer to the manufacturing manual for further information.
+Please refer to the manufacturing manual and schematics for further information.
+The most up-to-date documentation is attached to the latest published
+[release package](https://github.com/Zubax/Komar/releases).
 
 ## Thermal performance
 
