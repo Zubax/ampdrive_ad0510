@@ -74,11 +74,17 @@ If the bus is not redundant, only CAN1 (the primary CAN bus interface) can be us
 | 3     | I/O   | GPIO2 |                                   |
 | 4     | Power | GND   |                                   |
 
-The motor windings temperature can be measured by means of PTC thermistor. The following thermistors can be connected to between GPIO1 and GND pins: KTY84/130, KTY81/120, KTY83/120. No additional components are needed to connect the thermistor. The thermistor model is selected in the firmware.
+The motor windings temperature can be measured by means of a PTC thermistor. The following thermistors can be connected between GPIO1 and GND:
+
+- KTY84/130
+- KTY81/120
+- KTY83/120
+
+No additional components are needed for the thermistor. The thermistor model is selected in the firmware.
 
 ### USB connector
 
-Common USB2.0 MicroUSB connector is dedicated for the device configuration and control using [Kucher GUI](https://files.zubax.com/products/com.zubax.kucher/1.0.0/).
+Common USB 2.0 Micro-USB connector is dedicated for the device configuration and control using the [Kucher GUI](https://files.zubax.com/products/com.zubax.kucher/1.0.0/).
 
 ## Thermal performance
 
