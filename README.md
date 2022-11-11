@@ -115,14 +115,15 @@ Newest entries at the top.
 ### Komar V1.3 (November 2022)
 
 * Added alternative parts:
-| Part | Alternative |
-| ----------- | ----------- |
-| ATA6561-GBQW-N | TJA1441DTK/0Z |
-| BAV99HDWQ-13 | BAV70HDWQ-13 |
-| FDMS86368-F085 | BSC080N12LSGATMA1 |
-| MCP9700AT-E/TTVAO | MCP9701T-E/TT |
-| ELXZ630ELL331MK20S | EEU-FC1J331B |
-| NRVB120VLSFT1G | NRVB230LSFT1G |
+
+| Part               | Alternative       |
+| -------------------| ------------------|
+| ATA6561-GBQW-N     | TJA1441DTK/0Z     |
+| BAV99HDWQ-13       | BAV70HDWQ-13      |
+| FDMS86368-F085     | BSC080N12LSGATMA1 |
+| MCP9700AT-E/TTVAO  | MCP9701T-E/TT     |
+| ELXZ630ELL331MK20S | EEU-FC1J331B      |
+| NRVB120VLSFT1G     | NRVB230LSFT1G     |
 
 ### Komar V1.2 (July 2021)
 
