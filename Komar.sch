@@ -5179,8 +5179,12 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
+<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5192,7 +5196,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 170°C"/>
 <attribute name="POWER" value="3W"/>
 </part>
-<part name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="MCP9700" device="-SOT23" package3d_urn="urn:adsk.eagle:package:1040193/4" technology="AT-E/TTVAO"/>
+<part name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="MCP9700" device="-SOT23" package3d_urn="urn:adsk.eagle:package:1040193/4" technology="AT-E/TTVAO">
+<attribute name="ALTERNATIVE" value="MCP9701T-E/TT"/>
+</part>
 <part name="GND28" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="200R">
 <attribute name="AEC-Q" value="AEC-Q200"/>
@@ -5225,7 +5231,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5233,7 +5241,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5241,8 +5251,12 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
+<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5268,7 +5282,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5276,7 +5292,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q8" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5284,8 +5302,12 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
-<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q10" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
+<part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2.4_SQUARE" package3d_urn="urn:adsk.eagle:package:20139479/1" value="PAD-HOLE_2.4_SQUARE">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -5303,7 +5325,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5311,7 +5335,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ4R3X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4"/>
+<part name="Q12" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="FDMS86368-F085" device="" package3d_urn="urn:adsk.eagle:package:19980482/4">
+<attribute name="ALTERNATIVE" value="BSC080N12LSGATMA1"/>
+</part>
 <part name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P4.3JCT-ND"/>
@@ -5403,6 +5429,7 @@ DIN A3, landscape with location and doc. field</description>
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="IC3" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="ATA6561-GBQW-N" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
+<attribute name="ALTERNATIVE" value="TJA1441DTK/0Z"/>
 <attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)"/>
 </part>
 <part name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
@@ -5415,6 +5442,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="IC4" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="ATA6561-GBQW-N" device="-HVSON8" package3d_urn="urn:adsk.eagle:package:1040194/3">
+<attribute name="ALTERNATIVE" value="TJA1441DTK/0Z"/>
 <attribute name="OPERATING_TEMP" value="-40°C ~ 150°C (TJ)"/>
 </part>
 <part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
@@ -5518,7 +5546,9 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="GND19" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GNDD" device="" value="GNDD"/>
 <part name="GND11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="D2" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="NRVB120VLSFT1G" device="" package3d_urn="urn:adsk.eagle:package:2473270/4"/>
+<part name="D2" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="NRVB120VLSFT1G" device="" package3d_urn="urn:adsk.eagle:package:2473270/4">
+<attribute name="ALTERNATIVE" value="NRVB230LSFT1G"/>
+</part>
 <part name="+P9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R19" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="4R3">
@@ -5611,6 +5641,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C1" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" deviceset="CPOL" device="-SIDE" package3d_urn="urn:adsk.eagle:package:4410644/2" value="330uF 63V">
 <attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="ALTERNATIVE" value="EEU-FC1J331B"/>
 <attribute name="DIGIKEY#" value="565-2043-ND"/>
 <attribute name="LIFETIME" value="7000 Hrs @ 105°C"/>
 <attribute name="MANF" value="United Chemi-Con"/>
@@ -5620,6 +5651,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND36" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C2" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" deviceset="CPOL" device="-SIDE" package3d_urn="urn:adsk.eagle:package:4410644/2" value="330uF 63V">
 <attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="ALTERNATIVE" value="EEU-FC1J331B"/>
 <attribute name="DIGIKEY#" value="565-2043-ND"/>
 <attribute name="LIFETIME" value="7000 Hrs @ 105°C"/>
 <attribute name="MANF" value="United Chemi-Con"/>
@@ -5691,7 +5723,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ201X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="D7" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99HDWQ-13" device="" package3d_urn="urn:adsk.eagle:package:1040203/3"/>
+<part name="D7" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99HDWQ-13" device="" package3d_urn="urn:adsk.eagle:package:1040203/3">
+<attribute name="ALTERNATIVE" value="BAV70HDWQ-13"/>
+</part>
 <part name="GND40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND45" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -5912,11 +5946,13 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="228.346" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="228.346" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="228.346" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="228.6" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="228.6" y="220.98" smashed="yes">
 <attribute name="NAME" x="228.346" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="228.346" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="228.346" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="228.6" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD1" gate="G$1" x="251.46" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="251.46" y="214.63" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -5930,6 +5966,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="IC5" gate="G$1" x="177.8" y="175.26" smashed="yes">
 <attribute name="NAME" x="181.61" y="185.674" size="1.778" layer="95" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="MANF#" x="181.61" y="175.006" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="bottom-center"/>
+<attribute name="ALTERNATIVE" x="177.8" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="172.72" y="167.64" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="172.72" y="166.37" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -5972,6 +6009,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="243.586" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="243.586" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="243.586" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="243.84" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="218.44" y="231.14" smashed="yes">
 <attribute name="OPERATING_TEMP" x="218.44" y="231.14" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -5984,6 +6022,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="243.586" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="243.586" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="243.586" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="243.84" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="218.44" y="193.04" smashed="yes">
 <attribute name="OPERATING_TEMP" x="218.44" y="193.04" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -5996,11 +6035,13 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="291.846" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="291.846" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="291.846" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="292.1" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="292.1" y="220.98" smashed="yes">
 <attribute name="NAME" x="291.846" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="291.846" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="291.846" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="292.1" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD2" gate="G$1" x="314.96" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="314.96" y="214.63" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -6029,6 +6070,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="307.086" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="307.086" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="307.086" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="281.94" y="231.14" smashed="yes">
 <attribute name="OPERATING_TEMP" x="281.94" y="231.14" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6041,6 +6083,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="307.086" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="307.086" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="307.086" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="307.34" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="281.94" y="193.04" smashed="yes">
 <attribute name="OPERATING_TEMP" x="281.94" y="193.04" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6053,11 +6096,13 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="355.346" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="355.346" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="355.346" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="355.6" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="355.6" y="220.98" smashed="yes">
 <attribute name="NAME" x="355.346" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="355.346" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="355.346" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="355.6" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD3" gate="G$1" x="378.46" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="378.46" y="214.63" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -6080,6 +6125,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="370.586" y="224.79" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="370.586" y="223.012" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="370.586" y="221.742" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="370.84" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="345.44" y="231.14" smashed="yes">
 <attribute name="OPERATING_TEMP" x="345.44" y="231.14" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6092,6 +6138,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="370.586" y="207.01" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="MANF#" x="370.586" y="205.232" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="PACKAGE" x="370.586" y="203.962" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
+<attribute name="ALTERNATIVE" x="370.84" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="345.44" y="193.04" smashed="yes">
 <attribute name="OPERATING_TEMP" x="345.44" y="193.04" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
@@ -6174,6 +6221,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="OPERATING_TEMP" x="325.12" y="111.76" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
 <attribute name="NAME" x="334.01" y="125.476" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="334.01" y="110.744" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="ALTERNATIVE" x="325.12" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="297.18" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="296.291" y="110.49" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
@@ -6191,6 +6239,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="OPERATING_TEMP" x="325.12" y="66.04" size="1.778" layer="96" font="vector" ratio="15" align="center" display="off"/>
 <attribute name="NAME" x="334.01" y="79.756" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="334.01" y="65.024" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="ALTERNATIVE" x="325.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="297.18" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="296.291" y="64.77" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
@@ -6339,6 +6388,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="D2" gate="G$1" x="149.86" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="147.32" y="91.44" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="MANF#" x="152.4" y="91.44" size="1.016" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="ALTERNATIVE" x="149.86" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+P9" gate="G$1" x="149.86" y="96.52" smashed="yes">
 <attribute name="VALUE" x="149.86" y="100.076" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -6467,6 +6517,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="110.2614" y="215.011" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="110.2106" y="211.709" size="1.27" layer="96" rot="R270" align="center-left"/>
 <attribute name="PACKAGE" x="108.458" y="211.836" size="0.762" layer="97" font="vector" rot="R90" align="center-right"/>
+<attribute name="ALTERNATIVE" x="109.22" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND36" gate="G$1" x="109.22" y="200.66" smashed="yes">
 <attribute name="VALUE" x="109.22" y="199.39" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
@@ -6478,6 +6529,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <attribute name="NAME" x="122.9614" y="215.011" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="122.9106" y="211.709" size="1.27" layer="96" rot="R270" align="center-left"/>
 <attribute name="PACKAGE" x="121.158" y="211.836" size="0.762" layer="97" font="vector" rot="R90" align="center-right"/>
+<attribute name="ALTERNATIVE" x="121.92" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND37" gate="G$1" x="121.92" y="200.66" smashed="yes">
 <attribute name="VALUE" x="121.92" y="199.39" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
@@ -6576,6 +6628,7 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="D7" gate="D1" x="223.52" y="38.1" smashed="yes" rot="MR90">
 <attribute name="NAME" x="223.52" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="MANF#" x="223.52" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="ALTERNATIVE" x="223.52" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="D7" gate="D2" x="205.74" y="38.1" smashed="yes" rot="MR90">
 <attribute name="NAME" x="205.74" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
