@@ -114,6 +114,7 @@ Newest entries at the top.
 
 ### Komar V1.3 (November 2022)
 
+* Corrected Micro USB attributes in the schematic.
 * Added alternative parts:
 
 | Part               | Alternative       |
