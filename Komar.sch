@@ -5135,7 +5135,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbols>
 <devicesets>
 <deviceset name="105133-0011" prefix="J">
-<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R &lt;a href="https://pricing.snapeda.com/parts/1051330011/Molex/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R</description>
 <gates>
 <gate name="G$1" symbol="105133-0011" x="0" y="0"/>
 </gates>
@@ -5151,12 +5151,11 @@ DIN A3, landscape with location and doc. field</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount "/>
-<attribute name="MF" value="Molex"/>
-<attribute name="MP" value="1051330011"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
+<attribute name="AEC-Q" value="---" constant="no"/>
+<attribute name="DIGIKEY#" value="WM10134TR-ND" constant="no"/>
+<attribute name="MANF" value="Molex" constant="no"/>
+<attribute name="MANF#" value="105133-0011" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-35°C ~ 85°C" constant="no"/>
 </technology>
 </technologies>
 </device>
