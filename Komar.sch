@@ -5852,7 +5852,13 @@ DIN A3, landscape with location and doc. field</description>
 <part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X01" device="-2" package3d_urn="urn:adsk.eagle:package:2540397/4">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="J1" library="105133-0011" deviceset="105133-0011" device=""/>
+<part name="J1" library="105133-0011" deviceset="105133-0011" device="">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="WM10134TR-ND"/>
+<attribute name="MANF" value="Molex"/>
+<attribute name="MANF#" value="105133-0011"/>
+<attribute name="OPERATING_TEMP" value="-35°C ~ 85°C"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6793,6 +6799,11 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="J1" gate="G$1" x="175.26" y="81.28" smashed="yes">
 <attribute name="NAME" x="170.17251875" y="91.9637" size="2.541159375" layer="95"/>
 <attribute name="VALUE" x="170.16298125" y="68.5451" size="2.540890625" layer="96"/>
+<attribute name="AEC-Q" x="175.26" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="175.26" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="175.26" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="175.26" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="OPERATING_TEMP" x="175.26" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

@@ -6319,11 +6319,16 @@ by Télega</text>
 <element name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="20.5" y="8.6" smashed="yes"/>
 <element name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X01-PTH-2" package3d_urn="urn:adsk.eagle:package:2540397/4" value="PINHEAD_1X01-2" x="28.5" y="49.4" smashed="yes"/>
 <element name="J1" library="105133-0011" package="MOLEX_105133-0011" value="105133-0011" x="9.1" y="28.9" smashed="yes" rot="MR90">
+<attribute name="AEC-Q" value="---" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="AVAILABILITY" value="In Stock" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount " x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="WM10134TR-ND" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Molex" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="105133-0011" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="1051330011" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="12.27276875" y="24.49428125" size="0.812925" layer="26" rot="MR90"/>
+<attribute name="OPERATING_TEMP" value="-35°C ~ 85°C" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="None" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="9.1" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="5.23783125" y="24.493040625" size="0.81328125" layer="28" rot="MR90"/>
