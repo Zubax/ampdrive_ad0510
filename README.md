@@ -119,10 +119,10 @@ Newest entries at the top.
 
 | Part               | Alternative       | Function          |
 | -------------------| ------------------| ------------------|
-| ATA6561-GBQW-N     | TJA1441DTK/0Z     | IC TRANSCEIVER    |
+| ATA6561-GBQW-N     | TJA1441DTK/0Z     | CAN TRANSCEIVER   |
 | BAV99HDWQ-13       | BAV70HDWQ-13      | DIODE             |
 | FDMS86368-F085     | BSC080N12LSGATMA1 | FET               |
-| MCP9700AT-E/TTVAO  | MCP9701T-E/TT     | SENSOR ANALOG     |
+| MCP9700AT-E/TTVAO  | MCP9701T-E/TT     | THERMISTOR        |
 | ELXZ630ELL331MK20S | EEU-FC1J331B      | CAPACITOR         |
 | NRVB120VLSFT1G     | NRVB230LSFT1G     | DIODE             |
 
