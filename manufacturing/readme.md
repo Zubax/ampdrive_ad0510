@@ -67,8 +67,8 @@ Silicone glue                 | ~3 ml | Penosil 2121                            
 Conformal coating             | ~3 ml | Taerosol PRF 202                                                | Fast-curing protective coating.
 Rigid phase connector         | 0/1   | (see enclosed assembly documentation)                           | 3D-printed. Used with **option #1 motor phase wires interface.**
 Phase wires inlet             | 0/1   |                                                                 | 3D-printed. Used with **option #2 motor phase wires interface.**
-Positive wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC red 105 °C  | Positive power wire.
-Negative wire                 | 1     | Copper 2.5 mm<sup>2</sup> multi-strand silicone/PVC black 105 °C| Negative power wire.
+Positive wire                 | 1     | Copper 12 AWG multi-strand silicone/PVC red 105 °C              | Positive power wire.
+Negative wire                 | 1     | Copper 12 AWG multi-strand silicone/PVC black 105 °C            | Negative power wire.
 Housing top                   | 1     |                                                                 | Milled from aluminum.
 Housing bottom                | 1     |                                                                 | Milled from aluminum.
 Housing screw                 | 4     | DIN 965 M3.5 16 mm                                              | Fastening both parts of the housing together.
