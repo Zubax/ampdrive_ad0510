@@ -114,6 +114,7 @@ Newest entries at the top.
 
 ### Komar V1.3 (November 2022)
 
+* Changed DC/Battery power wire from 2.5mm to 12 AWG.
 * Corrected Micro USB attributes in the schematic.
 * Added alternative parts:
 
