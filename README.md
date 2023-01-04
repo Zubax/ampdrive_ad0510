@@ -112,6 +112,10 @@ The most up-to-date documentation is attached to the latest published
 
 Newest entries at the top.
 
+### Komar V1.4 (January 2023)
+
+* Increased the hardware over-current protection trip level to 427A.
+
 ### Komar V1.3 (November 2022)
 
 * Changed DC/Battery power wire to 12 AWG in the assembly manual.
