@@ -112,6 +112,10 @@ The most up-to-date documentation is attached to the latest published
 
 Newest entries at the top.
 
+### Komar V1.4 (January 2023)
+
+* Removed alternative for Diode BAV99HDWQ-13.
+
 ### Komar V1.3 (November 2022)
 
 * Changed DC/Battery power wire to 12 AWG in the assembly manual.
@@ -122,6 +126,7 @@ Newest entries at the top.
 | -------------------| ------------------| ------------------|
 | ATA6561-GBQW-N     | TJA1441DTK/0Z     | CAN TRANSCEIVER   |
 | FDMS86368-F085     | BSC080N12LSGATMA1 | FET               |
+| BAV99HDWQ-13       | BAV70HDWQ-13      | DIODE             |
 | MCP9700AT-E/TTVAO  | MCP9701T-E/TT     | THERMISTOR        |
 | ELXZ630ELL331MK20S | EEU-FC1J331B      | CAPACITOR         |
 | NRVB120VLSFT1G     | NRVB230LSFT1G     | DIODE             |
