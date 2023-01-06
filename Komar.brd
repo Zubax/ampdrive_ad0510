@@ -6124,11 +6124,11 @@ by Télega</text>
 <attribute name="NAME" x="34.7" y="51.3" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="REVERS_STANDOFF_V" value="51V" x="34.7" y="51.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="1K5" x="6.95" y="34.9" smashed="yes" rot="MR180">
+<element name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="16K" x="6.95" y="34.9" smashed="yes" rot="MR180">
 <attribute name="AEC-Q" value="AEC-Q200" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGIKEY#" value="P1.50KLCT-ND" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY#" value="P124444CT-ND" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANF" value="Panasonic Electronic Components" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANF#" value="ERJ-2RKF1501X" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="ERJ-PA2F1602X" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="6.95" y="34.9" size="0.5" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="0402" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="6.95" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -6166,7 +6166,6 @@ by Télega</text>
 </element>
 <element name="D7" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOT363" package3d_urn="urn:adsk.eagle:package:1040203/3" value="BAV99HDWQ-13" x="17.1" y="45.525" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="AEC-Q101" x="17.1" y="45.525" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALTERNATIVE" value="BAV70HDWQ-13" x="17.1" y="45.525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="BAV99HDWQ-13DICT-ND" x="19.475" y="42.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Diodes Incorporated" x="19.475" y="42.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="BAV99HDWQ-13" x="19.475" y="42.95" size="1.778" layer="27" rot="R90" display="off"/>

@@ -5689,11 +5689,11 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="ASSY" value="DNM"/>
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="16K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.50KLCT-ND"/>
+<attribute name="DIGIKEY#" value="P124444CT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-2RKF1501X"/>
+<attribute name="MANF#" value="ERJ-PA2F1602X"/>
 </part>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -5722,9 +5722,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-2GEJ201X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="D7" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99HDWQ-13" device="" package3d_urn="urn:adsk.eagle:package:1040203/3">
-<attribute name="ALTERNATIVE" value="BAV70HDWQ-13"/>
-</part>
+<part name="D7" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99HDWQ-13" device="" package3d_urn="urn:adsk.eagle:package:1040203/3"/>
 <part name="GND40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND45" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -6633,7 +6631,6 @@ http://www.pcblibraries.com/downloads/temp/ANSI_Wire_Gauge_Charts_6433393.pdf</t
 <instance part="D7" gate="D1" x="223.52" y="38.1" smashed="yes" rot="MR90">
 <attribute name="NAME" x="223.52" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="MANF#" x="223.52" y="36.322" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="ALTERNATIVE" x="223.52" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="D7" gate="D2" x="205.74" y="38.1" smashed="yes" rot="MR90">
 <attribute name="NAME" x="205.74" y="35.052" size="1.27" layer="95" font="vector" ratio="15" rot="MR180" align="center"/>
