@@ -114,6 +114,7 @@ Newest entries at the top.
 
 ### Komar V1.4 (January 2023)
 
+* Removed alternative for Diode BAV99HDWQ-13.
 * Increased the hardware over-current protection trip level to 427A.
 
 ### Komar V1.3 (November 2022)
@@ -125,8 +126,8 @@ Newest entries at the top.
 | Part               | Alternative       | Function          |
 | -------------------| ------------------| ------------------|
 | ATA6561-GBQW-N     | TJA1441DTK/0Z     | CAN TRANSCEIVER   |
-| BAV99HDWQ-13       | BAV70HDWQ-13      | DIODE             |
 | FDMS86368-F085     | BSC080N12LSGATMA1 | FET               |
+| BAV99HDWQ-13       | BAV70HDWQ-13      | DIODE             |
 | MCP9700AT-E/TTVAO  | MCP9701T-E/TT     | THERMISTOR        |
 | ELXZ630ELL331MK20S | EEU-FC1J331B      | CAPACITOR         |
 | NRVB120VLSFT1G     | NRVB230LSFT1G     | DIODE             |
