@@ -115,6 +115,7 @@ Newest entries at the top.
 ### Komar V1.4 (January 2023)
 
 * Removed alternative for Diode BAV99HDWQ-13.
+* Increased the hardware over-current protection trip level to 427A.
 
 ### Komar V1.3 (November 2022)
 

@@ -5689,11 +5689,11 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="ASSY" value="DNM"/>
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="16K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P1.50KLCT-ND"/>
+<attribute name="DIGIKEY#" value="P124444CT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-2RKF1501X"/>
+<attribute name="MANF#" value="ERJ-PA2F1602X"/>
 </part>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
