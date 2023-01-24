@@ -5196,7 +5196,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="POWER" value="3W"/>
 </part>
 <part name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="MCP9700" device="-SOT23" package3d_urn="urn:adsk.eagle:package:1040193/4" technology="AT-E/TTVAO">
-<attribute name="ALTERNATIVE" value="MCP9701T-E/TT"/>
+<attribute name="ALTERNATIVE" value="MCP9700T-E/TT"/>
 </part>
 <part name="GND28" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-5%" value="200R">

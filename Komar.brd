@@ -5459,7 +5459,7 @@ by Télega</text>
 </element>
 <element name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23B-3" package3d_urn="urn:adsk.eagle:package:1040193/4" value="MCP9700AT-E/TTVAO-SOT23" x="28.675" y="46.1" smashed="yes">
 <attribute name="AEC-Q" value="AEC-Q100" x="28.675" y="46.1" size="1.778" layer="27" display="off"/>
-<attribute name="ALTERNATIVE" value="MCP9701T-E/TT" x="28.675" y="46.1" size="1.778" layer="27" display="off"/>
+<attribute name="ALTERNATIVE" value="MCP9700T-E/TT" x="28.675" y="46.1" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="MCP9700AT-E/TTVAOTR-ND" x="-38.325" y="111.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Microchip Technology" x="-38.325" y="111.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="MCP9700AT-E/TTVAO" x="-38.325" y="111.1" size="1.778" layer="27" display="off"/>
