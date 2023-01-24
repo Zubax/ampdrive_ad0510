@@ -112,6 +112,10 @@ The most up-to-date documentation is attached to the latest published
 
 Newest entries at the top.
 
+### Komar V1.5 (January 2023)
+
+* Updated alternative for MCP9700AT-E/TTVAO to MCP9700T-E/TT.
+
 ### Komar V1.4 (January 2023)
 
 * Removed alternative for Diode BAV99HDWQ-13.
