@@ -106,7 +106,7 @@ Thermal simulation is performed under the following conditions:
 
 ## VSI Configuration
 
-All Komars are configured with the following VSI parameters by default.
+All Komars with Telega v1 (Cyphal) are configured with the following VSI parameters by default.
 
 ```
 sys.golden:               sys. vsi.
