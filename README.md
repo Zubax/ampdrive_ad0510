@@ -111,7 +111,6 @@ All Komars with Telega v1 (Cyphal) are configured with the following VSI paramet
 ```
 sys.golden:               sys. vsi.
 vsi.bridge_resistance:    [0.002, 0.003, 0.002, 0.003, 0.002, 0.002]
-vsi.dc_voltage_gain:      18.8
 vsi.phase_current_gain:   [100, 100,  25,  25]
 vsi.phase_current_stderr: [0.3, 0.3, 0.2, 0.2]
 vsi.thermistor_v2k:       [223.15, 100.0, 0.0]
