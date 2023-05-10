@@ -104,6 +104,18 @@ Thermal simulation is performed under the following conditions:
 
 <img src="figures/mounting_pattern.png" alt="Zubax Komar mounting pattern" />
 
+## VSI Configuration
+
+All Komars with Telega v1 (Cyphal) are configured with the following VSI parameters by default.
+
+```
+sys.golden:               sys. vsi.
+vsi.bridge_resistance:    [0.002, 0.003, 0.002, 0.003, 0.002, 0.002]
+vsi.phase_current_gain:   [100, 100,  25,  25]
+vsi.phase_current_stderr: [0.3, 0.3, 0.2, 0.2]
+vsi.thermistor_v2k:       [223.15, 100.0, 0.0]
+```
+
 Please refer to the manufacturing manual and schematics for further information.
 The most up-to-date documentation is attached to the latest published
 [release package](https://github.com/Zubax/Komar/releases).
