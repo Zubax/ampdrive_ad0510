@@ -124,16 +124,21 @@ The most up-to-date documentation is attached to the latest published
 
 Newest entries at the top.
 
-### Komar V1.5 (January 2023)
+### Komar v1.6 (work in progress)
+
+* The USB connector will no longer be installed, as USB is not supported in Telega v1.
+* to be continued...
+
+### Komar v1.5 (January 2023)
 
 * Updated alternative for MCP9700AT-E/TTVAO to MCP9700T-E/TT.
 
-### Komar V1.4 (January 2023)
+### Komar v1.4 (January 2023)
 
 * Removed alternative for Diode BAV99HDWQ-13.
 * Increased the hardware over-current protection trip level to 427A.
 
-### Komar V1.3 (November 2022)
+### Komar v1.3 (November 2022)
 
 * Changed DC/Battery power wire to 12 AWG in the assembly manual.
 * Corrected Micro USB attributes in the schematic.
@@ -148,7 +153,7 @@ Newest entries at the top.
 | ELXZ630ELL331MK20S | EEU-FC1J331B      | CAPACITOR         |
 | NRVB120VLSFT1G     | NRVB230LSFT1G     | DIODE             |
 
-### Komar V1.2 (July 2021)
+### Komar v1.2 (July 2021)
 
 * USB connector with mounting pads swaped with through-hole USB connector to ensure durability.
 * Manufacturing instructions update.
@@ -156,12 +161,12 @@ Newest entries at the top.
 * Phase connector manufacturing instructions and jig added.
 * A better design of the PCB spacer added.
 
-### Komar V1.1 (August 2020)
+### Komar v1.1 (August 2020)
 
 * Panel template fix: solder mask issue with phase connectors pads fixed (#13).
 * Enclosure: increase chamfering depth (#14).
 
-### Komar V1.0 (July 2020)
+### Komar v1.0 (July 2020)
 
 #### Major PCB updates
 
@@ -194,7 +199,7 @@ Newest entries at the top.
 * 3x M2.5 holes for mounting optional (and not yet developed) connector protection cap added.
 * Optional power connector assembly  mount added.
 
-### Komar V0.2 (2018)
+### Komar v0.2 (2018)
 
 First release that was actually manufactured.
 
