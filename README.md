@@ -26,16 +26,22 @@ Komar is one of the reference designs for the [Mitochondrik LV](https://zubax.co
 * Operating humidity - 0..100 %RH (Condensation not permitted).
 * Weight - 96.5 g (cables not included).
 
-Due to its superb efficiency Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
+Due to its superb efficiency, Komar can operate at high power levels using only a very lightweight and compact heatsink to cool the device down.
 
 Komar is designed to be a part of an integrated drive for mid-power motors.
-It is best suited for the motors with following specs:
+It is best suited for motors with the following specs:
 
 * Continuous power: 2.5 kW
 * Continuous phase current amplitude: 90 A
 * Outer diameter: 80 mm
 
 Komar can also be used as a separate unit. In this case, a custom phase connector mounted on the housing may be used to provide motor connections.
+
+The parameters of the Aux port are as follows:
+
+* $V_\text{pull}=3.3V$ (defined by Mitochondrik)
+* $R_\text{pull}=1200\Omega$ (defined by Mitochondrik)
+* $R_\text{io}=200\Omega$ (defined by Komar)
 
 ## Construction and usage
 
