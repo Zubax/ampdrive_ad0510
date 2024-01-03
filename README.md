@@ -41,7 +41,8 @@ The parameters of the Aux port are as follows:
 
 * $V_\text{pull}=3.3V$ (defined by Mitochondrik)
 * $R_\text{pull}=1200\Omega$ (defined by Mitochondrik)
-* $R_\text{io}=200\Omega$ (defined by Komar)
+* $R_\text{io}=200\Omega$ at the Aux connector
+* $R_\text{io}=0\Omega$ at the through-hole motor thermistor pin on the PCB (see schematics)
 
 ## Construction and usage
 
