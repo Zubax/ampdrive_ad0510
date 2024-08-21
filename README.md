@@ -1,4 +1,4 @@
-# Zubax Komar
+# AmpDrive AD0510 / Zubax Komar
 
 Zubax Komar is a high-quality FOC ESC based on [Telega](https://zubax.com/technologies/telega) motor control technology.
 Komar is designed to support the propulsion systems of light unmanned aerial vehicles (UAVs), unmanned underwater vehicles (UUVs)
